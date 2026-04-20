@@ -1,0 +1,218 @@
+[
+  {
+    "id": "q-perinat-001",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O período neonatal compreende qual intervalo de tempo?",
+    "options": [
+      { "id": "a", "text": "Do nascimento até 7 dias de vida", "isCorrect": false, "explanation": "Esse é o período neonatal precoce, e não o período neonatal completo. O período neonatal vai até 28 dias." },
+      { "id": "b", "text": "Do nascimento até 28 dias de vida", "isCorrect": true, "explanation": "Correto: o período neonatal abrange do nascimento até o 28º dia de vida (os primeiros 28 dias)." },
+      { "id": "c", "text": "Do nascimento até 60 dias de vida", "isCorrect": false, "explanation": "60 dias extrapola o período neonatal; a partir dos 28 dias já se fala em período pós-neonatal/lactente." },
+      { "id": "d", "text": "Da 23ª semana gestacional até 7 dias de vida", "isCorrect": false, "explanation": "Esse intervalo corresponde ao período perinatal (≥22-23 semanas de gestação até o 7º dia), não ao neonatal." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 1"
+  },
+  {
+    "id": "q-perinat-002",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "De acordo com a classificação por idade gestacional, um RN com 36 semanas e 4 dias é:",
+    "options": [
+      { "id": "a", "text": "A termo", "isCorrect": false, "explanation": "RN a termo tem 37 semanas até 41 semanas e 6 dias completos. Com 36s 4d o bebê ainda é pré-termo." },
+      { "id": "b", "text": "Prematuro tardio", "isCorrect": true, "explanation": "Correto: prematuro tardio é o RN entre 34 semanas e 36 semanas e 6 dias." },
+      { "id": "c", "text": "Prematuro precoce", "isCorrect": false, "explanation": "Prematuro precoce é < 34 semanas. Com 36s 4d está além dessa faixa." },
+      { "id": "d", "text": "Pós-termo", "isCorrect": false, "explanation": "Pós-termo só se aplica a RN com idade gestacional ≥ 42 semanas." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 2"
+  },
+  {
+    "id": "q-perinat-003",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a classificação pelo peso de nascimento, assinale a alternativa correta:",
+    "options": [
+      { "id": "a", "text": "Baixo peso ao nascer (BPN) é < 1000 g", "isCorrect": false, "explanation": "< 1000 g é Extremo Baixo Peso ao Nascer (EBPN). BPN é 1500 a 2500 g." },
+      { "id": "b", "text": "Muito baixo peso ao nascer (MBPN) é 1000-1499 g", "isCorrect": true, "explanation": "Correto: a faixa de MBPN é 1000 a 1499 g." },
+      { "id": "c", "text": "Macrossômico é ≥ 3500 g", "isCorrect": false, "explanation": "O limiar de macrossomia é ≥ 4000 g (4 kg), não 3500 g." },
+      { "id": "d", "text": "Extremo baixo peso é < 1500 g", "isCorrect": false, "explanation": "< 1500 g engloba MBPN + EBPN. O limite de EBPN é < 1000 g." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 2"
+  },
+  {
+    "id": "q-perinat-004",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual método é indicado para estimar a idade gestacional em um prematuro, avaliando maturidade física e neuromuscular?",
+    "options": [
+      { "id": "a", "text": "Capurro", "isCorrect": false, "explanation": "O Capurro é útil em termo/quase termo e avalia só itens físicos (pele, orelha, mama, mamilo, pregas plantares). Subestima em prematuros." },
+      { "id": "b", "text": "New Ballard", "isCorrect": true, "explanation": "Correto: o New Ballard avalia maturidade física E neuromuscular e é o método de escolha em prematuros." },
+      { "id": "c", "text": "Apgar", "isCorrect": false, "explanation": "O Apgar avalia vitalidade ao nascimento, não idade gestacional." },
+      { "id": "d", "text": "Índice de Silverman-Andersen", "isCorrect": false, "explanation": "Silverman-Andersen avalia desconforto respiratório, não idade gestacional." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 2"
+  },
+  {
+    "id": "q-perinat-005",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a classificação peso/idade gestacional em percentil, o RN PIG é aquele que apresenta peso:",
+    "options": [
+      { "id": "a", "text": "Abaixo do percentil 10", "isCorrect": true, "explanation": "Correto: PIG = Pequeno para a Idade Gestacional, peso < P10 para a IG." },
+      { "id": "b", "text": "Entre o percentil 10 e 90", "isCorrect": false, "explanation": "Peso entre P10 e P90 classifica como AIG (Apropriado para IG)." },
+      { "id": "c", "text": "Acima do percentil 90", "isCorrect": false, "explanation": "Acima de P90 é GIG (Grande para IG), não PIG." },
+      { "id": "d", "text": "Abaixo do percentil 3", "isCorrect": false, "explanation": "P3 é usado em algumas curvas para PIG severo, mas o corte clássico é P10." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 2"
+  },
+  {
+    "id": "q-perinat-006",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Um RN filho de mãe com pré-eclâmpsia grave apresenta-se com peso no P5, crescimento comprometido desde o final do 2º trimestre, porém perímetro cefálico normal. Qual o tipo mais provável de restrição de crescimento?",
+    "options": [
+      { "id": "a", "text": "RCF simétrica por cromossomopatia", "isCorrect": false, "explanation": "A RCF simétrica ocorre no 1º trimestre e compromete PC, peso e estatura juntos. Aqui o PC está preservado." },
+      { "id": "b", "text": "RCF simétrica por infecção congênita", "isCorrect": false, "explanation": "Infecções congênitas costumam causar RCF simétrica (precoce), com PC comprometido. O PC aqui está normal." },
+      { "id": "c", "text": "RCF assimétrica por insuficiência placentária", "isCorrect": true, "explanation": "Correto: a pré-eclâmpsia gera insuficiência placentária tardia (3º trimestre), poupando o PC e comprometendo peso — RCF assimétrica." },
+      { "id": "d", "text": "Macrossomia por diabetes gestacional", "isCorrect": false, "explanation": "Macrossomia é peso > P90 ou ≥ 4 kg, incompatível com peso em P5." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 4"
+  },
+  {
+    "id": "q-perinat-007",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual achado clínico NÃO é característico do RN PIG?",
+    "options": [
+      { "id": "a", "text": "Face senil, aspecto magro", "isCorrect": false, "explanation": "É característico do PIG: aparência enrugada, senil, por escassez de tecido subcutâneo." },
+      { "id": "b", "text": "Cordão umbilical fino", "isCorrect": false, "explanation": "Cordão fino é típico do PIG, pela menor gelatina de Wharton." },
+      { "id": "c", "text": "Aspecto cushingóide e visceromegalia", "isCorrect": true, "explanation": "Correto: esses achados são do GIG (filho de mãe diabética), não do PIG." },
+      { "id": "d", "text": "Impregnação meconial no corpo", "isCorrect": false, "explanation": "Impregnação meconial pode ocorrer no PIG por estímulo vagal durante hipóxia intrauterina." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 4"
+  },
+  {
+    "id": "q-perinat-008",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual das complicações abaixo é mais esperada em filho de mãe diabética (macrossômico)?",
+    "options": [
+      { "id": "a", "text": "Hipoglicemia nas primeiras 24-48 h", "isCorrect": true, "explanation": "Correto: o hiperinsulinismo fetal persiste após o clampeamento, gerando hipoglicemia precoce." },
+      { "id": "b", "text": "Hipercalcemia prolongada", "isCorrect": false, "explanation": "O esperado é HIPOcalcemia (e não hipercalcemia), por supressão da paratireoide." },
+      { "id": "c", "text": "Hipernatremia", "isCorrect": false, "explanation": "Distúrbios de sódio não são a complicação típica do filho de mãe diabética." },
+      { "id": "d", "text": "Anemia por deficiência de ferro", "isCorrect": false, "explanation": "O esperado é policitemia por hiperinsulinemia → hipóxia → eritropoiese aumentada." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 5"
+  },
+  {
+    "id": "q-perinat-009",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O período embrionário vai da:",
+    "options": [
+      { "id": "a", "text": "1ª à 4ª semana", "isCorrect": false, "explanation": "1ª a 4ª semana é o período pré-embrionário (fecundação, clivagem, blastocisto, neurulação)." },
+      { "id": "b", "text": "4ª à 8ª semana", "isCorrect": true, "explanation": "Correto: período embrionário (4ª-8ª semana) corresponde à organogênese." },
+      { "id": "c", "text": "9ª à 20ª semana", "isCorrect": false, "explanation": "A partir da 9ª semana inicia o período fetal (crescimento e diferenciação de órgãos)." },
+      { "id": "d", "text": "20ª à 40ª semana", "isCorrect": false, "explanation": "Esse intervalo está totalmente dentro do período fetal." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 1"
+  },
+  {
+    "id": "q-perinat-010",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Na pré-eclâmpsia, qual é o mecanismo fisiopatológico primário?",
+    "options": [
+      { "id": "a", "text": "Hiperinsulinemia fetal com hiperplasia placentária", "isCorrect": false, "explanation": "Esse é o mecanismo do diabetes gestacional, não da pré-eclâmpsia." },
+      { "id": "b", "text": "Invasão trofoblástica desorganizada das arteríolas espiraladas", "isCorrect": true, "explanation": "Correto: a invasão trofoblástica é deficiente, as arteríolas ficam estenosadas e há baixa oferta de O2/nutrientes ao feto." },
+      { "id": "c", "text": "Hipovolemia materna por hemorragia placentária", "isCorrect": false, "explanation": "Descreve DPP, não pré-eclâmpsia." },
+      { "id": "d", "text": "Autoimunidade contra antígenos fetais", "isCorrect": false, "explanation": "Esse mecanismo se aplica a doença hemolítica perinatal (isoimunização Rh), não à pré-eclâmpsia." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 3"
+  },
+  {
+    "id": "q-perinat-011",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a síndrome HELLP, marque a afirmação correta:",
+    "options": [
+      { "id": "a", "text": "É uma variante benigna da pré-eclâmpsia", "isCorrect": false, "explanation": "Pelo contrário — HELLP tem alta mortalidade materno-fetal." },
+      { "id": "b", "text": "Caracteriza-se por hemólise, enzimas hepáticas elevadas e plaquetopenia", "isCorrect": true, "explanation": "Correto: HELLP = Hemolysis, Elevated Liver enzymes, Low Platelets." },
+      { "id": "c", "text": "Sempre cursa com hipertensão ≥ 180/120", "isCorrect": false, "explanation": "PA nessa faixa define emergência hipertensiva, mas a HELLP pode ocorrer com PA menos elevada." },
+      { "id": "d", "text": "Caracteriza-se por leucocitose, aumento de TSH e hiperglicemia", "isCorrect": false, "explanation": "Esses critérios não fazem parte da tríade HELLP." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 3"
+  },
+  {
+    "id": "q-perinat-012",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a síndrome alcoólica fetal (SAF), qual afirmação é verdadeira?",
+    "options": [
+      { "id": "a", "text": "Fenótipo típico: macrocefalia e face arredondada", "isCorrect": false, "explanation": "O fenótipo é de microcefalia, prega epicântica, filtro liso, lábio superior fino — oposto a macrocefalia." },
+      { "id": "b", "text": "A placenta é impermeável ao etanol, protegendo o feto", "isCorrect": false, "explanation": "A placenta É permeável ao etanol; por isso mesmo ocorre exposição direta do feto." },
+      { "id": "c", "text": "Causa malformações principalmente no SNC e pode cursar com abstinência neonatal", "isCorrect": true, "explanation": "Correto: SNC é o mais afetado (sem tratamento) e cerca de 85% dos RN apresentam abstinência, tratada com morfina/metadona/fenobarbital." },
+      { "id": "d", "text": "É reversível com suplementação de ácido fólico pós-natal", "isCorrect": false, "explanation": "SAF é irreversível; ácido fólico previne defeitos de fechamento do tubo neural, não reverte SAF." }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 5"
+  },
+  {
+    "id": "q-perinat-013",
+    "topicId": "perinatologia-classificacao",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Defina a teoria de Barker (programação fetal) e explique sua importância prática para o pediatra.",
+    "modelAnswer": "A teoria de Barker, ou programação fetal, postula que as condições intrauterinas e dos primeiros anos de vida influenciam diretamente o risco de doenças crônicas na vida adulta (hipertensão, diabetes, obesidade, dislipidemia, doença cardiovascular). Fatores nutricionais, ambientais e maternos atuam como programadores de risco, podendo modular a expressão gênica (epigenética) sem alterar a sequência do DNA. Para o pediatra/obstetra, isso significa que cuidar bem da gestação e dos primeiros 1.000 dias (270 de gestação + 730 pós-natais) é uma janela crítica para prevenir doenças do adulto — por isso o acompanhamento pré-natal, amamentação, estímulo e nutrição adequada têm repercussão que vai muito além da infância.",
+    "keyPoints": [
+      "Condições do período intrauterino influenciam risco de doenças crônicas no adulto",
+      "Primeiros 1000 dias (270 gestação + 730 pós-natais) como janela crítica",
+      "Mecanismo envolve epigenética (modificações herdáveis sem mudar DNA)",
+      "Implica responsabilidade do obstetra e pediatra na prevenção de doenças do adulto",
+      "Nutrição, ambiente e cuidado perinatal como programadores de risco"
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 1"
+  },
+  {
+    "id": "q-perinat-014",
+    "topicId": "perinatologia-classificacao",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Compare RCF simétrica e assimétrica quanto à época de início, medidas afetadas e principais causas.",
+    "modelAnswer": "A RCF simétrica instala-se no 1º trimestre, em fase precoce do desenvolvimento, e compromete igualmente o perímetro cefálico, o peso e a estatura. Suas causas principais são intrínsecas ao feto: cromossomopatias, síndromes genéticas e infecções congênitas (TORCH — sífilis, toxoplasmose, CMV, rubéola). A RCF assimétrica aparece no 3º trimestre, quando o feto já tem órgãos formados; compromete preferencialmente o peso, preservando relativamente o PC e a estatura (fenômeno de 'poupança cerebral'). Suas causas são extrínsecas ao feto, relacionadas à insuficiência placentária: pré-eclâmpsia/hipertensão, diabetes com vasculopatia, tabagismo, desnutrição materna no 3º trimestre. O prognóstico é geralmente melhor na assimétrica, pois a causa é mais tardia e potencialmente reversível.",
+    "keyPoints": [
+      "Simétrica: 1º trimestre, compromete PC + peso + estatura igualmente",
+      "Simétrica: causas genéticas/cromossômicas e infecções congênitas",
+      "Assimétrica: 3º trimestre, compromete mais o peso, preserva PC (poupança cerebral)",
+      "Assimétrica: causas placentárias (pré-eclâmpsia, HAS, diabetes, desnutrição tardia)",
+      "Prognóstico geralmente melhor na RCF assimétrica"
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 4"
+  },
+  {
+    "id": "q-perinat-015",
+    "topicId": "perinatologia-classificacao",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "Liste os itens avaliados no método de Capurro somático e explique em que situação ele é mais indicado.",
+    "modelAnswer": "O método de Capurro somático avalia cinco itens físicos: (1) textura da pele, (2) forma da orelha, (3) tamanho da glândula mamária, (4) formação do mamilo e (5) pregas plantares. É aplicado na sala de parto, sendo indicado quando a idade gestacional não é conhecida (por exemplo, gestante sem pré-natal ou sem DUM confiável). Deve ser preferido em RN próximos ao termo; em prematuros tende a ser menos preciso, sendo substituído pelo New Ballard, que também avalia maturidade neuromuscular.",
+    "keyPoints": [
+      "Cinco itens: textura da pele, forma da orelha, glândula mamária, mamilo, pregas plantares",
+      "Aplicado em sala de parto",
+      "Indicação: quando IG/DUM não é conhecida",
+      "Mais adequado para RN termo/quase-termo",
+      "Em prematuros prefere-se o New Ballard (avalia também neuromuscular)"
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 2"
+  }
+]

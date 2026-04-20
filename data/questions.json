@@ -1,0 +1,4658 @@
+[
+  {
+    "id": "q-aloj-001",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O alojamento conjunto é indicado para:",
+    "options": [
+      {
+        "id": "a",
+        "text": "RN sadios, que permanecem com a mãe 24h/dia até a alta",
+        "isCorrect": true,
+        "explanation": "Correto: RN sadios (sem uso de musculatura acessória, sem cianose, boa perfusão, sem malformações que limitem convívio) permanecem com a mãe 24h."
+      },
+      {
+        "id": "b",
+        "text": "RN com desconforto respiratório",
+        "isCorrect": false,
+        "explanation": "Desconforto respiratório requer UTI ou unidade intermediária, não alojamento conjunto."
+      },
+      {
+        "id": "c",
+        "text": "RN de mãe séptica",
+        "isCorrect": false,
+        "explanation": "Mãe séptica vai para UTI e o bebê também, separados do alojamento conjunto."
+      },
+      {
+        "id": "d",
+        "text": "RN em risco de abstinência",
+        "isCorrect": false,
+        "explanation": "Requer observação especializada em unidade intermediária."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 1"
+  },
+  {
+    "id": "q-aloj-002",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A apojadura ocorre tipicamente:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Imediatamente após o parto",
+        "isCorrect": false,
+        "explanation": "Imediato não — o primeiro leite é colostro. A descida propriamente dita vem depois."
+      },
+      {
+        "id": "b",
+        "text": "Entre o 2º e 4º dia pós-parto, podendo atrasar em cesárea eletiva",
+        "isCorrect": true,
+        "explanation": "Correto: apojadura fisiológica é entre 2º e 4º dia; cesárea eletiva pode retardar por ausência do estímulo do trabalho de parto."
+      },
+      {
+        "id": "c",
+        "text": "Após 2 semanas do parto",
+        "isCorrect": false,
+        "explanation": "Indica atraso patológico, precisa avaliar se há problema de sucção/aleitamento."
+      },
+      {
+        "id": "d",
+        "text": "É sinônimo de ingurgitamento patológico",
+        "isCorrect": false,
+        "explanation": "Apojadura é fisiológica; ingurgitamento é o estado patológico associado à estase láctea."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 1"
+  },
+  {
+    "id": "q-aloj-003",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "São contraindicações à amamentação, EXCETO:",
+    "options": [
+      {
+        "id": "a",
+        "text": "HIV materno",
+        "isCorrect": false,
+        "explanation": "Contraindicação permanente no Brasil — risco de transmissão."
+      },
+      {
+        "id": "b",
+        "text": "HTLV-1 materno",
+        "isCorrect": false,
+        "explanation": "Contraindicação permanente — risco de transmissão."
+      },
+      {
+        "id": "c",
+        "text": "Doença de Chagas aguda",
+        "isCorrect": false,
+        "explanation": "Contraindicação durante fase aguda pelo risco de transmissão."
+      },
+      {
+        "id": "d",
+        "text": "Mastite em uma das mamas",
+        "isCorrect": true,
+        "explanation": "Correto: mastite NÃO contraindica — amamenta-se na mama sadia e a afetada pode ser esvaziada. Lesões ativas de herpes/sífilis na mama afetada exigem suspensão temporária."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 1-2"
+  },
+  {
+    "id": "q-aloj-004",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O intervalo máximo entre mamadas do RN em livre demanda é de aproximadamente:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 hora",
+        "isCorrect": false,
+        "explanation": "Intervalo muito curto — 'livre demanda' não significa esgotar o RN."
+      },
+      {
+        "id": "b",
+        "text": "3 horas",
+        "isCorrect": true,
+        "explanation": "Correto: não deve passar de 3h para evitar hipoglicemia e garantir o estímulo à produção láctea."
+      },
+      {
+        "id": "c",
+        "text": "6 horas",
+        "isCorrect": false,
+        "explanation": "Intervalo excessivo, com risco de hipoglicemia e baixo ganho de peso."
+      },
+      {
+        "id": "d",
+        "text": "12 horas durante a noite",
+        "isCorrect": false,
+        "explanation": "Nem durante a noite; deve-se acordar o RN se passar de 3h."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 1"
+  },
+  {
+    "id": "q-aloj-005",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre as eliminações fisiológicas do RN, qual achado merece investigação imediata?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Primeira evacuação em 24h",
+        "isCorrect": false,
+        "explanation": "Dentro do esperado; a primeira evacuação deve ocorrer até 48h."
+      },
+      {
+        "id": "b",
+        "text": "Vômito biliar",
+        "isCorrect": true,
+        "explanation": "Correto: vômito BILIOSO indica obstrução em intestino delgado (ex.: má rotação com volvo) e exige investigação imediata."
+      },
+      {
+        "id": "c",
+        "text": "Diurese em 12h",
+        "isCorrect": false,
+        "explanation": "Normal; a primeira diurese deve ocorrer em até 24h."
+      },
+      {
+        "id": "d",
+        "text": "Vômito leitoso em jato pequeno ocasional",
+        "isCorrect": false,
+        "explanation": "Frequentemente é regurgitação, considerado normal se o RN ganha peso e está bem."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 2"
+  },
+  {
+    "id": "q-aloj-006",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual a perda de peso fisiológica máxima aceitável no RN para alta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5%",
+        "isCorrect": false,
+        "explanation": "5% é pequena; alta é possível com perdas até 7-10%."
+      },
+      {
+        "id": "b",
+        "text": "7-10%",
+        "isCorrect": true,
+        "explanation": "Correto: perda fisiológica aceitável vai até 7-10%; acima disso indica desidratação ou dificuldade alimentar."
+      },
+      {
+        "id": "c",
+        "text": "15%",
+        "isCorrect": false,
+        "explanation": "Perda > 10% é patológica e exige investigação antes da alta."
+      },
+      {
+        "id": "d",
+        "text": "20%",
+        "isCorrect": false,
+        "explanation": "Extremamente grave; perda nessa faixa sugere desidratação severa."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 3"
+  },
+  {
+    "id": "q-aloj-007",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A hipoglicemia neonatal sintomática pode se manifestar por:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Febre e rubor",
+        "isCorrect": false,
+        "explanation": "Febre e rubor não são típicos; a hipoglicemia não cursa com febre."
+      },
+      {
+        "id": "b",
+        "text": "Tremores, letargia, apneia, convulsão e recusa alimentar",
+        "isCorrect": true,
+        "explanation": "Correto: os sintomas incluem agitação, tremores, letargia, apneia, hipotonia, convulsão e recusa alimentar — pode causar lesão neurológica irreversível."
+      },
+      {
+        "id": "c",
+        "text": "Hipertensão arterial persistente",
+        "isCorrect": false,
+        "explanation": "Não é manifestação de hipoglicemia."
+      },
+      {
+        "id": "d",
+        "text": "Rash cutâneo generalizado",
+        "isCorrect": false,
+        "explanation": "Não é manifestação de hipoglicemia."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 2"
+  },
+  {
+    "id": "q-aloj-008",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A bossa serossanguínea (caput sucedaneum) caracteriza-se por:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Coleção hemorrágica subperiosteal, respeita suturas, surge após horas/dias",
+        "isCorrect": false,
+        "explanation": "Essa descrição é do CEFALOHEMATOMA, não da bossa."
+      },
+      {
+        "id": "b",
+        "text": "Edema de partes moles, ultrapassa suturas, presente ao nascimento",
+        "isCorrect": true,
+        "explanation": "Correto: a bossa é edema difuso de partes moles do couro cabeludo, ultrapassa suturas e regride em poucos dias."
+      },
+      {
+        "id": "c",
+        "text": "Coleção subgaleal com risco de choque hipovolêmico",
+        "isCorrect": false,
+        "explanation": "Descrição da hemorragia subgaleal, muito mais grave."
+      },
+      {
+        "id": "d",
+        "text": "Hemorragia intracraniana com sinais neurológicos",
+        "isCorrect": false,
+        "explanation": "Descrição de hemorragia intracraniana; bossa é só superficial."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 2"
+  },
+  {
+    "id": "q-aloj-009",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Um RN macrossômico apresenta assimetria do Moro, com braço direito flácido. Qual é a principal hipótese?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paralisia facial periférica",
+        "isCorrect": false,
+        "explanation": "Paralisia facial compromete a face, não o membro superior."
+      },
+      {
+        "id": "b",
+        "text": "Fratura de clavícula e/ou lesão do plexo braquial",
+        "isCorrect": true,
+        "explanation": "Correto: distocia de ombro em macrossômico pode causar fratura de clavícula (crepitação) e lesão de plexo braquial (flacidez de MS, Moro assimétrico)."
+      },
+      {
+        "id": "c",
+        "text": "Hemorragia intraventricular",
+        "isCorrect": false,
+        "explanation": "Mais comum em prematuros; não cursa com flacidez isolada de MS."
+      },
+      {
+        "id": "d",
+        "text": "AVC neonatal",
+        "isCorrect": false,
+        "explanation": "AVC neonatal é raro e não explica distocia de ombro em macrossômico."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 3"
+  },
+  {
+    "id": "q-aloj-010",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Sobre o cuidado com o coto umbilical no alojamento conjunto, a recomendação é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Enfaixar o coto com gaze úmida para conservação",
+        "isCorrect": false,
+        "explanation": "Gaze úmida favorece infecção; o coto deve ficar seco e exposto."
+      },
+      {
+        "id": "b",
+        "text": "Limpar a cada troca de fraldas com álcool 70%, mantendo seco",
+        "isCorrect": true,
+        "explanation": "Correto: limpeza com álcool 70% ou água e sabão a cada troca, mantendo o coto seco e exposto até a queda (7-15 dias)."
+      },
+      {
+        "id": "c",
+        "text": "Aplicar iodopovidona diariamente",
+        "isCorrect": false,
+        "explanation": "Não é recomendação padrão; álcool 70% é suficiente."
+      },
+      {
+        "id": "d",
+        "text": "Cobrir com pomada cicatrizante",
+        "isCorrect": false,
+        "explanation": "Pomadas retêm umidade e favorecem onfalite."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 2"
+  },
+  {
+    "id": "q-aloj-011",
+    "topicId": "alojamento-conjunto",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva os elementos de uma pega correta durante a amamentação.",
+    "modelAnswer": "A pega correta exige posição confortável da mãe e do RN, corpo a corpo (barriga com barriga), a cabeça do bebê alinhada ao tronco e voltada para a mama. O bebê deve abocanhar não só o mamilo mas a maior parte da aréola (com mais aréola visível acima do que abaixo), lábios evertidos (virados para fora), queixo encostado na mama e nariz livre. O movimento de sucção deve ser profundo e rítmico, com sons audíveis de deglutição, bochechas arredondadas (não encovadas). A mãe não deve referir dor. Orientar técnica na maternidade evita fissuras, ingurgitamento e desmame precoce, já que amamentar não é instintivo. Livre demanda (sem ultrapassar 3h) e exclusividade até 6 meses.",
+    "keyPoints": [
+      "Posição: barriga com barriga, cabeça alinhada ao tronco",
+      "Boca abocanha aréola (mais aréola visível acima que abaixo)",
+      "Lábios evertidos, queixo na mama, nariz livre",
+      "Sucção profunda com deglutição audível, bochechas arredondadas",
+      "Sem dor na mãe; livre demanda com intervalo máximo de 3h",
+      "Aleitamento exclusivo até 6 meses"
+    ],
+    "reference": "Alojamento Conjunto — pág. 1"
+  },
+  {
+    "id": "q-aloj-012",
+    "topicId": "alojamento-conjunto",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Enumere os principais problemas comuns observados no alojamento conjunto e brevemente o manejo inicial de cada um.",
+    "modelAnswer": "Os principais problemas são: (1) Amamentação — pega inadequada, ingurgitamento, fissuras: orientar posicionamento e suporte. (2) Desidratação/hipoglicemia — reforçar livre demanda, dextro seriado se fator de risco, corrigir com glicose VO ou EV. (3) Hipotermia — especialmente em prematuros extremos, incubadora/calor radiante. (4) Sangramento por falta de vitamina K — garantir administração ao nascer. (5) Eliminações — primeira diurese em 24h, primeira evacuação em 48h, investigar atrasos. (6) Onfalite — antibioticoterapia EV se sinais inflamatórios. (7) Conjuntivite — garantir Credê; se infecção confirmada, colírio antibiótico. (8) Icterícia — fototerapia conforme curva de Bhutani. (9) Tocotraumatismo — observar fratura de clavícula, plexo braquial. (10) Risco social — acionar assistência social, rede de apoio. Todos esses problemas devem ser reavaliados diariamente até a alta.",
+    "keyPoints": [
+      "Amamentação (pega, fissura, ingurgitamento) → orientação e suporte",
+      "Desidratação/hipoglicemia → livre demanda, dextro, correção",
+      "Hipotermia (prematuros) → calor radiante/incubadora",
+      "Sangramento por falta de vit K → garantir dose ao nascer",
+      "Eliminações atrasadas → investigar obstrução/desidratação",
+      "Onfalite, conjuntivite, icterícia → tratamentos específicos",
+      "Tocotraumatismo (clavícula, plexo) → avaliação clínica",
+      "Risco social → equipe multidisciplinar"
+    ],
+    "reference": "Alojamento Conjunto — págs. 1-3"
+  },
+  {
+    "id": "q-alta-001",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual é o período mais recomendado de alta hospitalar do RN a termo sem intercorrências?",
+    "options": [
+      {
+        "id": "a",
+        "text": "12 horas de vida",
+        "isCorrect": false,
+        "explanation": "12h é insuficiente: não dá tempo de observar amamentação, icterícia ou realizar triagens."
+      },
+      {
+        "id": "b",
+        "text": "24-48 horas, sendo 48h o mais seguro",
+        "isCorrect": true,
+        "explanation": "Correto: 48h é preferível pois permite realizar triagens, avaliar icterícia, peso e amamentação."
+      },
+      {
+        "id": "c",
+        "text": "7 dias de vida para todos",
+        "isCorrect": false,
+        "explanation": "7 dias é excessivo para RN termo saudável; indicado apenas para prematuros ou intercorrências."
+      },
+      {
+        "id": "d",
+        "text": "Não há um período padrão",
+        "isCorrect": false,
+        "explanation": "Existe sim um padrão (24-48h), além de critérios objetivos que devem ser atendidos."
+      }
+    ],
+    "reference": "Alta e Seguimento — pág. 1"
+  },
+  {
+    "id": "q-alta-002",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "São critérios obrigatórios para alta do RN, EXCETO:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Amamentação efetiva com boa pega",
+        "isCorrect": false,
+        "explanation": "Critério obrigatório."
+      },
+      {
+        "id": "b",
+        "text": "Perda de peso inferior a 10%",
+        "isCorrect": false,
+        "explanation": "Critério obrigatório; > 10% preocupa e exige avaliação."
+      },
+      {
+        "id": "c",
+        "text": "Ter realizado todos os testes de triagem",
+        "isCorrect": false,
+        "explanation": "Critério obrigatório (pezinho, orelhinha, olhinho, coraçãozinho)."
+      },
+      {
+        "id": "d",
+        "text": "Já ter recebido a 1ª dose de vacina contra pneumococo",
+        "isCorrect": true,
+        "explanation": "Correto: a 1ª dose de pneumococo é só aos 2 meses. Na maternidade dá-se apenas hepatite B, BCG e vitamina K."
+      }
+    ],
+    "reference": "Alta e Seguimento — pág. 1"
+  },
+  {
+    "id": "q-alta-003",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quando costuma cair fisiologicamente o coto umbilical?",
+    "options": [
+      {
+        "id": "a",
+        "text": "24-48 horas",
+        "isCorrect": false,
+        "explanation": "Cedo demais; nesse tempo ele ainda está muito úmido."
+      },
+      {
+        "id": "b",
+        "text": "3-5 dias",
+        "isCorrect": false,
+        "explanation": "Ainda é cedo; alguns podem cair, mas não é o padrão."
+      },
+      {
+        "id": "c",
+        "text": "7-15 dias",
+        "isCorrect": true,
+        "explanation": "Correto: cai entre 7-15 dias; demora além disso pode sugerir imunodeficiência ou hipotireoidismo."
+      },
+      {
+        "id": "d",
+        "text": "30-45 dias",
+        "isCorrect": false,
+        "explanation": "Demora excessiva, exige investigação de imunodeficiência congênita."
+      }
+    ],
+    "reference": "Alta e Seguimento — pág. 1"
+  },
+  {
+    "id": "q-alta-004",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A posição correta para dormir do RN, para prevenir morte súbita, é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decúbito ventral (de bruços)",
+        "isCorrect": false,
+        "explanation": "Decúbito ventral é fator de risco para síndrome da morte súbita do lactente — PROIBIDO."
+      },
+      {
+        "id": "b",
+        "text": "Decúbito lateral com travesseiros",
+        "isCorrect": false,
+        "explanation": "Lateral é instável e travesseiros aumentam risco de sufocamento."
+      },
+      {
+        "id": "c",
+        "text": "Decúbito dorsal com a cabeça lateralizada",
+        "isCorrect": true,
+        "explanation": "Correto: dorsal com cabeça lateralizada reduz morte súbita e facilita saída de secreções se regurgitar."
+      },
+      {
+        "id": "d",
+        "text": "Co-leito com os pais para estimular amamentação",
+        "isCorrect": false,
+        "explanation": "Co-leito é desaconselhado pelo risco de sufocamento."
+      }
+    ],
+    "reference": "Alta e Seguimento — pág. 1"
+  },
+  {
+    "id": "q-alta-005",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual é a data ideal para a primeira consulta ambulatorial do RN após a alta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Entre 3-5 dias (ideal) ou 7-10 dias na prática",
+        "isCorrect": true,
+        "explanation": "Correto: ideal é 3-5 dias; na prática 7-10 dias. Nessa fase avaliam-se icterícia, peso (recuperação), amamentação e triagens."
+      },
+      {
+        "id": "b",
+        "text": "Apenas aos 30 dias",
+        "isCorrect": false,
+        "explanation": "Atraso perigoso — icterícia grave, desidratação e perda de peso importante podem passar despercebidos."
+      },
+      {
+        "id": "c",
+        "text": "Aos 6 meses, junto com a introdução alimentar",
+        "isCorrect": false,
+        "explanation": "Muito tardio; o seguimento é mensal desde o início."
+      },
+      {
+        "id": "d",
+        "text": "Apenas quando a mãe identificar sinal de alerta",
+        "isCorrect": false,
+        "explanation": "A puericultura é programada e não reativa; muitas alterações precoces são assintomáticas."
+      }
+    ],
+    "reference": "Alta e Seguimento — pág. 2"
+  },
+  {
+    "id": "q-alta-006",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O conceito de 'idade corrigida' em prematuros é aplicado até quando para peso e avaliação neurológica?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 meses",
+        "isCorrect": false,
+        "explanation": "Insuficiente — o alcance neurológico e de peso leva tempo."
+      },
+      {
+        "id": "b",
+        "text": "12 meses",
+        "isCorrect": false,
+        "explanation": "Ainda precoce para encerrar correção de peso/neurológico."
+      },
+      {
+        "id": "c",
+        "text": "18 meses",
+        "isCorrect": false,
+        "explanation": "18 meses é o alvo para perímetro cefálico; peso/neurológico vai até 24."
+      },
+      {
+        "id": "d",
+        "text": "24 meses",
+        "isCorrect": true,
+        "explanation": "Correto: peso e avaliação neurológica são corrigidos até 24 meses. PC até 18 meses; estatura até 36-42 meses."
+      }
+    ],
+    "reference": "Alta e Seguimento — pág. 3"
+  },
+  {
+    "id": "q-alta-007",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o Nirsevimabe, qual afirmação é correta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "É uma vacina viva atenuada contra VRS",
+        "isCorrect": false,
+        "explanation": "Não é vacina, mas anticorpo monoclonal (imunização passiva)."
+      },
+      {
+        "id": "b",
+        "text": "É anticorpo monoclonal contra VRS, indicado para prematuros até 37 semanas < 1 ano",
+        "isCorrect": true,
+        "explanation": "Correto: imunoterapia contra o vírus sincicial respiratório, para prevenir bronquiolite em grupos de risco."
+      },
+      {
+        "id": "c",
+        "text": "É indicado a todos os RN a termo saudáveis na alta",
+        "isCorrect": false,
+        "explanation": "Reservado a prematuros e grupos de risco (cardiopatas, displasia broncopulmonar, fibrose cística etc.)."
+      },
+      {
+        "id": "d",
+        "text": "Protege contra hepatite B",
+        "isCorrect": false,
+        "explanation": "Não tem relação com hepatite B."
+      }
+    ],
+    "reference": "Alta e Seguimento — pág. 3"
+  },
+  {
+    "id": "q-alta-008",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual é considerado sinal de ALERTA no RN após a alta, demandando reavaliação imediata?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acrocianose isolada (mãos e pés roxos) que some no calor",
+        "isCorrect": false,
+        "explanation": "Acrocianose isolada é comum e fisiológica nos primeiros dias."
+      },
+      {
+        "id": "b",
+        "text": "Icterícia nas primeiras 24h",
+        "isCorrect": true,
+        "explanation": "Correto: icterícia nas primeiras 24h é sempre patológica (geralmente hemolítica) e exige investigação."
+      },
+      {
+        "id": "c",
+        "text": "Dormir 3 horas entre mamadas",
+        "isCorrect": false,
+        "explanation": "Intervalo esperado é até 3h; não é alerta."
+      },
+      {
+        "id": "d",
+        "text": "Perda de 5% do peso no 3º dia",
+        "isCorrect": false,
+        "explanation": "Perda fisiológica vai até 7-10%; só preocupa > 10%."
+      }
+    ],
+    "reference": "Alta e Seguimento — pág. 2"
+  },
+  {
+    "id": "q-alta-009",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o banho do RN em casa, qual a orientação correta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Primeiro banho deve ser imediatamente após o nascimento",
+        "isCorrect": false,
+        "explanation": "Banho imediato favorece hipotermia e remove o vérnix protetor. O primeiro é após 24h."
+      },
+      {
+        "id": "b",
+        "text": "Banho diário, no horário mais quente do dia, com sabonete neutro",
+        "isCorrect": true,
+        "explanation": "Correto: banho diário em horário quente, evitando correntes de ar, sabonete neutro, preferencialmente no fim da tarde (pico de GH)."
+      },
+      {
+        "id": "c",
+        "text": "Banhos frios para estimular a circulação",
+        "isCorrect": false,
+        "explanation": "Banho frio causa hipotermia e estresse."
+      },
+      {
+        "id": "d",
+        "text": "Apenas 2x/semana para manter a barreira cutânea",
+        "isCorrect": false,
+        "explanation": "Banho diário é recomendado para higiene e rotina."
+      }
+    ],
+    "reference": "Alta e Seguimento — pág. 1"
+  },
+  {
+    "id": "q-alta-010",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Uma mãe pergunta se pode dar chá de picão para tratar a icterícia do RN. Qual a resposta correta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sim, é uma prática tradicional eficaz",
+        "isCorrect": false,
+        "explanation": "Não há evidência científica — é mito popular."
+      },
+      {
+        "id": "b",
+        "text": "Sim, desde que em pequenas quantidades",
+        "isCorrect": false,
+        "explanation": "Pode atrapalhar a amamentação exclusiva e não trata icterícia."
+      },
+      {
+        "id": "c",
+        "text": "Não. Chá de picão não trata icterícia e pode atrapalhar o aleitamento exclusivo",
+        "isCorrect": true,
+        "explanation": "Correto: não há relação entre chá de picão e icterícia; além disso líquidos extras atrapalham o aleitamento exclusivo até 6 meses."
+      },
+      {
+        "id": "d",
+        "text": "Sim, mas misturado ao leite materno",
+        "isCorrect": false,
+        "explanation": "Qualquer acréscimo ao leite materno viola a exclusividade até 6 meses."
+      }
+    ],
+    "reference": "Alta e Seguimento — pág. 3"
+  },
+  {
+    "id": "q-alta-011",
+    "topicId": "alta-seguimento-rn",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Quais os principais critérios de alta para um prematuro e em que diferem dos critérios de alta de um RN a termo?",
+    "modelAnswer": "A alta do prematuro é mais rigorosa porque exige maturidade fisiológica completa. Além dos critérios gerais (amamentação, peso, triagens, ausência de intercorrências), o prematuro precisa: aceitar dieta exclusivamente por via oral, com ganho de peso adequado por ao menos 3 dias consecutivos; manter a temperatura corporal sem auxílio de incubadora; ter função cardiorrespiratória estável e madura, sem apneia ou bradicardia há pelo menos 8 dias; e idealmente peso ≥ 1800 g. Também é fundamental preparar os pais (treinamento em cuidados básicos, sinais de alarme, manejo de oxigênio e medicações se aplicável) e garantir seguimento ambulatorial para monitorização do crescimento e desenvolvimento, usando idade corrigida até 24 meses (peso/neurológico) ou 36-42 meses (estatura). Em contraste, o RN a termo saudável pode receber alta com 24-48h desde que amamentando bem, peso estável (perda < 10%), triagens feitas e sem icterícia significativa.",
+    "keyPoints": [
+      "Estabilidade fisiológica (temperatura, cardiorrespiratória sem apneias por 8d)",
+      "Dieta totalmente por via oral com ganho de peso por ≥ 3 dias",
+      "Peso geralmente ≥ 1800 g",
+      "Preparação dos pais e garantia de seguimento ambulatorial",
+      "Uso de idade corrigida (24m peso/neurológico, 18m PC, 36-42m estatura)",
+      "Em RN termo: 24-48h, amamentação OK, peso perda <10%, triagens feitas"
+    ],
+    "reference": "Alta e Seguimento — pág. 3"
+  },
+  {
+    "id": "q-alta-012",
+    "topicId": "alta-seguimento-rn",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "Liste os principais sinais de alerta que devem ser orientados aos pais na alta do RN.",
+    "modelAnswer": "Os pais devem procurar serviço de urgência caso o RN apresente: febre (≥ 37,5-38°C axilar) ou hipotermia (< 36°C); recusa alimentar persistente; gemência, esforço respiratório, taquipneia (FR > 60) ou apneia; cianose central ou palidez importante; vômitos frequentes, biliosos ou 'em jato'; icterícia que se intensifica ou nas primeiras 24h; irritabilidade intensa ou sonolência excessiva com dificuldade de despertar; convulsões; FC < 100 ou > 180 bpm; pústulas na pele, secreção ou vermelhidão no coto umbilical (onfalite); ausência de eliminação de fezes ou urina nas primeiras 48h. Toda orientação deve ser por escrito e a carteirinha conferida antes da alta.",
+    "keyPoints": [
+      "Febre ≥ 37,5°C ou hipotermia < 36°C",
+      "Recusa alimentar, vômitos importantes",
+      "Gemência, esforço respiratório, FR>60, apneia",
+      "Cianose central ou palidez importante",
+      "Icterícia intensa ou nas primeiras 24h",
+      "Convulsões, hipotonia ou irritabilidade extrema",
+      "Sinais de onfalite (vermelhidão, secreção no coto)",
+      "Orientações por escrito + carteirinha conferida"
+    ],
+    "reference": "Alta e Seguimento — pág. 2"
+  },
+  {
+    "id": "q-asfixia-001",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A tríade bioquímica que caracteriza a asfixia perinatal é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hipóxia, hipercapnia e acidose metabólica",
+        "isCorrect": true,
+        "explanation": "Correto: a troca gasosa prejudicada persistente gera ↓O2 (hipóxia), ↑CO2 (hipercapnia) e acidose metabólica por metabolismo anaeróbio."
+      },
+      {
+        "id": "b",
+        "text": "Hipóxia, alcalose respiratória e hipernatremia",
+        "isCorrect": false,
+        "explanation": "O padrão é acidose, não alcalose; na asfixia há retenção de CO2."
+      },
+      {
+        "id": "c",
+        "text": "Hipoglicemia, hipocapnia e acidose respiratória",
+        "isCorrect": false,
+        "explanation": "A hipocapnia (↓CO2) é o oposto do que ocorre na asfixia."
+      },
+      {
+        "id": "d",
+        "text": "Hiperoxia, hipocalcemia e hipernatremia",
+        "isCorrect": false,
+        "explanation": "Hiperoxia não ocorre em asfixia; o RN está hipóxico."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-asfixia-002",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual dos achados abaixo NÃO faz parte dos critérios essenciais para diagnóstico de asfixia perinatal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "pH arterial de cordão < 7,25 com bicarbonato baixo",
+        "isCorrect": false,
+        "explanation": "Faz parte: gasometria de cordão com acidose metabólica (pH < 7,25) ou mista."
+      },
+      {
+        "id": "b",
+        "text": "Apgar de 0-3 persistente após 5º minuto",
+        "isCorrect": false,
+        "explanation": "Faz parte dos critérios essenciais (Apgar baixo persistente)."
+      },
+      {
+        "id": "c",
+        "text": "Manifestações neurológicas precoces (convulsões, hipotonia, coma)",
+        "isCorrect": false,
+        "explanation": "Faz parte dos critérios essenciais."
+      },
+      {
+        "id": "d",
+        "text": "Icterícia precoce nas primeiras 24h",
+        "isCorrect": true,
+        "explanation": "Correto: icterícia precoce NÃO é critério de asfixia; os 4 critérios são acidose, Apgar baixo, manifestações neurológicas e disfunção multi-orgânica."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-asfixia-003",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Um RN pós-asfixia desenvolve vasoconstrição intestinal. A conduta nutricional recomendada é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Amamentação em livre demanda imediatamente",
+        "isCorrect": false,
+        "explanation": "A hipoperfusão intestinal aumenta risco de enterocolite necrosante; alimentar precocemente pode ser catastrófico."
+      },
+      {
+        "id": "b",
+        "text": "Jejum por 7-14 dias com nutrição parenteral",
+        "isCorrect": true,
+        "explanation": "Correto: jejum de 7-14 dias com NPT evita ECN e perfuração, dando tempo para a perfusão intestinal se restabelecer."
+      },
+      {
+        "id": "c",
+        "text": "Fórmula infantil por sonda a partir de 2 horas de vida",
+        "isCorrect": false,
+        "explanation": "Oferta enteral precoce em intestino isquêmico é perigosa."
+      },
+      {
+        "id": "d",
+        "text": "Nutrição enteral contínua por sonda jejunal",
+        "isCorrect": false,
+        "explanation": "Qualquer nutrição enteral precoce aumenta risco de ECN no asfixiado."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-asfixia-004",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre a hipotermia terapêutica em RN com encefalopatia hipóxico-isquêmica:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Deve ser iniciada até 6 horas de vida, mantendo 33,5°C por ~72h",
+        "isCorrect": true,
+        "explanation": "Correto: iniciada nas primeiras 6h, mantém T 33,5°C por 72h para reduzir metabolismo cerebral, ROS e morte neuronal."
+      },
+      {
+        "id": "b",
+        "text": "É indicada para encefalopatia leve",
+        "isCorrect": false,
+        "explanation": "Indicação é apenas EHI moderada ou grave — em leve não há benefício."
+      },
+      {
+        "id": "c",
+        "text": "Alvo de temperatura é 36°C",
+        "isCorrect": false,
+        "explanation": "36°C é a normotermia; a hipotermia terapêutica usa 33,5°C."
+      },
+      {
+        "id": "d",
+        "text": "Pode ser iniciada após 24h de vida com mesma eficácia",
+        "isCorrect": false,
+        "explanation": "Após 6h a eficácia cai muito; quanto antes iniciar melhor o prognóstico."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-asfixia-005",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "São contraindicações à hipotermia terapêutica:",
+    "options": [
+      {
+        "id": "a",
+        "text": "IG < 35 semanas ou peso < 1800 g",
+        "isCorrect": true,
+        "explanation": "Correto: prematuros extremos e baixo peso têm risco aumentado de hemorragia por alteração da coagulação."
+      },
+      {
+        "id": "b",
+        "text": "RN a termo com Apgar < 5 no 10º minuto",
+        "isCorrect": false,
+        "explanation": "Esse RN É CANDIDATO à hipotermia, não contraindicação."
+      },
+      {
+        "id": "c",
+        "text": "pH de cordão 6,9 com encefalopatia moderada",
+        "isCorrect": false,
+        "explanation": "pH < 7 com evidência de asfixia é INDICAÇÃO."
+      },
+      {
+        "id": "d",
+        "text": "DPP com evento perinatal agudo",
+        "isCorrect": false,
+        "explanation": "Esse evento faz parte dos critérios de INDICAÇÃO, não de contraindicação."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-asfixia-006",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Na classificação de Sarnat & Sarnat, um RN letárgico, com convulsões e tônus/reflexos diminuídos apresenta EHI:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leve",
+        "isCorrect": false,
+        "explanation": "Leve: nível de consciência ok, sem convulsão, hiperexcitabilidade, hipertonia/normotonia."
+      },
+      {
+        "id": "b",
+        "text": "Moderada",
+        "isCorrect": true,
+        "explanation": "Correto: letargia, convulsões, tônus e reflexos diminuídos caracterizam a EHI moderada — cerca de 80% têm prognóstico neurológico normal se bem tratados."
+      },
+      {
+        "id": "c",
+        "text": "Grave",
+        "isCorrect": false,
+        "explanation": "Grave: não responde, não respira, coma, mortalidade 50%, sobreviventes com 100% de sequelas."
+      },
+      {
+        "id": "d",
+        "text": "Sem encefalopatia",
+        "isCorrect": false,
+        "explanation": "A presença de convulsões já caracteriza EHI pelo menos moderada."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 2"
+  },
+  {
+    "id": "q-asfixia-007",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A resposta adaptativa do organismo fetal à hipoxemia é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Vasoconstrição generalizada incluindo cérebro e coração",
+        "isCorrect": false,
+        "explanation": "É o oposto: vasoDILATAÇÃO no cérebro, coração e adrenais (órgãos nobres)."
+      },
+      {
+        "id": "b",
+        "text": "Vasodilatação do cérebro, coração e adrenais com vasoconstrição dos demais órgãos",
+        "isCorrect": true,
+        "explanation": "Correto: o fluxo sanguíneo é redistribuído para preservar os órgãos nobres — se a hipóxia é grave, nem esses são poupados."
+      },
+      {
+        "id": "c",
+        "text": "Aumento isolado de FC até 250 bpm",
+        "isCorrect": false,
+        "explanation": "A resposta na asfixia não é taquicardia extrema; pelo contrário, há tendência a bradicardia progressiva."
+      },
+      {
+        "id": "d",
+        "text": "Vasodilatação pulmonar com fechamento do canal arterial",
+        "isCorrect": false,
+        "explanation": "Na asfixia persiste a vasoconstrição pulmonar e o canal arterial pode permanecer aberto (circulação fetal persistente)."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-asfixia-008",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual a droga de 1ª escolha no controle das convulsões neonatais pós-asfixia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fenobarbital (Gardenal)",
+        "isCorrect": true,
+        "explanation": "Correto: fenobarbital é a primeira escolha; fenitoína como 2ª linha e midazolam como 3ª."
+      },
+      {
+        "id": "b",
+        "text": "Midazolam em bolus",
+        "isCorrect": false,
+        "explanation": "Midazolam é 3ª linha, reservado para casos refratários."
+      },
+      {
+        "id": "c",
+        "text": "Diazepam IM",
+        "isCorrect": false,
+        "explanation": "Diazepam IM não é adequado em RN (absorção errática, risco de depressão respiratória)."
+      },
+      {
+        "id": "d",
+        "text": "Fenitoína",
+        "isCorrect": false,
+        "explanation": "Fenitoína é 2ª escolha, após falha do fenobarbital."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-asfixia-009",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre a fisiopatogenia da lesão cerebral na asfixia, qual NÃO participa do mecanismo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Perda de autorregulação do fluxo cerebral",
+        "isCorrect": false,
+        "explanation": "Participa: a perfusão passa a depender diretamente da PA sistêmica."
+      },
+      {
+        "id": "b",
+        "text": "Produção excessiva de radicais livres na reperfusão",
+        "isCorrect": false,
+        "explanation": "Participa: lesão de reperfusão com dano endotelial."
+      },
+      {
+        "id": "c",
+        "text": "Falha das bombas iônicas com influxo de cálcio",
+        "isCorrect": false,
+        "explanation": "Participa: influxo de Ca ativa enzimas proteolíticas → necrose neuronal."
+      },
+      {
+        "id": "d",
+        "text": "Vasoconstrição dos ventrículos cerebrais com bloqueio do líquor",
+        "isCorrect": true,
+        "explanation": "Correto: esse mecanismo NÃO ocorre. A sequência é perda de autorregulação → reperfusão/ROS → falha iônica → edema cerebral."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 2"
+  },
+  {
+    "id": "q-asfixia-010",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre as manifestações convulsivas no RN, qual NÃO é típica?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Piscar constante dos olhos",
+        "isCorrect": false,
+        "explanation": "Típico: piscar contínuo como manifestação sutil."
+      },
+      {
+        "id": "b",
+        "text": "Movimento de pedalar dos membros inferiores",
+        "isCorrect": false,
+        "explanation": "Típico: movimentos clônicos que imitam pedalada."
+      },
+      {
+        "id": "c",
+        "text": "Crise tônico-clônica generalizada simétrica com 'aura'",
+        "isCorrect": true,
+        "explanation": "Correto: a crise generalizada clássica com aura é rara no RN; no neonato predominam crises sutis, focais, clônicas multifocais ou tônicas."
+      },
+      {
+        "id": "d",
+        "text": "Movimento constante de sucção",
+        "isCorrect": false,
+        "explanation": "Típico: fenômenos orais repetitivos são crises sutis."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 4"
+  },
+  {
+    "id": "q-asfixia-011",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A mortalidade neonatal por asfixia corresponde aproximadamente a:",
+    "options": [
+      {
+        "id": "a",
+        "text": "20% dos óbitos neonatais, com pico na 1ª semana de vida",
+        "isCorrect": true,
+        "explanation": "Correto: asfixia é responsável por ~20% dos óbitos neonatais, sendo 53% na 1ª semana (mortalidade precoce)."
+      },
+      {
+        "id": "b",
+        "text": "Menos de 5% dos óbitos neonatais",
+        "isCorrect": false,
+        "explanation": "Subestima — asfixia é uma das principais causas de mortalidade."
+      },
+      {
+        "id": "c",
+        "text": "Mais de 80% dos óbitos neonatais",
+        "isCorrect": false,
+        "explanation": "Superestima; outras causas (prematuridade, sepse, malformações) também contribuem."
+      },
+      {
+        "id": "d",
+        "text": "É rara e causa apenas morbidade",
+        "isCorrect": false,
+        "explanation": "Incorreto: é uma causa frequente E grave, com alta morbi-mortalidade."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-asfixia-012",
+    "topicId": "asfixia-perinatal",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Liste as disfunções orgânicas esperadas em um RN asfixiado e explique brevemente o mecanismo.",
+    "modelAnswer": "A asfixia cursa com disfunção multi-orgânica decorrente da hipóxia e hipoperfusão. Cardíaca: isquemia miocárdica por vasoconstrição coronariana, levando a choque, hipotensão, ICC, necrose miocárdica e queda do débito cardíaco. Renal: necrose tubular aguda, insuficiência renal e oligoanúria. Hepática: elevação de transaminases, redução de fatores de coagulação e sangramentos. Pulmonar: hipertensão pulmonar persistente, síndrome de aspiração meconial, desconforto respiratório. Intestinal: hipoperfusão com risco de enterocolite necrosante (justifica jejum 7-14 dias). SNC: encefalopatia hipóxico-isquêmica, com perda da autorregulação, lesão de reperfusão, edema cerebral e convulsões. Hematológica: CIVD por consumo de fatores. Todos esses sistemas devem ser monitorados no pós-asfixia.",
+    "keyPoints": [
+      "Cardiovascular: isquemia, choque, ICC, queda do DC",
+      "Renal: NTA, insuficiência renal, oligoanúria",
+      "Hepática: ↑ transaminases e redução de fatores de coagulação",
+      "Pulmonar: hipertensão pulmonar persistente, SAM",
+      "Intestinal: hipoperfusão, risco de ECN (jejum de 7-14 dias)",
+      "SNC: EHI, edema, convulsões",
+      "Hematológica: CIVD"
+    ],
+    "reference": "Asfixia Perinatal — págs. 1-2"
+  },
+  {
+    "id": "q-asfixia-013",
+    "topicId": "asfixia-perinatal",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Quais são as indicações formais para iniciar hipotermia terapêutica em um RN?",
+    "modelAnswer": "A hipotermia terapêutica é indicada em RN a termo ou ≥ 35-36 semanas, com peso ≥ 1800 g, que preencham critérios de asfixia perinatal E apresentem evidência de encefalopatia moderada ou grave antes das 6h de vida. Os critérios de asfixia incluem pelo menos um de: pH arterial < 7 ou bicarbonato < -16; evento perinatal agudo (DPP, prolapso de cordão, ruptura uterina); Apgar ≤ 5 no 10º minuto; ou necessidade de ventilação além do 10º minuto. A encefalopatia é avaliada clinicamente (nível de consciência, atividade espontânea, postura, tônus, reflexos, presença de convulsões) — a escala de Sarnat ajuda a graduar. Uma vez indicada, deve começar até 6h de vida, manter T 33,5°C por 72h, depois reaquecer 0,5°C/h até 36,5°C. Contraindicações: IG < 35 sem, peso < 1800g, malformações letais, coagulopatia grave.",
+    "keyPoints": [
+      "RN ≥ 35-36 sem e ≥ 1800 g",
+      "Pelo menos um critério de asfixia: pH<7, BE<-16, evento perinatal agudo, Apgar ≤5 no 10min ou ventilação >10min",
+      "Evidência de encefalopatia moderada ou grave antes das 6h",
+      "Iniciar idealmente antes de 6h de vida",
+      "Manter 33,5°C por 72h, depois reaquecer 0,5°C/h",
+      "Contraindicações: prematuro <35 sem, peso <1800g, malformações letais"
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-atendrn-001",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quais são as três perguntas iniciais feitas imediatamente ao nascimento?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Chorou? Respira? Está rosado?",
+        "isCorrect": false,
+        "explanation": "Essas são perguntas antigas. O protocolo atual usa IG, tônus e respiração/choro."
+      },
+      {
+        "id": "b",
+        "text": "Gestação ≥ 34 semanas? Tônus bom? Está respirando ou chorando?",
+        "isCorrect": true,
+        "explanation": "Correto: se as três respostas forem SIM, o RN vai para pele-a-pele; um NÃO → passos iniciais."
+      },
+      {
+        "id": "c",
+        "text": "Apgar ≥ 7? Tônus ok? FC > 100?",
+        "isCorrect": false,
+        "explanation": "Apgar NÃO é usado para iniciar reanimação. FC é aferida depois dos passos iniciais."
+      },
+      {
+        "id": "d",
+        "text": "Mãe HIV+? Bolsa rota > 18h? Trabalho de parto prolongado?",
+        "isCorrect": false,
+        "explanation": "Essas são perguntas da anamnese materna prévia, não as 3 do nascimento."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-atendrn-002",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O acrônimo ASPAS, referente aos passos iniciais da reanimação, significa:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aspirar, Secar, Pele-a-pele, Avaliar, Saturar",
+        "isCorrect": false,
+        "explanation": "Essa sequência mistura etapas e inverte a ordem correta. Pele-a-pele não é um passo inicial da reanimação."
+      },
+      {
+        "id": "b",
+        "text": "Aquecer, Secar, Posicionar, Aspirar (se necessário), Sinais vitais",
+        "isCorrect": true,
+        "explanation": "Correto: ASPAS = Aquecer · Secar (+ touca) · Posicionar (coxim) · Aspirar S/N · Sinais vitais. Realizados em até 30s."
+      },
+      {
+        "id": "c",
+        "text": "Avaliar, Secar, Puxar, Aspirar, Soltar",
+        "isCorrect": false,
+        "explanation": "'Puxar' e 'soltar' não fazem parte dos passos iniciais."
+      },
+      {
+        "id": "d",
+        "text": "Adrenalina, Soro, Pressão, Apgar, Saturação",
+        "isCorrect": false,
+        "explanation": "Essas são medidas avançadas (adrenalina, soro) e não os passos iniciais."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-atendrn-003",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Ao aspirar vias aéreas superiores durante os passos iniciais, qual a ordem e pressão corretas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Primeiro narinas, depois boca, a 200 mmHg",
+        "isCorrect": false,
+        "explanation": "A ordem correta é boca → narinas. Aspirar narinas primeiro pode desencadear gasp e broncoaspirar conteúdo da boca."
+      },
+      {
+        "id": "b",
+        "text": "Primeiro boca, depois narinas, com pressão máxima de 100 mmHg",
+        "isCorrect": true,
+        "explanation": "Correto: boca → narinas, com pressão suave de até 100 mmHg e movimentos delicados."
+      },
+      {
+        "id": "c",
+        "text": "Boca e narinas simultaneamente, sem limite de pressão",
+        "isCorrect": false,
+        "explanation": "Nunca simultaneamente, e sempre com pressão limitada para não lesar mucosa."
+      },
+      {
+        "id": "d",
+        "text": "Apenas narinas, porque a boca não precisa ser aspirada",
+        "isCorrect": false,
+        "explanation": "A boca deve ser aspirada primeiro; ela concentra secreções/líquido amniótico."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-atendrn-004",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual o calibre de sonda de aspiração indicado para cada grupo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sonda 6 no termo, sonda 8 no prematuro",
+        "isCorrect": false,
+        "explanation": "Está invertido: 6 no prematuro, 8 no termo."
+      },
+      {
+        "id": "b",
+        "text": "Sonda 6 no prematuro, sonda 8 no termo",
+        "isCorrect": true,
+        "explanation": "Correto: sonda 6 (mais fina) para prematuros, sonda 8 para RN a termo."
+      },
+      {
+        "id": "c",
+        "text": "Sonda 10 para todos",
+        "isCorrect": false,
+        "explanation": "Sondas muito calibrosas podem lesar a mucosa de RN."
+      },
+      {
+        "id": "d",
+        "text": "Sonda 4 no prematuro, sonda 6 no termo",
+        "isCorrect": false,
+        "explanation": "Essas medidas são muito finas e não corresponde ao protocolo."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-atendrn-005",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN a termo, vigoroso, chorando e com tônus ativo, a conduta quanto ao clampeamento do cordão é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Clampeamento imediato (< 30s) para evitar icterícia",
+        "isCorrect": false,
+        "explanation": "O imediato é reservado para situações específicas (mãe HIV+, DPP, placenta prévia, anestesia geral, nó de cordão ou RN deprimido)."
+      },
+      {
+        "id": "b",
+        "text": "Clampeamento tardio entre 1 e 3 minutos",
+        "isCorrect": true,
+        "explanation": "Correto: em RN bem, faz-se clampeamento tardio (1-3 min) para transferir sangue placentário e reduzir anemia ferropriva."
+      },
+      {
+        "id": "c",
+        "text": "Clampeamento após 10 minutos, para maior volemia",
+        "isCorrect": false,
+        "explanation": "Acima de 3 minutos há risco de hemoconcentração/policitemia e hiperbilirrubinemia."
+      },
+      {
+        "id": "d",
+        "text": "Nunca clampear em parto normal",
+        "isCorrect": false,
+        "explanation": "O cordão sempre é clampeado; o que muda é o momento."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 2; Aula 6 Perinato — pág. 2"
+  },
+  {
+    "id": "q-atendrn-006",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em qual situação está indicado o CLAMPEAMENTO IMEDIATO do cordão umbilical?",
+    "options": [
+      {
+        "id": "a",
+        "text": "RN chorando, com tônus normal, IG 39 sem",
+        "isCorrect": false,
+        "explanation": "RN vigoroso recebe clampeamento tardio (1-3 min)."
+      },
+      {
+        "id": "b",
+        "text": "Descolamento prematuro de placenta (DPP)",
+        "isCorrect": true,
+        "explanation": "Correto: DPP, placenta prévia sangrando, mãe HIV+, anestesia geral, nó verdadeiro de cordão e RN deprimido indicam clampeamento imediato."
+      },
+      {
+        "id": "c",
+        "text": "Prematuro tardio (35 sem) nascido bem",
+        "isCorrect": false,
+        "explanation": "Prematuro nascido bem pode receber clampeamento precoce (30s-1 min), não imediato."
+      },
+      {
+        "id": "d",
+        "text": "RN a termo com bolsa rota há 2 horas",
+        "isCorrect": false,
+        "explanation": "Bolsa rota < 18 h não justifica por si só clampeamento imediato."
+      }
+    ],
+    "reference": "Reanimação Neonatal — pág. 1"
+  },
+  {
+    "id": "q-atendrn-007",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Como se avalia a frequência cardíaca do RN nos passos iniciais?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Palpando pulso umbilical por 15 segundos x 4",
+        "isCorrect": false,
+        "explanation": "A palpação do cordão é pouco confiável. A recomendação atual é ausculta precordial."
+      },
+      {
+        "id": "b",
+        "text": "Ausculta precordial por 6 segundos, multiplicando por 10",
+        "isCorrect": true,
+        "explanation": "Correto: estetoscópio no precórdio por 6s × 10. FC > 100 bpm é o alvo."
+      },
+      {
+        "id": "c",
+        "text": "Apenas pelo oxímetro de pulso",
+        "isCorrect": false,
+        "explanation": "O oxímetro é útil depois, para monitorização contínua, mas demora para estabilizar; a ausculta é mais rápida."
+      },
+      {
+        "id": "d",
+        "text": "Não é necessário avaliar FC nos passos iniciais",
+        "isCorrect": false,
+        "explanation": "A FC é o principal sinal para decidir reanimação."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-atendrn-008",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O índice de Apgar é usado para:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decidir se deve ser iniciada a reanimação",
+        "isCorrect": false,
+        "explanation": "ERRADO: o Apgar NÃO deve ser usado como critério para iniciar reanimação — ele é retrospectivo."
+      },
+      {
+        "id": "b",
+        "text": "Avaliar a eficácia da transição e das manobras de reanimação",
+        "isCorrect": true,
+        "explanation": "Correto: é aferido no 1º, 5º e 10º minuto para avaliar a transição e a resposta às medidas."
+      },
+      {
+        "id": "c",
+        "text": "Classificar peso/idade gestacional",
+        "isCorrect": false,
+        "explanation": "Essa classificação é feita pela curva (PIG/AIG/GIG), não pelo Apgar."
+      },
+      {
+        "id": "d",
+        "text": "Definir alta hospitalar",
+        "isCorrect": false,
+        "explanation": "Os critérios de alta são clínicos (peso, triagens, amamentação), não o Apgar isolado."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-atendrn-009",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quais são os 5 parâmetros avaliados no escore de Apgar?",
+    "options": [
+      {
+        "id": "a",
+        "text": "FC, respiração, cor, tônus, irritabilidade reflexa",
+        "isCorrect": true,
+        "explanation": "Correto: são os 5 clássicos, cada um pontuando de 0 a 2 (total de 0 a 10)."
+      },
+      {
+        "id": "b",
+        "text": "FC, FR, PA, SatO2, peso",
+        "isCorrect": false,
+        "explanation": "PA, SatO2 e peso não fazem parte do Apgar clássico."
+      },
+      {
+        "id": "c",
+        "text": "FC, temperatura, glicemia, diurese, cor",
+        "isCorrect": false,
+        "explanation": "Temperatura, glicemia e diurese não compõem o Apgar."
+      },
+      {
+        "id": "d",
+        "text": "Respiração, tônus, reflexo, pupila, cor",
+        "isCorrect": false,
+        "explanation": "Pupila não faz parte do escore; FC é obrigatória e está faltando."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-atendrn-010",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quais duas medicações fazem parte dos cuidados de rotina em sala de parto do RN sadio?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Vitamina K e vacina contra hepatite B",
+        "isCorrect": true,
+        "explanation": "Correto: vitamina K (profilaxia da doença hemorrágica do RN) + hepatite B em até 12h de vida, uma em cada perna."
+      },
+      {
+        "id": "b",
+        "text": "Vitamina D e BCG",
+        "isCorrect": false,
+        "explanation": "Vit D começa em puericultura. BCG é dada antes da alta, mas só se peso ≥ 2 kg — não nos cuidados imediatos."
+      },
+      {
+        "id": "c",
+        "text": "Adrenalina e soro fisiológico",
+        "isCorrect": false,
+        "explanation": "São medicações de reanimação avançada, não cuidados de rotina."
+      },
+      {
+        "id": "d",
+        "text": "Surfactante e antibiótico profilático",
+        "isCorrect": false,
+        "explanation": "Não fazem parte da rotina do RN sadio."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-atendrn-011",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A manobra de Credê (nitrato de prata 1% nos olhos) é indicada principalmente para prevenir:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Catarata congênita e retinoblastoma",
+        "isCorrect": false,
+        "explanation": "Esses são detectados pelo teste do olhinho (reflexo vermelho), não prevenidos por nitrato."
+      },
+      {
+        "id": "b",
+        "text": "Conjuntivite gonocócica e por clamídia",
+        "isCorrect": true,
+        "explanation": "Correto: profilaxia das oftalmias neonatais por Neisseria gonorrhoeae e Chlamydia trachomatis."
+      },
+      {
+        "id": "c",
+        "text": "Descolamento de retina",
+        "isCorrect": false,
+        "explanation": "Não se previne descolamento com nitrato."
+      },
+      {
+        "id": "d",
+        "text": "Glaucoma congênito",
+        "isCorrect": false,
+        "explanation": "Glaucoma não é uma infecção e não é prevenida por colírio tópico."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-atendrn-012",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva a fisiologia da transição cardiorrespiratória do RN ao nascer, comentando o papel do choro, do O2 e do fechamento do canal arterial.",
+    "modelAnswer": "Na vida fetal, o pulmão não realiza trocas: as arteríolas pulmonares estão vasoconstritas (hipertensão pulmonar fisiológica) e o sangue do VD desvia pelo canal arterial para a aorta. Ao nascer, o choro e a respiração efetiva promovem a entrada de ar nos alvéolos, expelindo o líquido pulmonar para o interstício e aumentando a permeabilidade da membrana. O O2 é um potente vasodilatador das arteríolas pulmonares, o que reduz a pressão pulmonar e permite que o sangue passe a circular pelo pulmão para realizar trocas gasosas. Ao mesmo tempo, o O2 atua como vasoconstritor no canal arterial, que se fecha em 24-72 horas, e a placenta, ao ser clampeada, sai do circuito. O ducto venoso torna-se ligamento. Assim completa-se a transição para a circulação neonatal.",
+    "keyPoints": [
+      "Na vida fetal as arteríolas pulmonares estão vasoconstritas e há shunt pelo canal arterial",
+      "Choro e respiração efetiva expelem líquido pulmonar e aeram alvéolos",
+      "O2 causa vasodilatação das arteríolas pulmonares → queda da pressão pulmonar",
+      "O2 causa vasoconstrição do canal arterial, que fecha em 24-72 h",
+      "Placenta sai da circulação com o clampeamento; ducto venoso vira ligamento"
+    ],
+    "reference": "Atendimento ao RN — pág. 1"
+  },
+  {
+    "id": "q-atendrn-013",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "O que significa 'minuto de ouro' (golden minute) na reanimação neonatal e qual sua importância?",
+    "modelAnswer": "O 'minuto de ouro' é o primeiro minuto de vida, no qual as intervenções iniciais devem ser completadas. Isso engloba os passos iniciais (ASPAS em até 30s) e, se indicada, o início da VPP ainda dentro desse minuto. A importância é que uma ventilação efetiva precoce minimiza hipóxia, acidose e lesão neurológica; atrasar a VPP além do primeiro minuto aumenta o risco de asfixia, encefalopatia hipóxico-isquêmica e sequelas permanentes. Por isso a equipe deve estar pronta antes do nascimento, com material testado, para cumprir esse prazo em qualquer parto de risco.",
+    "keyPoints": [
+      "Primeiro minuto de vida como janela crítica",
+      "Inclui passos iniciais (ASPAS ≤ 30s) e, se indicada, início da VPP",
+      "Objetivo: ventilação efetiva precoce para minimizar hipóxia",
+      "Atraso aumenta risco de EHI, sequelas neurológicas e óbito",
+      "Exige preparo prévio da equipe e material"
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-aula6-001",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A temperatura ambiente ideal da sala de parto é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "18-20°C",
+        "isCorrect": false,
+        "explanation": "Muito frio; favorece hipotermia do RN, que tem alta relação superfície/volume."
+      },
+      {
+        "id": "b",
+        "text": "23-25°C",
+        "isCorrect": true,
+        "explanation": "Correto: faixa recomendada para minimizar hipotermia do RN."
+      },
+      {
+        "id": "c",
+        "text": "28-30°C",
+        "isCorrect": false,
+        "explanation": "Muito quente; desconfortável para equipe e pode superaquecer o RN."
+      },
+      {
+        "id": "d",
+        "text": "Irrelevante, o berço aquecido compensa",
+        "isCorrect": false,
+        "explanation": "O ambiente influencia especialmente nos primeiros segundos antes do berço aquecido."
+      }
+    ],
+    "reference": "Aula 6 — pág. 1"
+  },
+  {
+    "id": "q-aula6-002",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A anamnese materna pré-parto serve para:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Preencher burocracia do hospital",
+        "isCorrect": false,
+        "explanation": "Não é burocracia; tem impacto direto no preparo da equipe e material."
+      },
+      {
+        "id": "b",
+        "text": "Detectar antecipadamente fatores de risco para reanimação",
+        "isCorrect": true,
+        "explanation": "Correto: anamnese identifica risco (HIV, diabetes, HAS, prematuridade, bolsa rota > 18h, meconial, gemelar) para preparar equipe."
+      },
+      {
+        "id": "c",
+        "text": "Definir a via de parto",
+        "isCorrect": false,
+        "explanation": "A decisão é obstétrica, não da equipe neonatal."
+      },
+      {
+        "id": "d",
+        "text": "Estabelecer o peso provável do RN",
+        "isCorrect": false,
+        "explanation": "O peso é estimado por USG, não pela anamnese materna no momento do parto."
+      }
+    ],
+    "reference": "Aula 6 — pág. 1"
+  },
+  {
+    "id": "q-aula6-003",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Bolsa rota é considerada 'prolongada' (risco infeccioso) quando:",
+    "options": [
+      {
+        "id": "a",
+        "text": "> 4 horas",
+        "isCorrect": false,
+        "explanation": "4h é um tempo comum de trabalho de parto, sem significado infeccioso especial."
+      },
+      {
+        "id": "b",
+        "text": "> 18 horas",
+        "isCorrect": true,
+        "explanation": "Correto: acima de 18h aumenta risco de corioamnionite e sepse neonatal precoce."
+      },
+      {
+        "id": "c",
+        "text": "> 48 horas",
+        "isCorrect": false,
+        "explanation": "O marcador já é 18h, menos que isso."
+      },
+      {
+        "id": "d",
+        "text": "Qualquer duração",
+        "isCorrect": false,
+        "explanation": "Bolsa rota curta não aumenta significativamente o risco infeccioso."
+      }
+    ],
+    "reference": "Aula 6 — pág. 1"
+  },
+  {
+    "id": "q-aula6-004",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN após cesárea sob anestesia geral, qual o tipo de clampeamento recomendado?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tardio (1-3 min)",
+        "isCorrect": false,
+        "explanation": "Anestesia geral → risco de depressão respiratória do RN; deve ser clampeado imediatamente."
+      },
+      {
+        "id": "b",
+        "text": "Imediato",
+        "isCorrect": true,
+        "explanation": "Correto: anestesia geral está entre as indicações clássicas de clampeamento imediato, junto com DPP, HIV+, nó verdadeiro e RN deprimido."
+      },
+      {
+        "id": "c",
+        "text": "Não clampear",
+        "isCorrect": false,
+        "explanation": "O cordão sempre é clampeado."
+      },
+      {
+        "id": "d",
+        "text": "Esperar 10 minutos",
+        "isCorrect": false,
+        "explanation": "Risco de depressão aumenta a cada minuto de exposição aos anestésicos."
+      }
+    ],
+    "reference": "Aula 6 — pág. 2"
+  },
+  {
+    "id": "q-aula6-005",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN prematuro extremo, qual a conduta protetora contra hipotermia imediatamente ao nascer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Imersão em banho morno",
+        "isCorrect": false,
+        "explanation": "Banho imediato causa hipotermia e remove vérnix protetor."
+      },
+      {
+        "id": "b",
+        "text": "Ensaque o RN em saco plástico transparente (tipo saco de fruta) sem secar",
+        "isCorrect": true,
+        "explanation": "Correto: em prematuros extremos não secar e ensacar em plástico transparente conserva calor e umidade."
+      },
+      {
+        "id": "c",
+        "text": "Envolver com cobertor de lã seco",
+        "isCorrect": false,
+        "explanation": "Não é suficiente para prevenir hipotermia em prematuros extremos; eles perdem muito calor por evaporação."
+      },
+      {
+        "id": "d",
+        "text": "Colocar diretamente em pele-a-pele prolongado",
+        "isCorrect": false,
+        "explanation": "Prematuros extremos geralmente vão para cuidado intensivo; pele-a-pele prolongado só em RN estáveis."
+      }
+    ],
+    "reference": "Aula 6 — pág. 1"
+  },
+  {
+    "id": "q-aula6-006",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN submetido a IOT, a profundidade da cânula a fixar na rima labial é calculada por:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Peso (kg) + 6",
+        "isCorrect": true,
+        "explanation": "Correto: fórmula 'peso + 6' em centímetros fornece a marca adequada na rima."
+      },
+      {
+        "id": "b",
+        "text": "Peso (kg) × 2",
+        "isCorrect": false,
+        "explanation": "Não é fórmula usada em neonato."
+      },
+      {
+        "id": "c",
+        "text": "Sempre 10 cm",
+        "isCorrect": false,
+        "explanation": "Não é padrão fixo; depende do peso."
+      },
+      {
+        "id": "d",
+        "text": "IG (semanas) ÷ 2",
+        "isCorrect": false,
+        "explanation": "Não existe essa fórmula prática."
+      }
+    ],
+    "reference": "Aula 6 — pág. 2; Reanimação ≥34sem — pág. 2"
+  },
+  {
+    "id": "q-aula6-007",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o ventilador mecânico manual em T (Baby Puff), qual vantagem em relação ao Ambu?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Menor custo e maior portabilidade",
+        "isCorrect": false,
+        "explanation": "Ambu é mais barato e portátil; o T é mais sofisticado."
+      },
+      {
+        "id": "b",
+        "text": "Permite controle preciso de PIP, PEEP e FiO2 via blender",
+        "isCorrect": true,
+        "explanation": "Correto: o T (Baby Puff) permite ajustar pressão inspiratória (PIP), PEEP e FiO2 precisamente — evita barotrauma e hiperoxia."
+      },
+      {
+        "id": "c",
+        "text": "Não precisa de fonte de gás",
+        "isCorrect": false,
+        "explanation": "Pelo contrário, exige conexão a fluxômetro/blender."
+      },
+      {
+        "id": "d",
+        "text": "Dispensa monitorização",
+        "isCorrect": false,
+        "explanation": "Qualquer VPP exige monitorização contínua."
+      }
+    ],
+    "reference": "Aula 6 — pág. 4"
+  },
+  {
+    "id": "q-aula6-008",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Caso: RN 37 sem, mãe com DPP, nasceu hipotônico, em apneia, peso 2 kg. Após ASPAS a FC é 50 bpm. Qual a conduta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pele-a-pele imediato",
+        "isCorrect": false,
+        "explanation": "Pele-a-pele é só para RN com as 3 respostas SIM."
+      },
+      {
+        "id": "b",
+        "text": "VPP com máscara por 30s em ar ambiente (21%)",
+        "isCorrect": true,
+        "explanation": "Correto: com FC < 100 e apneia após ASPAS, indicação clara de VPP inicial em ar ambiente por 30s, reavaliando."
+      },
+      {
+        "id": "c",
+        "text": "Intubação imediata sem VPP prévia",
+        "isCorrect": false,
+        "explanation": "IOT só após VPP com máscara inefetiva (MR SOPA)."
+      },
+      {
+        "id": "d",
+        "text": "Adrenalina EV imediata",
+        "isCorrect": false,
+        "explanation": "Adrenalina só após VPP + massagem sem resposta."
+      }
+    ],
+    "reference": "Aula 6 — págs. 3-4"
+  },
+  {
+    "id": "q-aula6-009",
+    "topicId": "aula-6-perinato",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Liste os materiais essenciais que devem estar preparados na sala de recepção do RN antes de um parto.",
+    "modelAnswer": "Berço de calor radiante ligado previamente com colchão e campo aquecidos; fonte de oxigênio e blender; fluxômetro; sistema de aspiração a vácuo com sondas nº 6 (prematuro) e nº 8 (termo); material de ventilação — máscaras de tamanhos diferentes, balão auto-inflável (Ambu) 240 mL com válvula de escape 30-40 cmH2O e reservatório; ventilador mecânico manual em T (Baby Puff); laringoscópio com lâminas retas (00, 0, 1) e pilhas; cânulas traqueais sem cuff 2,5/3,0/3,5/4,0; material para cateterização umbilical; medicamentos — adrenalina 1:1000 e soro fisiológico, com seringas de 1 mL, 5 mL e 20 mL; estetoscópio, oxímetro de pulso e monitor cardíaco; touca e sacos plásticos para prematuros; relógio. Checagem prévia antes de cada nascimento é essencial.",
+    "keyPoints": [
+      "Berço de calor radiante ligado com campo aquecido",
+      "Oxigênio, blender, fluxômetro",
+      "Vácuo + sondas de aspiração 6 e 8",
+      "Balão (Ambu) e/ou ventilador em T, máscaras variadas",
+      "Laringoscópio com lâminas 00, 0 e 1; cânulas 2,5-4,0",
+      "Adrenalina e SF; seringas 1/5/20 mL",
+      "Estetoscópio, oxímetro, monitor cardíaco",
+      "Material para cateterização umbilical",
+      "Saco plástico e touca para prematuros",
+      "Checagem prévia ao parto"
+    ],
+    "reference": "Aula 6 — pág. 1"
+  },
+  {
+    "id": "q-aula6-010",
+    "topicId": "aula-6-perinato",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "No caso 3 da Aula 6, Maria, gestante de 37 semanas com DPP, nasce RN de 2 kg, hipotônico e em apneia, e após ASPAS a FC é 50 bpm em 6s. Descreva a sequência de condutas até a necessidade de medicação.",
+    "modelAnswer": "Como há DPP, clampear imediatamente o cordão e levar ao berço aquecido. Fazer ASPAS em 30s (aquecer, secar, posicionar com coxim, aspirar se necessário e avaliar FC/respiração). Com FC 50 e apneia, iniciar VPP com máscara por 30s em ar ambiente (21%), 40-60 ipm. Se não melhorar, aplicar MR SOPA (ajustar máscara, reposicionar, aspirar secreções, abrir boca, aumentar pressão) e fazer 2º ciclo de VPP. Se ainda inefetiva, 3º ciclo com FiO2 ~40% (ajustar pelo blender). Se permanecer FC < 100 ou apneia, partir para via alternativa (IOT; máscara laríngea se disponível) — fixar em peso + 6 cm — e ventilar por 30s com O2 100%. Reavaliar: se FC < 60, iniciar massagem cardíaca (3:1) com O2 100% por 1 min. Se ainda FC < 60, cateterizar veia umbilical e iniciar adrenalina EV 0,2 mL/kg da solução 1:10.000 (seringa de 1 mL), podendo repetir a cada 3 min. Considerar SF 10 mL/kg em 5-10 min se hipovolemia pelo DPP.",
+    "keyPoints": [
+      "Clampeamento imediato por DPP",
+      "ASPAS em 30s",
+      "VPP por 30s em ar ambiente (21%)",
+      "MR SOPA + 2º e 3º ciclos, aumentando O2 pelo blender",
+      "Via alternativa (IOT ou máscara laríngea) se inefetiva",
+      "Massagem 3:1 com O2 100% por 1 min se FC < 60",
+      "Adrenalina EV 0,2 mL/kg 1:10.000 se persistir FC < 60",
+      "SF 10 mL/kg em 5-10 min se hipovolemia"
+    ],
+    "reference": "Aula 6 — págs. 3-6"
+  },
+  {
+    "id": "q-casoasf-001",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Caso: RN a termo, pós cesárea por DPP, Apgar 1/4/6, pH de cordão 6,92, EEG com crise convulsiva. O diagnóstico mais provável é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sepse neonatal precoce",
+        "isCorrect": false,
+        "explanation": "A história aponta para evento hipóxico agudo (DPP) com acidose grave — padrão de asfixia perinatal."
+      },
+      {
+        "id": "b",
+        "text": "Asfixia perinatal com encefalopatia hipóxico-isquêmica",
+        "isCorrect": true,
+        "explanation": "Correto: evento agudo (DPP), acidose (pH < 7), Apgar baixo persistente e convulsão → EHI pós-asfixia."
+      },
+      {
+        "id": "c",
+        "text": "Cardiopatia congênita cianótica",
+        "isCorrect": false,
+        "explanation": "Acidose de cordão + convulsão aguda + DPP são mais explicados por asfixia."
+      },
+      {
+        "id": "d",
+        "text": "Síndrome da aspiração meconial isolada",
+        "isCorrect": false,
+        "explanation": "SAM explica parte do quadro mas não a convulsão e acidose neurológica."
+      }
+    ],
+    "reference": "Caso clínico Asfixia"
+  },
+  {
+    "id": "q-casoasf-002",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Diante do RN acima, dentro das primeiras 6h, qual terapia específica deve ser considerada?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Corticoterapia sistêmica",
+        "isCorrect": false,
+        "explanation": "Não há benefício comprovado na EHI; não é indicada."
+      },
+      {
+        "id": "b",
+        "text": "Hipotermia terapêutica 33,5°C por 72h",
+        "isCorrect": true,
+        "explanation": "Correto: RN ≥ 35-36 sem e ≥ 1800 g com EHI moderada-grave e critérios de asfixia (pH < 7, evento agudo) → hipotermia terapêutica iniciada antes de 6h."
+      },
+      {
+        "id": "c",
+        "text": "Bicarbonato em bolus para corrigir acidose",
+        "isCorrect": false,
+        "explanation": "Bicarbonato não é rotineiro; pode piorar acidose intracelular."
+      },
+      {
+        "id": "d",
+        "text": "Manitol para edema cerebral",
+        "isCorrect": false,
+        "explanation": "Agentes hiperosmolares não são usados em EHI neonatal."
+      }
+    ],
+    "reference": "Caso clínico Asfixia; Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-casoasf-003",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual é o 1º antiepiléptico de escolha para controlar as convulsões do RN desse caso?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diazepam IM",
+        "isCorrect": false,
+        "explanation": "Diazepam IM não é adequado em RN; absorção errática e risco de depressão."
+      },
+      {
+        "id": "b",
+        "text": "Fenobarbital EV",
+        "isCorrect": true,
+        "explanation": "Correto: é a droga de primeira escolha. Fenitoína como 2ª e midazolam como 3ª."
+      },
+      {
+        "id": "c",
+        "text": "Levetiracetam VO",
+        "isCorrect": false,
+        "explanation": "VO não é opção em RN crítico; pode ser considerado ambulatorialmente em segunda linha."
+      },
+      {
+        "id": "d",
+        "text": "Ácido valpróico",
+        "isCorrect": false,
+        "explanation": "Não é usado na fase aguda neonatal."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-casoasf-004",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Em relação à nutrição desse RN nas primeiras duas semanas, qual conduta é adequada?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Iniciar amamentação imediatamente",
+        "isCorrect": false,
+        "explanation": "Risco alto de ECN pela vasoconstrição/hipoperfusão intestinal."
+      },
+      {
+        "id": "b",
+        "text": "Jejum com nutrição parenteral por 7-14 dias",
+        "isCorrect": true,
+        "explanation": "Correto: a hipoperfusão intestinal aumenta risco de ECN/perfuração; NPT permite suporte nutricional enquanto se recupera a perfusão."
+      },
+      {
+        "id": "c",
+        "text": "Sonda nasogástrica com fórmula diluída",
+        "isCorrect": false,
+        "explanation": "Qualquer nutrição enteral precoce em intestino isquêmico é perigosa."
+      },
+      {
+        "id": "d",
+        "text": "Soro glicosado exclusivamente por 30 dias",
+        "isCorrect": false,
+        "explanation": "Insuficiente para suprir necessidades proteicas e lipídicas; usa-se NPT."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-casoasf-005",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Na classificação de Sarnat desse RN (convulsões, letárgico, reflexos diminuídos), ele enquadra-se em:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leve (estágio 1)",
+        "isCorrect": false,
+        "explanation": "Leve não tem convulsão e tem tônus normal/aumentado."
+      },
+      {
+        "id": "b",
+        "text": "Moderada (estágio 2)",
+        "isCorrect": true,
+        "explanation": "Correto: letargia + convulsões + reflexos diminuídos correspondem à moderada; ~80% recuperam sem sequelas se tratados."
+      },
+      {
+        "id": "c",
+        "text": "Grave (estágio 3)",
+        "isCorrect": false,
+        "explanation": "Grave: coma, não responde, mortalidade alta, sequelas em 100% dos sobreviventes."
+      },
+      {
+        "id": "d",
+        "text": "Sem EHI",
+        "isCorrect": false,
+        "explanation": "A presença de convulsão já define EHI pelo menos moderada."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 2"
+  },
+  {
+    "id": "q-casoasf-006",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual destes exames laboratoriais NÃO é útil na avaliação inicial deste RN?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gasometria arterial",
+        "isCorrect": false,
+        "explanation": "Essencial: avalia acidose e resposta terapêutica."
+      },
+      {
+        "id": "b",
+        "text": "Função renal (ureia, creatinina)",
+        "isCorrect": false,
+        "explanation": "Essencial: risco de NTA em asfixia."
+      },
+      {
+        "id": "c",
+        "text": "Transaminases hepáticas",
+        "isCorrect": false,
+        "explanation": "Útil: detecta disfunção hepática pós-asfixia."
+      },
+      {
+        "id": "d",
+        "text": "Dosagem sérica de PSA",
+        "isCorrect": true,
+        "explanation": "Correto: PSA é marcador prostático, irrelevante em RN. Os exames úteis são gasometria, lactato, CK-MB, transaminases, eletrólitos, creatinina."
+      }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-casoasf-007",
+    "topicId": "caso-asfixia",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Quais são os 4 critérios essenciais para o diagnóstico de asfixia perinatal?",
+    "modelAnswer": "1) Gasometria arterial ou de cordão umbilical mostrando acidose metabólica (pH < 7,25 e bicarbonato baixo) ou mista (com hipercapnia associada). 2) Persistência do Apgar 0-3 após o 5º minuto de vida (avaliado com 1, 5 e 10 minutos; pode-se aferir 15 minutos se nota ainda <7). 3) Manifestações neurológicas precoces (convulsões, hipotonia, alteração do nível de consciência/coma). 4) Disfunção de múltiplos órgãos (cardíaca, renal, hepática, pulmonar, gastrointestinal). A asfixia é diagnosticada pela combinação desses achados; nenhum isoladamente (como Apgar) é suficiente.",
+    "keyPoints": [
+      "Acidose metabólica/mista (pH <7,25, bicarbonato baixo)",
+      "Apgar 0-3 persistente após 5º minuto",
+      "Manifestações neurológicas (convulsão, hipotonia, coma)",
+      "Disfunção multi-orgânica",
+      "Diagnóstico exige combinação de critérios, não isolado"
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-casoasf-008",
+    "topicId": "caso-asfixia",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Explique em que consiste o protocolo de hipotermia terapêutica (técnica, alvo, duração e reaquecimento).",
+    "modelAnswer": "Técnica: resfriar o colchão/sistema a cerca de 4°C, desligar o calor radiante, colocar termômetro retal/esofágico e ajustar até que o RN atinja temperatura central de 33,5°C. Manter esse alvo por 72 horas, monitorando sinais vitais, perfusão, balanço hídrico, coagulação e convulsões. Movimentar o paciente a cada 2 horas para evitar lesão cutânea. Após as 72h, reaquecer lentamente (0,5°C por hora) até 36,5°C, checando sinais vitais a cada 30 minutos — a fase de reaquecimento é de risco para recidiva de convulsões e instabilidade hemodinâmica, exigindo vigilância reforçada. Ao atingir normotermia, retirar o colchão e reposicionar em incubadora. O objetivo é reduzir metabolismo cerebral e liberação de radicais livres na reperfusão, com melhora do prognóstico neurológico se iniciada antes de 6h.",
+    "keyPoints": [
+      "Alvo: 33,5°C (temperatura central)",
+      "Duração: 72 horas",
+      "Iniciar em até 6h de vida",
+      "Movimentar a cada 2h para evitar lesão cutânea",
+      "Reaquecer 0,5°C/h até 36,5°C",
+      "Atenção a convulsões e instabilidade no reaquecimento",
+      "Monitorização intensiva (SV, perfusão, coagulação, convulsões)"
+    ],
+    "reference": "Asfixia Perinatal — pág. 3-4"
+  },
+  {
+    "id": "q-casoreanim-001",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "RN 38 sem, 3 kg, parto vaginal, nasce hipotônico e com choro fraco. A primeira ação é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Colocar em pele-a-pele",
+        "isCorrect": false,
+        "explanation": "Pele-a-pele só se as 3 perguntas foram SIM; hipotonia é NÃO."
+      },
+      {
+        "id": "b",
+        "text": "Clampear o cordão e iniciar passos iniciais (ASPAS)",
+        "isCorrect": true,
+        "explanation": "Correto: RN com ao menos um 'NÃO' nas perguntas iniciais → clampeamento + ASPAS em 30s."
+      },
+      {
+        "id": "c",
+        "text": "Já intubar",
+        "isCorrect": false,
+        "explanation": "IOT só após VPP com máscara inefetiva; ainda não há indicação."
+      },
+      {
+        "id": "d",
+        "text": "Administrar adrenalina EV",
+        "isCorrect": false,
+        "explanation": "Adrenalina é etapa muito posterior na sequência."
+      }
+    ],
+    "reference": "Caso clínico Reanimação"
+  },
+  {
+    "id": "q-casoreanim-002",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Após ASPAS o RN permanece com FC de 70 bpm e respiração irregular. O próximo passo é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Iniciar VPP em ar ambiente por 30s, reavaliar",
+        "isCorrect": true,
+        "explanation": "Correto: FC < 100 ou FR irregular → VPP 40-60 ipm em ar ambiente (21%) por 30s, monitorando."
+      },
+      {
+        "id": "b",
+        "text": "Iniciar massagem cardíaca 3:1",
+        "isCorrect": false,
+        "explanation": "Massagem só após VPP efetiva, com FC < 60."
+      },
+      {
+        "id": "c",
+        "text": "Colocar em pele-a-pele",
+        "isCorrect": false,
+        "explanation": "Não cabe em quem está com FC < 100 e FR irregular."
+      },
+      {
+        "id": "d",
+        "text": "Administrar SF 10 mL/kg",
+        "isCorrect": false,
+        "explanation": "SF é para hipovolemia, não como primeira conduta."
+      }
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 1"
+  },
+  {
+    "id": "q-casoreanim-003",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Após 30s de VPP ainda com FC < 100, qual a próxima conduta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parar a reanimação e observar",
+        "isCorrect": false,
+        "explanation": "Interromper sem reavaliar é inadequado; prosseguir com correções."
+      },
+      {
+        "id": "b",
+        "text": "Aplicar MR SOPA e fazer 2º ciclo de VPP",
+        "isCorrect": true,
+        "explanation": "Correto: corrigir técnica (M-R-S-O-P-A) e repetir 30s de VPP, ainda em ar ambiente."
+      },
+      {
+        "id": "c",
+        "text": "Ir direto para IOT",
+        "isCorrect": false,
+        "explanation": "IOT após falha persistente, não após primeiro ciclo sem MR SOPA."
+      },
+      {
+        "id": "d",
+        "text": "Iniciar adrenalina",
+        "isCorrect": false,
+        "explanation": "Só após massagem cardíaca ineficaz."
+      }
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-casoreanim-004",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Após IOT, VPP com O2 100% e massagem cardíaca adequada, a FC permanece 40 bpm. A droga e dose corretas são:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Adrenalina 1 mL/kg EV da solução 1:1000",
+        "isCorrect": false,
+        "explanation": "1:1000 pura é perigosa por via EV; e 1 mL/kg é dose traqueal (única vez)."
+      },
+      {
+        "id": "b",
+        "text": "Adrenalina 0,2 mL/kg EV da solução 1:10.000 (seringa de 1 mL)",
+        "isCorrect": true,
+        "explanation": "Correto: 0,2 mL/kg da diluição 1:10.000 (1 mL de adrenalina + 9 mL SF) pela veia umbilical, podendo repetir a cada 3 min."
+      },
+      {
+        "id": "c",
+        "text": "Atropina 0,01 mg/kg",
+        "isCorrect": false,
+        "explanation": "Atropina não é droga de reanimação neonatal."
+      },
+      {
+        "id": "d",
+        "text": "Amiodarona 5 mg/kg",
+        "isCorrect": false,
+        "explanation": "Amiodarona não é usada na reanimação neonatal padrão."
+      }
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-casoreanim-005",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN que responde à reanimação (FC > 100, SatO2 adequada) após ventilação efetiva, a conduta ideal é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Alta imediata do berçário",
+        "isCorrect": false,
+        "explanation": "RN que precisou de reanimação exige observação em UTI ou intermediária."
+      },
+      {
+        "id": "b",
+        "text": "Transferir para UTI/unidade intermediária para monitorização e seguimento",
+        "isCorrect": true,
+        "explanation": "Correto: observação mínima em unidade neonatal para acompanhar sinais tardios de EHI, distúrbios metabólicos e respiratórios."
+      },
+      {
+        "id": "c",
+        "text": "Começar profilaxia antibiótica rotineiramente",
+        "isCorrect": false,
+        "explanation": "ATB só se suspeita clínica/laboratorial de infecção."
+      },
+      {
+        "id": "d",
+        "text": "Pele-a-pele por 24h sem monitorização",
+        "isCorrect": false,
+        "explanation": "Pós-reanimação exige monitorização próxima, incompatível com pele-a-pele sem supervisão."
+      }
+    ],
+    "reference": "Reanimação ≥34 sem"
+  },
+  {
+    "id": "q-casoreanim-006",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o uso da máscara laríngea na reanimação neonatal, qual afirmação é correta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pode ser usada em qualquer prematuro",
+        "isCorrect": false,
+        "explanation": "Restrita a RN > 34 sem e peso > 2 kg."
+      },
+      {
+        "id": "b",
+        "text": "Alternativa válida à IOT em RN > 34 sem e > 2 kg, quando disponível",
+        "isCorrect": true,
+        "explanation": "Correto: quando IOT não é possível ou a equipe é menos experiente, a máscara laríngea é uma via alternativa adequada."
+      },
+      {
+        "id": "c",
+        "text": "Substitui a VPP com Ambu em todos os casos",
+        "isCorrect": false,
+        "explanation": "É opção em VPP prolongada/inefetiva, não rotina."
+      },
+      {
+        "id": "d",
+        "text": "Dispensa monitorização cardíaca",
+        "isCorrect": false,
+        "explanation": "Monitorização sempre é obrigatória."
+      }
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-casoreanim-007",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual é a via de escolha para administração de medicações na reanimação neonatal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Intramuscular",
+        "isCorrect": false,
+        "explanation": "IM tem absorção lenta e errática em RN com má perfusão; inadequada na reanimação."
+      },
+      {
+        "id": "b",
+        "text": "Veia umbilical (cateterizada)",
+        "isCorrect": true,
+        "explanation": "Correto: veia umbilical é a via mais rápida e confiável. Via endotraqueal só como ponte temporária antes de cateterizar."
+      },
+      {
+        "id": "c",
+        "text": "Veia periférica do pé",
+        "isCorrect": false,
+        "explanation": "Difícil e lenta em RN chocado; veia umbilical é muito mais rápida."
+      },
+      {
+        "id": "d",
+        "text": "Intraóssea apenas",
+        "isCorrect": false,
+        "explanation": "IO é alternativa se veia umbilical indisponível; não primeira escolha no RN."
+      }
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-casoreanim-008",
+    "topicId": "caso-reanimacao",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva as indicações de IOT durante a reanimação neonatal.",
+    "modelAnswer": "A intubação orotraqueal está indicada em três situações principais: 1) VPP prolongada e inefetiva — após aplicar MR SOPA e os ciclos de VPP sem melhora adequada da FC/respiração, partir para via alternativa (IOT ou máscara laríngea). 2) Quando há indicação iminente de massagem cardíaca — a IOT permite ventilação mais eficaz durante compressões torácicas. 3) RN com suspeita de hérnia diafragmática congênita que necessita de VPP — esses bebês NÃO devem receber VPP com máscara, pois o ar insuflaria intestino herniado e pioraria a compressão pulmonar; se precisarem de VPP, deve ser por cânula traqueal. A cânula é sem cuff, com tamanho ajustado à IG (3 para 28-34 sem, 3,5 para 34-38, 3,5-4 para > 38), lâmina reta (00, 0, 1) e fixação pela fórmula 'peso + 6' na rima labial.",
+    "keyPoints": [
+      "VPP prolongada e inefetiva após MR SOPA",
+      "Necessidade de massagem cardíaca",
+      "Suspeita de hérnia diafragmática que precisa de VPP",
+      "Cânula sem cuff, tamanho pela IG",
+      "Fixação: peso + 6 cm na rima labial",
+      "Lâminas retas: 00 (prematuro extremo), 0 (tardio), 1 (termo)"
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-casoreanim-009",
+    "topicId": "caso-reanimacao",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Um RN a termo de mãe com descolamento prematuro de placenta nasce em apneia e pálido. Após 2 ciclos de VPP, IOT, massagem e adrenalina EV, a FC se mantém em 50 bpm. Qual a conduta adicional que deve ser considerada e por quê?",
+    "modelAnswer": "Devo considerar hipovolemia aguda pelo DPP, já que o bebê nasceu pálido e refratário às medidas padrão. A conduta é expansão volêmica com soro fisiológico 10 mL/kg EV (veia umbilical), infundido em 5-10 minutos, podendo repetir se necessário. Em paralelo, reavalio a qualidade da reanimação: posição e patência da cânula, acoplamento da técnica de massagem, efetividade das ventilações, cálculo correto da adrenalina, e descarto pneumotórax (punção diagnóstica-terapêutica se suspeita). Se persistir assistolia após reanimação adequada completa por 20 minutos, considerar interrupção. Se houver resposta, encaminhar para UTI neonatal para suporte contínuo, monitorização hemodinâmica, avaliação de asfixia perinatal/EHI e possível hipotermia terapêutica.",
+    "keyPoints": [
+      "Suspeitar hipovolemia em DPP com palidez e refratariedade",
+      "Expansão com SF 10 mL/kg EV em 5-10 min, repetir se necessário",
+      "Reavaliar cânula, massagem, ventilação, dose de adrenalina",
+      "Descartar pneumotórax (punção diagnóstica-terapêutica)",
+      "Interromper reanimação se assistolia após 20 min adequada",
+      "Pós-sucesso: UTI neonatal, investigação de EHI, considerar hipotermia"
+    ],
+    "reference": "Reanimação ≥34 sem — págs. 3-4"
+  },
+  {
+    "id": "q-casosp1-001",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "As 3 perguntas do nascimento devem ser respondidas com 'SIM' para que o RN vá ao pele-a-pele. Se apenas uma resposta for 'NÃO', a conduta é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pele-a-pele de qualquer forma",
+        "isCorrect": false,
+        "explanation": "Qualquer NÃO indica necessidade de intervenção, não pele-a-pele."
+      },
+      {
+        "id": "b",
+        "text": "Levar ao berço aquecido e iniciar passos iniciais (ASPAS) em 30s",
+        "isCorrect": true,
+        "explanation": "Correto: um único NÃO já indica reanimação."
+      },
+      {
+        "id": "c",
+        "text": "Esperar 1 minuto e reavaliar sem intervenção",
+        "isCorrect": false,
+        "explanation": "Tempo é crítico — não se observa sem fazer ASPAS."
+      },
+      {
+        "id": "d",
+        "text": "Administrar oxigênio por cateter nasal",
+        "isCorrect": false,
+        "explanation": "Oxigênio isolado por cateter não corrige apneia/hipotonia; indicação é reanimação organizada."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-casosp1-002",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Gestante com mãe HIV+ dá à luz RN vigoroso a termo. Qual a orientação quanto ao clampeamento?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tardio, para evitar anemia",
+        "isCorrect": false,
+        "explanation": "Tardio aumenta a transfusão sanguínea materno-fetal e o risco de transmissão do HIV."
+      },
+      {
+        "id": "b",
+        "text": "Imediato, pelo risco de transmissão vertical do HIV",
+        "isCorrect": true,
+        "explanation": "Correto: mãe HIV+ é indicação de clampeamento imediato (< 30s)."
+      },
+      {
+        "id": "c",
+        "text": "Clampear apenas se o RN estiver deprimido",
+        "isCorrect": false,
+        "explanation": "A vitalidade não muda a indicação; o critério é a mãe HIV+."
+      },
+      {
+        "id": "d",
+        "text": "Não clampear até a placenta sair",
+        "isCorrect": false,
+        "explanation": "Não clampear ou esperar > 3 min só aumenta risco infeccioso."
+      }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 1"
+  },
+  {
+    "id": "q-casosp1-003",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual o tamanho da lâmina de laringoscópio adequado para um RN de 27 semanas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lâmina 00 reta",
+        "isCorrect": true,
+        "explanation": "Correto: prematuro extremo (< 28 sem) usa lâmina reta 00; 0 para prematuros tardios e 1 para termo."
+      },
+      {
+        "id": "b",
+        "text": "Lâmina 2 curva",
+        "isCorrect": false,
+        "explanation": "Lâminas curvas e grandes são para pediátricos/adultos."
+      },
+      {
+        "id": "c",
+        "text": "Lâmina 3 curva",
+        "isCorrect": false,
+        "explanation": "Inadequada em RN."
+      },
+      {
+        "id": "d",
+        "text": "Lâmina 4 curva",
+        "isCorrect": false,
+        "explanation": "Uso adulto; não cabe em RN."
+      }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 2"
+  },
+  {
+    "id": "q-casosp1-004",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Durante a VPP com máscara, o tórax do RN não expande visivelmente. A correção INICIAL do MR SOPA é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ajustar o acoplamento da máscara (M) e reposicionar a cabeça (R)",
+        "isCorrect": true,
+        "explanation": "Correto: primeiro checar se há vedação adequada e se a cabeça está em leve extensão."
+      },
+      {
+        "id": "b",
+        "text": "Ir direto para IOT",
+        "isCorrect": false,
+        "explanation": "IOT é a última letra do MR SOPA; antes disso corrige-se técnica."
+      },
+      {
+        "id": "c",
+        "text": "Aplicar adrenalina",
+        "isCorrect": false,
+        "explanation": "Sem ventilação efetiva, a adrenalina não funciona."
+      },
+      {
+        "id": "d",
+        "text": "Iniciar massagem cardíaca sem ajustes",
+        "isCorrect": false,
+        "explanation": "Massagem só após VPP efetiva e FC < 60."
+      }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 2"
+  },
+  {
+    "id": "q-casosp1-005",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Um RN a termo, vigoroso, com 5 minutos de vida, apresenta SatO2 de 78%. Qual a conduta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Iniciar O2 100% imediatamente",
+        "isCorrect": false,
+        "explanation": "SatO2 78% no 5º minuto está dentro da faixa esperada (70-80%); hiperoxia iatrogênica é prejudicial."
+      },
+      {
+        "id": "b",
+        "text": "Continuar observação — SatO2 no 5º minuto esperada é 70-80%",
+        "isCorrect": true,
+        "explanation": "Correto: as metas de saturação aumentam gradualmente (70-80% em 5min, 80-90% em 5-10min, 85-95% >10min)."
+      },
+      {
+        "id": "c",
+        "text": "Realizar IOT",
+        "isCorrect": false,
+        "explanation": "Sem indicação; o RN está vigoroso."
+      },
+      {
+        "id": "d",
+        "text": "Iniciar massagem cardíaca",
+        "isCorrect": false,
+        "explanation": "Sem FC <60; contraindicado."
+      }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 1"
+  },
+  {
+    "id": "q-casosp1-006",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A posição correta da cabeça do RN para VPP é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hiperextensão cervical máxima",
+        "isCorrect": false,
+        "explanation": "Hiperextensão fecha a via aérea em RN — NÃO deve ser feita."
+      },
+      {
+        "id": "b",
+        "text": "Flexão máxima",
+        "isCorrect": false,
+        "explanation": "Flexão também fecha a via aérea."
+      },
+      {
+        "id": "c",
+        "text": "Leve extensão (coxim entre escápulas), posição de cheirar flor",
+        "isCorrect": true,
+        "explanation": "Correto: coxim fino entre escápulas mantém a via aérea aberta sem hiper/hipoextensão — 'posição de cheirar'."
+      },
+      {
+        "id": "d",
+        "text": "Cabeça inclinada lateralmente 45°",
+        "isCorrect": false,
+        "explanation": "Inclinar não mantém via aérea aberta e dificulta a máscara."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-casosp1-007",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Durante a VPP com Ambu, qual a função da válvula de escape 30-40 cmH2O?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Monitorar oxímetro",
+        "isCorrect": false,
+        "explanation": "Válvula não monitora saturação; é dispositivo mecânico."
+      },
+      {
+        "id": "b",
+        "text": "Limitar a pressão para evitar barotrauma pulmonar",
+        "isCorrect": true,
+        "explanation": "Correto: a válvula se abre acima de 30-40 cmH2O, protegendo contra pneumotórax por pressão excessiva."
+      },
+      {
+        "id": "c",
+        "text": "Conectar ao laringoscópio",
+        "isCorrect": false,
+        "explanation": "Sem relação funcional."
+      },
+      {
+        "id": "d",
+        "text": "Gerar pressão positiva espontânea",
+        "isCorrect": false,
+        "explanation": "A pressão é gerada pelo aperto do balão; a válvula apenas limita."
+      }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 2"
+  },
+  {
+    "id": "q-casosp1-008",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "RN pálido, pós-DPP, em choque refratário à VPP e massagem. Qual expansor volêmico e dose são indicados?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Soro fisiológico 10 mL/kg em 5-10 minutos na veia umbilical",
+        "isCorrect": true,
+        "explanation": "Correto: expansão com SF 10 mL/kg em 5-10 min, repetir se necessário. Sangue O-negativo pode ser considerado em perda maciça."
+      },
+      {
+        "id": "b",
+        "text": "Soro glicosado 5% 20 mL/kg em bolus",
+        "isCorrect": false,
+        "explanation": "SG hipertônico causa hiperosmolaridade e hemorragia intracraniana; não é expansor."
+      },
+      {
+        "id": "c",
+        "text": "Albumina 50% sem diluir",
+        "isCorrect": false,
+        "explanation": "Albumina 50% é hipertônica e não é primeira escolha."
+      },
+      {
+        "id": "d",
+        "text": "Manitol 20% em bolus",
+        "isCorrect": false,
+        "explanation": "Manitol é diurético osmótico, não expansor; contraindicado aqui."
+      }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 3"
+  },
+  {
+    "id": "q-casosp1-009",
+    "topicId": "casos-sala-parto-1",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva a técnica correta para aferição de FC em sala de parto e explique por que ela é o principal sinal para decidir reanimação.",
+    "modelAnswer": "A aferição padrão é a ausculta precordial com estetoscópio, contando batimentos por 6 segundos e multiplicando por 10, oferecendo leitura rápida. A palpação do cordão umbilical é menos confiável (subestima em até 25%). A monitorização contínua inclui oxímetro pré-ductal no MSD (mão/punho direito) e/ou monitor cardíaco de 3 eletrodos (dois ombros ou braço e coxa esquerda). A FC é escolhida como principal sinal porque responde rapidamente à efetividade das manobras: melhora da FC é o indicador mais sensível de sucesso da VPP, e FC < 60 apesar de ventilação adequada é o gatilho inequívoco para massagem. Em contraste, o Apgar é retrospectivo e a FR pode ser irregular/difícil de contar no RN. Por isso o monitoramento da FC conduz toda a sequência (passos iniciais, VPP, massagem, medicação).",
+    "keyPoints": [
+      "Ausculta precordial 6s × 10",
+      "Palpação do cordão é menos confiável",
+      "Monitorização contínua com oxímetro pré-ductal (MSD) e monitor cardíaco",
+      "FC responde rápido à efetividade das manobras",
+      "FC < 60 com VPP adequada = massagem cardíaca",
+      "Apgar não serve para decisão (retrospectivo)"
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-casosp1-010",
+    "topicId": "casos-sala-parto-1",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "Quais fatores maternos, fetais, intraparto e neonatais aumentam o risco de o RN precisar de reanimação?",
+    "modelAnswer": "Maternos: doença hipertensiva (pré-eclâmpsia/eclâmpsia), infecções agudas ou crônicas (sífilis), diabetes, isoimunização Rh, extremos de idade materna, placenta prévia, descolamento prematuro de placenta, uso de drogas, anestesia geral, HIV. Fetais: gemelaridade, prematuridade, PIG, GIG, RCIU, malformações fetais, arritmias fetais, líquido amniótico meconial, pós-maturidade. Intraparto: período expulsivo prolongado, apresentação pélvica, prolapso de cordão, DPP, uso de depressoras do SNC (morfina, anestésicos), desproporção céfalo-pélvica. Neonatais: alterações pulmonares congênitas, persistência do padrão fetal de circulação pulmonar, anemia/hemorragia fetal, distúrbios metabólicos, bolsa rota > 18h. Identificar esses fatores na anamnese permite preparar equipe e material adequados.",
+    "keyPoints": [
+      "Maternos: HAS, DM, infecções, HIV, placenta prévia, DPP, anestesia geral",
+      "Fetais: gemelar, prematuridade, PIG/GIG, malformações, meconial, pós-termo",
+      "Intraparto: expulsivo prolongado, pélvico, prolapso de cordão, depressoras SNC",
+      "Neonatais: malformação pulmonar, anemia, circulação fetal persistente",
+      "Bolsa rota > 18h",
+      "Identificação permite preparo da equipe"
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-casosp2-001",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual o tempo máximo previsto para a realização completa dos passos iniciais da reanimação (ASPAS)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10 segundos",
+        "isCorrect": false,
+        "explanation": "Muito curto para aquecer, secar, posicionar, aspirar e avaliar adequadamente."
+      },
+      {
+        "id": "b",
+        "text": "30 segundos",
+        "isCorrect": true,
+        "explanation": "Correto: os 5 passos de ASPAS devem ser completados em 30 s para não atrasar a VPP."
+      },
+      {
+        "id": "c",
+        "text": "2 minutos",
+        "isCorrect": false,
+        "explanation": "Atrasaria indicação de VPP — o 'minuto de ouro' seria perdido."
+      },
+      {
+        "id": "d",
+        "text": "5 minutos",
+        "isCorrect": false,
+        "explanation": "Inaceitável; aumenta risco de hipóxia e lesão neurológica."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-casosp2-002",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN com suspeita de hérnia diafragmática congênita ao nascimento, qual é um achado físico característico?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Abdome globoso distendido",
+        "isCorrect": false,
+        "explanation": "Pelo contrário — o abdome é ESCAVADO, pois as vísceras estão no tórax."
+      },
+      {
+        "id": "b",
+        "text": "Abdome escavado",
+        "isCorrect": true,
+        "explanation": "Correto: o conteúdo abdominal migrou para o tórax, deixando o abdome plano/escavado."
+      },
+      {
+        "id": "c",
+        "text": "Massa abdominal pulsátil",
+        "isCorrect": false,
+        "explanation": "Não é achado típico."
+      },
+      {
+        "id": "d",
+        "text": "Ascite volumosa",
+        "isCorrect": false,
+        "explanation": "Ascite não é achado típico da hérnia diafragmática."
+      }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 2"
+  },
+  {
+    "id": "q-casosp2-003",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quais vacinas e medicações um RN a termo saudável deve receber antes da alta da maternidade?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hepatite B + vitamina K + BCG + Credê (se parto vaginal)",
+        "isCorrect": true,
+        "explanation": "Correto: hepatite B nas primeiras 12h + vitamina K IM + BCG (peso ≥ 2 kg) + Credê com nitrato de prata em partos vaginais."
+      },
+      {
+        "id": "b",
+        "text": "Pneumococo 13v + rotavírus",
+        "isCorrect": false,
+        "explanation": "Essas são vacinas a partir dos 2 meses."
+      },
+      {
+        "id": "c",
+        "text": "Apenas vitamina K",
+        "isCorrect": false,
+        "explanation": "Incompleto — hepatite B e BCG também fazem parte."
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico profilático universal",
+        "isCorrect": false,
+        "explanation": "Sem indicação rotineira em RN saudável."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 3; Alojamento Conjunto — pág. 3"
+  },
+  {
+    "id": "q-casosp2-004",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em cesárea sem intercorrências, com RN vigoroso chorando, o clampeamento ideal é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Imediato sempre que cesárea",
+        "isCorrect": false,
+        "explanation": "Cesárea não é indicação automática de clampeamento imediato; só se houver fator de risco associado."
+      },
+      {
+        "id": "b",
+        "text": "Tardio (1-3 min) com o obstetra segurando o RN até clampear, depois pele-a-pele",
+        "isCorrect": true,
+        "explanation": "Correto: cesárea eletiva + RN vigoroso tem clampeamento tardio como em parto normal; o obstetra mantém o RN próximo até o pediatra levá-lo ao pele-a-pele."
+      },
+      {
+        "id": "c",
+        "text": "Não clampear",
+        "isCorrect": false,
+        "explanation": "Sempre se clampeia; o que muda é o tempo."
+      },
+      {
+        "id": "d",
+        "text": "Apenas após a placenta sair",
+        "isCorrect": false,
+        "explanation": "Não é prática padrão; o clampeamento segue os minutos recomendados."
+      }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-casosp2-005",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Após reanimação completa (ASPAS → VPP → MR SOPA → IOT → massagem → adrenalina), qual achado ao exame físico sinaliza cânula mal posicionada?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Expansão torácica simétrica",
+        "isCorrect": false,
+        "explanation": "Expansão simétrica é sinal de BOM posicionamento."
+      },
+      {
+        "id": "b",
+        "text": "Ausculta assimétrica com MV diminuído em um hemitórax",
+        "isCorrect": true,
+        "explanation": "Correto: ausculta assimétrica sugere intubação seletiva (cânula em brônquio direito); retirar cerca de 1-2 cm e reauscultar."
+      },
+      {
+        "id": "c",
+        "text": "FC > 100 e melhora da saturação",
+        "isCorrect": false,
+        "explanation": "Esses são sinais de boa resposta."
+      },
+      {
+        "id": "d",
+        "text": "Choro audível apesar da cânula",
+        "isCorrect": false,
+        "explanation": "Choro com cânula sugere deslocamento acima das cordas (extubação acidental), não mal posicionamento seletivo."
+      }
+    ],
+    "reference": "Aula 6 — pág. 5"
+  },
+  {
+    "id": "q-casosp2-006",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Qual dose de adrenalina por via TRAQUEAL (única vez, enquanto cateteriza umbilical)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "0,1 mL/kg da solução pura 1:1000",
+        "isCorrect": false,
+        "explanation": "Não se usa a solução pura, mesmo traqueal; é sempre diluída."
+      },
+      {
+        "id": "b",
+        "text": "1 mL/kg da solução diluída 1:10.000 (seringa de 5 mL)",
+        "isCorrect": true,
+        "explanation": "Correto: dose traqueal é 1 mL/kg da solução 1:10.000 em seringa de 5 mL, aplicada uma única vez pelo TET enquanto cateteriza veia umbilical."
+      },
+      {
+        "id": "c",
+        "text": "0,2 mL/kg da solução 1:10.000",
+        "isCorrect": false,
+        "explanation": "0,2 mL/kg é a dose EV, não traqueal."
+      },
+      {
+        "id": "d",
+        "text": "0,5 mL da solução pura sem diluir",
+        "isCorrect": false,
+        "explanation": "Dose arbitrária e perigosa; nunca usar pura."
+      }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 3"
+  },
+  {
+    "id": "q-casosp2-007",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Durante a VPP com T (Baby Puff) a pressão inspiratória (PIP) ideal inicial em RN a termo é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 cmH2O",
+        "isCorrect": false,
+        "explanation": "Pressão insuficiente para abrir os alvéolos do RN recém-nascido."
+      },
+      {
+        "id": "b",
+        "text": "20-25 cmH2O (ajustar até observar expansão torácica)",
+        "isCorrect": true,
+        "explanation": "Correto: iniciar com PIP 20-25 cmH2O e PEEP 5 cmH2O, ajustando até observar expansão torácica visível."
+      },
+      {
+        "id": "c",
+        "text": "60 cmH2O fixo",
+        "isCorrect": false,
+        "explanation": "Pressão excessivamente alta, risco de barotrauma."
+      },
+      {
+        "id": "d",
+        "text": "0 (ventilação espontânea)",
+        "isCorrect": false,
+        "explanation": "Na VPP há pressão positiva; 0 não é ventilação."
+      }
+    ],
+    "reference": "Aula 6 — pág. 4"
+  },
+  {
+    "id": "q-casosp2-008",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A palpação de pulsos nos 4 membros durante o exame inicial do RN é importante para detectar:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Coartação da aorta",
+        "isCorrect": true,
+        "explanation": "Correto: pulsos femorais fracos/ausentes em relação aos braquiais sugerem coartação da aorta."
+      },
+      {
+        "id": "b",
+        "text": "Hipotireoidismo",
+        "isCorrect": false,
+        "explanation": "Hipotireoidismo se avalia no pezinho, não pelo pulso."
+      },
+      {
+        "id": "c",
+        "text": "Sífilis congênita",
+        "isCorrect": false,
+        "explanation": "Avaliação é clínica/laboratorial, não pela palpação."
+      },
+      {
+        "id": "d",
+        "text": "Prematuridade",
+        "isCorrect": false,
+        "explanation": "Idade gestacional é aferida por Capurro/Ballard, não por pulsos."
+      }
+    ],
+    "reference": "Alojamento Conjunto — pág. 1"
+  },
+  {
+    "id": "q-casosp2-009",
+    "topicId": "casos-sala-parto-2",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva a sequência de cuidados de rotina em um RN nascido vigoroso.",
+    "modelAnswer": "Após o pele-a-pele de 1 hora e amamentação na primeira hora: 1) Clampear e cortar o coto umbilical curto, avaliando anatomia (2 artérias e 1 veia); anotar se houver artéria umbilical única (associada a malformações). 2) Pesar e medir comprimento e perímetro cefálico; plotar na curva apropriada. 3) Realizar exame físico completo (aparelhos cardiovascular, respiratório, abdominal, neurológico, genital, ortopédico), calcular Apgar (1, 5 e 10 min). 4) Aplicar vitamina K IM (profilaxia de doença hemorrágica do RN) e vacina de hepatite B IM, cada uma em uma coxa. 5) Realizar Credê com nitrato de prata 1% nos olhos se parto vaginal (profilaxia de conjuntivite gonocócica/clamídia). 6) Classificar o RN quanto a IG, peso/IG e peso absoluto; registrar intercorrências. 7) Encaminhar ao alojamento conjunto com a mãe se RN termo AIG/GIG saudável.",
+    "keyPoints": [
+      "Pele-a-pele 1h e estímulo da amamentação",
+      "Clampear + cortar curto, avaliar anatomia (2 artérias + 1 veia)",
+      "Peso, comprimento, PC e curva de percentil",
+      "Exame físico completo + Apgar (1, 5, 10 min)",
+      "Vitamina K IM + vacina hepatite B IM (coxas opostas)",
+      "Credê com nitrato de prata se parto vaginal",
+      "Classificar por IG, peso/IG e peso absoluto",
+      "Encaminhar ao alojamento conjunto se saudável"
+    ],
+    "reference": "Atendimento ao RN — pág. 2-3"
+  },
+  {
+    "id": "q-casosp2-010",
+    "topicId": "casos-sala-parto-2",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "RN 39 sem, 3 kg, pós cesárea por descompensação cardíaca materna sob anestesia geral. Nasce hipotônico e com choro fraco. Descreva a conduta imediata e justifique cada passo.",
+    "modelAnswer": "A anestesia geral materna é indicação de CLAMPEAMENTO IMEDIATO (< 30s) — toda exposição aos anestésicos aumenta depressão neonatal. Em seguida: passos iniciais (ASPAS) em 30s — aquecer no berço radiante, secar, trocar campo, colocar touca, posicionar com coxim em leve extensão, aspirar VAS (boca primeiro, depois narinas) se necessário, e avaliar FC + padrão respiratório. Se hipotonia persiste mas FC > 100 e respiração regular, prosseguir com cuidados de rotina, mas monitorar. Se FC < 100, apneia, gasping ou respiração irregular → iniciar VPP em ar ambiente (21%), 40-60 ipm, por 30s, com oxímetro pré-ductal (MSD) e monitor cardíaco instalados. Reavaliar e, se não melhorar, aplicar MR SOPA e ciclos adicionais. Como a mãe está sedada, o bebê, mesmo recuperado, não pode ir ao pele-a-pele imediato; então realizar cuidados de rotina (clampear e cortar coto, pesar, medir, exame físico, Apgar, vitamina K, hepatite B, Credê se vaginal — aqui é cesárea) e observar em unidade intermediária. Justificativa: a preparação prévia de equipe, material e calor ambiente (23-25°C) é crítica em parto de risco.",
+    "keyPoints": [
+      "Clampeamento imediato por anestesia geral materna",
+      "ASPAS em 30s (aquecer, secar, posicionar, aspirar, sinais vitais)",
+      "Indicação de VPP se FC<100, apneia, gasping ou FR irregular",
+      "VPP em ar ambiente 21%, 40-60 ipm, 30s",
+      "Monitorizar: oxímetro pré-ductal (MSD) e monitor cardíaco",
+      "MR SOPA se VPP inefetiva",
+      "Pele-a-pele não possível com mãe sedada → cuidados de rotina com pediatra",
+      "Preparo prévio: equipe de 3, material conferido, ambiente 23-25°C"
+    ],
+    "reference": "Aula 6 — pág. 2; Atendimento ao RN — pág. 2-3"
+  },
+  {
+    "id": "q-perinat-001",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O período neonatal compreende qual intervalo de tempo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Do nascimento até 7 dias de vida",
+        "isCorrect": false,
+        "explanation": "Esse é o período neonatal precoce, e não o período neonatal completo. O período neonatal vai até 28 dias."
+      },
+      {
+        "id": "b",
+        "text": "Do nascimento até 28 dias de vida",
+        "isCorrect": true,
+        "explanation": "Correto: o período neonatal abrange do nascimento até o 28º dia de vida (os primeiros 28 dias)."
+      },
+      {
+        "id": "c",
+        "text": "Do nascimento até 60 dias de vida",
+        "isCorrect": false,
+        "explanation": "60 dias extrapola o período neonatal; a partir dos 28 dias já se fala em período pós-neonatal/lactente."
+      },
+      {
+        "id": "d",
+        "text": "Da 23ª semana gestacional até 7 dias de vida",
+        "isCorrect": false,
+        "explanation": "Esse intervalo corresponde ao período perinatal (≥22-23 semanas de gestação até o 7º dia), não ao neonatal."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 1"
+  },
+  {
+    "id": "q-perinat-002",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "De acordo com a classificação por idade gestacional, um RN com 36 semanas e 4 dias é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A termo",
+        "isCorrect": false,
+        "explanation": "RN a termo tem 37 semanas até 41 semanas e 6 dias completos. Com 36s 4d o bebê ainda é pré-termo."
+      },
+      {
+        "id": "b",
+        "text": "Prematuro tardio",
+        "isCorrect": true,
+        "explanation": "Correto: prematuro tardio é o RN entre 34 semanas e 36 semanas e 6 dias."
+      },
+      {
+        "id": "c",
+        "text": "Prematuro precoce",
+        "isCorrect": false,
+        "explanation": "Prematuro precoce é < 34 semanas. Com 36s 4d está além dessa faixa."
+      },
+      {
+        "id": "d",
+        "text": "Pós-termo",
+        "isCorrect": false,
+        "explanation": "Pós-termo só se aplica a RN com idade gestacional ≥ 42 semanas."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 2"
+  },
+  {
+    "id": "q-perinat-003",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a classificação pelo peso de nascimento, assinale a alternativa correta:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Baixo peso ao nascer (BPN) é < 1000 g",
+        "isCorrect": false,
+        "explanation": "< 1000 g é Extremo Baixo Peso ao Nascer (EBPN). BPN é 1500 a 2500 g."
+      },
+      {
+        "id": "b",
+        "text": "Muito baixo peso ao nascer (MBPN) é 1000-1499 g",
+        "isCorrect": true,
+        "explanation": "Correto: a faixa de MBPN é 1000 a 1499 g."
+      },
+      {
+        "id": "c",
+        "text": "Macrossômico é ≥ 3500 g",
+        "isCorrect": false,
+        "explanation": "O limiar de macrossomia é ≥ 4000 g (4 kg), não 3500 g."
+      },
+      {
+        "id": "d",
+        "text": "Extremo baixo peso é < 1500 g",
+        "isCorrect": false,
+        "explanation": "< 1500 g engloba MBPN + EBPN. O limite de EBPN é < 1000 g."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 2"
+  },
+  {
+    "id": "q-perinat-004",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual método é indicado para estimar a idade gestacional em um prematuro, avaliando maturidade física e neuromuscular?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Capurro",
+        "isCorrect": false,
+        "explanation": "O Capurro é útil em termo/quase termo e avalia só itens físicos (pele, orelha, mama, mamilo, pregas plantares). Subestima em prematuros."
+      },
+      {
+        "id": "b",
+        "text": "New Ballard",
+        "isCorrect": true,
+        "explanation": "Correto: o New Ballard avalia maturidade física E neuromuscular e é o método de escolha em prematuros."
+      },
+      {
+        "id": "c",
+        "text": "Apgar",
+        "isCorrect": false,
+        "explanation": "O Apgar avalia vitalidade ao nascimento, não idade gestacional."
+      },
+      {
+        "id": "d",
+        "text": "Índice de Silverman-Andersen",
+        "isCorrect": false,
+        "explanation": "Silverman-Andersen avalia desconforto respiratório, não idade gestacional."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 2"
+  },
+  {
+    "id": "q-perinat-005",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a classificação peso/idade gestacional em percentil, o RN PIG é aquele que apresenta peso:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Abaixo do percentil 10",
+        "isCorrect": true,
+        "explanation": "Correto: PIG = Pequeno para a Idade Gestacional, peso < P10 para a IG."
+      },
+      {
+        "id": "b",
+        "text": "Entre o percentil 10 e 90",
+        "isCorrect": false,
+        "explanation": "Peso entre P10 e P90 classifica como AIG (Apropriado para IG)."
+      },
+      {
+        "id": "c",
+        "text": "Acima do percentil 90",
+        "isCorrect": false,
+        "explanation": "Acima de P90 é GIG (Grande para IG), não PIG."
+      },
+      {
+        "id": "d",
+        "text": "Abaixo do percentil 3",
+        "isCorrect": false,
+        "explanation": "P3 é usado em algumas curvas para PIG severo, mas o corte clássico é P10."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 2"
+  },
+  {
+    "id": "q-perinat-006",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Um RN filho de mãe com pré-eclâmpsia grave apresenta-se com peso no P5, crescimento comprometido desde o final do 2º trimestre, porém perímetro cefálico normal. Qual o tipo mais provável de restrição de crescimento?",
+    "options": [
+      {
+        "id": "a",
+        "text": "RCF simétrica por cromossomopatia",
+        "isCorrect": false,
+        "explanation": "A RCF simétrica ocorre no 1º trimestre e compromete PC, peso e estatura juntos. Aqui o PC está preservado."
+      },
+      {
+        "id": "b",
+        "text": "RCF simétrica por infecção congênita",
+        "isCorrect": false,
+        "explanation": "Infecções congênitas costumam causar RCF simétrica (precoce), com PC comprometido. O PC aqui está normal."
+      },
+      {
+        "id": "c",
+        "text": "RCF assimétrica por insuficiência placentária",
+        "isCorrect": true,
+        "explanation": "Correto: a pré-eclâmpsia gera insuficiência placentária tardia (3º trimestre), poupando o PC e comprometendo peso — RCF assimétrica."
+      },
+      {
+        "id": "d",
+        "text": "Macrossomia por diabetes gestacional",
+        "isCorrect": false,
+        "explanation": "Macrossomia é peso > P90 ou ≥ 4 kg, incompatível com peso em P5."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 4"
+  },
+  {
+    "id": "q-perinat-007",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual achado clínico NÃO é característico do RN PIG?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Face senil, aspecto magro",
+        "isCorrect": false,
+        "explanation": "É característico do PIG: aparência enrugada, senil, por escassez de tecido subcutâneo."
+      },
+      {
+        "id": "b",
+        "text": "Cordão umbilical fino",
+        "isCorrect": false,
+        "explanation": "Cordão fino é típico do PIG, pela menor gelatina de Wharton."
+      },
+      {
+        "id": "c",
+        "text": "Aspecto cushingóide e visceromegalia",
+        "isCorrect": true,
+        "explanation": "Correto: esses achados são do GIG (filho de mãe diabética), não do PIG."
+      },
+      {
+        "id": "d",
+        "text": "Impregnação meconial no corpo",
+        "isCorrect": false,
+        "explanation": "Impregnação meconial pode ocorrer no PIG por estímulo vagal durante hipóxia intrauterina."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 4"
+  },
+  {
+    "id": "q-perinat-008",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual das complicações abaixo é mais esperada em filho de mãe diabética (macrossômico)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hipoglicemia nas primeiras 24-48 h",
+        "isCorrect": true,
+        "explanation": "Correto: o hiperinsulinismo fetal persiste após o clampeamento, gerando hipoglicemia precoce."
+      },
+      {
+        "id": "b",
+        "text": "Hipercalcemia prolongada",
+        "isCorrect": false,
+        "explanation": "O esperado é HIPOcalcemia (e não hipercalcemia), por supressão da paratireoide."
+      },
+      {
+        "id": "c",
+        "text": "Hipernatremia",
+        "isCorrect": false,
+        "explanation": "Distúrbios de sódio não são a complicação típica do filho de mãe diabética."
+      },
+      {
+        "id": "d",
+        "text": "Anemia por deficiência de ferro",
+        "isCorrect": false,
+        "explanation": "O esperado é policitemia por hiperinsulinemia → hipóxia → eritropoiese aumentada."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 5"
+  },
+  {
+    "id": "q-perinat-009",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O período embrionário vai da:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1ª à 4ª semana",
+        "isCorrect": false,
+        "explanation": "1ª a 4ª semana é o período pré-embrionário (fecundação, clivagem, blastocisto, neurulação)."
+      },
+      {
+        "id": "b",
+        "text": "4ª à 8ª semana",
+        "isCorrect": true,
+        "explanation": "Correto: período embrionário (4ª-8ª semana) corresponde à organogênese."
+      },
+      {
+        "id": "c",
+        "text": "9ª à 20ª semana",
+        "isCorrect": false,
+        "explanation": "A partir da 9ª semana inicia o período fetal (crescimento e diferenciação de órgãos)."
+      },
+      {
+        "id": "d",
+        "text": "20ª à 40ª semana",
+        "isCorrect": false,
+        "explanation": "Esse intervalo está totalmente dentro do período fetal."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 1"
+  },
+  {
+    "id": "q-perinat-010",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Na pré-eclâmpsia, qual é o mecanismo fisiopatológico primário?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hiperinsulinemia fetal com hiperplasia placentária",
+        "isCorrect": false,
+        "explanation": "Esse é o mecanismo do diabetes gestacional, não da pré-eclâmpsia."
+      },
+      {
+        "id": "b",
+        "text": "Invasão trofoblástica desorganizada das arteríolas espiraladas",
+        "isCorrect": true,
+        "explanation": "Correto: a invasão trofoblástica é deficiente, as arteríolas ficam estenosadas e há baixa oferta de O2/nutrientes ao feto."
+      },
+      {
+        "id": "c",
+        "text": "Hipovolemia materna por hemorragia placentária",
+        "isCorrect": false,
+        "explanation": "Descreve DPP, não pré-eclâmpsia."
+      },
+      {
+        "id": "d",
+        "text": "Autoimunidade contra antígenos fetais",
+        "isCorrect": false,
+        "explanation": "Esse mecanismo se aplica a doença hemolítica perinatal (isoimunização Rh), não à pré-eclâmpsia."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 3"
+  },
+  {
+    "id": "q-perinat-011",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a síndrome HELLP, marque a afirmação correta:",
+    "options": [
+      {
+        "id": "a",
+        "text": "É uma variante benigna da pré-eclâmpsia",
+        "isCorrect": false,
+        "explanation": "Pelo contrário — HELLP tem alta mortalidade materno-fetal."
+      },
+      {
+        "id": "b",
+        "text": "Caracteriza-se por hemólise, enzimas hepáticas elevadas e plaquetopenia",
+        "isCorrect": true,
+        "explanation": "Correto: HELLP = Hemolysis, Elevated Liver enzymes, Low Platelets."
+      },
+      {
+        "id": "c",
+        "text": "Sempre cursa com hipertensão ≥ 180/120",
+        "isCorrect": false,
+        "explanation": "PA nessa faixa define emergência hipertensiva, mas a HELLP pode ocorrer com PA menos elevada."
+      },
+      {
+        "id": "d",
+        "text": "Caracteriza-se por leucocitose, aumento de TSH e hiperglicemia",
+        "isCorrect": false,
+        "explanation": "Esses critérios não fazem parte da tríade HELLP."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 3"
+  },
+  {
+    "id": "q-perinat-012",
+    "topicId": "perinatologia-classificacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a síndrome alcoólica fetal (SAF), qual afirmação é verdadeira?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fenótipo típico: macrocefalia e face arredondada",
+        "isCorrect": false,
+        "explanation": "O fenótipo é de microcefalia, prega epicântica, filtro liso, lábio superior fino — oposto a macrocefalia."
+      },
+      {
+        "id": "b",
+        "text": "A placenta é impermeável ao etanol, protegendo o feto",
+        "isCorrect": false,
+        "explanation": "A placenta É permeável ao etanol; por isso mesmo ocorre exposição direta do feto."
+      },
+      {
+        "id": "c",
+        "text": "Causa malformações principalmente no SNC e pode cursar com abstinência neonatal",
+        "isCorrect": true,
+        "explanation": "Correto: SNC é o mais afetado (sem tratamento) e cerca de 85% dos RN apresentam abstinência, tratada com morfina/metadona/fenobarbital."
+      },
+      {
+        "id": "d",
+        "text": "É reversível com suplementação de ácido fólico pós-natal",
+        "isCorrect": false,
+        "explanation": "SAF é irreversível; ácido fólico previne defeitos de fechamento do tubo neural, não reverte SAF."
+      }
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 5"
+  },
+  {
+    "id": "q-perinat-013",
+    "topicId": "perinatologia-classificacao",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Defina a teoria de Barker (programação fetal) e explique sua importância prática para o pediatra.",
+    "modelAnswer": "A teoria de Barker, ou programação fetal, postula que as condições intrauterinas e dos primeiros anos de vida influenciam diretamente o risco de doenças crônicas na vida adulta (hipertensão, diabetes, obesidade, dislipidemia, doença cardiovascular). Fatores nutricionais, ambientais e maternos atuam como programadores de risco, podendo modular a expressão gênica (epigenética) sem alterar a sequência do DNA. Para o pediatra/obstetra, isso significa que cuidar bem da gestação e dos primeiros 1.000 dias (270 de gestação + 730 pós-natais) é uma janela crítica para prevenir doenças do adulto — por isso o acompanhamento pré-natal, amamentação, estímulo e nutrição adequada têm repercussão que vai muito além da infância.",
+    "keyPoints": [
+      "Condições do período intrauterino influenciam risco de doenças crônicas no adulto",
+      "Primeiros 1000 dias (270 gestação + 730 pós-natais) como janela crítica",
+      "Mecanismo envolve epigenética (modificações herdáveis sem mudar DNA)",
+      "Implica responsabilidade do obstetra e pediatra na prevenção de doenças do adulto",
+      "Nutrição, ambiente e cuidado perinatal como programadores de risco"
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 1"
+  },
+  {
+    "id": "q-perinat-014",
+    "topicId": "perinatologia-classificacao",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Compare RCF simétrica e assimétrica quanto à época de início, medidas afetadas e principais causas.",
+    "modelAnswer": "A RCF simétrica instala-se no 1º trimestre, em fase precoce do desenvolvimento, e compromete igualmente o perímetro cefálico, o peso e a estatura. Suas causas principais são intrínsecas ao feto: cromossomopatias, síndromes genéticas e infecções congênitas (TORCH — sífilis, toxoplasmose, CMV, rubéola). A RCF assimétrica aparece no 3º trimestre, quando o feto já tem órgãos formados; compromete preferencialmente o peso, preservando relativamente o PC e a estatura (fenômeno de 'poupança cerebral'). Suas causas são extrínsecas ao feto, relacionadas à insuficiência placentária: pré-eclâmpsia/hipertensão, diabetes com vasculopatia, tabagismo, desnutrição materna no 3º trimestre. O prognóstico é geralmente melhor na assimétrica, pois a causa é mais tardia e potencialmente reversível.",
+    "keyPoints": [
+      "Simétrica: 1º trimestre, compromete PC + peso + estatura igualmente",
+      "Simétrica: causas genéticas/cromossômicas e infecções congênitas",
+      "Assimétrica: 3º trimestre, compromete mais o peso, preserva PC (poupança cerebral)",
+      "Assimétrica: causas placentárias (pré-eclâmpsia, HAS, diabetes, desnutrição tardia)",
+      "Prognóstico geralmente melhor na RCF assimétrica"
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 4"
+  },
+  {
+    "id": "q-perinat-015",
+    "topicId": "perinatologia-classificacao",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "Liste os itens avaliados no método de Capurro somático e explique em que situação ele é mais indicado.",
+    "modelAnswer": "O método de Capurro somático avalia cinco itens físicos: (1) textura da pele, (2) forma da orelha, (3) tamanho da glândula mamária, (4) formação do mamilo e (5) pregas plantares. É aplicado na sala de parto, sendo indicado quando a idade gestacional não é conhecida (por exemplo, gestante sem pré-natal ou sem DUM confiável). Deve ser preferido em RN próximos ao termo; em prematuros tende a ser menos preciso, sendo substituído pelo New Ballard, que também avalia maturidade neuromuscular.",
+    "keyPoints": [
+      "Cinco itens: textura da pele, forma da orelha, glândula mamária, mamilo, pregas plantares",
+      "Aplicado em sala de parto",
+      "Indicação: quando IG/DUM não é conhecida",
+      "Mais adequado para RN termo/quase-termo",
+      "Em prematuros prefere-se o New Ballard (avalia também neuromuscular)"
+    ],
+    "reference": "Perinatologia e Classificação do RN — pág. 2"
+  },
+  {
+    "id": "q-reanim-001",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A indicação de iniciar VPP após os passos iniciais é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Apgar < 7 no 1º minuto",
+        "isCorrect": false,
+        "explanation": "Apgar NÃO é critério para iniciar reanimação. A VPP é indicada pela FC e padrão respiratório."
+      },
+      {
+        "id": "b",
+        "text": "FC < 100 bpm, apneia, gasping ou respiração irregular",
+        "isCorrect": true,
+        "explanation": "Correto: qualquer uma dessas três situações após ASPAS indica iniciar VPP em 30 segundos."
+      },
+      {
+        "id": "c",
+        "text": "Cianose de extremidades isolada",
+        "isCorrect": false,
+        "explanation": "Acrocianose é comum e fisiológica nos primeiros minutos; por si só não indica VPP."
+      },
+      {
+        "id": "d",
+        "text": "Apenas se houver líquido amniótico meconial",
+        "isCorrect": false,
+        "explanation": "Mecônio isoladamente não indica VPP — o que importa é a vitalidade (FC e respiração)."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 1"
+  },
+  {
+    "id": "q-reanim-002",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "No 1º ciclo de VPP em RN ≥ 34 semanas, qual a concentração de O2 e a frequência recomendadas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ar ambiente (21%), 40-60 ipm, por 30 segundos",
+        "isCorrect": true,
+        "explanation": "Correto: inicia-se em ar ambiente (21%), 40-60 insuflações/min, ritmo 'aperta/solta/solta', por 30s, seguido de reavaliação."
+      },
+      {
+        "id": "b",
+        "text": "O2 a 100% desde o início, 60-80 ipm por 60s",
+        "isCorrect": false,
+        "explanation": "Iniciar com 100% é inadequado em ≥34 sem; a hiperoxia causa lesão por radicais livres."
+      },
+      {
+        "id": "c",
+        "text": "O2 a 40%, 20 ipm por 2 minutos",
+        "isCorrect": false,
+        "explanation": "Frequência e duração incorretas; a reavaliação precisa ocorrer aos 30s."
+      },
+      {
+        "id": "d",
+        "text": "Ar ambiente, apenas massagem cardíaca",
+        "isCorrect": false,
+        "explanation": "Massagem cardíaca só está indicada após VPP efetiva e com FC < 60 bpm."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 1"
+  },
+  {
+    "id": "q-reanim-003",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em uma VPP ineficaz, aplica-se o checklist MR SOPA. O 'M' significa:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Massagem cardíaca",
+        "isCorrect": false,
+        "explanation": "Massagem é medida posterior, aplicada se FC < 60 mesmo com VPP efetiva por 30s."
+      },
+      {
+        "id": "b",
+        "text": "Acoplamento correto da Máscara (queixo e nariz, em C e E)",
+        "isCorrect": true,
+        "explanation": "Correto: 'M' = Máscara, verificar vedação com alça em C e dedos em E."
+      },
+      {
+        "id": "c",
+        "text": "Medicação (adrenalina)",
+        "isCorrect": false,
+        "explanation": "Adrenalina é usada se FC < 60 após massagem + VPP com O2 100%."
+      },
+      {
+        "id": "d",
+        "text": "Monitorização do oxímetro",
+        "isCorrect": false,
+        "explanation": "O oxímetro é parte da avaliação contínua, não do checklist MR SOPA."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-reanim-004",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "No checklist MR SOPA, o 'A' representa:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aspirar o conteúdo gástrico",
+        "isCorrect": false,
+        "explanation": "Aspirar estômago não está no MR SOPA; a aspiração é de VAS (boca → narinas)."
+      },
+      {
+        "id": "b",
+        "text": "Adrenalina endovenosa",
+        "isCorrect": false,
+        "explanation": "Adrenalina é etapa final, após massagem; não pertence ao MR SOPA."
+      },
+      {
+        "id": "c",
+        "text": "Via Alternativa (máscara laríngea ou cânula traqueal)",
+        "isCorrect": true,
+        "explanation": "Correto: se a VPP por máscara continua inefetiva após todas as outras correções, parte-se para via alternativa."
+      },
+      {
+        "id": "d",
+        "text": "Apgar no 10º minuto",
+        "isCorrect": false,
+        "explanation": "Apgar é avaliação retrospectiva, não parte do MR SOPA."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-reanim-005",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A massagem cardíaca é indicada quando, após VPP efetiva com O2 100%, a FC está:",
+    "options": [
+      {
+        "id": "a",
+        "text": "< 100 bpm",
+        "isCorrect": false,
+        "explanation": "FC 60-100 com VPP efetiva → manter VPP, reavaliar; ainda não entra massagem."
+      },
+      {
+        "id": "b",
+        "text": "< 60 bpm",
+        "isCorrect": true,
+        "explanation": "Correto: com FC < 60 bpm apesar de VPP adequada, inicia-se massagem cardíaca."
+      },
+      {
+        "id": "c",
+        "text": "< 40 bpm apenas",
+        "isCorrect": false,
+        "explanation": "O ponto de corte é 60 bpm, não 40."
+      },
+      {
+        "id": "d",
+        "text": "Independe da FC",
+        "isCorrect": false,
+        "explanation": "A FC é o principal sinal para indicar massagem."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-reanim-006",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a técnica da massagem cardíaca no RN, assinale a CORRETA:",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 compressões para 1 ventilação, totalizando 90 compressões e 30 ventilações/min",
+        "isCorrect": true,
+        "explanation": "Correto: relação 3:1, ciclo de 1 minuto, comprimindo 1/3 do diâmetro AP do tórax no terço inferior do esterno."
+      },
+      {
+        "id": "b",
+        "text": "Relação 15:2, 100 compressões/min",
+        "isCorrect": false,
+        "explanation": "Essa é a relação pediátrica em não-RN, e fora do contexto neonatal."
+      },
+      {
+        "id": "c",
+        "text": "Massagear o terço médio do esterno",
+        "isCorrect": false,
+        "explanation": "A compressão é no TERÇO INFERIOR do esterno, evitando o processo xifóide."
+      },
+      {
+        "id": "d",
+        "text": "Comprimir 2/3 do diâmetro AP do tórax",
+        "isCorrect": false,
+        "explanation": "A profundidade recomendada é 1/3 do diâmetro AP, não 2/3."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-reanim-007",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Dose e diluição corretas da adrenalina por via EV (cateter umbilical) na reanimação neonatal:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 mL/kg da solução pura 1:1000",
+        "isCorrect": false,
+        "explanation": "A adrenalina pura 1:1000 por via EV é perigosa. Deve ser sempre diluída."
+      },
+      {
+        "id": "b",
+        "text": "0,2 mL/kg da solução 1:10.000 (1 mL adrenalina + 9 mL SF)",
+        "isCorrect": true,
+        "explanation": "Correto: diluir 1 mL de adrenalina 1:1000 em 9 mL de SF (1:10.000), administrar 0,2 mL/kg EV pelo cateter umbilical, em seringa de 1 mL."
+      },
+      {
+        "id": "c",
+        "text": "1 mL/kg da solução 1:10.000 EV",
+        "isCorrect": false,
+        "explanation": "1 mL/kg é a dose TRAQUEAL (única vez), não a dose EV."
+      },
+      {
+        "id": "d",
+        "text": "0,5 mL/kg da solução pura, em qualquer via",
+        "isCorrect": false,
+        "explanation": "Adrenalina pura não é usada no RN, e a dose não é 0,5 mL/kg."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-reanim-008",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual a dose e via indicada para expansão volêmica em RN com sinais de hipovolemia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "20 mL/kg EV bolus rápido",
+        "isCorrect": false,
+        "explanation": "20 mL/kg é dose pediátrica; no RN o volume é menor e o tempo maior (5-10 min)."
+      },
+      {
+        "id": "b",
+        "text": "10 mL/kg de soro fisiológico na veia umbilical em 5-10 minutos",
+        "isCorrect": true,
+        "explanation": "Correto: SF 10 mL/kg EV (veia umbilical) em 5 a 10 minutos, repetir se necessário."
+      },
+      {
+        "id": "c",
+        "text": "5 mL/kg de concentrado de hemácias IM",
+        "isCorrect": false,
+        "explanation": "Não se usa IM nesse contexto e hemoderivados não são primeira linha na expansão inicial."
+      },
+      {
+        "id": "d",
+        "text": "Soro glicosado 50% em bolus",
+        "isCorrect": false,
+        "explanation": "Glicose hipertônica não é usada para expansão; pode causar hiperosmolaridade e hemorragia intracraniana."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-reanim-009",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual é uma indicação clara de intubação orotraqueal (IOT) durante a reanimação?",
+    "options": [
+      {
+        "id": "a",
+        "text": "VPP prolongada e inefetiva após checklist MR SOPA",
+        "isCorrect": true,
+        "explanation": "Correto: IOT é indicada quando VPP com máscara fica inefetiva, quando será feita massagem cardíaca ou em suspeita de hérnia diafragmática."
+      },
+      {
+        "id": "b",
+        "text": "Apgar de 6 no 1º minuto",
+        "isCorrect": false,
+        "explanation": "Apgar isolado não é critério para IOT."
+      },
+      {
+        "id": "c",
+        "text": "Cianose central que melhora com O2 inalatório",
+        "isCorrect": false,
+        "explanation": "Melhora com O2 inalatório indica que a ventilação está funcionando — sem indicação de IOT."
+      },
+      {
+        "id": "d",
+        "text": "FC de 120 bpm após VPP",
+        "isCorrect": false,
+        "explanation": "FC > 100 significa sucesso da VPP; não há indicação de IOT."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-reanim-010",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "No RN com suspeita de hérnia diafragmática, a conduta ventilatória correta é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "VPP com máscara em alta pressão",
+        "isCorrect": false,
+        "explanation": "ERRADO: VPP com máscara insufla o estômago/intestino herniado, piora a compressão pulmonar e deve ser EVITADA."
+      },
+      {
+        "id": "b",
+        "text": "VPP somente após intubação traqueal",
+        "isCorrect": true,
+        "explanation": "Correto: se necessita de VPP, deve ser SEMPRE via cânula traqueal, evitando insuflar o intestino herniado."
+      },
+      {
+        "id": "c",
+        "text": "Massagem cardíaca imediata sem ventilar",
+        "isCorrect": false,
+        "explanation": "Sem ventilação, a massagem não corrige a hipóxia."
+      },
+      {
+        "id": "d",
+        "text": "Somente oxigênio por cateter nasal",
+        "isCorrect": false,
+        "explanation": "Insuficiente para o RN com desconforto e alteração anatômica."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-reanim-011",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre as saturações esperadas pelo oxímetro pré-ductal na sala de parto, assinale a correta:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Até o 5º minuto: 70-80%",
+        "isCorrect": true,
+        "explanation": "Correto: até 5 min 70-80%, 5-10 min 80-90%, > 10 min 85-95%."
+      },
+      {
+        "id": "b",
+        "text": "Até o 5º minuto a SatO2 deve ser ≥ 95%",
+        "isCorrect": false,
+        "explanation": "Exigir ≥ 95% nos primeiros minutos leva a hiperoxia iatrogênica e oferta indevida de O2."
+      },
+      {
+        "id": "c",
+        "text": "Oxímetro deve ser colocado no pé direito",
+        "isCorrect": false,
+        "explanation": "O oxímetro é PRÉ-DUCTAL, colocado na mão ou punho DIREITO."
+      },
+      {
+        "id": "d",
+        "text": "A saturação ideal é sempre 100%",
+        "isCorrect": false,
+        "explanation": "100% em sala de parto significa hiperoxia, indesejável."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 1"
+  },
+  {
+    "id": "q-reanim-012",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Um RN a termo foi reanimado e está há 20 minutos em assistolia apesar de ventilação efetiva, massagem e adrenalina. A conduta é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Manter reanimação por mais 20 minutos",
+        "isCorrect": false,
+        "explanation": "A partir de 20 min de assistolia com manejo adequado, considera-se interromper. Prolongar sem resposta não melhora prognóstico."
+      },
+      {
+        "id": "b",
+        "text": "Considerar interrupção da reanimação",
+        "isCorrect": true,
+        "explanation": "Correto: RN ≥ 34 sem com assistolia após 20 min de reanimação adequada é critério para considerar interromper, sempre com reavaliação individual."
+      },
+      {
+        "id": "c",
+        "text": "Aplicar desfibrilação imediata",
+        "isCorrect": false,
+        "explanation": "Desfibrilação não é usada em assistolia neonatal."
+      },
+      {
+        "id": "d",
+        "text": "Aplicar bicarbonato EV em bolus rápido",
+        "isCorrect": false,
+        "explanation": "Bicarbonato não está indicado rotineiramente; pode piorar acidose intracelular."
+      }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 4"
+  },
+  {
+    "id": "q-reanim-013",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva passo a passo a sequência do MR SOPA na correção de VPP inefetiva.",
+    "modelAnswer": "O MR SOPA é um checklist para corrigir uma VPP que não está sendo efetiva. (M) verificar o acoplamento da Máscara ao rosto, apoiando o polegar e o indicador em 'C' ao redor da máscara e os demais dedos em 'E' sob o queixo, garantindo vedação sem pressionar olhos. (R) Reposicionar a cabeça em leve extensão, com coxim sob as escápulas. (S) Aspirar Secreções de vias aéreas superiores (boca e depois narinas). (O) Open — abrir a boca do RN para ampliar a passagem de ar. (P) aumentar a Pressão até observar expansão torácica, tomando cuidado para não exceder limites seguros. (A) se mesmo assim houver falha, partir para via Alternativa — máscara laríngea (RN > 34 sem e > 2 kg) ou intubação traqueal. Entre cada ajuste, reavaliar FC e expansão.",
+    "keyPoints": [
+      "M = Máscara bem acoplada (vedação em C e E)",
+      "R = Reposicionar a cabeça (coxim, leve extensão)",
+      "S = Secreções das VAS (aspirar boca depois narinas)",
+      "O = Open (abrir a boca do RN)",
+      "P = Pressão (aumentar até haver expansão torácica)",
+      "A = Via Alternativa (máscara laríngea ou IOT) se tudo falhar"
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-reanim-014",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Um RN a termo nasce em apneia e hipotônico. Descreva a sequência completa da reanimação, dos passos iniciais até o uso de medicação, com os critérios de passagem entre cada etapa.",
+    "modelAnswer": "1) Clampeamento imediato do cordão e levar ao berço aquecido. 2) Passos iniciais (ASPAS) em 30s: aquecer, secar, trocar campo, colocar touca, posicionar com coxim em leve extensão, aspirar VAS se necessário e checar FC + respiração. 3) Se FC < 100, apneia, gasping ou respiração irregular → VPP em ar ambiente (21%), 40-60 ipm, por 30s (monitorar com oxímetro pré-ductal direito e monitor cardíaco). 4) Reavaliar: se persistir FC < 100 ou respiração irregular, aplicar MR SOPA e fazer 2º ciclo de VPP (ainda ar ambiente) por 30s. 5) Se ainda inefetiva, 3º ciclo de VPP com O2 suplementar conforme oximetria. 6) Se FC < 100 mantida após correção da técnica, indicar via alternativa (IOT ou máscara laríngea) e VPP pela via por 30s. 7) Após via alternativa, se FC persistir < 60, iniciar massagem cardíaca com O2 a 100%, 3:1, por 1 minuto. 8) Reavaliar: se FC < 60 após 1 min, adrenalina EV 0,2 mL/kg 1:10.000 pela veia umbilical (pode-se tentar dose endotraqueal 1 mL/kg uma única vez enquanto cateteriza). 9) Considerar SF 10 mL/kg em 5-10 min se hipovolemia. 10) Se FC > 100 e respiração regular → interromper; se assistolia após 20 min adequada → considerar interrupção.",
+    "keyPoints": [
+      "Clampeamento imediato + passos iniciais (ASPAS) em 30s",
+      "Critério de VPP: FC < 100, apneia, gasping ou FR irregular",
+      "VPP começa em ar ambiente (21%), 40-60 ipm, 30s",
+      "Se inefetiva: MR SOPA e ciclos subsequentes com O2 conforme oxímetro",
+      "IOT/máscara laríngea se VPP inefetiva ou vai precisar de massagem",
+      "Massagem só após via alternativa, se FC < 60; 3:1 com O2 100%",
+      "Adrenalina EV 0,2 mL/kg de 1:10.000 se FC < 60 pós-massagem",
+      "SF 10 mL/kg se sinais de hipovolemia; reavaliar a cada etapa",
+      "Critério de interrupção: assistolia 20 min com reanimação adequada"
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — págs. 1-4"
+  },
+  {
+    "id": "q-triag-001",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quais são os testes de triagem neonatal obrigatórios no Brasil?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pezinho, orelhinha, olhinho, coraçãozinho e linguinha",
+        "isCorrect": true,
+        "explanation": "Correto: são os 5 testes rotineiros; o teste do dedão (hálux/FOP) é mais recente e ampliado em alguns serviços."
+      },
+      {
+        "id": "b",
+        "text": "Apenas teste do pezinho",
+        "isCorrect": false,
+        "explanation": "Incompleto; vários outros testes complementares são obrigatórios."
+      },
+      {
+        "id": "c",
+        "text": "Gasometria, hemograma e ecocardio",
+        "isCorrect": false,
+        "explanation": "São exames laboratoriais, não 'triagem neonatal' padronizada."
+      },
+      {
+        "id": "d",
+        "text": "Pezinho, USG de crânio e fundoscopia",
+        "isCorrect": false,
+        "explanation": "USG de crânio não é rotina para termo saudável."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 1"
+  },
+  {
+    "id": "q-triag-002",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O teste do pezinho ideal deve ser colhido:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nas primeiras 24h de vida",
+        "isCorrect": false,
+        "explanation": "Antes de 48h de alimentação proteica há risco de FALSO NEGATIVO para fenilcetonúria ou FALSO POSITIVO para hipotireoidismo."
+      },
+      {
+        "id": "b",
+        "text": "Após 48h de vida com alimentação proteica, entre o 3º e 7º dia",
+        "isCorrect": true,
+        "explanation": "Correto: a coleta precoce gera resultados não confiáveis; a janela ideal é 3º-7º dia, após ≥ 48h de leite."
+      },
+      {
+        "id": "c",
+        "text": "Aos 30 dias de vida",
+        "isCorrect": false,
+        "explanation": "Muito tardio; diagnósticos como hipotireoidismo congênito e fenilcetonúria já podem causar dano neurológico irreversível."
+      },
+      {
+        "id": "d",
+        "text": "Apenas após a 1ª consulta em puericultura",
+        "isCorrect": false,
+        "explanation": "Deve ser antes da alta ou em UBS no 3º-7º dia; esperar primeira consulta é tarde."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 1"
+  },
+  {
+    "id": "q-triag-003",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual das patologias abaixo NÃO é rastreada pelo teste do pezinho básico?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fenilcetonúria",
+        "isCorrect": false,
+        "explanation": "Rastreada no pezinho básico."
+      },
+      {
+        "id": "b",
+        "text": "Hipotireoidismo congênito",
+        "isCorrect": false,
+        "explanation": "Rastreada no pezinho básico."
+      },
+      {
+        "id": "c",
+        "text": "Fibrose cística",
+        "isCorrect": false,
+        "explanation": "Rastreada no pezinho básico; confirmação com teste do suor."
+      },
+      {
+        "id": "d",
+        "text": "Diabetes melito tipo 1",
+        "isCorrect": true,
+        "explanation": "Correto: DM tipo 1 NÃO é rastreada no pezinho. O pezinho inclui fenilcetonúria, hipotireoidismo, hiperplasia adrenal congênita, hemoglobinopatias, fibrose cística, deficiência de biotinidase e toxoplasmose."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 1"
+  },
+  {
+    "id": "q-triag-004",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Entre as doenças rastreadas pelo pezinho, qual pode ser tratada empiricamente ao suspeitar (sem aguardar confirmação)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fenilcetonúria",
+        "isCorrect": false,
+        "explanation": "Requer confirmação por dosagem de fenilalanina antes de restrição dietética definitiva."
+      },
+      {
+        "id": "b",
+        "text": "Hipotireoidismo congênito (iniciar levotiroxina se TSH > 20)",
+        "isCorrect": true,
+        "explanation": "Correto: o hipotireoidismo pode ser tratado empiricamente pois atraso = dano neurológico irreversível. Iniciar levotiroxina enquanto se confirma."
+      },
+      {
+        "id": "c",
+        "text": "Anemia falciforme",
+        "isCorrect": false,
+        "explanation": "Requer confirmação por eletroforese antes de profilaxia específica."
+      },
+      {
+        "id": "d",
+        "text": "Fibrose cística",
+        "isCorrect": false,
+        "explanation": "Requer teste do suor ou exame genético para confirmação."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 1"
+  },
+  {
+    "id": "q-triag-005",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Um RN tem teste do pezinho alterado com suspeita de fibrose cística. O exame confirmatório é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Repetir o teste do pezinho em 7 dias",
+        "isCorrect": false,
+        "explanation": "Repetir ajuda mas não é confirmatório — precisa exame específico."
+      },
+      {
+        "id": "b",
+        "text": "Teste do suor e/ou exame genético (CFTR)",
+        "isCorrect": true,
+        "explanation": "Correto: o teste do suor (cloro) é o padrão-ouro; exame genético confirma mutação no CFTR."
+      },
+      {
+        "id": "c",
+        "text": "Radiografia de tórax",
+        "isCorrect": false,
+        "explanation": "RX pode mostrar achados tardios, mas não é diagnóstico."
+      },
+      {
+        "id": "d",
+        "text": "Gasometria arterial",
+        "isCorrect": false,
+        "explanation": "Não é confirmatória para fibrose cística."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 2"
+  },
+  {
+    "id": "q-triag-006",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O teste da orelhinha (EOA — emissões otoacústicas) avalia:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Surdez central (retrococlear)",
+        "isCorrect": false,
+        "explanation": "O EOA avalia integridade coclear; lesões retrococleares passam pelo teste e precisam de BERA."
+      },
+      {
+        "id": "b",
+        "text": "Lesão coclear (surdez de condução/cóclea)",
+        "isCorrect": true,
+        "explanation": "Correto: EOA detecta lesão coclear apenas; se alterado e persistir após repetir em 15-30 dias, encaminhar ao otorrino."
+      },
+      {
+        "id": "c",
+        "text": "Cerume",
+        "isCorrect": false,
+        "explanation": "Cerume pode causar falha no teste, mas não é o que o teste avalia."
+      },
+      {
+        "id": "d",
+        "text": "Maturidade do sistema vestibular",
+        "isCorrect": false,
+        "explanation": "Não avalia equilíbrio/vestibular."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 3"
+  },
+  {
+    "id": "q-triag-007",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Um RN apresentou leucocoria no teste do olhinho. Qual é a conduta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Observar até 1 ano de idade",
+        "isCorrect": false,
+        "explanation": "Pode haver retinoblastoma — atraso é inaceitável."
+      },
+      {
+        "id": "b",
+        "text": "Repetir em 1 mês e só encaminhar se persistir",
+        "isCorrect": false,
+        "explanation": "Leucocoria sempre é patológica; encaminhar imediatamente."
+      },
+      {
+        "id": "c",
+        "text": "Encaminhar imediatamente ao oftalmologista",
+        "isCorrect": true,
+        "explanation": "Correto: leucocoria pode indicar retinoblastoma, catarata congênita, glaucoma, descolamento de retina ou retinopatia da prematuridade."
+      },
+      {
+        "id": "d",
+        "text": "Iniciar colírio antibiótico",
+        "isCorrect": false,
+        "explanation": "Sem indicação — não é infecção."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 3"
+  },
+  {
+    "id": "q-triag-008",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O teste do coraçãozinho (oximetria de pulso) deve ser feito:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Logo ao nascimento",
+        "isCorrect": false,
+        "explanation": "Feito após 24h — antes disso o canal arterial ainda pode estar aberto e mascarar o diagnóstico."
+      },
+      {
+        "id": "b",
+        "text": "Após 24h de vida, em MSD e um membro inferior",
+        "isCorrect": true,
+        "explanation": "Correto: feito após 24h (quando o canal arterial começa a fechar), comparando SatO2 do MSD (pré-ductal) com um MI (pós-ductal)."
+      },
+      {
+        "id": "c",
+        "text": "Em ambos os membros superiores",
+        "isCorrect": false,
+        "explanation": "Compara-se pré-ductal (MSD) com pós-ductal (MI), não MSE×MSD."
+      },
+      {
+        "id": "d",
+        "text": "Apenas se houver sopro auscultável",
+        "isCorrect": false,
+        "explanation": "É teste de triagem — feito em todos, inclusive sem sopro."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 3"
+  },
+  {
+    "id": "q-triag-009",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Qual cardiopatia NÃO seria detectada com confiança pelo teste do coraçãozinho?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Síndrome do ventrículo esquerdo hipoplásico",
+        "isCorrect": false,
+        "explanation": "Alvo clássico do teste; é detectada."
+      },
+      {
+        "id": "b",
+        "text": "Tetralogia de Fallot",
+        "isCorrect": false,
+        "explanation": "Detectada quando cursa com dessaturação."
+      },
+      {
+        "id": "c",
+        "text": "Drenagem anômala total das veias pulmonares",
+        "isCorrect": false,
+        "explanation": "Geralmente detectada (alterações de saturação)."
+      },
+      {
+        "id": "d",
+        "text": "Comunicação interatrial pequena (CIA)",
+        "isCorrect": true,
+        "explanation": "Correto: CIA pequena frequentemente cursa com saturação normal e escapa do teste, que é focado em cardiopatias críticas cianóticas e dependentes do canal."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 3"
+  },
+  {
+    "id": "q-triag-010",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A fenilcetonúria (PKU) tem como tratamento:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Enzima de reposição endovenosa mensal",
+        "isCorrect": false,
+        "explanation": "Não existe enzima terapêutica comercial amplamente disponível; tratamento é dietético."
+      },
+      {
+        "id": "b",
+        "text": "Dieta pobre em fenilalanina por toda a vida",
+        "isCorrect": true,
+        "explanation": "Correto: é a primeira doença genética tratada por meio nutricional; restrição de proteína (carne, leite, ovos, trigo, aspartame) para sempre."
+      },
+      {
+        "id": "c",
+        "text": "Transplante hepático precoce",
+        "isCorrect": false,
+        "explanation": "Não indicado na maioria dos casos; tratamento é dietético."
+      },
+      {
+        "id": "d",
+        "text": "Somente acompanhamento clínico sem intervenção",
+        "isCorrect": false,
+        "explanation": "Sem dieta → retardo mental irreversível."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 2"
+  },
+  {
+    "id": "q-triag-011",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Por que o RN com anemia falciforme não apresenta crises vaso-oclusivas ao nascer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque a Hb fetal (HbF) é predominante e não falciforma",
+        "isCorrect": true,
+        "explanation": "Correto: a HbF predomina nos primeiros meses; a troca para HbS total só ocorre por volta dos 5-6 meses, quando começam as manifestações."
+      },
+      {
+        "id": "b",
+        "text": "Porque a doença só se manifesta após a adolescência",
+        "isCorrect": false,
+        "explanation": "As crises surgem por volta dos 6 meses, não na adolescência."
+      },
+      {
+        "id": "c",
+        "text": "Porque recebe transfusões profiláticas",
+        "isCorrect": false,
+        "explanation": "Não há transfusão profilática rotineira ao nascer."
+      },
+      {
+        "id": "d",
+        "text": "Porque o baço ainda não está funcionante",
+        "isCorrect": false,
+        "explanation": "O baço funciona; a razão principal é a predominância de HbF."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 2"
+  },
+  {
+    "id": "q-triag-012",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A hiperplasia adrenal congênita forma perdedora de sal cursa com:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hipertensão e hipernatremia",
+        "isCorrect": false,
+        "explanation": "Pelo contrário — há hipotensão e HIPOnatremia por deficiência de aldosterona."
+      },
+      {
+        "id": "b",
+        "text": "Desidratação, hiponatremia e hiperpotassemia",
+        "isCorrect": true,
+        "explanation": "Correto: déficit de aldosterona → perda de sódio/água e retenção de potássio, podendo ser fatal se não reconhecida."
+      },
+      {
+        "id": "c",
+        "text": "Obesidade e diabetes neonatal",
+        "isCorrect": false,
+        "explanation": "Não é o perfil desta forma."
+      },
+      {
+        "id": "d",
+        "text": "Icterícia grave isolada",
+        "isCorrect": false,
+        "explanation": "Icterícia não é o achado central dessa doença."
+      }
+    ],
+    "reference": "Testes de Triagem — pág. 3"
+  },
+  {
+    "id": "q-triag-013",
+    "topicId": "triagem-neonatal",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Cite as 7 doenças rastreadas pelo teste do pezinho básico e explique brevemente a importância de cada uma ser detectada precocemente.",
+    "modelAnswer": "1) Fenilcetonúria — erro inato do metabolismo (déficit de fenilalanina-hidroxilase); detecção precoce permite dieta hipoproteica, prevenindo retardo mental e convulsões. 2) Hipotireoidismo congênito — tratamento imediato com levotiroxina evita atraso neurológico e de crescimento irreversíveis. 3) Fibrose cística — diagnóstico precoce possibilita manejo multidisciplinar (pancreatina, fisioterapia respiratória) e melhora sobrevida. 4) Hiperplasia adrenal congênita — reconhecer a forma perdedora de sal previne choque hipovolêmico grave/fatal. 5) Hemoglobinopatias (principalmente anemia falciforme) — profilaxia com antibióticos e vacinas contra germes encapsulados e preparo da família. 6) Deficiência de biotinidase — reposição de biotina evita convulsões, atraso DPM e problemas neurológicos. 7) Toxoplasmose congênita — tratamento precoce reduz sequelas oculares e neurológicas. O pezinho é triagem: resultado alterado não é diagnóstico e deve ser confirmado.",
+    "keyPoints": [
+      "Fenilcetonúria — dieta hipoproteica para prevenir retardo",
+      "Hipotireoidismo congênito — levotiroxina precoce evita dano neurológico",
+      "Fibrose cística — tratamento multidisciplinar melhora prognóstico",
+      "Hiperplasia adrenal congênita — previne choque por perda de sal",
+      "Hemoglobinopatias (falciforme) — profilaxia infecciosa",
+      "Deficiência de biotinidase — reposição evita convulsões e atraso DPM",
+      "Toxoplasmose congênita — tratamento reduz sequelas",
+      "Resultado alterado requer confirmação"
+    ],
+    "reference": "Testes de Triagem — págs. 1-3"
+  },
+  {
+    "id": "q-triag-014",
+    "topicId": "triagem-neonatal",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "Quais são os 5 testes rotineiros de triagem neonatal e qual a janela ideal para cada um?",
+    "modelAnswer": "1) Teste do pezinho — 3º ao 7º dia de vida, após 48h de alimentação proteica. 2) Teste da orelhinha (EOA) — realizado antes da alta hospitalar; se alterado, repetir em 15-30 dias. 3) Teste do olhinho (reflexo vermelho) — ao nascimento e reavaliado em consultas de puericultura (3× ao ano nos primeiros 3 anos). 4) Teste do coraçãozinho (oximetria) — após 24h de vida, antes da alta (mão direita e um membro inferior). 5) Teste da linguinha (protocolo de Bristol) — ainda na maternidade, para avaliar a mobilidade lingual e indicação de frenotomia. Em alguns serviços, o teste do dedão (hálux/FOP) é incluído.",
+    "keyPoints": [
+      "Pezinho: 3º ao 7º dia, após 48h de leite",
+      "Orelhinha (EOA): antes da alta; repetir em 15-30 dias se alterado",
+      "Olhinho: ao nascimento e 3×/ano nos 3 primeiros anos",
+      "Coraçãozinho: após 24h, MSD + MI",
+      "Linguinha: ainda na maternidade, protocolo de Bristol"
+    ],
+    "reference": "Testes de Triagem — págs. 1-4"
+  },
+  {
+    "id": "q-tutor-001",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Caso: gestante 30 anos, G1, pré-natal sem intercorrências, parto vaginal a termo de 38 semanas, PN 3500g. Classificação:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pré-termo, PIG",
+        "isCorrect": false,
+        "explanation": "38 sem é a termo; 3500 g não é PIG."
+      },
+      {
+        "id": "b",
+        "text": "A termo, AIG (peso entre 2501-3999 g, não é classificado em BPN/macro)",
+        "isCorrect": true,
+        "explanation": "Correto: termo (37-41s6d), AIG (P10-P90). Peso entre 2501-3999 g não recebe classificação especial de BPN/macrossomia."
+      },
+      {
+        "id": "c",
+        "text": "Pós-termo, macrossômico",
+        "isCorrect": false,
+        "explanation": "38 sem é termo, não pós-termo; e 3500 g não é macrossomia."
+      },
+      {
+        "id": "d",
+        "text": "Prematuro tardio, AIG",
+        "isCorrect": false,
+        "explanation": "38 sem não é prematuro tardio (a faixa é 34-36s6d)."
+      }
+    ],
+    "reference": "Tutoria — Caso 1"
+  },
+  {
+    "id": "q-tutor-002",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Caso: gestante 20 anos, G2P1, 4 consultas de pré-natal, ITU não tratada, TPP com bolsa rota 24h, 35 sem, PN 2000g. A classificação mais completa é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A termo, AIG",
+        "isCorrect": false,
+        "explanation": "35 sem não é termo; e 2000g em 35 sem geralmente cai abaixo do P10."
+      },
+      {
+        "id": "b",
+        "text": "Prematuro tardio, BPN, PIG, com pré-natal incompleto, ITU não tratada e bolsa rota prolongada",
+        "isCorrect": true,
+        "explanation": "Correto: 35 sem (prematuro tardio), 2000 g (BPN — 1500-2500g), peso <P10 para IG (PIG), com intercorrências de risco infeccioso e metabólico."
+      },
+      {
+        "id": "c",
+        "text": "Prematuro extremo, macrossômico",
+        "isCorrect": false,
+        "explanation": "35 sem é tardio, não extremo; 2000g está longe de macrossomia."
+      },
+      {
+        "id": "d",
+        "text": "Pré-termo, AIG, sem intercorrências",
+        "isCorrect": false,
+        "explanation": "Ignora ITU não tratada, bolsa rota e percentil."
+      }
+    ],
+    "reference": "Tutoria — Caso 2"
+  },
+  {
+    "id": "q-tutor-003",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A ITU materna não tratada durante a gestação aumenta o risco de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hipoglicemia neonatal apenas",
+        "isCorrect": false,
+        "explanation": "Não é a complicação principal."
+      },
+      {
+        "id": "b",
+        "text": "Trabalho de parto prematuro e sepse neonatal precoce",
+        "isCorrect": true,
+        "explanation": "Correto: ITU materna aumenta TPP e pode transmitir bactérias ao RN, causando sepse precoce."
+      },
+      {
+        "id": "c",
+        "text": "Fenilcetonúria no RN",
+        "isCorrect": false,
+        "explanation": "PKU é doença genética, sem relação com ITU materna."
+      },
+      {
+        "id": "d",
+        "text": "Síndrome de Down",
+        "isCorrect": false,
+        "explanation": "Síndrome de Down é cromossômica, não associada a ITU."
+      }
+    ],
+    "reference": "Tutoria — Caso 2"
+  },
+  {
+    "id": "q-tutor-004",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual consequência de clampear o cordão tardiamente ACIMA de 3 minutos em RN termo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anemia grave",
+        "isCorrect": false,
+        "explanation": "Anemia é risco do clampeamento PRECOCE, não tardio."
+      },
+      {
+        "id": "b",
+        "text": "Hemoconcentração, policitemia e maior risco de icterícia",
+        "isCorrect": true,
+        "explanation": "Correto: tempo excessivo de clampeamento transfere sangue demais → policitemia → maior hemólise → hiperbilirrubinemia/icterícia."
+      },
+      {
+        "id": "c",
+        "text": "Hipoglicemia",
+        "isCorrect": false,
+        "explanation": "Hipoglicemia não é efeito direto do clampeamento tardio."
+      },
+      {
+        "id": "d",
+        "text": "Redução do risco de morte súbita",
+        "isCorrect": false,
+        "explanation": "Não há relação entre o timing de clampeamento e morte súbita do lactente."
+      }
+    ],
+    "reference": "Tutoria — pág. 5"
+  },
+  {
+    "id": "q-tutor-005",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Paciente PIG pode apresentar qual alteração metabólica nas primeiras horas de vida?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hiperglicemia por resistência insulínica",
+        "isCorrect": false,
+        "explanation": "O padrão é hipoglicemia pela reserva hepática de glicogênio reduzida."
+      },
+      {
+        "id": "b",
+        "text": "Hipoglicemia pela baixa reserva hepática de glicogênio",
+        "isCorrect": true,
+        "explanation": "Correto: órgãos viscerais pequenos → pouca reserva → maior risco de hipoglicemia, demandando dextro seriado."
+      },
+      {
+        "id": "c",
+        "text": "Hipocalemia persistente",
+        "isCorrect": false,
+        "explanation": "Não é alteração característica do PIG isoladamente."
+      },
+      {
+        "id": "d",
+        "text": "Hipernatremia",
+        "isCorrect": false,
+        "explanation": "Não é alteração característica do PIG."
+      }
+    ],
+    "reference": "Tutoria — pág. 5"
+  },
+  {
+    "id": "q-tutor-006",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A diferença conceitual central entre PIG e RCF é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "PIG é peso abaixo do P10 para a IG ao nascer; RCF é o fato de o feto não ter crescido adequadamente (2 USGs seguidas abaixo do esperado)",
+        "isCorrect": true,
+        "explanation": "Correto: PIG é classificação pelo percentil ao nascimento; RCF é o diagnóstico intrauterino. Pode haver PIG sem RCF (constitucionalmente pequeno) e RCF sem PIG (cresceu pouco mas nasceu dentro do P10-P90)."
+      },
+      {
+        "id": "b",
+        "text": "São sinônimos",
+        "isCorrect": false,
+        "explanation": "Não são: PIG é classificação ao nascimento; RCF é processo intrauterino."
+      },
+      {
+        "id": "c",
+        "text": "RCF é sempre assintomático",
+        "isCorrect": false,
+        "explanation": "RCF tem consequências clínicas: hipoglicemia, hipotermia, policitemia."
+      },
+      {
+        "id": "d",
+        "text": "PIG só existe em pós-termo",
+        "isCorrect": false,
+        "explanation": "PIG pode ocorrer em qualquer IG."
+      }
+    ],
+    "reference": "Tutoria — pág. 5"
+  },
+  {
+    "id": "q-tutor-007",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quantas consultas são consideradas o mínimo para um pré-natal completo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pelo menos 3",
+        "isCorrect": false,
+        "explanation": "Número insuficiente para acompanhamento adequado."
+      },
+      {
+        "id": "b",
+        "text": "Pelo menos 6",
+        "isCorrect": true,
+        "explanation": "Correto: ao menos 6 consultas (1 no 1º trim, 2 no 2º, 3 no 3º) é o mínimo recomendado."
+      },
+      {
+        "id": "c",
+        "text": "Pelo menos 10",
+        "isCorrect": false,
+        "explanation": "10 é acima do mínimo; ideal para alto risco, mas não é o piso."
+      },
+      {
+        "id": "d",
+        "text": "Não há número definido",
+        "isCorrect": false,
+        "explanation": "Há número mínimo (6) como padrão."
+      }
+    ],
+    "reference": "Tutoria — pág. 3"
+  },
+  {
+    "id": "q-tutor-008",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Caso: mãe com pré-eclâmpsia grave, RN 36 sem com peso no P5. Além do suporte geral, qual atenção METABÓLICA específica o pediatra deve ter?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Monitorização rigorosa de glicemia capilar (dextro) nas primeiras 48 horas",
+        "isCorrect": true,
+        "explanation": "Correto: o RN PIG tem reserva hepática baixa de glicogênio, exigindo controle seriado de glicemia (1, 3, 6, 12, 24, 48h)."
+      },
+      {
+        "id": "b",
+        "text": "Restrição total de dieta até 7 dias",
+        "isCorrect": false,
+        "explanation": "Isso é apenas para asfixiados; o PIG deve ser estimulado à amamentação precoce."
+      },
+      {
+        "id": "c",
+        "text": "Administração profilática de insulina",
+        "isCorrect": false,
+        "explanation": "Não está indicada; a insulina no RN normalmente não se reduz, risco é hipoglicemia."
+      },
+      {
+        "id": "d",
+        "text": "Jejum com glicose EV a 10%",
+        "isCorrect": false,
+        "explanation": "Jejum sem indicação específica, a conduta primária é amamentar + dextro; EV só se hipoglicemia confirmada."
+      }
+    ],
+    "reference": "Tutoria — pág. 5"
+  },
+  {
+    "id": "q-tutor-009",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Explique a fisiopatologia da pré-eclâmpsia e seus possíveis efeitos sobre o feto.",
+    "modelAnswer": "Na gestação normal, as células trofoblásticas invadem de forma organizada as arteríolas espiraladas do miométrio, transformando-as em vasos de baixa resistência que permitem fluxo adequado de O2 e nutrientes ao feto. Na pré-eclâmpsia essa invasão é deficiente e desorganizada — as arteríolas permanecem com lúmen estreito e alta resistência, comprometendo a perfusão placentária. Isso leva a isquemia placentária, liberação de fatores antiangiogênicos, disfunção endotelial materna (hipertensão, proteinúria, edema) e redução da oferta de O2 e nutrientes ao feto. Os efeitos fetais incluem restrição de crescimento fetal assimétrica (PIG), prematuridade por indicação materna, sofrimento fetal crônico, asfixia perinatal, descolamento prematuro de placenta, displasia broncopulmonar, enterocolite necrosante e alterações hematológicas. Por isso o seguimento com USG seriada, PA materna controlada e decisão oportuna de parto são fundamentais.",
+    "keyPoints": [
+      "Invasão trofoblástica desorganizada das arteríolas espiraladas",
+      "Arteríolas com alta resistência → isquemia placentária",
+      "Efeitos maternos: hipertensão, proteinúria, edema",
+      "Efeitos fetais: RCF assimétrica, prematuridade, asfixia, DPP",
+      "Pode evoluir para eclâmpsia ou HELLP",
+      "Conduta: USG seriada, controle de PA e parto no momento oportuno"
+    ],
+    "reference": "Tutoria — Caso 2"
+  },
+  {
+    "id": "q-tutor-010",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Um RN com 37 semanas, peso 2400 g (P8), mãe com diabetes gestacional mal controlado, nasce vigoroso mas com tremores nas primeiras 2 horas. Classifique o RN e descreva o plano imediato de conduta.",
+    "modelAnswer": "Classificação: RN a termo (37 sem), BPN (1500-2500 g), PIG (peso < P10). A presença de diabetes gestacional é fator de risco para hipoglicemia por hiperinsulinismo persistente pós-clampeamento. Os tremores são sintomáticos e exigem ação imediata: aferir glicemia capilar (dextro) URGENTE. Se hipoglicemia (< 40-45 mg/dL em sintomáticos), oferecer leite materno imediatamente se sucção adequada; se persistir sintomática ou baixa, iniciar glicose EV (push de SG 10% 2 mL/kg, seguido de infusão contínua de glicose 4-6 mg/kg/min). Manter dextro seriado (1-3-6-12-24-48h). Descartar outras causas de tremor (hipocalcemia, hipomagnesemia, crise convulsiva sutil). Manter aquecimento, evitar jejum > 3h, controle térmico. Avaliar necessidade de ecocardiograma (risco de malformações cardíacas em filho de mãe diabética), rastrear policitemia, icterícia e hipocalcemia.",
+    "keyPoints": [
+      "Classificação: termo, BPN, PIG",
+      "Tremores em filho de DM = suspeita de hipoglicemia sintomática",
+      "Dextro imediato; se hipoglicemia, iniciar leite materno e/ou glicose EV",
+      "Protocolo de dextro seriado (1-3-6-12-24-48h)",
+      "Diagnóstico diferencial: hipocalcemia, hipomagnesemia, convulsão",
+      "Manter temperatura, evitar jejum >3h",
+      "Rastrear policitemia, icterícia, hipocalcemia, ecocardiograma"
+    ],
+    "reference": "Tutoria — Casos + Perinatologia pág. 5"
+  }
+]

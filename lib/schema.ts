@@ -1,0 +1,69 @@
+import { z } from "zod";
+
+export const TopicSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  source: z.string().min(1),
+  description: z.string().min(1),
+});
+
+const OptionSchema = z.object({
+  id: z.enum(["a", "b", "c", "d", "e"]),
+  text: z.string().min(1),
+  isCorrect: z.boolean(),
+  explanation: z.string().min(1),
+});
+
+export const ObjectiveQuestionSchema = z
+  .object({
+    id: z.string().min(1),
+    topicId: z.string().min(1),
+    type: z.literal("objective"),
+    difficulty: z.enum(["easy", "medium", "hard"]),
+    prompt: z.string().min(1),
+    options: z.array(OptionSchema).min(2).max(5),
+    reference: z.string().optional(),
+  })
+  .refine((q) => q.options.filter((o) => o.isCorrect).length === 1, {
+    message: "Objective question must have exactly one correct option",
+  })
+  .refine((q) => new Set(q.options.map((o) => o.id)).size === q.options.length, {
+    message: "Option ids must be unique",
+  });
+
+export const OpenQuestionSchema = z.object({
+  id: z.string().min(1),
+  topicId: z.string().min(1),
+  type: z.literal("open"),
+  difficulty: z.enum(["easy", "medium", "hard"]),
+  prompt: z.string().min(1),
+  modelAnswer: z.string().min(1),
+  keyPoints: z.array(z.string().min(1)).min(2).max(10),
+  reference: z.string().optional(),
+});
+
+export const QuestionSchema = z.discriminatedUnion("type", [
+  ObjectiveQuestionSchema.innerType().innerType(),
+  OpenQuestionSchema,
+]);
+
+export const FlashcardSchema = z.object({
+  id: z.string().min(1),
+  topicId: z.string().min(1),
+  front: z.string().min(1),
+  back: z.string().min(1),
+});
+
+export const TopicsFileSchema = z.array(TopicSchema);
+export const QuestionsFileSchema = z.array(
+  z.union([ObjectiveQuestionSchema, OpenQuestionSchema])
+);
+export const FlashcardsFileSchema = z.array(FlashcardSchema);
+
+export type Topic = z.infer<typeof TopicSchema>;
+export type ObjectiveQuestion = z.infer<typeof ObjectiveQuestionSchema>;
+export type OpenQuestion = z.infer<typeof OpenQuestionSchema>;
+export type Question = ObjectiveQuestion | OpenQuestion;
+export type Flashcard = z.infer<typeof FlashcardSchema>;
+export type Difficulty = "easy" | "medium" | "hard";
+export type Result = "correct" | "partial" | "wrong";

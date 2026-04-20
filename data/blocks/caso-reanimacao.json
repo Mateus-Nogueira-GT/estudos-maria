@@ -1,0 +1,134 @@
+[
+  {
+    "id": "q-casoreanim-001",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "RN 38 sem, 3 kg, parto vaginal, nasce hipotônico e com choro fraco. A primeira ação é:",
+    "options": [
+      { "id": "a", "text": "Colocar em pele-a-pele", "isCorrect": false, "explanation": "Pele-a-pele só se as 3 perguntas foram SIM; hipotonia é NÃO." },
+      { "id": "b", "text": "Clampear o cordão e iniciar passos iniciais (ASPAS)", "isCorrect": true, "explanation": "Correto: RN com ao menos um 'NÃO' nas perguntas iniciais → clampeamento + ASPAS em 30s." },
+      { "id": "c", "text": "Já intubar", "isCorrect": false, "explanation": "IOT só após VPP com máscara inefetiva; ainda não há indicação." },
+      { "id": "d", "text": "Administrar adrenalina EV", "isCorrect": false, "explanation": "Adrenalina é etapa muito posterior na sequência." }
+    ],
+    "reference": "Caso clínico Reanimação"
+  },
+  {
+    "id": "q-casoreanim-002",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Após ASPAS o RN permanece com FC de 70 bpm e respiração irregular. O próximo passo é:",
+    "options": [
+      { "id": "a", "text": "Iniciar VPP em ar ambiente por 30s, reavaliar", "isCorrect": true, "explanation": "Correto: FC < 100 ou FR irregular → VPP 40-60 ipm em ar ambiente (21%) por 30s, monitorando." },
+      { "id": "b", "text": "Iniciar massagem cardíaca 3:1", "isCorrect": false, "explanation": "Massagem só após VPP efetiva, com FC < 60." },
+      { "id": "c", "text": "Colocar em pele-a-pele", "isCorrect": false, "explanation": "Não cabe em quem está com FC < 100 e FR irregular." },
+      { "id": "d", "text": "Administrar SF 10 mL/kg", "isCorrect": false, "explanation": "SF é para hipovolemia, não como primeira conduta." }
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 1"
+  },
+  {
+    "id": "q-casoreanim-003",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Após 30s de VPP ainda com FC < 100, qual a próxima conduta?",
+    "options": [
+      { "id": "a", "text": "Parar a reanimação e observar", "isCorrect": false, "explanation": "Interromper sem reavaliar é inadequado; prosseguir com correções." },
+      { "id": "b", "text": "Aplicar MR SOPA e fazer 2º ciclo de VPP", "isCorrect": true, "explanation": "Correto: corrigir técnica (M-R-S-O-P-A) e repetir 30s de VPP, ainda em ar ambiente." },
+      { "id": "c", "text": "Ir direto para IOT", "isCorrect": false, "explanation": "IOT após falha persistente, não após primeiro ciclo sem MR SOPA." },
+      { "id": "d", "text": "Iniciar adrenalina", "isCorrect": false, "explanation": "Só após massagem cardíaca ineficaz." }
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-casoreanim-004",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Após IOT, VPP com O2 100% e massagem cardíaca adequada, a FC permanece 40 bpm. A droga e dose corretas são:",
+    "options": [
+      { "id": "a", "text": "Adrenalina 1 mL/kg EV da solução 1:1000", "isCorrect": false, "explanation": "1:1000 pura é perigosa por via EV; e 1 mL/kg é dose traqueal (única vez)." },
+      { "id": "b", "text": "Adrenalina 0,2 mL/kg EV da solução 1:10.000 (seringa de 1 mL)", "isCorrect": true, "explanation": "Correto: 0,2 mL/kg da diluição 1:10.000 (1 mL de adrenalina + 9 mL SF) pela veia umbilical, podendo repetir a cada 3 min." },
+      { "id": "c", "text": "Atropina 0,01 mg/kg", "isCorrect": false, "explanation": "Atropina não é droga de reanimação neonatal." },
+      { "id": "d", "text": "Amiodarona 5 mg/kg", "isCorrect": false, "explanation": "Amiodarona não é usada na reanimação neonatal padrão." }
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-casoreanim-005",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN que responde à reanimação (FC > 100, SatO2 adequada) após ventilação efetiva, a conduta ideal é:",
+    "options": [
+      { "id": "a", "text": "Alta imediata do berçário", "isCorrect": false, "explanation": "RN que precisou de reanimação exige observação em UTI ou intermediária." },
+      { "id": "b", "text": "Transferir para UTI/unidade intermediária para monitorização e seguimento", "isCorrect": true, "explanation": "Correto: observação mínima em unidade neonatal para acompanhar sinais tardios de EHI, distúrbios metabólicos e respiratórios." },
+      { "id": "c", "text": "Começar profilaxia antibiótica rotineiramente", "isCorrect": false, "explanation": "ATB só se suspeita clínica/laboratorial de infecção." },
+      { "id": "d", "text": "Pele-a-pele por 24h sem monitorização", "isCorrect": false, "explanation": "Pós-reanimação exige monitorização próxima, incompatível com pele-a-pele sem supervisão." }
+    ],
+    "reference": "Reanimação ≥34 sem"
+  },
+  {
+    "id": "q-casoreanim-006",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o uso da máscara laríngea na reanimação neonatal, qual afirmação é correta?",
+    "options": [
+      { "id": "a", "text": "Pode ser usada em qualquer prematuro", "isCorrect": false, "explanation": "Restrita a RN > 34 sem e peso > 2 kg." },
+      { "id": "b", "text": "Alternativa válida à IOT em RN > 34 sem e > 2 kg, quando disponível", "isCorrect": true, "explanation": "Correto: quando IOT não é possível ou a equipe é menos experiente, a máscara laríngea é uma via alternativa adequada." },
+      { "id": "c", "text": "Substitui a VPP com Ambu em todos os casos", "isCorrect": false, "explanation": "É opção em VPP prolongada/inefetiva, não rotina." },
+      { "id": "d", "text": "Dispensa monitorização cardíaca", "isCorrect": false, "explanation": "Monitorização sempre é obrigatória." }
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-casoreanim-007",
+    "topicId": "caso-reanimacao",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual é a via de escolha para administração de medicações na reanimação neonatal?",
+    "options": [
+      { "id": "a", "text": "Intramuscular", "isCorrect": false, "explanation": "IM tem absorção lenta e errática em RN com má perfusão; inadequada na reanimação." },
+      { "id": "b", "text": "Veia umbilical (cateterizada)", "isCorrect": true, "explanation": "Correto: veia umbilical é a via mais rápida e confiável. Via endotraqueal só como ponte temporária antes de cateterizar." },
+      { "id": "c", "text": "Veia periférica do pé", "isCorrect": false, "explanation": "Difícil e lenta em RN chocado; veia umbilical é muito mais rápida." },
+      { "id": "d", "text": "Intraóssea apenas", "isCorrect": false, "explanation": "IO é alternativa se veia umbilical indisponível; não primeira escolha no RN." }
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-casoreanim-008",
+    "topicId": "caso-reanimacao",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva as indicações de IOT durante a reanimação neonatal.",
+    "modelAnswer": "A intubação orotraqueal está indicada em três situações principais: 1) VPP prolongada e inefetiva — após aplicar MR SOPA e os ciclos de VPP sem melhora adequada da FC/respiração, partir para via alternativa (IOT ou máscara laríngea). 2) Quando há indicação iminente de massagem cardíaca — a IOT permite ventilação mais eficaz durante compressões torácicas. 3) RN com suspeita de hérnia diafragmática congênita que necessita de VPP — esses bebês NÃO devem receber VPP com máscara, pois o ar insuflaria intestino herniado e pioraria a compressão pulmonar; se precisarem de VPP, deve ser por cânula traqueal. A cânula é sem cuff, com tamanho ajustado à IG (3 para 28-34 sem, 3,5 para 34-38, 3,5-4 para > 38), lâmina reta (00, 0, 1) e fixação pela fórmula 'peso + 6' na rima labial.",
+    "keyPoints": [
+      "VPP prolongada e inefetiva após MR SOPA",
+      "Necessidade de massagem cardíaca",
+      "Suspeita de hérnia diafragmática que precisa de VPP",
+      "Cânula sem cuff, tamanho pela IG",
+      "Fixação: peso + 6 cm na rima labial",
+      "Lâminas retas: 00 (prematuro extremo), 0 (tardio), 1 (termo)"
+    ],
+    "reference": "Reanimação ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-casoreanim-009",
+    "topicId": "caso-reanimacao",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Um RN a termo de mãe com descolamento prematuro de placenta nasce em apneia e pálido. Após 2 ciclos de VPP, IOT, massagem e adrenalina EV, a FC se mantém em 50 bpm. Qual a conduta adicional que deve ser considerada e por quê?",
+    "modelAnswer": "Devo considerar hipovolemia aguda pelo DPP, já que o bebê nasceu pálido e refratário às medidas padrão. A conduta é expansão volêmica com soro fisiológico 10 mL/kg EV (veia umbilical), infundido em 5-10 minutos, podendo repetir se necessário. Em paralelo, reavalio a qualidade da reanimação: posição e patência da cânula, acoplamento da técnica de massagem, efetividade das ventilações, cálculo correto da adrenalina, e descarto pneumotórax (punção diagnóstica-terapêutica se suspeita). Se persistir assistolia após reanimação adequada completa por 20 minutos, considerar interrupção. Se houver resposta, encaminhar para UTI neonatal para suporte contínuo, monitorização hemodinâmica, avaliação de asfixia perinatal/EHI e possível hipotermia terapêutica.",
+    "keyPoints": [
+      "Suspeitar hipovolemia em DPP com palidez e refratariedade",
+      "Expansão com SF 10 mL/kg EV em 5-10 min, repetir se necessário",
+      "Reavaliar cânula, massagem, ventilação, dose de adrenalina",
+      "Descartar pneumotórax (punção diagnóstica-terapêutica)",
+      "Interromper reanimação se assistolia após 20 min adequada",
+      "Pós-sucesso: UTI neonatal, investigação de EHI, considerar hipotermia"
+    ],
+    "reference": "Reanimação ≥34 sem — págs. 3-4"
+  }
+]

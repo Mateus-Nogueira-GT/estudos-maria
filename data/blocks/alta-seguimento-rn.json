@@ -1,0 +1,178 @@
+[
+  {
+    "id": "q-alta-001",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual é o período mais recomendado de alta hospitalar do RN a termo sem intercorrências?",
+    "options": [
+      { "id": "a", "text": "12 horas de vida", "isCorrect": false, "explanation": "12h é insuficiente: não dá tempo de observar amamentação, icterícia ou realizar triagens." },
+      { "id": "b", "text": "24-48 horas, sendo 48h o mais seguro", "isCorrect": true, "explanation": "Correto: 48h é preferível pois permite realizar triagens, avaliar icterícia, peso e amamentação." },
+      { "id": "c", "text": "7 dias de vida para todos", "isCorrect": false, "explanation": "7 dias é excessivo para RN termo saudável; indicado apenas para prematuros ou intercorrências." },
+      { "id": "d", "text": "Não há um período padrão", "isCorrect": false, "explanation": "Existe sim um padrão (24-48h), além de critérios objetivos que devem ser atendidos." }
+    ],
+    "reference": "Alta e Seguimento — pág. 1"
+  },
+  {
+    "id": "q-alta-002",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "São critérios obrigatórios para alta do RN, EXCETO:",
+    "options": [
+      { "id": "a", "text": "Amamentação efetiva com boa pega", "isCorrect": false, "explanation": "Critério obrigatório." },
+      { "id": "b", "text": "Perda de peso inferior a 10%", "isCorrect": false, "explanation": "Critério obrigatório; > 10% preocupa e exige avaliação." },
+      { "id": "c", "text": "Ter realizado todos os testes de triagem", "isCorrect": false, "explanation": "Critério obrigatório (pezinho, orelhinha, olhinho, coraçãozinho)." },
+      { "id": "d", "text": "Já ter recebido a 1ª dose de vacina contra pneumococo", "isCorrect": true, "explanation": "Correto: a 1ª dose de pneumococo é só aos 2 meses. Na maternidade dá-se apenas hepatite B, BCG e vitamina K." }
+    ],
+    "reference": "Alta e Seguimento — pág. 1"
+  },
+  {
+    "id": "q-alta-003",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quando costuma cair fisiologicamente o coto umbilical?",
+    "options": [
+      { "id": "a", "text": "24-48 horas", "isCorrect": false, "explanation": "Cedo demais; nesse tempo ele ainda está muito úmido." },
+      { "id": "b", "text": "3-5 dias", "isCorrect": false, "explanation": "Ainda é cedo; alguns podem cair, mas não é o padrão." },
+      { "id": "c", "text": "7-15 dias", "isCorrect": true, "explanation": "Correto: cai entre 7-15 dias; demora além disso pode sugerir imunodeficiência ou hipotireoidismo." },
+      { "id": "d", "text": "30-45 dias", "isCorrect": false, "explanation": "Demora excessiva, exige investigação de imunodeficiência congênita." }
+    ],
+    "reference": "Alta e Seguimento — pág. 1"
+  },
+  {
+    "id": "q-alta-004",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A posição correta para dormir do RN, para prevenir morte súbita, é:",
+    "options": [
+      { "id": "a", "text": "Decúbito ventral (de bruços)", "isCorrect": false, "explanation": "Decúbito ventral é fator de risco para síndrome da morte súbita do lactente — PROIBIDO." },
+      { "id": "b", "text": "Decúbito lateral com travesseiros", "isCorrect": false, "explanation": "Lateral é instável e travesseiros aumentam risco de sufocamento." },
+      { "id": "c", "text": "Decúbito dorsal com a cabeça lateralizada", "isCorrect": true, "explanation": "Correto: dorsal com cabeça lateralizada reduz morte súbita e facilita saída de secreções se regurgitar." },
+      { "id": "d", "text": "Co-leito com os pais para estimular amamentação", "isCorrect": false, "explanation": "Co-leito é desaconselhado pelo risco de sufocamento." }
+    ],
+    "reference": "Alta e Seguimento — pág. 1"
+  },
+  {
+    "id": "q-alta-005",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual é a data ideal para a primeira consulta ambulatorial do RN após a alta?",
+    "options": [
+      { "id": "a", "text": "Entre 3-5 dias (ideal) ou 7-10 dias na prática", "isCorrect": true, "explanation": "Correto: ideal é 3-5 dias; na prática 7-10 dias. Nessa fase avaliam-se icterícia, peso (recuperação), amamentação e triagens." },
+      { "id": "b", "text": "Apenas aos 30 dias", "isCorrect": false, "explanation": "Atraso perigoso — icterícia grave, desidratação e perda de peso importante podem passar despercebidos." },
+      { "id": "c", "text": "Aos 6 meses, junto com a introdução alimentar", "isCorrect": false, "explanation": "Muito tardio; o seguimento é mensal desde o início." },
+      { "id": "d", "text": "Apenas quando a mãe identificar sinal de alerta", "isCorrect": false, "explanation": "A puericultura é programada e não reativa; muitas alterações precoces são assintomáticas." }
+    ],
+    "reference": "Alta e Seguimento — pág. 2"
+  },
+  {
+    "id": "q-alta-006",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O conceito de 'idade corrigida' em prematuros é aplicado até quando para peso e avaliação neurológica?",
+    "options": [
+      { "id": "a", "text": "6 meses", "isCorrect": false, "explanation": "Insuficiente — o alcance neurológico e de peso leva tempo." },
+      { "id": "b", "text": "12 meses", "isCorrect": false, "explanation": "Ainda precoce para encerrar correção de peso/neurológico." },
+      { "id": "c", "text": "18 meses", "isCorrect": false, "explanation": "18 meses é o alvo para perímetro cefálico; peso/neurológico vai até 24." },
+      { "id": "d", "text": "24 meses", "isCorrect": true, "explanation": "Correto: peso e avaliação neurológica são corrigidos até 24 meses. PC até 18 meses; estatura até 36-42 meses." }
+    ],
+    "reference": "Alta e Seguimento — pág. 3"
+  },
+  {
+    "id": "q-alta-007",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o Nirsevimabe, qual afirmação é correta?",
+    "options": [
+      { "id": "a", "text": "É uma vacina viva atenuada contra VRS", "isCorrect": false, "explanation": "Não é vacina, mas anticorpo monoclonal (imunização passiva)." },
+      { "id": "b", "text": "É anticorpo monoclonal contra VRS, indicado para prematuros até 37 semanas < 1 ano", "isCorrect": true, "explanation": "Correto: imunoterapia contra o vírus sincicial respiratório, para prevenir bronquiolite em grupos de risco." },
+      { "id": "c", "text": "É indicado a todos os RN a termo saudáveis na alta", "isCorrect": false, "explanation": "Reservado a prematuros e grupos de risco (cardiopatas, displasia broncopulmonar, fibrose cística etc.)." },
+      { "id": "d", "text": "Protege contra hepatite B", "isCorrect": false, "explanation": "Não tem relação com hepatite B." }
+    ],
+    "reference": "Alta e Seguimento — pág. 3"
+  },
+  {
+    "id": "q-alta-008",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual é considerado sinal de ALERTA no RN após a alta, demandando reavaliação imediata?",
+    "options": [
+      { "id": "a", "text": "Acrocianose isolada (mãos e pés roxos) que some no calor", "isCorrect": false, "explanation": "Acrocianose isolada é comum e fisiológica nos primeiros dias." },
+      { "id": "b", "text": "Icterícia nas primeiras 24h", "isCorrect": true, "explanation": "Correto: icterícia nas primeiras 24h é sempre patológica (geralmente hemolítica) e exige investigação." },
+      { "id": "c", "text": "Dormir 3 horas entre mamadas", "isCorrect": false, "explanation": "Intervalo esperado é até 3h; não é alerta." },
+      { "id": "d", "text": "Perda de 5% do peso no 3º dia", "isCorrect": false, "explanation": "Perda fisiológica vai até 7-10%; só preocupa > 10%." }
+    ],
+    "reference": "Alta e Seguimento — pág. 2"
+  },
+  {
+    "id": "q-alta-009",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o banho do RN em casa, qual a orientação correta?",
+    "options": [
+      { "id": "a", "text": "Primeiro banho deve ser imediatamente após o nascimento", "isCorrect": false, "explanation": "Banho imediato favorece hipotermia e remove o vérnix protetor. O primeiro é após 24h." },
+      { "id": "b", "text": "Banho diário, no horário mais quente do dia, com sabonete neutro", "isCorrect": true, "explanation": "Correto: banho diário em horário quente, evitando correntes de ar, sabonete neutro, preferencialmente no fim da tarde (pico de GH)." },
+      { "id": "c", "text": "Banhos frios para estimular a circulação", "isCorrect": false, "explanation": "Banho frio causa hipotermia e estresse." },
+      { "id": "d", "text": "Apenas 2x/semana para manter a barreira cutânea", "isCorrect": false, "explanation": "Banho diário é recomendado para higiene e rotina." }
+    ],
+    "reference": "Alta e Seguimento — pág. 1"
+  },
+  {
+    "id": "q-alta-010",
+    "topicId": "alta-seguimento-rn",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Uma mãe pergunta se pode dar chá de picão para tratar a icterícia do RN. Qual a resposta correta?",
+    "options": [
+      { "id": "a", "text": "Sim, é uma prática tradicional eficaz", "isCorrect": false, "explanation": "Não há evidência científica — é mito popular." },
+      { "id": "b", "text": "Sim, desde que em pequenas quantidades", "isCorrect": false, "explanation": "Pode atrapalhar a amamentação exclusiva e não trata icterícia." },
+      { "id": "c", "text": "Não. Chá de picão não trata icterícia e pode atrapalhar o aleitamento exclusivo", "isCorrect": true, "explanation": "Correto: não há relação entre chá de picão e icterícia; além disso líquidos extras atrapalham o aleitamento exclusivo até 6 meses." },
+      { "id": "d", "text": "Sim, mas misturado ao leite materno", "isCorrect": false, "explanation": "Qualquer acréscimo ao leite materno viola a exclusividade até 6 meses." }
+    ],
+    "reference": "Alta e Seguimento — pág. 3"
+  },
+  {
+    "id": "q-alta-011",
+    "topicId": "alta-seguimento-rn",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Quais os principais critérios de alta para um prematuro e em que diferem dos critérios de alta de um RN a termo?",
+    "modelAnswer": "A alta do prematuro é mais rigorosa porque exige maturidade fisiológica completa. Além dos critérios gerais (amamentação, peso, triagens, ausência de intercorrências), o prematuro precisa: aceitar dieta exclusivamente por via oral, com ganho de peso adequado por ao menos 3 dias consecutivos; manter a temperatura corporal sem auxílio de incubadora; ter função cardiorrespiratória estável e madura, sem apneia ou bradicardia há pelo menos 8 dias; e idealmente peso ≥ 1800 g. Também é fundamental preparar os pais (treinamento em cuidados básicos, sinais de alarme, manejo de oxigênio e medicações se aplicável) e garantir seguimento ambulatorial para monitorização do crescimento e desenvolvimento, usando idade corrigida até 24 meses (peso/neurológico) ou 36-42 meses (estatura). Em contraste, o RN a termo saudável pode receber alta com 24-48h desde que amamentando bem, peso estável (perda < 10%), triagens feitas e sem icterícia significativa.",
+    "keyPoints": [
+      "Estabilidade fisiológica (temperatura, cardiorrespiratória sem apneias por 8d)",
+      "Dieta totalmente por via oral com ganho de peso por ≥ 3 dias",
+      "Peso geralmente ≥ 1800 g",
+      "Preparação dos pais e garantia de seguimento ambulatorial",
+      "Uso de idade corrigida (24m peso/neurológico, 18m PC, 36-42m estatura)",
+      "Em RN termo: 24-48h, amamentação OK, peso perda <10%, triagens feitas"
+    ],
+    "reference": "Alta e Seguimento — pág. 3"
+  },
+  {
+    "id": "q-alta-012",
+    "topicId": "alta-seguimento-rn",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "Liste os principais sinais de alerta que devem ser orientados aos pais na alta do RN.",
+    "modelAnswer": "Os pais devem procurar serviço de urgência caso o RN apresente: febre (≥ 37,5-38°C axilar) ou hipotermia (< 36°C); recusa alimentar persistente; gemência, esforço respiratório, taquipneia (FR > 60) ou apneia; cianose central ou palidez importante; vômitos frequentes, biliosos ou 'em jato'; icterícia que se intensifica ou nas primeiras 24h; irritabilidade intensa ou sonolência excessiva com dificuldade de despertar; convulsões; FC < 100 ou > 180 bpm; pústulas na pele, secreção ou vermelhidão no coto umbilical (onfalite); ausência de eliminação de fezes ou urina nas primeiras 48h. Toda orientação deve ser por escrito e a carteirinha conferida antes da alta.",
+    "keyPoints": [
+      "Febre ≥ 37,5°C ou hipotermia < 36°C",
+      "Recusa alimentar, vômitos importantes",
+      "Gemência, esforço respiratório, FR>60, apneia",
+      "Cianose central ou palidez importante",
+      "Icterícia intensa ou nas primeiras 24h",
+      "Convulsões, hipotonia ou irritabilidade extrema",
+      "Sinais de onfalite (vermelhidão, secreção no coto)",
+      "Orientações por escrito + carteirinha conferida"
+    ],
+    "reference": "Alta e Seguimento — pág. 2"
+  }
+]

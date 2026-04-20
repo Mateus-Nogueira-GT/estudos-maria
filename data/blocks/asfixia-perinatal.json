@@ -1,0 +1,191 @@
+[
+  {
+    "id": "q-asfixia-001",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A tríade bioquímica que caracteriza a asfixia perinatal é:",
+    "options": [
+      { "id": "a", "text": "Hipóxia, hipercapnia e acidose metabólica", "isCorrect": true, "explanation": "Correto: a troca gasosa prejudicada persistente gera ↓O2 (hipóxia), ↑CO2 (hipercapnia) e acidose metabólica por metabolismo anaeróbio." },
+      { "id": "b", "text": "Hipóxia, alcalose respiratória e hipernatremia", "isCorrect": false, "explanation": "O padrão é acidose, não alcalose; na asfixia há retenção de CO2." },
+      { "id": "c", "text": "Hipoglicemia, hipocapnia e acidose respiratória", "isCorrect": false, "explanation": "A hipocapnia (↓CO2) é o oposto do que ocorre na asfixia." },
+      { "id": "d", "text": "Hiperoxia, hipocalcemia e hipernatremia", "isCorrect": false, "explanation": "Hiperoxia não ocorre em asfixia; o RN está hipóxico." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-asfixia-002",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual dos achados abaixo NÃO faz parte dos critérios essenciais para diagnóstico de asfixia perinatal?",
+    "options": [
+      { "id": "a", "text": "pH arterial de cordão < 7,25 com bicarbonato baixo", "isCorrect": false, "explanation": "Faz parte: gasometria de cordão com acidose metabólica (pH < 7,25) ou mista." },
+      { "id": "b", "text": "Apgar de 0-3 persistente após 5º minuto", "isCorrect": false, "explanation": "Faz parte dos critérios essenciais (Apgar baixo persistente)." },
+      { "id": "c", "text": "Manifestações neurológicas precoces (convulsões, hipotonia, coma)", "isCorrect": false, "explanation": "Faz parte dos critérios essenciais." },
+      { "id": "d", "text": "Icterícia precoce nas primeiras 24h", "isCorrect": true, "explanation": "Correto: icterícia precoce NÃO é critério de asfixia; os 4 critérios são acidose, Apgar baixo, manifestações neurológicas e disfunção multi-orgânica." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-asfixia-003",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Um RN pós-asfixia desenvolve vasoconstrição intestinal. A conduta nutricional recomendada é:",
+    "options": [
+      { "id": "a", "text": "Amamentação em livre demanda imediatamente", "isCorrect": false, "explanation": "A hipoperfusão intestinal aumenta risco de enterocolite necrosante; alimentar precocemente pode ser catastrófico." },
+      { "id": "b", "text": "Jejum por 7-14 dias com nutrição parenteral", "isCorrect": true, "explanation": "Correto: jejum de 7-14 dias com NPT evita ECN e perfuração, dando tempo para a perfusão intestinal se restabelecer." },
+      { "id": "c", "text": "Fórmula infantil por sonda a partir de 2 horas de vida", "isCorrect": false, "explanation": "Oferta enteral precoce em intestino isquêmico é perigosa." },
+      { "id": "d", "text": "Nutrição enteral contínua por sonda jejunal", "isCorrect": false, "explanation": "Qualquer nutrição enteral precoce aumenta risco de ECN no asfixiado." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-asfixia-004",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre a hipotermia terapêutica em RN com encefalopatia hipóxico-isquêmica:",
+    "options": [
+      { "id": "a", "text": "Deve ser iniciada até 6 horas de vida, mantendo 33,5°C por ~72h", "isCorrect": true, "explanation": "Correto: iniciada nas primeiras 6h, mantém T 33,5°C por 72h para reduzir metabolismo cerebral, ROS e morte neuronal." },
+      { "id": "b", "text": "É indicada para encefalopatia leve", "isCorrect": false, "explanation": "Indicação é apenas EHI moderada ou grave — em leve não há benefício." },
+      { "id": "c", "text": "Alvo de temperatura é 36°C", "isCorrect": false, "explanation": "36°C é a normotermia; a hipotermia terapêutica usa 33,5°C." },
+      { "id": "d", "text": "Pode ser iniciada após 24h de vida com mesma eficácia", "isCorrect": false, "explanation": "Após 6h a eficácia cai muito; quanto antes iniciar melhor o prognóstico." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-asfixia-005",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "São contraindicações à hipotermia terapêutica:",
+    "options": [
+      { "id": "a", "text": "IG < 35 semanas ou peso < 1800 g", "isCorrect": true, "explanation": "Correto: prematuros extremos e baixo peso têm risco aumentado de hemorragia por alteração da coagulação." },
+      { "id": "b", "text": "RN a termo com Apgar < 5 no 10º minuto", "isCorrect": false, "explanation": "Esse RN É CANDIDATO à hipotermia, não contraindicação." },
+      { "id": "c", "text": "pH de cordão 6,9 com encefalopatia moderada", "isCorrect": false, "explanation": "pH < 7 com evidência de asfixia é INDICAÇÃO." },
+      { "id": "d", "text": "DPP com evento perinatal agudo", "isCorrect": false, "explanation": "Esse evento faz parte dos critérios de INDICAÇÃO, não de contraindicação." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-asfixia-006",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Na classificação de Sarnat & Sarnat, um RN letárgico, com convulsões e tônus/reflexos diminuídos apresenta EHI:",
+    "options": [
+      { "id": "a", "text": "Leve", "isCorrect": false, "explanation": "Leve: nível de consciência ok, sem convulsão, hiperexcitabilidade, hipertonia/normotonia." },
+      { "id": "b", "text": "Moderada", "isCorrect": true, "explanation": "Correto: letargia, convulsões, tônus e reflexos diminuídos caracterizam a EHI moderada — cerca de 80% têm prognóstico neurológico normal se bem tratados." },
+      { "id": "c", "text": "Grave", "isCorrect": false, "explanation": "Grave: não responde, não respira, coma, mortalidade 50%, sobreviventes com 100% de sequelas." },
+      { "id": "d", "text": "Sem encefalopatia", "isCorrect": false, "explanation": "A presença de convulsões já caracteriza EHI pelo menos moderada." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 2"
+  },
+  {
+    "id": "q-asfixia-007",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A resposta adaptativa do organismo fetal à hipoxemia é:",
+    "options": [
+      { "id": "a", "text": "Vasoconstrição generalizada incluindo cérebro e coração", "isCorrect": false, "explanation": "É o oposto: vasoDILATAÇÃO no cérebro, coração e adrenais (órgãos nobres)." },
+      { "id": "b", "text": "Vasodilatação do cérebro, coração e adrenais com vasoconstrição dos demais órgãos", "isCorrect": true, "explanation": "Correto: o fluxo sanguíneo é redistribuído para preservar os órgãos nobres — se a hipóxia é grave, nem esses são poupados." },
+      { "id": "c", "text": "Aumento isolado de FC até 250 bpm", "isCorrect": false, "explanation": "A resposta na asfixia não é taquicardia extrema; pelo contrário, há tendência a bradicardia progressiva." },
+      { "id": "d", "text": "Vasodilatação pulmonar com fechamento do canal arterial", "isCorrect": false, "explanation": "Na asfixia persiste a vasoconstrição pulmonar e o canal arterial pode permanecer aberto (circulação fetal persistente)." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-asfixia-008",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual a droga de 1ª escolha no controle das convulsões neonatais pós-asfixia?",
+    "options": [
+      { "id": "a", "text": "Fenobarbital (Gardenal)", "isCorrect": true, "explanation": "Correto: fenobarbital é a primeira escolha; fenitoína como 2ª linha e midazolam como 3ª." },
+      { "id": "b", "text": "Midazolam em bolus", "isCorrect": false, "explanation": "Midazolam é 3ª linha, reservado para casos refratários." },
+      { "id": "c", "text": "Diazepam IM", "isCorrect": false, "explanation": "Diazepam IM não é adequado em RN (absorção errática, risco de depressão respiratória)." },
+      { "id": "d", "text": "Fenitoína", "isCorrect": false, "explanation": "Fenitoína é 2ª escolha, após falha do fenobarbital." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-asfixia-009",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre a fisiopatogenia da lesão cerebral na asfixia, qual NÃO participa do mecanismo?",
+    "options": [
+      { "id": "a", "text": "Perda de autorregulação do fluxo cerebral", "isCorrect": false, "explanation": "Participa: a perfusão passa a depender diretamente da PA sistêmica." },
+      { "id": "b", "text": "Produção excessiva de radicais livres na reperfusão", "isCorrect": false, "explanation": "Participa: lesão de reperfusão com dano endotelial." },
+      { "id": "c", "text": "Falha das bombas iônicas com influxo de cálcio", "isCorrect": false, "explanation": "Participa: influxo de Ca ativa enzimas proteolíticas → necrose neuronal." },
+      { "id": "d", "text": "Vasoconstrição dos ventrículos cerebrais com bloqueio do líquor", "isCorrect": true, "explanation": "Correto: esse mecanismo NÃO ocorre. A sequência é perda de autorregulação → reperfusão/ROS → falha iônica → edema cerebral." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 2"
+  },
+  {
+    "id": "q-asfixia-010",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre as manifestações convulsivas no RN, qual NÃO é típica?",
+    "options": [
+      { "id": "a", "text": "Piscar constante dos olhos", "isCorrect": false, "explanation": "Típico: piscar contínuo como manifestação sutil." },
+      { "id": "b", "text": "Movimento de pedalar dos membros inferiores", "isCorrect": false, "explanation": "Típico: movimentos clônicos que imitam pedalada." },
+      { "id": "c", "text": "Crise tônico-clônica generalizada simétrica com 'aura'", "isCorrect": true, "explanation": "Correto: a crise generalizada clássica com aura é rara no RN; no neonato predominam crises sutis, focais, clônicas multifocais ou tônicas." },
+      { "id": "d", "text": "Movimento constante de sucção", "isCorrect": false, "explanation": "Típico: fenômenos orais repetitivos são crises sutis." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 4"
+  },
+  {
+    "id": "q-asfixia-011",
+    "topicId": "asfixia-perinatal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A mortalidade neonatal por asfixia corresponde aproximadamente a:",
+    "options": [
+      { "id": "a", "text": "20% dos óbitos neonatais, com pico na 1ª semana de vida", "isCorrect": true, "explanation": "Correto: asfixia é responsável por ~20% dos óbitos neonatais, sendo 53% na 1ª semana (mortalidade precoce)." },
+      { "id": "b", "text": "Menos de 5% dos óbitos neonatais", "isCorrect": false, "explanation": "Subestima — asfixia é uma das principais causas de mortalidade." },
+      { "id": "c", "text": "Mais de 80% dos óbitos neonatais", "isCorrect": false, "explanation": "Superestima; outras causas (prematuridade, sepse, malformações) também contribuem." },
+      { "id": "d", "text": "É rara e causa apenas morbidade", "isCorrect": false, "explanation": "Incorreto: é uma causa frequente E grave, com alta morbi-mortalidade." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-asfixia-012",
+    "topicId": "asfixia-perinatal",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Liste as disfunções orgânicas esperadas em um RN asfixiado e explique brevemente o mecanismo.",
+    "modelAnswer": "A asfixia cursa com disfunção multi-orgânica decorrente da hipóxia e hipoperfusão. Cardíaca: isquemia miocárdica por vasoconstrição coronariana, levando a choque, hipotensão, ICC, necrose miocárdica e queda do débito cardíaco. Renal: necrose tubular aguda, insuficiência renal e oligoanúria. Hepática: elevação de transaminases, redução de fatores de coagulação e sangramentos. Pulmonar: hipertensão pulmonar persistente, síndrome de aspiração meconial, desconforto respiratório. Intestinal: hipoperfusão com risco de enterocolite necrosante (justifica jejum 7-14 dias). SNC: encefalopatia hipóxico-isquêmica, com perda da autorregulação, lesão de reperfusão, edema cerebral e convulsões. Hematológica: CIVD por consumo de fatores. Todos esses sistemas devem ser monitorados no pós-asfixia.",
+    "keyPoints": [
+      "Cardiovascular: isquemia, choque, ICC, queda do DC",
+      "Renal: NTA, insuficiência renal, oligoanúria",
+      "Hepática: ↑ transaminases e redução de fatores de coagulação",
+      "Pulmonar: hipertensão pulmonar persistente, SAM",
+      "Intestinal: hipoperfusão, risco de ECN (jejum de 7-14 dias)",
+      "SNC: EHI, edema, convulsões",
+      "Hematológica: CIVD"
+    ],
+    "reference": "Asfixia Perinatal — págs. 1-2"
+  },
+  {
+    "id": "q-asfixia-013",
+    "topicId": "asfixia-perinatal",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Quais são as indicações formais para iniciar hipotermia terapêutica em um RN?",
+    "modelAnswer": "A hipotermia terapêutica é indicada em RN a termo ou ≥ 35-36 semanas, com peso ≥ 1800 g, que preencham critérios de asfixia perinatal E apresentem evidência de encefalopatia moderada ou grave antes das 6h de vida. Os critérios de asfixia incluem pelo menos um de: pH arterial < 7 ou bicarbonato < -16; evento perinatal agudo (DPP, prolapso de cordão, ruptura uterina); Apgar ≤ 5 no 10º minuto; ou necessidade de ventilação além do 10º minuto. A encefalopatia é avaliada clinicamente (nível de consciência, atividade espontânea, postura, tônus, reflexos, presença de convulsões) — a escala de Sarnat ajuda a graduar. Uma vez indicada, deve começar até 6h de vida, manter T 33,5°C por 72h, depois reaquecer 0,5°C/h até 36,5°C. Contraindicações: IG < 35 sem, peso < 1800g, malformações letais, coagulopatia grave.",
+    "keyPoints": [
+      "RN ≥ 35-36 sem e ≥ 1800 g",
+      "Pelo menos um critério de asfixia: pH<7, BE<-16, evento perinatal agudo, Apgar ≤5 no 10min ou ventilação >10min",
+      "Evidência de encefalopatia moderada ou grave antes das 6h",
+      "Iniciar idealmente antes de 6h de vida",
+      "Manter 33,5°C por 72h, depois reaquecer 0,5°C/h",
+      "Contraindicações: prematuro <35 sem, peso <1800g, malformações letais"
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  }
+]

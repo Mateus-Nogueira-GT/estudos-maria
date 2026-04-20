@@ -1,0 +1,152 @@
+[
+  {
+    "id": "q-casosp2-001",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual o tempo máximo previsto para a realização completa dos passos iniciais da reanimação (ASPAS)?",
+    "options": [
+      { "id": "a", "text": "10 segundos", "isCorrect": false, "explanation": "Muito curto para aquecer, secar, posicionar, aspirar e avaliar adequadamente." },
+      { "id": "b", "text": "30 segundos", "isCorrect": true, "explanation": "Correto: os 5 passos de ASPAS devem ser completados em 30 s para não atrasar a VPP." },
+      { "id": "c", "text": "2 minutos", "isCorrect": false, "explanation": "Atrasaria indicação de VPP — o 'minuto de ouro' seria perdido." },
+      { "id": "d", "text": "5 minutos", "isCorrect": false, "explanation": "Inaceitável; aumenta risco de hipóxia e lesão neurológica." }
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-casosp2-002",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN com suspeita de hérnia diafragmática congênita ao nascimento, qual é um achado físico característico?",
+    "options": [
+      { "id": "a", "text": "Abdome globoso distendido", "isCorrect": false, "explanation": "Pelo contrário — o abdome é ESCAVADO, pois as vísceras estão no tórax." },
+      { "id": "b", "text": "Abdome escavado", "isCorrect": true, "explanation": "Correto: o conteúdo abdominal migrou para o tórax, deixando o abdome plano/escavado." },
+      { "id": "c", "text": "Massa abdominal pulsátil", "isCorrect": false, "explanation": "Não é achado típico." },
+      { "id": "d", "text": "Ascite volumosa", "isCorrect": false, "explanation": "Ascite não é achado típico da hérnia diafragmática." }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 2"
+  },
+  {
+    "id": "q-casosp2-003",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quais vacinas e medicações um RN a termo saudável deve receber antes da alta da maternidade?",
+    "options": [
+      { "id": "a", "text": "Hepatite B + vitamina K + BCG + Credê (se parto vaginal)", "isCorrect": true, "explanation": "Correto: hepatite B nas primeiras 12h + vitamina K IM + BCG (peso ≥ 2 kg) + Credê com nitrato de prata em partos vaginais." },
+      { "id": "b", "text": "Pneumococo 13v + rotavírus", "isCorrect": false, "explanation": "Essas são vacinas a partir dos 2 meses." },
+      { "id": "c", "text": "Apenas vitamina K", "isCorrect": false, "explanation": "Incompleto — hepatite B e BCG também fazem parte." },
+      { "id": "d", "text": "Antibiótico profilático universal", "isCorrect": false, "explanation": "Sem indicação rotineira em RN saudável." }
+    ],
+    "reference": "Atendimento ao RN — pág. 3; Alojamento Conjunto — pág. 3"
+  },
+  {
+    "id": "q-casosp2-004",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em cesárea sem intercorrências, com RN vigoroso chorando, o clampeamento ideal é:",
+    "options": [
+      { "id": "a", "text": "Imediato sempre que cesárea", "isCorrect": false, "explanation": "Cesárea não é indicação automática de clampeamento imediato; só se houver fator de risco associado." },
+      { "id": "b", "text": "Tardio (1-3 min) com o obstetra segurando o RN até clampear, depois pele-a-pele", "isCorrect": true, "explanation": "Correto: cesárea eletiva + RN vigoroso tem clampeamento tardio como em parto normal; o obstetra mantém o RN próximo até o pediatra levá-lo ao pele-a-pele." },
+      { "id": "c", "text": "Não clampear", "isCorrect": false, "explanation": "Sempre se clampeia; o que muda é o tempo." },
+      { "id": "d", "text": "Apenas após a placenta sair", "isCorrect": false, "explanation": "Não é prática padrão; o clampeamento segue os minutos recomendados." }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-casosp2-005",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Após reanimação completa (ASPAS → VPP → MR SOPA → IOT → massagem → adrenalina), qual achado ao exame físico sinaliza cânula mal posicionada?",
+    "options": [
+      { "id": "a", "text": "Expansão torácica simétrica", "isCorrect": false, "explanation": "Expansão simétrica é sinal de BOM posicionamento." },
+      { "id": "b", "text": "Ausculta assimétrica com MV diminuído em um hemitórax", "isCorrect": true, "explanation": "Correto: ausculta assimétrica sugere intubação seletiva (cânula em brônquio direito); retirar cerca de 1-2 cm e reauscultar." },
+      { "id": "c", "text": "FC > 100 e melhora da saturação", "isCorrect": false, "explanation": "Esses são sinais de boa resposta." },
+      { "id": "d", "text": "Choro audível apesar da cânula", "isCorrect": false, "explanation": "Choro com cânula sugere deslocamento acima das cordas (extubação acidental), não mal posicionamento seletivo." }
+    ],
+    "reference": "Aula 6 — pág. 5"
+  },
+  {
+    "id": "q-casosp2-006",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Qual dose de adrenalina por via TRAQUEAL (única vez, enquanto cateteriza umbilical)?",
+    "options": [
+      { "id": "a", "text": "0,1 mL/kg da solução pura 1:1000", "isCorrect": false, "explanation": "Não se usa a solução pura, mesmo traqueal; é sempre diluída." },
+      { "id": "b", "text": "1 mL/kg da solução diluída 1:10.000 (seringa de 5 mL)", "isCorrect": true, "explanation": "Correto: dose traqueal é 1 mL/kg da solução 1:10.000 em seringa de 5 mL, aplicada uma única vez pelo TET enquanto cateteriza veia umbilical." },
+      { "id": "c", "text": "0,2 mL/kg da solução 1:10.000", "isCorrect": false, "explanation": "0,2 mL/kg é a dose EV, não traqueal." },
+      { "id": "d", "text": "0,5 mL da solução pura sem diluir", "isCorrect": false, "explanation": "Dose arbitrária e perigosa; nunca usar pura." }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 3"
+  },
+  {
+    "id": "q-casosp2-007",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Durante a VPP com T (Baby Puff) a pressão inspiratória (PIP) ideal inicial em RN a termo é:",
+    "options": [
+      { "id": "a", "text": "5 cmH2O", "isCorrect": false, "explanation": "Pressão insuficiente para abrir os alvéolos do RN recém-nascido." },
+      { "id": "b", "text": "20-25 cmH2O (ajustar até observar expansão torácica)", "isCorrect": true, "explanation": "Correto: iniciar com PIP 20-25 cmH2O e PEEP 5 cmH2O, ajustando até observar expansão torácica visível." },
+      { "id": "c", "text": "60 cmH2O fixo", "isCorrect": false, "explanation": "Pressão excessivamente alta, risco de barotrauma." },
+      { "id": "d", "text": "0 (ventilação espontânea)", "isCorrect": false, "explanation": "Na VPP há pressão positiva; 0 não é ventilação." }
+    ],
+    "reference": "Aula 6 — pág. 4"
+  },
+  {
+    "id": "q-casosp2-008",
+    "topicId": "casos-sala-parto-2",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A palpação de pulsos nos 4 membros durante o exame inicial do RN é importante para detectar:",
+    "options": [
+      { "id": "a", "text": "Coartação da aorta", "isCorrect": true, "explanation": "Correto: pulsos femorais fracos/ausentes em relação aos braquiais sugerem coartação da aorta." },
+      { "id": "b", "text": "Hipotireoidismo", "isCorrect": false, "explanation": "Hipotireoidismo se avalia no pezinho, não pelo pulso." },
+      { "id": "c", "text": "Sífilis congênita", "isCorrect": false, "explanation": "Avaliação é clínica/laboratorial, não pela palpação." },
+      { "id": "d", "text": "Prematuridade", "isCorrect": false, "explanation": "Idade gestacional é aferida por Capurro/Ballard, não por pulsos." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 1"
+  },
+  {
+    "id": "q-casosp2-009",
+    "topicId": "casos-sala-parto-2",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva a sequência de cuidados de rotina em um RN nascido vigoroso.",
+    "modelAnswer": "Após o pele-a-pele de 1 hora e amamentação na primeira hora: 1) Clampear e cortar o coto umbilical curto, avaliando anatomia (2 artérias e 1 veia); anotar se houver artéria umbilical única (associada a malformações). 2) Pesar e medir comprimento e perímetro cefálico; plotar na curva apropriada. 3) Realizar exame físico completo (aparelhos cardiovascular, respiratório, abdominal, neurológico, genital, ortopédico), calcular Apgar (1, 5 e 10 min). 4) Aplicar vitamina K IM (profilaxia de doença hemorrágica do RN) e vacina de hepatite B IM, cada uma em uma coxa. 5) Realizar Credê com nitrato de prata 1% nos olhos se parto vaginal (profilaxia de conjuntivite gonocócica/clamídia). 6) Classificar o RN quanto a IG, peso/IG e peso absoluto; registrar intercorrências. 7) Encaminhar ao alojamento conjunto com a mãe se RN termo AIG/GIG saudável.",
+    "keyPoints": [
+      "Pele-a-pele 1h e estímulo da amamentação",
+      "Clampear + cortar curto, avaliar anatomia (2 artérias + 1 veia)",
+      "Peso, comprimento, PC e curva de percentil",
+      "Exame físico completo + Apgar (1, 5, 10 min)",
+      "Vitamina K IM + vacina hepatite B IM (coxas opostas)",
+      "Credê com nitrato de prata se parto vaginal",
+      "Classificar por IG, peso/IG e peso absoluto",
+      "Encaminhar ao alojamento conjunto se saudável"
+    ],
+    "reference": "Atendimento ao RN — pág. 2-3"
+  },
+  {
+    "id": "q-casosp2-010",
+    "topicId": "casos-sala-parto-2",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "RN 39 sem, 3 kg, pós cesárea por descompensação cardíaca materna sob anestesia geral. Nasce hipotônico e com choro fraco. Descreva a conduta imediata e justifique cada passo.",
+    "modelAnswer": "A anestesia geral materna é indicação de CLAMPEAMENTO IMEDIATO (< 30s) — toda exposição aos anestésicos aumenta depressão neonatal. Em seguida: passos iniciais (ASPAS) em 30s — aquecer no berço radiante, secar, trocar campo, colocar touca, posicionar com coxim em leve extensão, aspirar VAS (boca primeiro, depois narinas) se necessário, e avaliar FC + padrão respiratório. Se hipotonia persiste mas FC > 100 e respiração regular, prosseguir com cuidados de rotina, mas monitorar. Se FC < 100, apneia, gasping ou respiração irregular → iniciar VPP em ar ambiente (21%), 40-60 ipm, por 30s, com oxímetro pré-ductal (MSD) e monitor cardíaco instalados. Reavaliar e, se não melhorar, aplicar MR SOPA e ciclos adicionais. Como a mãe está sedada, o bebê, mesmo recuperado, não pode ir ao pele-a-pele imediato; então realizar cuidados de rotina (clampear e cortar coto, pesar, medir, exame físico, Apgar, vitamina K, hepatite B, Credê se vaginal — aqui é cesárea) e observar em unidade intermediária. Justificativa: a preparação prévia de equipe, material e calor ambiente (23-25°C) é crítica em parto de risco.",
+    "keyPoints": [
+      "Clampeamento imediato por anestesia geral materna",
+      "ASPAS em 30s (aquecer, secar, posicionar, aspirar, sinais vitais)",
+      "Indicação de VPP se FC<100, apneia, gasping ou FR irregular",
+      "VPP em ar ambiente 21%, 40-60 ipm, 30s",
+      "Monitorizar: oxímetro pré-ductal (MSD) e monitor cardíaco",
+      "MR SOPA se VPP inefetiva",
+      "Pele-a-pele não possível com mãe sedada → cuidados de rotina com pediatra",
+      "Preparo prévio: equipe de 3, material conferido, ambiente 23-25°C"
+    ],
+    "reference": "Aula 6 — pág. 2; Atendimento ao RN — pág. 2-3"
+  }
+]

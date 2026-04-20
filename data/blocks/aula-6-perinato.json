@@ -1,0 +1,154 @@
+[
+  {
+    "id": "q-aula6-001",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A temperatura ambiente ideal da sala de parto é:",
+    "options": [
+      { "id": "a", "text": "18-20°C", "isCorrect": false, "explanation": "Muito frio; favorece hipotermia do RN, que tem alta relação superfície/volume." },
+      { "id": "b", "text": "23-25°C", "isCorrect": true, "explanation": "Correto: faixa recomendada para minimizar hipotermia do RN." },
+      { "id": "c", "text": "28-30°C", "isCorrect": false, "explanation": "Muito quente; desconfortável para equipe e pode superaquecer o RN." },
+      { "id": "d", "text": "Irrelevante, o berço aquecido compensa", "isCorrect": false, "explanation": "O ambiente influencia especialmente nos primeiros segundos antes do berço aquecido." }
+    ],
+    "reference": "Aula 6 — pág. 1"
+  },
+  {
+    "id": "q-aula6-002",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A anamnese materna pré-parto serve para:",
+    "options": [
+      { "id": "a", "text": "Preencher burocracia do hospital", "isCorrect": false, "explanation": "Não é burocracia; tem impacto direto no preparo da equipe e material." },
+      { "id": "b", "text": "Detectar antecipadamente fatores de risco para reanimação", "isCorrect": true, "explanation": "Correto: anamnese identifica risco (HIV, diabetes, HAS, prematuridade, bolsa rota > 18h, meconial, gemelar) para preparar equipe." },
+      { "id": "c", "text": "Definir a via de parto", "isCorrect": false, "explanation": "A decisão é obstétrica, não da equipe neonatal." },
+      { "id": "d", "text": "Estabelecer o peso provável do RN", "isCorrect": false, "explanation": "O peso é estimado por USG, não pela anamnese materna no momento do parto." }
+    ],
+    "reference": "Aula 6 — pág. 1"
+  },
+  {
+    "id": "q-aula6-003",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Bolsa rota é considerada 'prolongada' (risco infeccioso) quando:",
+    "options": [
+      { "id": "a", "text": "> 4 horas", "isCorrect": false, "explanation": "4h é um tempo comum de trabalho de parto, sem significado infeccioso especial." },
+      { "id": "b", "text": "> 18 horas", "isCorrect": true, "explanation": "Correto: acima de 18h aumenta risco de corioamnionite e sepse neonatal precoce." },
+      { "id": "c", "text": "> 48 horas", "isCorrect": false, "explanation": "O marcador já é 18h, menos que isso." },
+      { "id": "d", "text": "Qualquer duração", "isCorrect": false, "explanation": "Bolsa rota curta não aumenta significativamente o risco infeccioso." }
+    ],
+    "reference": "Aula 6 — pág. 1"
+  },
+  {
+    "id": "q-aula6-004",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN após cesárea sob anestesia geral, qual o tipo de clampeamento recomendado?",
+    "options": [
+      { "id": "a", "text": "Tardio (1-3 min)", "isCorrect": false, "explanation": "Anestesia geral → risco de depressão respiratória do RN; deve ser clampeado imediatamente." },
+      { "id": "b", "text": "Imediato", "isCorrect": true, "explanation": "Correto: anestesia geral está entre as indicações clássicas de clampeamento imediato, junto com DPP, HIV+, nó verdadeiro e RN deprimido." },
+      { "id": "c", "text": "Não clampear", "isCorrect": false, "explanation": "O cordão sempre é clampeado." },
+      { "id": "d", "text": "Esperar 10 minutos", "isCorrect": false, "explanation": "Risco de depressão aumenta a cada minuto de exposição aos anestésicos." }
+    ],
+    "reference": "Aula 6 — pág. 2"
+  },
+  {
+    "id": "q-aula6-005",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN prematuro extremo, qual a conduta protetora contra hipotermia imediatamente ao nascer?",
+    "options": [
+      { "id": "a", "text": "Imersão em banho morno", "isCorrect": false, "explanation": "Banho imediato causa hipotermia e remove vérnix protetor." },
+      { "id": "b", "text": "Ensaque o RN em saco plástico transparente (tipo saco de fruta) sem secar", "isCorrect": true, "explanation": "Correto: em prematuros extremos não secar e ensacar em plástico transparente conserva calor e umidade." },
+      { "id": "c", "text": "Envolver com cobertor de lã seco", "isCorrect": false, "explanation": "Não é suficiente para prevenir hipotermia em prematuros extremos; eles perdem muito calor por evaporação." },
+      { "id": "d", "text": "Colocar diretamente em pele-a-pele prolongado", "isCorrect": false, "explanation": "Prematuros extremos geralmente vão para cuidado intensivo; pele-a-pele prolongado só em RN estáveis." }
+    ],
+    "reference": "Aula 6 — pág. 1"
+  },
+  {
+    "id": "q-aula6-006",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN submetido a IOT, a profundidade da cânula a fixar na rima labial é calculada por:",
+    "options": [
+      { "id": "a", "text": "Peso (kg) + 6", "isCorrect": true, "explanation": "Correto: fórmula 'peso + 6' em centímetros fornece a marca adequada na rima." },
+      { "id": "b", "text": "Peso (kg) × 2", "isCorrect": false, "explanation": "Não é fórmula usada em neonato." },
+      { "id": "c", "text": "Sempre 10 cm", "isCorrect": false, "explanation": "Não é padrão fixo; depende do peso." },
+      { "id": "d", "text": "IG (semanas) ÷ 2", "isCorrect": false, "explanation": "Não existe essa fórmula prática." }
+    ],
+    "reference": "Aula 6 — pág. 2; Reanimação ≥34sem — pág. 2"
+  },
+  {
+    "id": "q-aula6-007",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o ventilador mecânico manual em T (Baby Puff), qual vantagem em relação ao Ambu?",
+    "options": [
+      { "id": "a", "text": "Menor custo e maior portabilidade", "isCorrect": false, "explanation": "Ambu é mais barato e portátil; o T é mais sofisticado." },
+      { "id": "b", "text": "Permite controle preciso de PIP, PEEP e FiO2 via blender", "isCorrect": true, "explanation": "Correto: o T (Baby Puff) permite ajustar pressão inspiratória (PIP), PEEP e FiO2 precisamente — evita barotrauma e hiperoxia." },
+      { "id": "c", "text": "Não precisa de fonte de gás", "isCorrect": false, "explanation": "Pelo contrário, exige conexão a fluxômetro/blender." },
+      { "id": "d", "text": "Dispensa monitorização", "isCorrect": false, "explanation": "Qualquer VPP exige monitorização contínua." }
+    ],
+    "reference": "Aula 6 — pág. 4"
+  },
+  {
+    "id": "q-aula6-008",
+    "topicId": "aula-6-perinato",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Caso: RN 37 sem, mãe com DPP, nasceu hipotônico, em apneia, peso 2 kg. Após ASPAS a FC é 50 bpm. Qual a conduta?",
+    "options": [
+      { "id": "a", "text": "Pele-a-pele imediato", "isCorrect": false, "explanation": "Pele-a-pele é só para RN com as 3 respostas SIM." },
+      { "id": "b", "text": "VPP com máscara por 30s em ar ambiente (21%)", "isCorrect": true, "explanation": "Correto: com FC < 100 e apneia após ASPAS, indicação clara de VPP inicial em ar ambiente por 30s, reavaliando." },
+      { "id": "c", "text": "Intubação imediata sem VPP prévia", "isCorrect": false, "explanation": "IOT só após VPP com máscara inefetiva (MR SOPA)." },
+      { "id": "d", "text": "Adrenalina EV imediata", "isCorrect": false, "explanation": "Adrenalina só após VPP + massagem sem resposta." }
+    ],
+    "reference": "Aula 6 — págs. 3-4"
+  },
+  {
+    "id": "q-aula6-009",
+    "topicId": "aula-6-perinato",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Liste os materiais essenciais que devem estar preparados na sala de recepção do RN antes de um parto.",
+    "modelAnswer": "Berço de calor radiante ligado previamente com colchão e campo aquecidos; fonte de oxigênio e blender; fluxômetro; sistema de aspiração a vácuo com sondas nº 6 (prematuro) e nº 8 (termo); material de ventilação — máscaras de tamanhos diferentes, balão auto-inflável (Ambu) 240 mL com válvula de escape 30-40 cmH2O e reservatório; ventilador mecânico manual em T (Baby Puff); laringoscópio com lâminas retas (00, 0, 1) e pilhas; cânulas traqueais sem cuff 2,5/3,0/3,5/4,0; material para cateterização umbilical; medicamentos — adrenalina 1:1000 e soro fisiológico, com seringas de 1 mL, 5 mL e 20 mL; estetoscópio, oxímetro de pulso e monitor cardíaco; touca e sacos plásticos para prematuros; relógio. Checagem prévia antes de cada nascimento é essencial.",
+    "keyPoints": [
+      "Berço de calor radiante ligado com campo aquecido",
+      "Oxigênio, blender, fluxômetro",
+      "Vácuo + sondas de aspiração 6 e 8",
+      "Balão (Ambu) e/ou ventilador em T, máscaras variadas",
+      "Laringoscópio com lâminas 00, 0 e 1; cânulas 2,5-4,0",
+      "Adrenalina e SF; seringas 1/5/20 mL",
+      "Estetoscópio, oxímetro, monitor cardíaco",
+      "Material para cateterização umbilical",
+      "Saco plástico e touca para prematuros",
+      "Checagem prévia ao parto"
+    ],
+    "reference": "Aula 6 — pág. 1"
+  },
+  {
+    "id": "q-aula6-010",
+    "topicId": "aula-6-perinato",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "No caso 3 da Aula 6, Maria, gestante de 37 semanas com DPP, nasce RN de 2 kg, hipotônico e em apneia, e após ASPAS a FC é 50 bpm em 6s. Descreva a sequência de condutas até a necessidade de medicação.",
+    "modelAnswer": "Como há DPP, clampear imediatamente o cordão e levar ao berço aquecido. Fazer ASPAS em 30s (aquecer, secar, posicionar com coxim, aspirar se necessário e avaliar FC/respiração). Com FC 50 e apneia, iniciar VPP com máscara por 30s em ar ambiente (21%), 40-60 ipm. Se não melhorar, aplicar MR SOPA (ajustar máscara, reposicionar, aspirar secreções, abrir boca, aumentar pressão) e fazer 2º ciclo de VPP. Se ainda inefetiva, 3º ciclo com FiO2 ~40% (ajustar pelo blender). Se permanecer FC < 100 ou apneia, partir para via alternativa (IOT; máscara laríngea se disponível) — fixar em peso + 6 cm — e ventilar por 30s com O2 100%. Reavaliar: se FC < 60, iniciar massagem cardíaca (3:1) com O2 100% por 1 min. Se ainda FC < 60, cateterizar veia umbilical e iniciar adrenalina EV 0,2 mL/kg da solução 1:10.000 (seringa de 1 mL), podendo repetir a cada 3 min. Considerar SF 10 mL/kg em 5-10 min se hipovolemia pelo DPP.",
+    "keyPoints": [
+      "Clampeamento imediato por DPP",
+      "ASPAS em 30s",
+      "VPP por 30s em ar ambiente (21%)",
+      "MR SOPA + 2º e 3º ciclos, aumentando O2 pelo blender",
+      "Via alternativa (IOT ou máscara laríngea) se inefetiva",
+      "Massagem 3:1 com O2 100% por 1 min se FC < 60",
+      "Adrenalina EV 0,2 mL/kg 1:10.000 se persistir FC < 60",
+      "SF 10 mL/kg em 5-10 min se hipovolemia"
+    ],
+    "reference": "Aula 6 — págs. 3-6"
+  }
+]

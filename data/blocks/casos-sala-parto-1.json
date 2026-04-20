@@ -1,0 +1,148 @@
+[
+  {
+    "id": "q-casosp1-001",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "As 3 perguntas do nascimento devem ser respondidas com 'SIM' para que o RN vá ao pele-a-pele. Se apenas uma resposta for 'NÃO', a conduta é:",
+    "options": [
+      { "id": "a", "text": "Pele-a-pele de qualquer forma", "isCorrect": false, "explanation": "Qualquer NÃO indica necessidade de intervenção, não pele-a-pele." },
+      { "id": "b", "text": "Levar ao berço aquecido e iniciar passos iniciais (ASPAS) em 30s", "isCorrect": true, "explanation": "Correto: um único NÃO já indica reanimação." },
+      { "id": "c", "text": "Esperar 1 minuto e reavaliar sem intervenção", "isCorrect": false, "explanation": "Tempo é crítico — não se observa sem fazer ASPAS." },
+      { "id": "d", "text": "Administrar oxigênio por cateter nasal", "isCorrect": false, "explanation": "Oxigênio isolado por cateter não corrige apneia/hipotonia; indicação é reanimação organizada." }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-casosp1-002",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Gestante com mãe HIV+ dá à luz RN vigoroso a termo. Qual a orientação quanto ao clampeamento?",
+    "options": [
+      { "id": "a", "text": "Tardio, para evitar anemia", "isCorrect": false, "explanation": "Tardio aumenta a transfusão sanguínea materno-fetal e o risco de transmissão do HIV." },
+      { "id": "b", "text": "Imediato, pelo risco de transmissão vertical do HIV", "isCorrect": true, "explanation": "Correto: mãe HIV+ é indicação de clampeamento imediato (< 30s)." },
+      { "id": "c", "text": "Clampear apenas se o RN estiver deprimido", "isCorrect": false, "explanation": "A vitalidade não muda a indicação; o critério é a mãe HIV+." },
+      { "id": "d", "text": "Não clampear até a placenta sair", "isCorrect": false, "explanation": "Não clampear ou esperar > 3 min só aumenta risco infeccioso." }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 1"
+  },
+  {
+    "id": "q-casosp1-003",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual o tamanho da lâmina de laringoscópio adequado para um RN de 27 semanas?",
+    "options": [
+      { "id": "a", "text": "Lâmina 00 reta", "isCorrect": true, "explanation": "Correto: prematuro extremo (< 28 sem) usa lâmina reta 00; 0 para prematuros tardios e 1 para termo." },
+      { "id": "b", "text": "Lâmina 2 curva", "isCorrect": false, "explanation": "Lâminas curvas e grandes são para pediátricos/adultos." },
+      { "id": "c", "text": "Lâmina 3 curva", "isCorrect": false, "explanation": "Inadequada em RN." },
+      { "id": "d", "text": "Lâmina 4 curva", "isCorrect": false, "explanation": "Uso adulto; não cabe em RN." }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 2"
+  },
+  {
+    "id": "q-casosp1-004",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Durante a VPP com máscara, o tórax do RN não expande visivelmente. A correção INICIAL do MR SOPA é:",
+    "options": [
+      { "id": "a", "text": "Ajustar o acoplamento da máscara (M) e reposicionar a cabeça (R)", "isCorrect": true, "explanation": "Correto: primeiro checar se há vedação adequada e se a cabeça está em leve extensão." },
+      { "id": "b", "text": "Ir direto para IOT", "isCorrect": false, "explanation": "IOT é a última letra do MR SOPA; antes disso corrige-se técnica." },
+      { "id": "c", "text": "Aplicar adrenalina", "isCorrect": false, "explanation": "Sem ventilação efetiva, a adrenalina não funciona." },
+      { "id": "d", "text": "Iniciar massagem cardíaca sem ajustes", "isCorrect": false, "explanation": "Massagem só após VPP efetiva e FC < 60." }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 2"
+  },
+  {
+    "id": "q-casosp1-005",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Um RN a termo, vigoroso, com 5 minutos de vida, apresenta SatO2 de 78%. Qual a conduta?",
+    "options": [
+      { "id": "a", "text": "Iniciar O2 100% imediatamente", "isCorrect": false, "explanation": "SatO2 78% no 5º minuto está dentro da faixa esperada (70-80%); hiperoxia iatrogênica é prejudicial." },
+      { "id": "b", "text": "Continuar observação — SatO2 no 5º minuto esperada é 70-80%", "isCorrect": true, "explanation": "Correto: as metas de saturação aumentam gradualmente (70-80% em 5min, 80-90% em 5-10min, 85-95% >10min)." },
+      { "id": "c", "text": "Realizar IOT", "isCorrect": false, "explanation": "Sem indicação; o RN está vigoroso." },
+      { "id": "d", "text": "Iniciar massagem cardíaca", "isCorrect": false, "explanation": "Sem FC <60; contraindicado." }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 1"
+  },
+  {
+    "id": "q-casosp1-006",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A posição correta da cabeça do RN para VPP é:",
+    "options": [
+      { "id": "a", "text": "Hiperextensão cervical máxima", "isCorrect": false, "explanation": "Hiperextensão fecha a via aérea em RN — NÃO deve ser feita." },
+      { "id": "b", "text": "Flexão máxima", "isCorrect": false, "explanation": "Flexão também fecha a via aérea." },
+      { "id": "c", "text": "Leve extensão (coxim entre escápulas), posição de cheirar flor", "isCorrect": true, "explanation": "Correto: coxim fino entre escápulas mantém a via aérea aberta sem hiper/hipoextensão — 'posição de cheirar'." },
+      { "id": "d", "text": "Cabeça inclinada lateralmente 45°", "isCorrect": false, "explanation": "Inclinar não mantém via aérea aberta e dificulta a máscara." }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-casosp1-007",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Durante a VPP com Ambu, qual a função da válvula de escape 30-40 cmH2O?",
+    "options": [
+      { "id": "a", "text": "Monitorar oxímetro", "isCorrect": false, "explanation": "Válvula não monitora saturação; é dispositivo mecânico." },
+      { "id": "b", "text": "Limitar a pressão para evitar barotrauma pulmonar", "isCorrect": true, "explanation": "Correto: a válvula se abre acima de 30-40 cmH2O, protegendo contra pneumotórax por pressão excessiva." },
+      { "id": "c", "text": "Conectar ao laringoscópio", "isCorrect": false, "explanation": "Sem relação funcional." },
+      { "id": "d", "text": "Gerar pressão positiva espontânea", "isCorrect": false, "explanation": "A pressão é gerada pelo aperto do balão; a válvula apenas limita." }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 2"
+  },
+  {
+    "id": "q-casosp1-008",
+    "topicId": "casos-sala-parto-1",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "RN pálido, pós-DPP, em choque refratário à VPP e massagem. Qual expansor volêmico e dose são indicados?",
+    "options": [
+      { "id": "a", "text": "Soro fisiológico 10 mL/kg em 5-10 minutos na veia umbilical", "isCorrect": true, "explanation": "Correto: expansão com SF 10 mL/kg em 5-10 min, repetir se necessário. Sangue O-negativo pode ser considerado em perda maciça." },
+      { "id": "b", "text": "Soro glicosado 5% 20 mL/kg em bolus", "isCorrect": false, "explanation": "SG hipertônico causa hiperosmolaridade e hemorragia intracraniana; não é expansor." },
+      { "id": "c", "text": "Albumina 50% sem diluir", "isCorrect": false, "explanation": "Albumina 50% é hipertônica e não é primeira escolha." },
+      { "id": "d", "text": "Manitol 20% em bolus", "isCorrect": false, "explanation": "Manitol é diurético osmótico, não expansor; contraindicado aqui." }
+    ],
+    "reference": "Reanimação ≥34sem — pág. 3"
+  },
+  {
+    "id": "q-casosp1-009",
+    "topicId": "casos-sala-parto-1",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva a técnica correta para aferição de FC em sala de parto e explique por que ela é o principal sinal para decidir reanimação.",
+    "modelAnswer": "A aferição padrão é a ausculta precordial com estetoscópio, contando batimentos por 6 segundos e multiplicando por 10, oferecendo leitura rápida. A palpação do cordão umbilical é menos confiável (subestima em até 25%). A monitorização contínua inclui oxímetro pré-ductal no MSD (mão/punho direito) e/ou monitor cardíaco de 3 eletrodos (dois ombros ou braço e coxa esquerda). A FC é escolhida como principal sinal porque responde rapidamente à efetividade das manobras: melhora da FC é o indicador mais sensível de sucesso da VPP, e FC < 60 apesar de ventilação adequada é o gatilho inequívoco para massagem. Em contraste, o Apgar é retrospectivo e a FR pode ser irregular/difícil de contar no RN. Por isso o monitoramento da FC conduz toda a sequência (passos iniciais, VPP, massagem, medicação).",
+    "keyPoints": [
+      "Ausculta precordial 6s × 10",
+      "Palpação do cordão é menos confiável",
+      "Monitorização contínua com oxímetro pré-ductal (MSD) e monitor cardíaco",
+      "FC responde rápido à efetividade das manobras",
+      "FC < 60 com VPP adequada = massagem cardíaca",
+      "Apgar não serve para decisão (retrospectivo)"
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-casosp1-010",
+    "topicId": "casos-sala-parto-1",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "Quais fatores maternos, fetais, intraparto e neonatais aumentam o risco de o RN precisar de reanimação?",
+    "modelAnswer": "Maternos: doença hipertensiva (pré-eclâmpsia/eclâmpsia), infecções agudas ou crônicas (sífilis), diabetes, isoimunização Rh, extremos de idade materna, placenta prévia, descolamento prematuro de placenta, uso de drogas, anestesia geral, HIV. Fetais: gemelaridade, prematuridade, PIG, GIG, RCIU, malformações fetais, arritmias fetais, líquido amniótico meconial, pós-maturidade. Intraparto: período expulsivo prolongado, apresentação pélvica, prolapso de cordão, DPP, uso de depressoras do SNC (morfina, anestésicos), desproporção céfalo-pélvica. Neonatais: alterações pulmonares congênitas, persistência do padrão fetal de circulação pulmonar, anemia/hemorragia fetal, distúrbios metabólicos, bolsa rota > 18h. Identificar esses fatores na anamnese permite preparar equipe e material adequados.",
+    "keyPoints": [
+      "Maternos: HAS, DM, infecções, HIV, placenta prévia, DPP, anestesia geral",
+      "Fetais: gemelar, prematuridade, PIG/GIG, malformações, meconial, pós-termo",
+      "Intraparto: expulsivo prolongado, pélvico, prolapso de cordão, depressoras SNC",
+      "Neonatais: malformação pulmonar, anemia, circulação fetal persistente",
+      "Bolsa rota > 18h",
+      "Identificação permite preparo da equipe"
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "q-tutor-001",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Caso: gestante 30 anos, G1, pré-natal sem intercorrências, parto vaginal a termo de 38 semanas, PN 3500g. Classificação:",
+    "options": [
+      { "id": "a", "text": "Pré-termo, PIG", "isCorrect": false, "explanation": "38 sem é a termo; 3500 g não é PIG." },
+      { "id": "b", "text": "A termo, AIG (peso entre 2501-3999 g, não é classificado em BPN/macro)", "isCorrect": true, "explanation": "Correto: termo (37-41s6d), AIG (P10-P90). Peso entre 2501-3999 g não recebe classificação especial de BPN/macrossomia." },
+      { "id": "c", "text": "Pós-termo, macrossômico", "isCorrect": false, "explanation": "38 sem é termo, não pós-termo; e 3500 g não é macrossomia." },
+      { "id": "d", "text": "Prematuro tardio, AIG", "isCorrect": false, "explanation": "38 sem não é prematuro tardio (a faixa é 34-36s6d)." }
+    ],
+    "reference": "Tutoria — Caso 1"
+  },
+  {
+    "id": "q-tutor-002",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Caso: gestante 20 anos, G2P1, 4 consultas de pré-natal, ITU não tratada, TPP com bolsa rota 24h, 35 sem, PN 2000g. A classificação mais completa é:",
+    "options": [
+      { "id": "a", "text": "A termo, AIG", "isCorrect": false, "explanation": "35 sem não é termo; e 2000g em 35 sem geralmente cai abaixo do P10." },
+      { "id": "b", "text": "Prematuro tardio, BPN, PIG, com pré-natal incompleto, ITU não tratada e bolsa rota prolongada", "isCorrect": true, "explanation": "Correto: 35 sem (prematuro tardio), 2000 g (BPN — 1500-2500g), peso <P10 para IG (PIG), com intercorrências de risco infeccioso e metabólico." },
+      { "id": "c", "text": "Prematuro extremo, macrossômico", "isCorrect": false, "explanation": "35 sem é tardio, não extremo; 2000g está longe de macrossomia." },
+      { "id": "d", "text": "Pré-termo, AIG, sem intercorrências", "isCorrect": false, "explanation": "Ignora ITU não tratada, bolsa rota e percentil." }
+    ],
+    "reference": "Tutoria — Caso 2"
+  },
+  {
+    "id": "q-tutor-003",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A ITU materna não tratada durante a gestação aumenta o risco de:",
+    "options": [
+      { "id": "a", "text": "Hipoglicemia neonatal apenas", "isCorrect": false, "explanation": "Não é a complicação principal." },
+      { "id": "b", "text": "Trabalho de parto prematuro e sepse neonatal precoce", "isCorrect": true, "explanation": "Correto: ITU materna aumenta TPP e pode transmitir bactérias ao RN, causando sepse precoce." },
+      { "id": "c", "text": "Fenilcetonúria no RN", "isCorrect": false, "explanation": "PKU é doença genética, sem relação com ITU materna." },
+      { "id": "d", "text": "Síndrome de Down", "isCorrect": false, "explanation": "Síndrome de Down é cromossômica, não associada a ITU." }
+    ],
+    "reference": "Tutoria — Caso 2"
+  },
+  {
+    "id": "q-tutor-004",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual consequência de clampear o cordão tardiamente ACIMA de 3 minutos em RN termo?",
+    "options": [
+      { "id": "a", "text": "Anemia grave", "isCorrect": false, "explanation": "Anemia é risco do clampeamento PRECOCE, não tardio." },
+      { "id": "b", "text": "Hemoconcentração, policitemia e maior risco de icterícia", "isCorrect": true, "explanation": "Correto: tempo excessivo de clampeamento transfere sangue demais → policitemia → maior hemólise → hiperbilirrubinemia/icterícia." },
+      { "id": "c", "text": "Hipoglicemia", "isCorrect": false, "explanation": "Hipoglicemia não é efeito direto do clampeamento tardio." },
+      { "id": "d", "text": "Redução do risco de morte súbita", "isCorrect": false, "explanation": "Não há relação entre o timing de clampeamento e morte súbita do lactente." }
+    ],
+    "reference": "Tutoria — pág. 5"
+  },
+  {
+    "id": "q-tutor-005",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Paciente PIG pode apresentar qual alteração metabólica nas primeiras horas de vida?",
+    "options": [
+      { "id": "a", "text": "Hiperglicemia por resistência insulínica", "isCorrect": false, "explanation": "O padrão é hipoglicemia pela reserva hepática de glicogênio reduzida." },
+      { "id": "b", "text": "Hipoglicemia pela baixa reserva hepática de glicogênio", "isCorrect": true, "explanation": "Correto: órgãos viscerais pequenos → pouca reserva → maior risco de hipoglicemia, demandando dextro seriado." },
+      { "id": "c", "text": "Hipocalemia persistente", "isCorrect": false, "explanation": "Não é alteração característica do PIG isoladamente." },
+      { "id": "d", "text": "Hipernatremia", "isCorrect": false, "explanation": "Não é alteração característica do PIG." }
+    ],
+    "reference": "Tutoria — pág. 5"
+  },
+  {
+    "id": "q-tutor-006",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A diferença conceitual central entre PIG e RCF é:",
+    "options": [
+      { "id": "a", "text": "PIG é peso abaixo do P10 para a IG ao nascer; RCF é o fato de o feto não ter crescido adequadamente (2 USGs seguidas abaixo do esperado)", "isCorrect": true, "explanation": "Correto: PIG é classificação pelo percentil ao nascimento; RCF é o diagnóstico intrauterino. Pode haver PIG sem RCF (constitucionalmente pequeno) e RCF sem PIG (cresceu pouco mas nasceu dentro do P10-P90)." },
+      { "id": "b", "text": "São sinônimos", "isCorrect": false, "explanation": "Não são: PIG é classificação ao nascimento; RCF é processo intrauterino." },
+      { "id": "c", "text": "RCF é sempre assintomático", "isCorrect": false, "explanation": "RCF tem consequências clínicas: hipoglicemia, hipotermia, policitemia." },
+      { "id": "d", "text": "PIG só existe em pós-termo", "isCorrect": false, "explanation": "PIG pode ocorrer em qualquer IG." }
+    ],
+    "reference": "Tutoria — pág. 5"
+  },
+  {
+    "id": "q-tutor-007",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quantas consultas são consideradas o mínimo para um pré-natal completo?",
+    "options": [
+      { "id": "a", "text": "Pelo menos 3", "isCorrect": false, "explanation": "Número insuficiente para acompanhamento adequado." },
+      { "id": "b", "text": "Pelo menos 6", "isCorrect": true, "explanation": "Correto: ao menos 6 consultas (1 no 1º trim, 2 no 2º, 3 no 3º) é o mínimo recomendado." },
+      { "id": "c", "text": "Pelo menos 10", "isCorrect": false, "explanation": "10 é acima do mínimo; ideal para alto risco, mas não é o piso." },
+      { "id": "d", "text": "Não há número definido", "isCorrect": false, "explanation": "Há número mínimo (6) como padrão." }
+    ],
+    "reference": "Tutoria — pág. 3"
+  },
+  {
+    "id": "q-tutor-008",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Caso: mãe com pré-eclâmpsia grave, RN 36 sem com peso no P5. Além do suporte geral, qual atenção METABÓLICA específica o pediatra deve ter?",
+    "options": [
+      { "id": "a", "text": "Monitorização rigorosa de glicemia capilar (dextro) nas primeiras 48 horas", "isCorrect": true, "explanation": "Correto: o RN PIG tem reserva hepática baixa de glicogênio, exigindo controle seriado de glicemia (1, 3, 6, 12, 24, 48h)." },
+      { "id": "b", "text": "Restrição total de dieta até 7 dias", "isCorrect": false, "explanation": "Isso é apenas para asfixiados; o PIG deve ser estimulado à amamentação precoce." },
+      { "id": "c", "text": "Administração profilática de insulina", "isCorrect": false, "explanation": "Não está indicada; a insulina no RN normalmente não se reduz, risco é hipoglicemia." },
+      { "id": "d", "text": "Jejum com glicose EV a 10%", "isCorrect": false, "explanation": "Jejum sem indicação específica, a conduta primária é amamentar + dextro; EV só se hipoglicemia confirmada." }
+    ],
+    "reference": "Tutoria — pág. 5"
+  },
+  {
+    "id": "q-tutor-009",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Explique a fisiopatologia da pré-eclâmpsia e seus possíveis efeitos sobre o feto.",
+    "modelAnswer": "Na gestação normal, as células trofoblásticas invadem de forma organizada as arteríolas espiraladas do miométrio, transformando-as em vasos de baixa resistência que permitem fluxo adequado de O2 e nutrientes ao feto. Na pré-eclâmpsia essa invasão é deficiente e desorganizada — as arteríolas permanecem com lúmen estreito e alta resistência, comprometendo a perfusão placentária. Isso leva a isquemia placentária, liberação de fatores antiangiogênicos, disfunção endotelial materna (hipertensão, proteinúria, edema) e redução da oferta de O2 e nutrientes ao feto. Os efeitos fetais incluem restrição de crescimento fetal assimétrica (PIG), prematuridade por indicação materna, sofrimento fetal crônico, asfixia perinatal, descolamento prematuro de placenta, displasia broncopulmonar, enterocolite necrosante e alterações hematológicas. Por isso o seguimento com USG seriada, PA materna controlada e decisão oportuna de parto são fundamentais.",
+    "keyPoints": [
+      "Invasão trofoblástica desorganizada das arteríolas espiraladas",
+      "Arteríolas com alta resistência → isquemia placentária",
+      "Efeitos maternos: hipertensão, proteinúria, edema",
+      "Efeitos fetais: RCF assimétrica, prematuridade, asfixia, DPP",
+      "Pode evoluir para eclâmpsia ou HELLP",
+      "Conduta: USG seriada, controle de PA e parto no momento oportuno"
+    ],
+    "reference": "Tutoria — Caso 2"
+  },
+  {
+    "id": "q-tutor-010",
+    "topicId": "tutoria-casos-clinicos",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Um RN com 37 semanas, peso 2400 g (P8), mãe com diabetes gestacional mal controlado, nasce vigoroso mas com tremores nas primeiras 2 horas. Classifique o RN e descreva o plano imediato de conduta.",
+    "modelAnswer": "Classificação: RN a termo (37 sem), BPN (1500-2500 g), PIG (peso < P10). A presença de diabetes gestacional é fator de risco para hipoglicemia por hiperinsulinismo persistente pós-clampeamento. Os tremores são sintomáticos e exigem ação imediata: aferir glicemia capilar (dextro) URGENTE. Se hipoglicemia (< 40-45 mg/dL em sintomáticos), oferecer leite materno imediatamente se sucção adequada; se persistir sintomática ou baixa, iniciar glicose EV (push de SG 10% 2 mL/kg, seguido de infusão contínua de glicose 4-6 mg/kg/min). Manter dextro seriado (1-3-6-12-24-48h). Descartar outras causas de tremor (hipocalcemia, hipomagnesemia, crise convulsiva sutil). Manter aquecimento, evitar jejum > 3h, controle térmico. Avaliar necessidade de ecocardiograma (risco de malformações cardíacas em filho de mãe diabética), rastrear policitemia, icterícia e hipocalcemia.",
+    "keyPoints": [
+      "Classificação: termo, BPN, PIG",
+      "Tremores em filho de DM = suspeita de hipoglicemia sintomática",
+      "Dextro imediato; se hipoglicemia, iniciar leite materno e/ou glicose EV",
+      "Protocolo de dextro seriado (1-3-6-12-24-48h)",
+      "Diagnóstico diferencial: hipocalcemia, hipomagnesemia, convulsão",
+      "Manter temperatura, evitar jejum >3h",
+      "Rastrear policitemia, icterícia, hipocalcemia, ecocardiograma"
+    ],
+    "reference": "Tutoria — Casos + Perinatologia pág. 5"
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "q-casoasf-001",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Caso: RN a termo, pós cesárea por DPP, Apgar 1/4/6, pH de cordão 6,92, EEG com crise convulsiva. O diagnóstico mais provável é:",
+    "options": [
+      { "id": "a", "text": "Sepse neonatal precoce", "isCorrect": false, "explanation": "A história aponta para evento hipóxico agudo (DPP) com acidose grave — padrão de asfixia perinatal." },
+      { "id": "b", "text": "Asfixia perinatal com encefalopatia hipóxico-isquêmica", "isCorrect": true, "explanation": "Correto: evento agudo (DPP), acidose (pH < 7), Apgar baixo persistente e convulsão → EHI pós-asfixia." },
+      { "id": "c", "text": "Cardiopatia congênita cianótica", "isCorrect": false, "explanation": "Acidose de cordão + convulsão aguda + DPP são mais explicados por asfixia." },
+      { "id": "d", "text": "Síndrome da aspiração meconial isolada", "isCorrect": false, "explanation": "SAM explica parte do quadro mas não a convulsão e acidose neurológica." }
+    ],
+    "reference": "Caso clínico Asfixia"
+  },
+  {
+    "id": "q-casoasf-002",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Diante do RN acima, dentro das primeiras 6h, qual terapia específica deve ser considerada?",
+    "options": [
+      { "id": "a", "text": "Corticoterapia sistêmica", "isCorrect": false, "explanation": "Não há benefício comprovado na EHI; não é indicada." },
+      { "id": "b", "text": "Hipotermia terapêutica 33,5°C por 72h", "isCorrect": true, "explanation": "Correto: RN ≥ 35-36 sem e ≥ 1800 g com EHI moderada-grave e critérios de asfixia (pH < 7, evento agudo) → hipotermia terapêutica iniciada antes de 6h." },
+      { "id": "c", "text": "Bicarbonato em bolus para corrigir acidose", "isCorrect": false, "explanation": "Bicarbonato não é rotineiro; pode piorar acidose intracelular." },
+      { "id": "d", "text": "Manitol para edema cerebral", "isCorrect": false, "explanation": "Agentes hiperosmolares não são usados em EHI neonatal." }
+    ],
+    "reference": "Caso clínico Asfixia; Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-casoasf-003",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual é o 1º antiepiléptico de escolha para controlar as convulsões do RN desse caso?",
+    "options": [
+      { "id": "a", "text": "Diazepam IM", "isCorrect": false, "explanation": "Diazepam IM não é adequado em RN; absorção errática e risco de depressão." },
+      { "id": "b", "text": "Fenobarbital EV", "isCorrect": true, "explanation": "Correto: é a droga de primeira escolha. Fenitoína como 2ª e midazolam como 3ª." },
+      { "id": "c", "text": "Levetiracetam VO", "isCorrect": false, "explanation": "VO não é opção em RN crítico; pode ser considerado ambulatorialmente em segunda linha." },
+      { "id": "d", "text": "Ácido valpróico", "isCorrect": false, "explanation": "Não é usado na fase aguda neonatal." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-casoasf-004",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Em relação à nutrição desse RN nas primeiras duas semanas, qual conduta é adequada?",
+    "options": [
+      { "id": "a", "text": "Iniciar amamentação imediatamente", "isCorrect": false, "explanation": "Risco alto de ECN pela vasoconstrição/hipoperfusão intestinal." },
+      { "id": "b", "text": "Jejum com nutrição parenteral por 7-14 dias", "isCorrect": true, "explanation": "Correto: a hipoperfusão intestinal aumenta risco de ECN/perfuração; NPT permite suporte nutricional enquanto se recupera a perfusão." },
+      { "id": "c", "text": "Sonda nasogástrica com fórmula diluída", "isCorrect": false, "explanation": "Qualquer nutrição enteral precoce em intestino isquêmico é perigosa." },
+      { "id": "d", "text": "Soro glicosado exclusivamente por 30 dias", "isCorrect": false, "explanation": "Insuficiente para suprir necessidades proteicas e lipídicas; usa-se NPT." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-casoasf-005",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Na classificação de Sarnat desse RN (convulsões, letárgico, reflexos diminuídos), ele enquadra-se em:",
+    "options": [
+      { "id": "a", "text": "Leve (estágio 1)", "isCorrect": false, "explanation": "Leve não tem convulsão e tem tônus normal/aumentado." },
+      { "id": "b", "text": "Moderada (estágio 2)", "isCorrect": true, "explanation": "Correto: letargia + convulsões + reflexos diminuídos correspondem à moderada; ~80% recuperam sem sequelas se tratados." },
+      { "id": "c", "text": "Grave (estágio 3)", "isCorrect": false, "explanation": "Grave: coma, não responde, mortalidade alta, sequelas em 100% dos sobreviventes." },
+      { "id": "d", "text": "Sem EHI", "isCorrect": false, "explanation": "A presença de convulsão já define EHI pelo menos moderada." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 2"
+  },
+  {
+    "id": "q-casoasf-006",
+    "topicId": "caso-asfixia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual destes exames laboratoriais NÃO é útil na avaliação inicial deste RN?",
+    "options": [
+      { "id": "a", "text": "Gasometria arterial", "isCorrect": false, "explanation": "Essencial: avalia acidose e resposta terapêutica." },
+      { "id": "b", "text": "Função renal (ureia, creatinina)", "isCorrect": false, "explanation": "Essencial: risco de NTA em asfixia." },
+      { "id": "c", "text": "Transaminases hepáticas", "isCorrect": false, "explanation": "Útil: detecta disfunção hepática pós-asfixia." },
+      { "id": "d", "text": "Dosagem sérica de PSA", "isCorrect": true, "explanation": "Correto: PSA é marcador prostático, irrelevante em RN. Os exames úteis são gasometria, lactato, CK-MB, transaminases, eletrólitos, creatinina." }
+    ],
+    "reference": "Asfixia Perinatal — pág. 3"
+  },
+  {
+    "id": "q-casoasf-007",
+    "topicId": "caso-asfixia",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Quais são os 4 critérios essenciais para o diagnóstico de asfixia perinatal?",
+    "modelAnswer": "1) Gasometria arterial ou de cordão umbilical mostrando acidose metabólica (pH < 7,25 e bicarbonato baixo) ou mista (com hipercapnia associada). 2) Persistência do Apgar 0-3 após o 5º minuto de vida (avaliado com 1, 5 e 10 minutos; pode-se aferir 15 minutos se nota ainda <7). 3) Manifestações neurológicas precoces (convulsões, hipotonia, alteração do nível de consciência/coma). 4) Disfunção de múltiplos órgãos (cardíaca, renal, hepática, pulmonar, gastrointestinal). A asfixia é diagnosticada pela combinação desses achados; nenhum isoladamente (como Apgar) é suficiente.",
+    "keyPoints": [
+      "Acidose metabólica/mista (pH <7,25, bicarbonato baixo)",
+      "Apgar 0-3 persistente após 5º minuto",
+      "Manifestações neurológicas (convulsão, hipotonia, coma)",
+      "Disfunção multi-orgânica",
+      "Diagnóstico exige combinação de critérios, não isolado"
+    ],
+    "reference": "Asfixia Perinatal — pág. 1"
+  },
+  {
+    "id": "q-casoasf-008",
+    "topicId": "caso-asfixia",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Explique em que consiste o protocolo de hipotermia terapêutica (técnica, alvo, duração e reaquecimento).",
+    "modelAnswer": "Técnica: resfriar o colchão/sistema a cerca de 4°C, desligar o calor radiante, colocar termômetro retal/esofágico e ajustar até que o RN atinja temperatura central de 33,5°C. Manter esse alvo por 72 horas, monitorando sinais vitais, perfusão, balanço hídrico, coagulação e convulsões. Movimentar o paciente a cada 2 horas para evitar lesão cutânea. Após as 72h, reaquecer lentamente (0,5°C por hora) até 36,5°C, checando sinais vitais a cada 30 minutos — a fase de reaquecimento é de risco para recidiva de convulsões e instabilidade hemodinâmica, exigindo vigilância reforçada. Ao atingir normotermia, retirar o colchão e reposicionar em incubadora. O objetivo é reduzir metabolismo cerebral e liberação de radicais livres na reperfusão, com melhora do prognóstico neurológico se iniciada antes de 6h.",
+    "keyPoints": [
+      "Alvo: 33,5°C (temperatura central)",
+      "Duração: 72 horas",
+      "Iniciar em até 6h de vida",
+      "Movimentar a cada 2h para evitar lesão cutânea",
+      "Reaquecer 0,5°C/h até 36,5°C",
+      "Atenção a convulsões e instabilidade no reaquecimento",
+      "Monitorização intensiva (SV, perfusão, coagulação, convulsões)"
+    ],
+    "reference": "Asfixia Perinatal — pág. 3-4"
+  }
+]

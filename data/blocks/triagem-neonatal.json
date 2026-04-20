@@ -1,0 +1,205 @@
+[
+  {
+    "id": "q-triag-001",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quais são os testes de triagem neonatal obrigatórios no Brasil?",
+    "options": [
+      { "id": "a", "text": "Pezinho, orelhinha, olhinho, coraçãozinho e linguinha", "isCorrect": true, "explanation": "Correto: são os 5 testes rotineiros; o teste do dedão (hálux/FOP) é mais recente e ampliado em alguns serviços." },
+      { "id": "b", "text": "Apenas teste do pezinho", "isCorrect": false, "explanation": "Incompleto; vários outros testes complementares são obrigatórios." },
+      { "id": "c", "text": "Gasometria, hemograma e ecocardio", "isCorrect": false, "explanation": "São exames laboratoriais, não 'triagem neonatal' padronizada." },
+      { "id": "d", "text": "Pezinho, USG de crânio e fundoscopia", "isCorrect": false, "explanation": "USG de crânio não é rotina para termo saudável." }
+    ],
+    "reference": "Testes de Triagem — pág. 1"
+  },
+  {
+    "id": "q-triag-002",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O teste do pezinho ideal deve ser colhido:",
+    "options": [
+      { "id": "a", "text": "Nas primeiras 24h de vida", "isCorrect": false, "explanation": "Antes de 48h de alimentação proteica há risco de FALSO NEGATIVO para fenilcetonúria ou FALSO POSITIVO para hipotireoidismo." },
+      { "id": "b", "text": "Após 48h de vida com alimentação proteica, entre o 3º e 7º dia", "isCorrect": true, "explanation": "Correto: a coleta precoce gera resultados não confiáveis; a janela ideal é 3º-7º dia, após ≥ 48h de leite." },
+      { "id": "c", "text": "Aos 30 dias de vida", "isCorrect": false, "explanation": "Muito tardio; diagnósticos como hipotireoidismo congênito e fenilcetonúria já podem causar dano neurológico irreversível." },
+      { "id": "d", "text": "Apenas após a 1ª consulta em puericultura", "isCorrect": false, "explanation": "Deve ser antes da alta ou em UBS no 3º-7º dia; esperar primeira consulta é tarde." }
+    ],
+    "reference": "Testes de Triagem — pág. 1"
+  },
+  {
+    "id": "q-triag-003",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual das patologias abaixo NÃO é rastreada pelo teste do pezinho básico?",
+    "options": [
+      { "id": "a", "text": "Fenilcetonúria", "isCorrect": false, "explanation": "Rastreada no pezinho básico." },
+      { "id": "b", "text": "Hipotireoidismo congênito", "isCorrect": false, "explanation": "Rastreada no pezinho básico." },
+      { "id": "c", "text": "Fibrose cística", "isCorrect": false, "explanation": "Rastreada no pezinho básico; confirmação com teste do suor." },
+      { "id": "d", "text": "Diabetes melito tipo 1", "isCorrect": true, "explanation": "Correto: DM tipo 1 NÃO é rastreada no pezinho. O pezinho inclui fenilcetonúria, hipotireoidismo, hiperplasia adrenal congênita, hemoglobinopatias, fibrose cística, deficiência de biotinidase e toxoplasmose." }
+    ],
+    "reference": "Testes de Triagem — pág. 1"
+  },
+  {
+    "id": "q-triag-004",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Entre as doenças rastreadas pelo pezinho, qual pode ser tratada empiricamente ao suspeitar (sem aguardar confirmação)?",
+    "options": [
+      { "id": "a", "text": "Fenilcetonúria", "isCorrect": false, "explanation": "Requer confirmação por dosagem de fenilalanina antes de restrição dietética definitiva." },
+      { "id": "b", "text": "Hipotireoidismo congênito (iniciar levotiroxina se TSH > 20)", "isCorrect": true, "explanation": "Correto: o hipotireoidismo pode ser tratado empiricamente pois atraso = dano neurológico irreversível. Iniciar levotiroxina enquanto se confirma." },
+      { "id": "c", "text": "Anemia falciforme", "isCorrect": false, "explanation": "Requer confirmação por eletroforese antes de profilaxia específica." },
+      { "id": "d", "text": "Fibrose cística", "isCorrect": false, "explanation": "Requer teste do suor ou exame genético para confirmação." }
+    ],
+    "reference": "Testes de Triagem — pág. 1"
+  },
+  {
+    "id": "q-triag-005",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Um RN tem teste do pezinho alterado com suspeita de fibrose cística. O exame confirmatório é:",
+    "options": [
+      { "id": "a", "text": "Repetir o teste do pezinho em 7 dias", "isCorrect": false, "explanation": "Repetir ajuda mas não é confirmatório — precisa exame específico." },
+      { "id": "b", "text": "Teste do suor e/ou exame genético (CFTR)", "isCorrect": true, "explanation": "Correto: o teste do suor (cloro) é o padrão-ouro; exame genético confirma mutação no CFTR." },
+      { "id": "c", "text": "Radiografia de tórax", "isCorrect": false, "explanation": "RX pode mostrar achados tardios, mas não é diagnóstico." },
+      { "id": "d", "text": "Gasometria arterial", "isCorrect": false, "explanation": "Não é confirmatória para fibrose cística." }
+    ],
+    "reference": "Testes de Triagem — pág. 2"
+  },
+  {
+    "id": "q-triag-006",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O teste da orelhinha (EOA — emissões otoacústicas) avalia:",
+    "options": [
+      { "id": "a", "text": "Surdez central (retrococlear)", "isCorrect": false, "explanation": "O EOA avalia integridade coclear; lesões retrococleares passam pelo teste e precisam de BERA." },
+      { "id": "b", "text": "Lesão coclear (surdez de condução/cóclea)", "isCorrect": true, "explanation": "Correto: EOA detecta lesão coclear apenas; se alterado e persistir após repetir em 15-30 dias, encaminhar ao otorrino." },
+      { "id": "c", "text": "Cerume", "isCorrect": false, "explanation": "Cerume pode causar falha no teste, mas não é o que o teste avalia." },
+      { "id": "d", "text": "Maturidade do sistema vestibular", "isCorrect": false, "explanation": "Não avalia equilíbrio/vestibular." }
+    ],
+    "reference": "Testes de Triagem — pág. 3"
+  },
+  {
+    "id": "q-triag-007",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Um RN apresentou leucocoria no teste do olhinho. Qual é a conduta?",
+    "options": [
+      { "id": "a", "text": "Observar até 1 ano de idade", "isCorrect": false, "explanation": "Pode haver retinoblastoma — atraso é inaceitável." },
+      { "id": "b", "text": "Repetir em 1 mês e só encaminhar se persistir", "isCorrect": false, "explanation": "Leucocoria sempre é patológica; encaminhar imediatamente." },
+      { "id": "c", "text": "Encaminhar imediatamente ao oftalmologista", "isCorrect": true, "explanation": "Correto: leucocoria pode indicar retinoblastoma, catarata congênita, glaucoma, descolamento de retina ou retinopatia da prematuridade." },
+      { "id": "d", "text": "Iniciar colírio antibiótico", "isCorrect": false, "explanation": "Sem indicação — não é infecção." }
+    ],
+    "reference": "Testes de Triagem — pág. 3"
+  },
+  {
+    "id": "q-triag-008",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O teste do coraçãozinho (oximetria de pulso) deve ser feito:",
+    "options": [
+      { "id": "a", "text": "Logo ao nascimento", "isCorrect": false, "explanation": "Feito após 24h — antes disso o canal arterial ainda pode estar aberto e mascarar o diagnóstico." },
+      { "id": "b", "text": "Após 24h de vida, em MSD e um membro inferior", "isCorrect": true, "explanation": "Correto: feito após 24h (quando o canal arterial começa a fechar), comparando SatO2 do MSD (pré-ductal) com um MI (pós-ductal)." },
+      { "id": "c", "text": "Em ambos os membros superiores", "isCorrect": false, "explanation": "Compara-se pré-ductal (MSD) com pós-ductal (MI), não MSE×MSD." },
+      { "id": "d", "text": "Apenas se houver sopro auscultável", "isCorrect": false, "explanation": "É teste de triagem — feito em todos, inclusive sem sopro." }
+    ],
+    "reference": "Testes de Triagem — pág. 3"
+  },
+  {
+    "id": "q-triag-009",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Qual cardiopatia NÃO seria detectada com confiança pelo teste do coraçãozinho?",
+    "options": [
+      { "id": "a", "text": "Síndrome do ventrículo esquerdo hipoplásico", "isCorrect": false, "explanation": "Alvo clássico do teste; é detectada." },
+      { "id": "b", "text": "Tetralogia de Fallot", "isCorrect": false, "explanation": "Detectada quando cursa com dessaturação." },
+      { "id": "c", "text": "Drenagem anômala total das veias pulmonares", "isCorrect": false, "explanation": "Geralmente detectada (alterações de saturação)." },
+      { "id": "d", "text": "Comunicação interatrial pequena (CIA)", "isCorrect": true, "explanation": "Correto: CIA pequena frequentemente cursa com saturação normal e escapa do teste, que é focado em cardiopatias críticas cianóticas e dependentes do canal." }
+    ],
+    "reference": "Testes de Triagem — pág. 3"
+  },
+  {
+    "id": "q-triag-010",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A fenilcetonúria (PKU) tem como tratamento:",
+    "options": [
+      { "id": "a", "text": "Enzima de reposição endovenosa mensal", "isCorrect": false, "explanation": "Não existe enzima terapêutica comercial amplamente disponível; tratamento é dietético." },
+      { "id": "b", "text": "Dieta pobre em fenilalanina por toda a vida", "isCorrect": true, "explanation": "Correto: é a primeira doença genética tratada por meio nutricional; restrição de proteína (carne, leite, ovos, trigo, aspartame) para sempre." },
+      { "id": "c", "text": "Transplante hepático precoce", "isCorrect": false, "explanation": "Não indicado na maioria dos casos; tratamento é dietético." },
+      { "id": "d", "text": "Somente acompanhamento clínico sem intervenção", "isCorrect": false, "explanation": "Sem dieta → retardo mental irreversível." }
+    ],
+    "reference": "Testes de Triagem — pág. 2"
+  },
+  {
+    "id": "q-triag-011",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Por que o RN com anemia falciforme não apresenta crises vaso-oclusivas ao nascer?",
+    "options": [
+      { "id": "a", "text": "Porque a Hb fetal (HbF) é predominante e não falciforma", "isCorrect": true, "explanation": "Correto: a HbF predomina nos primeiros meses; a troca para HbS total só ocorre por volta dos 5-6 meses, quando começam as manifestações." },
+      { "id": "b", "text": "Porque a doença só se manifesta após a adolescência", "isCorrect": false, "explanation": "As crises surgem por volta dos 6 meses, não na adolescência." },
+      { "id": "c", "text": "Porque recebe transfusões profiláticas", "isCorrect": false, "explanation": "Não há transfusão profilática rotineira ao nascer." },
+      { "id": "d", "text": "Porque o baço ainda não está funcionante", "isCorrect": false, "explanation": "O baço funciona; a razão principal é a predominância de HbF." }
+    ],
+    "reference": "Testes de Triagem — pág. 2"
+  },
+  {
+    "id": "q-triag-012",
+    "topicId": "triagem-neonatal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A hiperplasia adrenal congênita forma perdedora de sal cursa com:",
+    "options": [
+      { "id": "a", "text": "Hipertensão e hipernatremia", "isCorrect": false, "explanation": "Pelo contrário — há hipotensão e HIPOnatremia por deficiência de aldosterona." },
+      { "id": "b", "text": "Desidratação, hiponatremia e hiperpotassemia", "isCorrect": true, "explanation": "Correto: déficit de aldosterona → perda de sódio/água e retenção de potássio, podendo ser fatal se não reconhecida." },
+      { "id": "c", "text": "Obesidade e diabetes neonatal", "isCorrect": false, "explanation": "Não é o perfil desta forma." },
+      { "id": "d", "text": "Icterícia grave isolada", "isCorrect": false, "explanation": "Icterícia não é o achado central dessa doença." }
+    ],
+    "reference": "Testes de Triagem — pág. 3"
+  },
+  {
+    "id": "q-triag-013",
+    "topicId": "triagem-neonatal",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Cite as 7 doenças rastreadas pelo teste do pezinho básico e explique brevemente a importância de cada uma ser detectada precocemente.",
+    "modelAnswer": "1) Fenilcetonúria — erro inato do metabolismo (déficit de fenilalanina-hidroxilase); detecção precoce permite dieta hipoproteica, prevenindo retardo mental e convulsões. 2) Hipotireoidismo congênito — tratamento imediato com levotiroxina evita atraso neurológico e de crescimento irreversíveis. 3) Fibrose cística — diagnóstico precoce possibilita manejo multidisciplinar (pancreatina, fisioterapia respiratória) e melhora sobrevida. 4) Hiperplasia adrenal congênita — reconhecer a forma perdedora de sal previne choque hipovolêmico grave/fatal. 5) Hemoglobinopatias (principalmente anemia falciforme) — profilaxia com antibióticos e vacinas contra germes encapsulados e preparo da família. 6) Deficiência de biotinidase — reposição de biotina evita convulsões, atraso DPM e problemas neurológicos. 7) Toxoplasmose congênita — tratamento precoce reduz sequelas oculares e neurológicas. O pezinho é triagem: resultado alterado não é diagnóstico e deve ser confirmado.",
+    "keyPoints": [
+      "Fenilcetonúria — dieta hipoproteica para prevenir retardo",
+      "Hipotireoidismo congênito — levotiroxina precoce evita dano neurológico",
+      "Fibrose cística — tratamento multidisciplinar melhora prognóstico",
+      "Hiperplasia adrenal congênita — previne choque por perda de sal",
+      "Hemoglobinopatias (falciforme) — profilaxia infecciosa",
+      "Deficiência de biotinidase — reposição evita convulsões e atraso DPM",
+      "Toxoplasmose congênita — tratamento reduz sequelas",
+      "Resultado alterado requer confirmação"
+    ],
+    "reference": "Testes de Triagem — págs. 1-3"
+  },
+  {
+    "id": "q-triag-014",
+    "topicId": "triagem-neonatal",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "Quais são os 5 testes rotineiros de triagem neonatal e qual a janela ideal para cada um?",
+    "modelAnswer": "1) Teste do pezinho — 3º ao 7º dia de vida, após 48h de alimentação proteica. 2) Teste da orelhinha (EOA) — realizado antes da alta hospitalar; se alterado, repetir em 15-30 dias. 3) Teste do olhinho (reflexo vermelho) — ao nascimento e reavaliado em consultas de puericultura (3× ao ano nos primeiros 3 anos). 4) Teste do coraçãozinho (oximetria) — após 24h de vida, antes da alta (mão direita e um membro inferior). 5) Teste da linguinha (protocolo de Bristol) — ainda na maternidade, para avaliar a mobilidade lingual e indicação de frenotomia. Em alguns serviços, o teste do dedão (hálux/FOP) é incluído.",
+    "keyPoints": [
+      "Pezinho: 3º ao 7º dia, após 48h de leite",
+      "Orelhinha (EOA): antes da alta; repetir em 15-30 dias se alterado",
+      "Olhinho: ao nascimento e 3×/ano nos 3 primeiros anos",
+      "Coraçãozinho: após 24h, MSD + MI",
+      "Linguinha: ainda na maternidade, protocolo de Bristol"
+    ],
+    "reference": "Testes de Triagem — págs. 1-4"
+  }
+]

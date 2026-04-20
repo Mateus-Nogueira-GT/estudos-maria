@@ -1,0 +1,188 @@
+[
+  {
+    "id": "q-atendrn-001",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quais são as três perguntas iniciais feitas imediatamente ao nascimento?",
+    "options": [
+      { "id": "a", "text": "Chorou? Respira? Está rosado?", "isCorrect": false, "explanation": "Essas são perguntas antigas. O protocolo atual usa IG, tônus e respiração/choro." },
+      { "id": "b", "text": "Gestação ≥ 34 semanas? Tônus bom? Está respirando ou chorando?", "isCorrect": true, "explanation": "Correto: se as três respostas forem SIM, o RN vai para pele-a-pele; um NÃO → passos iniciais." },
+      { "id": "c", "text": "Apgar ≥ 7? Tônus ok? FC > 100?", "isCorrect": false, "explanation": "Apgar NÃO é usado para iniciar reanimação. FC é aferida depois dos passos iniciais." },
+      { "id": "d", "text": "Mãe HIV+? Bolsa rota > 18h? Trabalho de parto prolongado?", "isCorrect": false, "explanation": "Essas são perguntas da anamnese materna prévia, não as 3 do nascimento." }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-atendrn-002",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O acrônimo ASPAS, referente aos passos iniciais da reanimação, significa:",
+    "options": [
+      { "id": "a", "text": "Aspirar, Secar, Pele-a-pele, Avaliar, Saturar", "isCorrect": false, "explanation": "Essa sequência mistura etapas e inverte a ordem correta. Pele-a-pele não é um passo inicial da reanimação." },
+      { "id": "b", "text": "Aquecer, Secar, Posicionar, Aspirar (se necessário), Sinais vitais", "isCorrect": true, "explanation": "Correto: ASPAS = Aquecer · Secar (+ touca) · Posicionar (coxim) · Aspirar S/N · Sinais vitais. Realizados em até 30s." },
+      { "id": "c", "text": "Avaliar, Secar, Puxar, Aspirar, Soltar", "isCorrect": false, "explanation": "'Puxar' e 'soltar' não fazem parte dos passos iniciais." },
+      { "id": "d", "text": "Adrenalina, Soro, Pressão, Apgar, Saturação", "isCorrect": false, "explanation": "Essas são medidas avançadas (adrenalina, soro) e não os passos iniciais." }
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-atendrn-003",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Ao aspirar vias aéreas superiores durante os passos iniciais, qual a ordem e pressão corretas?",
+    "options": [
+      { "id": "a", "text": "Primeiro narinas, depois boca, a 200 mmHg", "isCorrect": false, "explanation": "A ordem correta é boca → narinas. Aspirar narinas primeiro pode desencadear gasp e broncoaspirar conteúdo da boca." },
+      { "id": "b", "text": "Primeiro boca, depois narinas, com pressão máxima de 100 mmHg", "isCorrect": true, "explanation": "Correto: boca → narinas, com pressão suave de até 100 mmHg e movimentos delicados." },
+      { "id": "c", "text": "Boca e narinas simultaneamente, sem limite de pressão", "isCorrect": false, "explanation": "Nunca simultaneamente, e sempre com pressão limitada para não lesar mucosa." },
+      { "id": "d", "text": "Apenas narinas, porque a boca não precisa ser aspirada", "isCorrect": false, "explanation": "A boca deve ser aspirada primeiro; ela concentra secreções/líquido amniótico." }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-atendrn-004",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual o calibre de sonda de aspiração indicado para cada grupo?",
+    "options": [
+      { "id": "a", "text": "Sonda 6 no termo, sonda 8 no prematuro", "isCorrect": false, "explanation": "Está invertido: 6 no prematuro, 8 no termo." },
+      { "id": "b", "text": "Sonda 6 no prematuro, sonda 8 no termo", "isCorrect": true, "explanation": "Correto: sonda 6 (mais fina) para prematuros, sonda 8 para RN a termo." },
+      { "id": "c", "text": "Sonda 10 para todos", "isCorrect": false, "explanation": "Sondas muito calibrosas podem lesar a mucosa de RN." },
+      { "id": "d", "text": "Sonda 4 no prematuro, sonda 6 no termo", "isCorrect": false, "explanation": "Essas medidas são muito finas e não corresponde ao protocolo." }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-atendrn-005",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em um RN a termo, vigoroso, chorando e com tônus ativo, a conduta quanto ao clampeamento do cordão é:",
+    "options": [
+      { "id": "a", "text": "Clampeamento imediato (< 30s) para evitar icterícia", "isCorrect": false, "explanation": "O imediato é reservado para situações específicas (mãe HIV+, DPP, placenta prévia, anestesia geral, nó de cordão ou RN deprimido)." },
+      { "id": "b", "text": "Clampeamento tardio entre 1 e 3 minutos", "isCorrect": true, "explanation": "Correto: em RN bem, faz-se clampeamento tardio (1-3 min) para transferir sangue placentário e reduzir anemia ferropriva." },
+      { "id": "c", "text": "Clampeamento após 10 minutos, para maior volemia", "isCorrect": false, "explanation": "Acima de 3 minutos há risco de hemoconcentração/policitemia e hiperbilirrubinemia." },
+      { "id": "d", "text": "Nunca clampear em parto normal", "isCorrect": false, "explanation": "O cordão sempre é clampeado; o que muda é o momento." }
+    ],
+    "reference": "Atendimento ao RN — pág. 2; Aula 6 Perinato — pág. 2"
+  },
+  {
+    "id": "q-atendrn-006",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em qual situação está indicado o CLAMPEAMENTO IMEDIATO do cordão umbilical?",
+    "options": [
+      { "id": "a", "text": "RN chorando, com tônus normal, IG 39 sem", "isCorrect": false, "explanation": "RN vigoroso recebe clampeamento tardio (1-3 min)." },
+      { "id": "b", "text": "Descolamento prematuro de placenta (DPP)", "isCorrect": true, "explanation": "Correto: DPP, placenta prévia sangrando, mãe HIV+, anestesia geral, nó verdadeiro de cordão e RN deprimido indicam clampeamento imediato." },
+      { "id": "c", "text": "Prematuro tardio (35 sem) nascido bem", "isCorrect": false, "explanation": "Prematuro nascido bem pode receber clampeamento precoce (30s-1 min), não imediato." },
+      { "id": "d", "text": "RN a termo com bolsa rota há 2 horas", "isCorrect": false, "explanation": "Bolsa rota < 18 h não justifica por si só clampeamento imediato." }
+    ],
+    "reference": "Reanimação Neonatal — pág. 1"
+  },
+  {
+    "id": "q-atendrn-007",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Como se avalia a frequência cardíaca do RN nos passos iniciais?",
+    "options": [
+      { "id": "a", "text": "Palpando pulso umbilical por 15 segundos x 4", "isCorrect": false, "explanation": "A palpação do cordão é pouco confiável. A recomendação atual é ausculta precordial." },
+      { "id": "b", "text": "Ausculta precordial por 6 segundos, multiplicando por 10", "isCorrect": true, "explanation": "Correto: estetoscópio no precórdio por 6s × 10. FC > 100 bpm é o alvo." },
+      { "id": "c", "text": "Apenas pelo oxímetro de pulso", "isCorrect": false, "explanation": "O oxímetro é útil depois, para monitorização contínua, mas demora para estabilizar; a ausculta é mais rápida." },
+      { "id": "d", "text": "Não é necessário avaliar FC nos passos iniciais", "isCorrect": false, "explanation": "A FC é o principal sinal para decidir reanimação." }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-atendrn-008",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O índice de Apgar é usado para:",
+    "options": [
+      { "id": "a", "text": "Decidir se deve ser iniciada a reanimação", "isCorrect": false, "explanation": "ERRADO: o Apgar NÃO deve ser usado como critério para iniciar reanimação — ele é retrospectivo." },
+      { "id": "b", "text": "Avaliar a eficácia da transição e das manobras de reanimação", "isCorrect": true, "explanation": "Correto: é aferido no 1º, 5º e 10º minuto para avaliar a transição e a resposta às medidas." },
+      { "id": "c", "text": "Classificar peso/idade gestacional", "isCorrect": false, "explanation": "Essa classificação é feita pela curva (PIG/AIG/GIG), não pelo Apgar." },
+      { "id": "d", "text": "Definir alta hospitalar", "isCorrect": false, "explanation": "Os critérios de alta são clínicos (peso, triagens, amamentação), não o Apgar isolado." }
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-atendrn-009",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quais são os 5 parâmetros avaliados no escore de Apgar?",
+    "options": [
+      { "id": "a", "text": "FC, respiração, cor, tônus, irritabilidade reflexa", "isCorrect": true, "explanation": "Correto: são os 5 clássicos, cada um pontuando de 0 a 2 (total de 0 a 10)." },
+      { "id": "b", "text": "FC, FR, PA, SatO2, peso", "isCorrect": false, "explanation": "PA, SatO2 e peso não fazem parte do Apgar clássico." },
+      { "id": "c", "text": "FC, temperatura, glicemia, diurese, cor", "isCorrect": false, "explanation": "Temperatura, glicemia e diurese não compõem o Apgar." },
+      { "id": "d", "text": "Respiração, tônus, reflexo, pupila, cor", "isCorrect": false, "explanation": "Pupila não faz parte do escore; FC é obrigatória e está faltando." }
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-atendrn-010",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quais duas medicações fazem parte dos cuidados de rotina em sala de parto do RN sadio?",
+    "options": [
+      { "id": "a", "text": "Vitamina K e vacina contra hepatite B", "isCorrect": true, "explanation": "Correto: vitamina K (profilaxia da doença hemorrágica do RN) + hepatite B em até 12h de vida, uma em cada perna." },
+      { "id": "b", "text": "Vitamina D e BCG", "isCorrect": false, "explanation": "Vit D começa em puericultura. BCG é dada antes da alta, mas só se peso ≥ 2 kg — não nos cuidados imediatos." },
+      { "id": "c", "text": "Adrenalina e soro fisiológico", "isCorrect": false, "explanation": "São medicações de reanimação avançada, não cuidados de rotina." },
+      { "id": "d", "text": "Surfactante e antibiótico profilático", "isCorrect": false, "explanation": "Não fazem parte da rotina do RN sadio." }
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  },
+  {
+    "id": "q-atendrn-011",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A manobra de Credê (nitrato de prata 1% nos olhos) é indicada principalmente para prevenir:",
+    "options": [
+      { "id": "a", "text": "Catarata congênita e retinoblastoma", "isCorrect": false, "explanation": "Esses são detectados pelo teste do olhinho (reflexo vermelho), não prevenidos por nitrato." },
+      { "id": "b", "text": "Conjuntivite gonocócica e por clamídia", "isCorrect": true, "explanation": "Correto: profilaxia das oftalmias neonatais por Neisseria gonorrhoeae e Chlamydia trachomatis." },
+      { "id": "c", "text": "Descolamento de retina", "isCorrect": false, "explanation": "Não se previne descolamento com nitrato." },
+      { "id": "d", "text": "Glaucoma congênito", "isCorrect": false, "explanation": "Glaucoma não é uma infecção e não é prevenida por colírio tópico." }
+    ],
+    "reference": "Atendimento ao RN — pág. 2"
+  },
+  {
+    "id": "q-atendrn-012",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva a fisiologia da transição cardiorrespiratória do RN ao nascer, comentando o papel do choro, do O2 e do fechamento do canal arterial.",
+    "modelAnswer": "Na vida fetal, o pulmão não realiza trocas: as arteríolas pulmonares estão vasoconstritas (hipertensão pulmonar fisiológica) e o sangue do VD desvia pelo canal arterial para a aorta. Ao nascer, o choro e a respiração efetiva promovem a entrada de ar nos alvéolos, expelindo o líquido pulmonar para o interstício e aumentando a permeabilidade da membrana. O O2 é um potente vasodilatador das arteríolas pulmonares, o que reduz a pressão pulmonar e permite que o sangue passe a circular pelo pulmão para realizar trocas gasosas. Ao mesmo tempo, o O2 atua como vasoconstritor no canal arterial, que se fecha em 24-72 horas, e a placenta, ao ser clampeada, sai do circuito. O ducto venoso torna-se ligamento. Assim completa-se a transição para a circulação neonatal.",
+    "keyPoints": [
+      "Na vida fetal as arteríolas pulmonares estão vasoconstritas e há shunt pelo canal arterial",
+      "Choro e respiração efetiva expelem líquido pulmonar e aeram alvéolos",
+      "O2 causa vasodilatação das arteríolas pulmonares → queda da pressão pulmonar",
+      "O2 causa vasoconstrição do canal arterial, que fecha em 24-72 h",
+      "Placenta sai da circulação com o clampeamento; ducto venoso vira ligamento"
+    ],
+    "reference": "Atendimento ao RN — pág. 1"
+  },
+  {
+    "id": "q-atendrn-013",
+    "topicId": "atendimento-rn-sala-parto",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "O que significa 'minuto de ouro' (golden minute) na reanimação neonatal e qual sua importância?",
+    "modelAnswer": "O 'minuto de ouro' é o primeiro minuto de vida, no qual as intervenções iniciais devem ser completadas. Isso engloba os passos iniciais (ASPAS em até 30s) e, se indicada, o início da VPP ainda dentro desse minuto. A importância é que uma ventilação efetiva precoce minimiza hipóxia, acidose e lesão neurológica; atrasar a VPP além do primeiro minuto aumenta o risco de asfixia, encefalopatia hipóxico-isquêmica e sequelas permanentes. Por isso a equipe deve estar pronta antes do nascimento, com material testado, para cumprir esse prazo em qualquer parto de risco.",
+    "keyPoints": [
+      "Primeiro minuto de vida como janela crítica",
+      "Inclui passos iniciais (ASPAS ≤ 30s) e, se indicada, início da VPP",
+      "Objetivo: ventilação efetiva precoce para minimizar hipóxia",
+      "Atraso aumenta risco de EHI, sequelas neurológicas e óbito",
+      "Exige preparo prévio da equipe e material"
+    ],
+    "reference": "Atendimento ao RN — pág. 3"
+  }
+]

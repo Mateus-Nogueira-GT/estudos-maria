@@ -1,0 +1,178 @@
+[
+  {
+    "id": "q-aloj-001",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O alojamento conjunto é indicado para:",
+    "options": [
+      { "id": "a", "text": "RN sadios, que permanecem com a mãe 24h/dia até a alta", "isCorrect": true, "explanation": "Correto: RN sadios (sem uso de musculatura acessória, sem cianose, boa perfusão, sem malformações que limitem convívio) permanecem com a mãe 24h." },
+      { "id": "b", "text": "RN com desconforto respiratório", "isCorrect": false, "explanation": "Desconforto respiratório requer UTI ou unidade intermediária, não alojamento conjunto." },
+      { "id": "c", "text": "RN de mãe séptica", "isCorrect": false, "explanation": "Mãe séptica vai para UTI e o bebê também, separados do alojamento conjunto." },
+      { "id": "d", "text": "RN em risco de abstinência", "isCorrect": false, "explanation": "Requer observação especializada em unidade intermediária." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 1"
+  },
+  {
+    "id": "q-aloj-002",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A apojadura ocorre tipicamente:",
+    "options": [
+      { "id": "a", "text": "Imediatamente após o parto", "isCorrect": false, "explanation": "Imediato não — o primeiro leite é colostro. A descida propriamente dita vem depois." },
+      { "id": "b", "text": "Entre o 2º e 4º dia pós-parto, podendo atrasar em cesárea eletiva", "isCorrect": true, "explanation": "Correto: apojadura fisiológica é entre 2º e 4º dia; cesárea eletiva pode retardar por ausência do estímulo do trabalho de parto." },
+      { "id": "c", "text": "Após 2 semanas do parto", "isCorrect": false, "explanation": "Indica atraso patológico, precisa avaliar se há problema de sucção/aleitamento." },
+      { "id": "d", "text": "É sinônimo de ingurgitamento patológico", "isCorrect": false, "explanation": "Apojadura é fisiológica; ingurgitamento é o estado patológico associado à estase láctea." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 1"
+  },
+  {
+    "id": "q-aloj-003",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "São contraindicações à amamentação, EXCETO:",
+    "options": [
+      { "id": "a", "text": "HIV materno", "isCorrect": false, "explanation": "Contraindicação permanente no Brasil — risco de transmissão." },
+      { "id": "b", "text": "HTLV-1 materno", "isCorrect": false, "explanation": "Contraindicação permanente — risco de transmissão." },
+      { "id": "c", "text": "Doença de Chagas aguda", "isCorrect": false, "explanation": "Contraindicação durante fase aguda pelo risco de transmissão." },
+      { "id": "d", "text": "Mastite em uma das mamas", "isCorrect": true, "explanation": "Correto: mastite NÃO contraindica — amamenta-se na mama sadia e a afetada pode ser esvaziada. Lesões ativas de herpes/sífilis na mama afetada exigem suspensão temporária." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 1-2"
+  },
+  {
+    "id": "q-aloj-004",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O intervalo máximo entre mamadas do RN em livre demanda é de aproximadamente:",
+    "options": [
+      { "id": "a", "text": "1 hora", "isCorrect": false, "explanation": "Intervalo muito curto — 'livre demanda' não significa esgotar o RN." },
+      { "id": "b", "text": "3 horas", "isCorrect": true, "explanation": "Correto: não deve passar de 3h para evitar hipoglicemia e garantir o estímulo à produção láctea." },
+      { "id": "c", "text": "6 horas", "isCorrect": false, "explanation": "Intervalo excessivo, com risco de hipoglicemia e baixo ganho de peso." },
+      { "id": "d", "text": "12 horas durante a noite", "isCorrect": false, "explanation": "Nem durante a noite; deve-se acordar o RN se passar de 3h." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 1"
+  },
+  {
+    "id": "q-aloj-005",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre as eliminações fisiológicas do RN, qual achado merece investigação imediata?",
+    "options": [
+      { "id": "a", "text": "Primeira evacuação em 24h", "isCorrect": false, "explanation": "Dentro do esperado; a primeira evacuação deve ocorrer até 48h." },
+      { "id": "b", "text": "Vômito biliar", "isCorrect": true, "explanation": "Correto: vômito BILIOSO indica obstrução em intestino delgado (ex.: má rotação com volvo) e exige investigação imediata." },
+      { "id": "c", "text": "Diurese em 12h", "isCorrect": false, "explanation": "Normal; a primeira diurese deve ocorrer em até 24h." },
+      { "id": "d", "text": "Vômito leitoso em jato pequeno ocasional", "isCorrect": false, "explanation": "Frequentemente é regurgitação, considerado normal se o RN ganha peso e está bem." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 2"
+  },
+  {
+    "id": "q-aloj-006",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual a perda de peso fisiológica máxima aceitável no RN para alta?",
+    "options": [
+      { "id": "a", "text": "5%", "isCorrect": false, "explanation": "5% é pequena; alta é possível com perdas até 7-10%." },
+      { "id": "b", "text": "7-10%", "isCorrect": true, "explanation": "Correto: perda fisiológica aceitável vai até 7-10%; acima disso indica desidratação ou dificuldade alimentar." },
+      { "id": "c", "text": "15%", "isCorrect": false, "explanation": "Perda > 10% é patológica e exige investigação antes da alta." },
+      { "id": "d", "text": "20%", "isCorrect": false, "explanation": "Extremamente grave; perda nessa faixa sugere desidratação severa." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 3"
+  },
+  {
+    "id": "q-aloj-007",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A hipoglicemia neonatal sintomática pode se manifestar por:",
+    "options": [
+      { "id": "a", "text": "Febre e rubor", "isCorrect": false, "explanation": "Febre e rubor não são típicos; a hipoglicemia não cursa com febre." },
+      { "id": "b", "text": "Tremores, letargia, apneia, convulsão e recusa alimentar", "isCorrect": true, "explanation": "Correto: os sintomas incluem agitação, tremores, letargia, apneia, hipotonia, convulsão e recusa alimentar — pode causar lesão neurológica irreversível." },
+      { "id": "c", "text": "Hipertensão arterial persistente", "isCorrect": false, "explanation": "Não é manifestação de hipoglicemia." },
+      { "id": "d", "text": "Rash cutâneo generalizado", "isCorrect": false, "explanation": "Não é manifestação de hipoglicemia." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 2"
+  },
+  {
+    "id": "q-aloj-008",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A bossa serossanguínea (caput sucedaneum) caracteriza-se por:",
+    "options": [
+      { "id": "a", "text": "Coleção hemorrágica subperiosteal, respeita suturas, surge após horas/dias", "isCorrect": false, "explanation": "Essa descrição é do CEFALOHEMATOMA, não da bossa." },
+      { "id": "b", "text": "Edema de partes moles, ultrapassa suturas, presente ao nascimento", "isCorrect": true, "explanation": "Correto: a bossa é edema difuso de partes moles do couro cabeludo, ultrapassa suturas e regride em poucos dias." },
+      { "id": "c", "text": "Coleção subgaleal com risco de choque hipovolêmico", "isCorrect": false, "explanation": "Descrição da hemorragia subgaleal, muito mais grave." },
+      { "id": "d", "text": "Hemorragia intracraniana com sinais neurológicos", "isCorrect": false, "explanation": "Descrição de hemorragia intracraniana; bossa é só superficial." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 2"
+  },
+  {
+    "id": "q-aloj-009",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Um RN macrossômico apresenta assimetria do Moro, com braço direito flácido. Qual é a principal hipótese?",
+    "options": [
+      { "id": "a", "text": "Paralisia facial periférica", "isCorrect": false, "explanation": "Paralisia facial compromete a face, não o membro superior." },
+      { "id": "b", "text": "Fratura de clavícula e/ou lesão do plexo braquial", "isCorrect": true, "explanation": "Correto: distocia de ombro em macrossômico pode causar fratura de clavícula (crepitação) e lesão de plexo braquial (flacidez de MS, Moro assimétrico)." },
+      { "id": "c", "text": "Hemorragia intraventricular", "isCorrect": false, "explanation": "Mais comum em prematuros; não cursa com flacidez isolada de MS." },
+      { "id": "d", "text": "AVC neonatal", "isCorrect": false, "explanation": "AVC neonatal é raro e não explica distocia de ombro em macrossômico." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 3"
+  },
+  {
+    "id": "q-aloj-010",
+    "topicId": "alojamento-conjunto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Sobre o cuidado com o coto umbilical no alojamento conjunto, a recomendação é:",
+    "options": [
+      { "id": "a", "text": "Enfaixar o coto com gaze úmida para conservação", "isCorrect": false, "explanation": "Gaze úmida favorece infecção; o coto deve ficar seco e exposto." },
+      { "id": "b", "text": "Limpar a cada troca de fraldas com álcool 70%, mantendo seco", "isCorrect": true, "explanation": "Correto: limpeza com álcool 70% ou água e sabão a cada troca, mantendo o coto seco e exposto até a queda (7-15 dias)." },
+      { "id": "c", "text": "Aplicar iodopovidona diariamente", "isCorrect": false, "explanation": "Não é recomendação padrão; álcool 70% é suficiente." },
+      { "id": "d", "text": "Cobrir com pomada cicatrizante", "isCorrect": false, "explanation": "Pomadas retêm umidade e favorecem onfalite." }
+    ],
+    "reference": "Alojamento Conjunto — pág. 2"
+  },
+  {
+    "id": "q-aloj-011",
+    "topicId": "alojamento-conjunto",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva os elementos de uma pega correta durante a amamentação.",
+    "modelAnswer": "A pega correta exige posição confortável da mãe e do RN, corpo a corpo (barriga com barriga), a cabeça do bebê alinhada ao tronco e voltada para a mama. O bebê deve abocanhar não só o mamilo mas a maior parte da aréola (com mais aréola visível acima do que abaixo), lábios evertidos (virados para fora), queixo encostado na mama e nariz livre. O movimento de sucção deve ser profundo e rítmico, com sons audíveis de deglutição, bochechas arredondadas (não encovadas). A mãe não deve referir dor. Orientar técnica na maternidade evita fissuras, ingurgitamento e desmame precoce, já que amamentar não é instintivo. Livre demanda (sem ultrapassar 3h) e exclusividade até 6 meses.",
+    "keyPoints": [
+      "Posição: barriga com barriga, cabeça alinhada ao tronco",
+      "Boca abocanha aréola (mais aréola visível acima que abaixo)",
+      "Lábios evertidos, queixo na mama, nariz livre",
+      "Sucção profunda com deglutição audível, bochechas arredondadas",
+      "Sem dor na mãe; livre demanda com intervalo máximo de 3h",
+      "Aleitamento exclusivo até 6 meses"
+    ],
+    "reference": "Alojamento Conjunto — pág. 1"
+  },
+  {
+    "id": "q-aloj-012",
+    "topicId": "alojamento-conjunto",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Enumere os principais problemas comuns observados no alojamento conjunto e brevemente o manejo inicial de cada um.",
+    "modelAnswer": "Os principais problemas são: (1) Amamentação — pega inadequada, ingurgitamento, fissuras: orientar posicionamento e suporte. (2) Desidratação/hipoglicemia — reforçar livre demanda, dextro seriado se fator de risco, corrigir com glicose VO ou EV. (3) Hipotermia — especialmente em prematuros extremos, incubadora/calor radiante. (4) Sangramento por falta de vitamina K — garantir administração ao nascer. (5) Eliminações — primeira diurese em 24h, primeira evacuação em 48h, investigar atrasos. (6) Onfalite — antibioticoterapia EV se sinais inflamatórios. (7) Conjuntivite — garantir Credê; se infecção confirmada, colírio antibiótico. (8) Icterícia — fototerapia conforme curva de Bhutani. (9) Tocotraumatismo — observar fratura de clavícula, plexo braquial. (10) Risco social — acionar assistência social, rede de apoio. Todos esses problemas devem ser reavaliados diariamente até a alta.",
+    "keyPoints": [
+      "Amamentação (pega, fissura, ingurgitamento) → orientação e suporte",
+      "Desidratação/hipoglicemia → livre demanda, dextro, correção",
+      "Hipotermia (prematuros) → calor radiante/incubadora",
+      "Sangramento por falta de vit K → garantir dose ao nascer",
+      "Eliminações atrasadas → investigar obstrução/desidratação",
+      "Onfalite, conjuntivite, icterícia → tratamentos específicos",
+      "Tocotraumatismo (clavícula, plexo) → avaliação clínica",
+      "Risco social → equipe multidisciplinar"
+    ],
+    "reference": "Alojamento Conjunto — págs. 1-3"
+  }
+]

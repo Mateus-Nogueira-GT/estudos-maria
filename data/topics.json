@@ -1,0 +1,80 @@
+[
+  {
+    "id": "perinatologia-classificacao",
+    "name": "Perinatologia e Classificação do RN",
+    "source": "Perinatologia E Classificação Do RN.pdf",
+    "description": "Períodos embrionário/fetal, classificação por idade gestacional, peso e percentil, PIG/AIG/GIG, Capurro, Ballard, teoria de Barker."
+  },
+  {
+    "id": "atendimento-rn-sala-parto",
+    "name": "Atendimento ao RN em Sala de Parto",
+    "source": "Atendimento Ao RN.pdf",
+    "description": "Fisiologia da transição, ASPAS, 3 perguntas iniciais, clampeamento do cordão, Apgar e cuidados de rotina."
+  },
+  {
+    "id": "reanimacao-neonatal-34",
+    "name": "Reanimação Neonatal (≥ 34 semanas)",
+    "source": "Reanimação Neonatal (RN - Ou Igual 34 Semanas).pdf",
+    "description": "Passos iniciais, VPP, MR SOPA, intubação, massagem cardíaca, adrenalina e critérios para interromper a reanimação."
+  },
+  {
+    "id": "asfixia-perinatal",
+    "name": "Asfixia Perinatal",
+    "source": "Asfixia Perinatal.pdf",
+    "description": "Definição, critérios diagnósticos, fatores de risco, fisiopatologia multi-orgânica, EHI e classificação de Sarnat."
+  },
+  {
+    "id": "alta-seguimento-rn",
+    "name": "Alta e Seguimento do RN",
+    "source": "Alta E Seguimento Do RN.pdf",
+    "description": "Critérios de alta, orientações aos pais, primeira consulta, idade corrigida, curvas e sinais de alerta."
+  },
+  {
+    "id": "alojamento-conjunto",
+    "name": "Problemas Comuns no Alojamento Conjunto",
+    "source": "Problemas Comuns No Alojamento Conjunto.pdf",
+    "description": "Alojamento conjunto, amamentação, apojadura, eliminações fisiológicas, tocotraumas e critérios de alta."
+  },
+  {
+    "id": "triagem-neonatal",
+    "name": "Testes de Triagem Neonatal",
+    "source": "Testes De Triagem Neonatal.pdf",
+    "description": "Pezinho, orelhinha, olhinho, coraçãozinho, linguinha e dedão — patologias rastreadas e janelas ideais."
+  },
+  {
+    "id": "aula-6-perinato",
+    "name": "Aula 6 — Perinato (Tutorial)",
+    "source": "AULA 6 - PERINATO - TUTORIAL.pdf",
+    "description": "Tutorial com 3 casos integrando reanimação, passos iniciais, VPP, intubação e uso de adrenalina."
+  },
+  {
+    "id": "tutoria-casos-clinicos",
+    "name": "Tutoria — Casos Clínicos de Perinatologia",
+    "source": "TUTORIA CASOS CLINICOS 2023 PERINATOLOGIA E CLASSIFICAÇÃO RN 01.pdf",
+    "description": "Casos aplicando classificação do RN, fatores de risco maternos e repercussões no recém-nascido."
+  },
+  {
+    "id": "caso-asfixia",
+    "name": "Caso Clínico — Asfixia Perinatal",
+    "source": "Caso clínico Asfixia perinatal.pdf",
+    "description": "Aplicação dos critérios de asfixia, EHI, gasometria, Apgar e condutas de suporte multi-orgânico."
+  },
+  {
+    "id": "caso-reanimacao",
+    "name": "Caso Clínico — Reanimação Neonatal",
+    "source": "Caso clínico Reanimação neonatal.pdf",
+    "description": "Caso de reanimação avançada com indicações de VPP, intubação, massagem e medicações."
+  },
+  {
+    "id": "casos-sala-parto-1",
+    "name": "Casos — Atendimento em Sala de Parto (I)",
+    "source": "Casos clínicos Atendimento do RN em sala de parto.pdf",
+    "description": "Primeiro conjunto de casos clínicos sobre transição, passos iniciais e avaliação do RN."
+  },
+  {
+    "id": "casos-sala-parto-2",
+    "name": "Casos — Atendimento em Sala de Parto (II)",
+    "source": "Casos clínicos Atendimento do RN em sala de parto (1).pdf",
+    "description": "Segundo conjunto de casos clínicos sobre atendimento do RN, clampeamento e cuidados imediatos."
+  }
+]

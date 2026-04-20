@@ -1,0 +1,207 @@
+[
+  {
+    "id": "q-reanim-001",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A indicação de iniciar VPP após os passos iniciais é:",
+    "options": [
+      { "id": "a", "text": "Apgar < 7 no 1º minuto", "isCorrect": false, "explanation": "Apgar NÃO é critério para iniciar reanimação. A VPP é indicada pela FC e padrão respiratório." },
+      { "id": "b", "text": "FC < 100 bpm, apneia, gasping ou respiração irregular", "isCorrect": true, "explanation": "Correto: qualquer uma dessas três situações após ASPAS indica iniciar VPP em 30 segundos." },
+      { "id": "c", "text": "Cianose de extremidades isolada", "isCorrect": false, "explanation": "Acrocianose é comum e fisiológica nos primeiros minutos; por si só não indica VPP." },
+      { "id": "d", "text": "Apenas se houver líquido amniótico meconial", "isCorrect": false, "explanation": "Mecônio isoladamente não indica VPP — o que importa é a vitalidade (FC e respiração)." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 1"
+  },
+  {
+    "id": "q-reanim-002",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "No 1º ciclo de VPP em RN ≥ 34 semanas, qual a concentração de O2 e a frequência recomendadas?",
+    "options": [
+      { "id": "a", "text": "Ar ambiente (21%), 40-60 ipm, por 30 segundos", "isCorrect": true, "explanation": "Correto: inicia-se em ar ambiente (21%), 40-60 insuflações/min, ritmo 'aperta/solta/solta', por 30s, seguido de reavaliação." },
+      { "id": "b", "text": "O2 a 100% desde o início, 60-80 ipm por 60s", "isCorrect": false, "explanation": "Iniciar com 100% é inadequado em ≥34 sem; a hiperoxia causa lesão por radicais livres." },
+      { "id": "c", "text": "O2 a 40%, 20 ipm por 2 minutos", "isCorrect": false, "explanation": "Frequência e duração incorretas; a reavaliação precisa ocorrer aos 30s." },
+      { "id": "d", "text": "Ar ambiente, apenas massagem cardíaca", "isCorrect": false, "explanation": "Massagem cardíaca só está indicada após VPP efetiva e com FC < 60 bpm." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 1"
+  },
+  {
+    "id": "q-reanim-003",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em uma VPP ineficaz, aplica-se o checklist MR SOPA. O 'M' significa:",
+    "options": [
+      { "id": "a", "text": "Massagem cardíaca", "isCorrect": false, "explanation": "Massagem é medida posterior, aplicada se FC < 60 mesmo com VPP efetiva por 30s." },
+      { "id": "b", "text": "Acoplamento correto da Máscara (queixo e nariz, em C e E)", "isCorrect": true, "explanation": "Correto: 'M' = Máscara, verificar vedação com alça em C e dedos em E." },
+      { "id": "c", "text": "Medicação (adrenalina)", "isCorrect": false, "explanation": "Adrenalina é usada se FC < 60 após massagem + VPP com O2 100%." },
+      { "id": "d", "text": "Monitorização do oxímetro", "isCorrect": false, "explanation": "O oxímetro é parte da avaliação contínua, não do checklist MR SOPA." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-reanim-004",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "No checklist MR SOPA, o 'A' representa:",
+    "options": [
+      { "id": "a", "text": "Aspirar o conteúdo gástrico", "isCorrect": false, "explanation": "Aspirar estômago não está no MR SOPA; a aspiração é de VAS (boca → narinas)." },
+      { "id": "b", "text": "Adrenalina endovenosa", "isCorrect": false, "explanation": "Adrenalina é etapa final, após massagem; não pertence ao MR SOPA." },
+      { "id": "c", "text": "Via Alternativa (máscara laríngea ou cânula traqueal)", "isCorrect": true, "explanation": "Correto: se a VPP por máscara continua inefetiva após todas as outras correções, parte-se para via alternativa." },
+      { "id": "d", "text": "Apgar no 10º minuto", "isCorrect": false, "explanation": "Apgar é avaliação retrospectiva, não parte do MR SOPA." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-reanim-005",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A massagem cardíaca é indicada quando, após VPP efetiva com O2 100%, a FC está:",
+    "options": [
+      { "id": "a", "text": "< 100 bpm", "isCorrect": false, "explanation": "FC 60-100 com VPP efetiva → manter VPP, reavaliar; ainda não entra massagem." },
+      { "id": "b", "text": "< 60 bpm", "isCorrect": true, "explanation": "Correto: com FC < 60 bpm apesar de VPP adequada, inicia-se massagem cardíaca." },
+      { "id": "c", "text": "< 40 bpm apenas", "isCorrect": false, "explanation": "O ponto de corte é 60 bpm, não 40." },
+      { "id": "d", "text": "Independe da FC", "isCorrect": false, "explanation": "A FC é o principal sinal para indicar massagem." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-reanim-006",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a técnica da massagem cardíaca no RN, assinale a CORRETA:",
+    "options": [
+      { "id": "a", "text": "3 compressões para 1 ventilação, totalizando 90 compressões e 30 ventilações/min", "isCorrect": true, "explanation": "Correto: relação 3:1, ciclo de 1 minuto, comprimindo 1/3 do diâmetro AP do tórax no terço inferior do esterno." },
+      { "id": "b", "text": "Relação 15:2, 100 compressões/min", "isCorrect": false, "explanation": "Essa é a relação pediátrica em não-RN, e fora do contexto neonatal." },
+      { "id": "c", "text": "Massagear o terço médio do esterno", "isCorrect": false, "explanation": "A compressão é no TERÇO INFERIOR do esterno, evitando o processo xifóide." },
+      { "id": "d", "text": "Comprimir 2/3 do diâmetro AP do tórax", "isCorrect": false, "explanation": "A profundidade recomendada é 1/3 do diâmetro AP, não 2/3." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-reanim-007",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Dose e diluição corretas da adrenalina por via EV (cateter umbilical) na reanimação neonatal:",
+    "options": [
+      { "id": "a", "text": "1 mL/kg da solução pura 1:1000", "isCorrect": false, "explanation": "A adrenalina pura 1:1000 por via EV é perigosa. Deve ser sempre diluída." },
+      { "id": "b", "text": "0,2 mL/kg da solução 1:10.000 (1 mL adrenalina + 9 mL SF)", "isCorrect": true, "explanation": "Correto: diluir 1 mL de adrenalina 1:1000 em 9 mL de SF (1:10.000), administrar 0,2 mL/kg EV pelo cateter umbilical, em seringa de 1 mL." },
+      { "id": "c", "text": "1 mL/kg da solução 1:10.000 EV", "isCorrect": false, "explanation": "1 mL/kg é a dose TRAQUEAL (única vez), não a dose EV." },
+      { "id": "d", "text": "0,5 mL/kg da solução pura, em qualquer via", "isCorrect": false, "explanation": "Adrenalina pura não é usada no RN, e a dose não é 0,5 mL/kg." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-reanim-008",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual a dose e via indicada para expansão volêmica em RN com sinais de hipovolemia?",
+    "options": [
+      { "id": "a", "text": "20 mL/kg EV bolus rápido", "isCorrect": false, "explanation": "20 mL/kg é dose pediátrica; no RN o volume é menor e o tempo maior (5-10 min)." },
+      { "id": "b", "text": "10 mL/kg de soro fisiológico na veia umbilical em 5-10 minutos", "isCorrect": true, "explanation": "Correto: SF 10 mL/kg EV (veia umbilical) em 5 a 10 minutos, repetir se necessário." },
+      { "id": "c", "text": "5 mL/kg de concentrado de hemácias IM", "isCorrect": false, "explanation": "Não se usa IM nesse contexto e hemoderivados não são primeira linha na expansão inicial." },
+      { "id": "d", "text": "Soro glicosado 50% em bolus", "isCorrect": false, "explanation": "Glicose hipertônica não é usada para expansão; pode causar hiperosmolaridade e hemorragia intracraniana." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 3"
+  },
+  {
+    "id": "q-reanim-009",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual é uma indicação clara de intubação orotraqueal (IOT) durante a reanimação?",
+    "options": [
+      { "id": "a", "text": "VPP prolongada e inefetiva após checklist MR SOPA", "isCorrect": true, "explanation": "Correto: IOT é indicada quando VPP com máscara fica inefetiva, quando será feita massagem cardíaca ou em suspeita de hérnia diafragmática." },
+      { "id": "b", "text": "Apgar de 6 no 1º minuto", "isCorrect": false, "explanation": "Apgar isolado não é critério para IOT." },
+      { "id": "c", "text": "Cianose central que melhora com O2 inalatório", "isCorrect": false, "explanation": "Melhora com O2 inalatório indica que a ventilação está funcionando — sem indicação de IOT." },
+      { "id": "d", "text": "FC de 120 bpm após VPP", "isCorrect": false, "explanation": "FC > 100 significa sucesso da VPP; não há indicação de IOT." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-reanim-010",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "No RN com suspeita de hérnia diafragmática, a conduta ventilatória correta é:",
+    "options": [
+      { "id": "a", "text": "VPP com máscara em alta pressão", "isCorrect": false, "explanation": "ERRADO: VPP com máscara insufla o estômago/intestino herniado, piora a compressão pulmonar e deve ser EVITADA." },
+      { "id": "b", "text": "VPP somente após intubação traqueal", "isCorrect": true, "explanation": "Correto: se necessita de VPP, deve ser SEMPRE via cânula traqueal, evitando insuflar o intestino herniado." },
+      { "id": "c", "text": "Massagem cardíaca imediata sem ventilar", "isCorrect": false, "explanation": "Sem ventilação, a massagem não corrige a hipóxia." },
+      { "id": "d", "text": "Somente oxigênio por cateter nasal", "isCorrect": false, "explanation": "Insuficiente para o RN com desconforto e alteração anatômica." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-reanim-011",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre as saturações esperadas pelo oxímetro pré-ductal na sala de parto, assinale a correta:",
+    "options": [
+      { "id": "a", "text": "Até o 5º minuto: 70-80%", "isCorrect": true, "explanation": "Correto: até 5 min 70-80%, 5-10 min 80-90%, > 10 min 85-95%." },
+      { "id": "b", "text": "Até o 5º minuto a SatO2 deve ser ≥ 95%", "isCorrect": false, "explanation": "Exigir ≥ 95% nos primeiros minutos leva a hiperoxia iatrogênica e oferta indevida de O2." },
+      { "id": "c", "text": "Oxímetro deve ser colocado no pé direito", "isCorrect": false, "explanation": "O oxímetro é PRÉ-DUCTAL, colocado na mão ou punho DIREITO." },
+      { "id": "d", "text": "A saturação ideal é sempre 100%", "isCorrect": false, "explanation": "100% em sala de parto significa hiperoxia, indesejável." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 1"
+  },
+  {
+    "id": "q-reanim-012",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Um RN a termo foi reanimado e está há 20 minutos em assistolia apesar de ventilação efetiva, massagem e adrenalina. A conduta é:",
+    "options": [
+      { "id": "a", "text": "Manter reanimação por mais 20 minutos", "isCorrect": false, "explanation": "A partir de 20 min de assistolia com manejo adequado, considera-se interromper. Prolongar sem resposta não melhora prognóstico." },
+      { "id": "b", "text": "Considerar interrupção da reanimação", "isCorrect": true, "explanation": "Correto: RN ≥ 34 sem com assistolia após 20 min de reanimação adequada é critério para considerar interromper, sempre com reavaliação individual." },
+      { "id": "c", "text": "Aplicar desfibrilação imediata", "isCorrect": false, "explanation": "Desfibrilação não é usada em assistolia neonatal." },
+      { "id": "d", "text": "Aplicar bicarbonato EV em bolus rápido", "isCorrect": false, "explanation": "Bicarbonato não está indicado rotineiramente; pode piorar acidose intracelular." }
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 4"
+  },
+  {
+    "id": "q-reanim-013",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva passo a passo a sequência do MR SOPA na correção de VPP inefetiva.",
+    "modelAnswer": "O MR SOPA é um checklist para corrigir uma VPP que não está sendo efetiva. (M) verificar o acoplamento da Máscara ao rosto, apoiando o polegar e o indicador em 'C' ao redor da máscara e os demais dedos em 'E' sob o queixo, garantindo vedação sem pressionar olhos. (R) Reposicionar a cabeça em leve extensão, com coxim sob as escápulas. (S) Aspirar Secreções de vias aéreas superiores (boca e depois narinas). (O) Open — abrir a boca do RN para ampliar a passagem de ar. (P) aumentar a Pressão até observar expansão torácica, tomando cuidado para não exceder limites seguros. (A) se mesmo assim houver falha, partir para via Alternativa — máscara laríngea (RN > 34 sem e > 2 kg) ou intubação traqueal. Entre cada ajuste, reavaliar FC e expansão.",
+    "keyPoints": [
+      "M = Máscara bem acoplada (vedação em C e E)",
+      "R = Reposicionar a cabeça (coxim, leve extensão)",
+      "S = Secreções das VAS (aspirar boca depois narinas)",
+      "O = Open (abrir a boca do RN)",
+      "P = Pressão (aumentar até haver expansão torácica)",
+      "A = Via Alternativa (máscara laríngea ou IOT) se tudo falhar"
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — pág. 2"
+  },
+  {
+    "id": "q-reanim-014",
+    "topicId": "reanimacao-neonatal-34",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Um RN a termo nasce em apneia e hipotônico. Descreva a sequência completa da reanimação, dos passos iniciais até o uso de medicação, com os critérios de passagem entre cada etapa.",
+    "modelAnswer": "1) Clampeamento imediato do cordão e levar ao berço aquecido. 2) Passos iniciais (ASPAS) em 30s: aquecer, secar, trocar campo, colocar touca, posicionar com coxim em leve extensão, aspirar VAS se necessário e checar FC + respiração. 3) Se FC < 100, apneia, gasping ou respiração irregular → VPP em ar ambiente (21%), 40-60 ipm, por 30s (monitorar com oxímetro pré-ductal direito e monitor cardíaco). 4) Reavaliar: se persistir FC < 100 ou respiração irregular, aplicar MR SOPA e fazer 2º ciclo de VPP (ainda ar ambiente) por 30s. 5) Se ainda inefetiva, 3º ciclo de VPP com O2 suplementar conforme oximetria. 6) Se FC < 100 mantida após correção da técnica, indicar via alternativa (IOT ou máscara laríngea) e VPP pela via por 30s. 7) Após via alternativa, se FC persistir < 60, iniciar massagem cardíaca com O2 a 100%, 3:1, por 1 minuto. 8) Reavaliar: se FC < 60 após 1 min, adrenalina EV 0,2 mL/kg 1:10.000 pela veia umbilical (pode-se tentar dose endotraqueal 1 mL/kg uma única vez enquanto cateteriza). 9) Considerar SF 10 mL/kg em 5-10 min se hipovolemia. 10) Se FC > 100 e respiração regular → interromper; se assistolia após 20 min adequada → considerar interrupção.",
+    "keyPoints": [
+      "Clampeamento imediato + passos iniciais (ASPAS) em 30s",
+      "Critério de VPP: FC < 100, apneia, gasping ou FR irregular",
+      "VPP começa em ar ambiente (21%), 40-60 ipm, 30s",
+      "Se inefetiva: MR SOPA e ciclos subsequentes com O2 conforme oxímetro",
+      "IOT/máscara laríngea se VPP inefetiva ou vai precisar de massagem",
+      "Massagem só após via alternativa, se FC < 60; 3:1 com O2 100%",
+      "Adrenalina EV 0,2 mL/kg de 1:10.000 se FC < 60 pós-massagem",
+      "SF 10 mL/kg se sinais de hipovolemia; reavaliar a cada etapa",
+      "Critério de interrupção: assistolia 20 min com reanimação adequada"
+    ],
+    "reference": "Reanimação Neonatal ≥34 sem — págs. 1-4"
+  }
+]
