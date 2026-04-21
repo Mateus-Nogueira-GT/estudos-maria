@@ -1,7 +1,16 @@
 import { z } from "zod";
 
+export const SubjectSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  shortName: z.string().min(1),
+  description: z.string().min(1),
+  icon: z.string().min(1),
+});
+
 export const TopicSchema = z.object({
   id: z.string().min(1),
+  subjectId: z.string().min(1),
   name: z.string().min(1),
   source: z.string().min(1),
   description: z.string().min(1),
@@ -54,12 +63,14 @@ export const FlashcardSchema = z.object({
   back: z.string().min(1),
 });
 
+export const SubjectsFileSchema = z.array(SubjectSchema);
 export const TopicsFileSchema = z.array(TopicSchema);
 export const QuestionsFileSchema = z.array(
   z.union([ObjectiveQuestionSchema, OpenQuestionSchema])
 );
 export const FlashcardsFileSchema = z.array(FlashcardSchema);
 
+export type Subject = z.infer<typeof SubjectSchema>;
 export type Topic = z.infer<typeof TopicSchema>;
 export type ObjectiveQuestion = z.infer<typeof ObjectiveQuestionSchema>;
 export type OpenQuestion = z.infer<typeof OpenQuestionSchema>;

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "neonatologia",
+    "name": "Neonatologia",
+    "shortName": "Neonatologia",
+    "description": "Perinatologia, reanimação, asfixia, alojamento conjunto, triagem e cuidados do RN.",
+    "icon": "stethoscope"
+  },
+  {
+    "id": "radiologia",
+    "name": "Radiologia",
+    "shortName": "Radiologia",
+    "description": "Em breve: questões, flashcards e casos de imaginologia.",
+    "icon": "scan"
+  }
+]

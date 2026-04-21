@@ -1,9 +1,22 @@
 import questionsJson from "@/data/questions.json";
 import topicsJson from "@/data/topics.json";
-import type { Question, Topic } from "./schema";
+import subjectsJson from "@/data/subjects.json";
+import type { Question, Subject, Topic } from "./schema";
+
+export function getSubjects(): Subject[] {
+  return subjectsJson as Subject[];
+}
+
+export function getSubject(id: string): Subject | undefined {
+  return getSubjects().find((s) => s.id === id);
+}
 
 export function getTopics(): Topic[] {
   return topicsJson as Topic[];
+}
+
+export function getTopicsBySubject(subjectId: string): Topic[] {
+  return getTopics().filter((t) => t.subjectId === subjectId);
 }
 
 export function getTopic(id: string): Topic | undefined {
