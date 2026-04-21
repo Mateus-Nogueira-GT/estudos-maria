@@ -56,12 +56,27 @@ export const QuestionSchema = z.discriminatedUnion("type", [
   OpenQuestionSchema,
 ]);
 
-export const FlashcardSchema = z.object({
+export const BasicFlashcardSchema = z.object({
   id: z.string().min(1),
   topicId: z.string().min(1),
+  type: z.literal("basic").optional(),
   front: z.string().min(1),
   back: z.string().min(1),
+  tags: z.array(z.string()).optional(),
 });
+
+export const ClozeFlashcardSchema = z.object({
+  id: z.string().min(1),
+  topicId: z.string().min(1),
+  type: z.literal("cloze"),
+  text: z.string().min(1).refine((s) => /\{\{c\d+::[^}]+\}\}/.test(s), {
+    message: "Cloze text must contain at least one {{c1::...}} marker",
+  }),
+  extra: z.string().optional(),
+  tags: z.array(z.string()).optional(),
+});
+
+export const FlashcardSchema = z.union([BasicFlashcardSchema, ClozeFlashcardSchema]);
 
 export const SubjectsFileSchema = z.array(SubjectSchema);
 export const TopicsFileSchema = z.array(TopicSchema);
@@ -75,6 +90,8 @@ export type Topic = z.infer<typeof TopicSchema>;
 export type ObjectiveQuestion = z.infer<typeof ObjectiveQuestionSchema>;
 export type OpenQuestion = z.infer<typeof OpenQuestionSchema>;
 export type Question = ObjectiveQuestion | OpenQuestion;
-export type Flashcard = z.infer<typeof FlashcardSchema>;
+export type BasicFlashcard = z.infer<typeof BasicFlashcardSchema>;
+export type ClozeFlashcard = z.infer<typeof ClozeFlashcardSchema>;
+export type Flashcard = BasicFlashcard | ClozeFlashcard;
 export type Difficulty = "easy" | "medium" | "hard";
 export type Result = "correct" | "partial" | "wrong";

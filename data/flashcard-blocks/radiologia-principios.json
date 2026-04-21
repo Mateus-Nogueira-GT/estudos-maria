@@ -1,0 +1,107 @@
+[
+  {
+    "id": "fc-rad-prin-01",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Quem descobriu os raios-X e em que ano?",
+    "back": "Wilhelm Conrad Roentgen, em 1895. A primeira radiografia conhecida foi a da mão da sua esposa Bertha."
+  },
+  {
+    "id": "fc-rad-prin-02",
+    "topicId": "rad-principios-metodos",
+    "type": "cloze",
+    "text": "Radiação ionizante possui energia suficiente para arrancar um {{c1::elétron}} de um átomo ou molécula.",
+    "extra": "Os efeitos ocorrem em células somáticas (medula óssea, tireoide, gônadas) e germinativas (consequências hereditárias). O DNA do embrião/feto/criança é especialmente sensível."
+  },
+  {
+    "id": "fc-rad-prin-03",
+    "topicId": "rad-principios-metodos",
+    "type": "cloze",
+    "text": "Métodos COM radiação ionizante: {{c1::radiografia}}, {{c1::mamografia}}, {{c1::tomografia}}, {{c1::densitometria}} e {{c1::cintilografia}}.",
+    "extra": "Métodos SEM radiação ionizante: ressonância magnética e ultrassonografia."
+  },
+  {
+    "id": "fc-rad-prin-04",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Métodos de imagem SEM radiação ionizante",
+    "back": "Ressonância Magnética (RM) e Ultrassonografia (US)."
+  },
+  {
+    "id": "fc-rad-prin-05",
+    "topicId": "rad-principios-metodos",
+    "type": "cloze",
+    "text": "Contraste da {{c1::radiografia}}: bário (trato digestório) e iodo (demais regiões). Bário é contraindicado se houver risco de {{c2::perfuração}} do trato digestório (não absorvível).",
+    "extra": "Iodo na TC é contraindicado em alergia ao iodo, insuficiência renal e em paciente em uso de metformina com nefropatia."
+  },
+  {
+    "id": "fc-rad-prin-06",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Contraste da TC e suas contraindicações",
+    "back": "Contraste: IODO.\nContraindicações:\n- Alergia ao iodo\n- Insuficiência renal\n- Metformina em paciente com nefropatia (risco de acidose lática 48h)"
+  },
+  {
+    "id": "fc-rad-prin-07",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Contraste da Ressonância Magnética e seu risco principal",
+    "back": "Contraste: GADOLÍNIO.\nRisco: pode ocasionar esclerose sistêmica nefrogênica (cuidado em insuficiência renal)."
+  },
+  {
+    "id": "fc-rad-prin-08",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Contraste da Ultrassonografia e contraindicações",
+    "back": "Contraste: MICROBOLHAS.\nContraindicação: quadros cardiopulmonares graves, especialmente hipertensão pulmonar (microbolha pode obstruir vaso)."
+  },
+  {
+    "id": "fc-rad-prin-09",
+    "topicId": "rad-principios-metodos",
+    "type": "cloze",
+    "text": "Em paciente alérgico ao iodo que precisa fazer TC com contraste: {{c1::corticoide por 3 dias}} antes do exame.",
+    "extra": "Outra opção é trocar para outro método (ex: ressonância) quando possível."
+  },
+  {
+    "id": "fc-rad-prin-10",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Quem desenvolveu a Tomografia Computadorizada?",
+    "back": "Godfrey Hounsfield (1919-2014) e Allan Cormack (1924-1998). Por isso a unidade de densidade na TC é Hounsfield (HU)."
+  },
+  {
+    "id": "fc-rad-prin-11",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Princípio físico da Ultrassonografia",
+    "back": "Efeito piezoelétrico (descoberto por Pierre Currie). Usa ondas sonoras > 20.000 Hz (ultrassom) emitidas e captadas pelo transdutor."
+  },
+  {
+    "id": "fc-rad-prin-12",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Princípio físico da Ressonância Magnética",
+    "back": "Baseada nas propriedades magnéticas do átomo de hidrogênio (H), que está abundante na água do corpo. Desenvolvida por Paul Lauterbur."
+  },
+  {
+    "id": "fc-rad-prin-13",
+    "topicId": "rad-principios-metodos",
+    "type": "cloze",
+    "text": "Cisto na imagem: na US é {{c1::anecóico}} (sem ecos); na RM T1 é {{c2::hipointenso}} e na RM T2 é {{c2::hiperintenso}}; na TC é {{c3::hipodenso}}.",
+    "extra": "Anecóico = totalmente preto na US (líquido). Hiperintenso em T2 = brilhante (água)."
+  },
+  {
+    "id": "fc-rad-prin-14",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Estudos contrastados do trato digestivo e contraste usado",
+    "back": "Seriografia esôfago/estômago/duodeno e Trânsito intestinal: bário VO.\nEnema opaco: bário + ar via retal.\nNão usar bário se risco de perfuração."
+  },
+  {
+    "id": "fc-rad-prin-15",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Densidades radiológicas em ordem crescente (do mais escuro ao mais branco no RX)",
+    "back": "1. Ar (mais escuro)\n2. Gordura\n3. Partes moles / líquido\n4. Osso ou cálcio\n5. Metal (mais branco)"
+  }
+]

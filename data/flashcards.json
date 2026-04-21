@@ -1,94 +1,1189 @@
 [
-  { "id": "fc-perinat-01", "topicId": "perinatologia-classificacao", "front": "Período neonatal", "back": "Do nascimento até 28 dias de vida.\nPrecoce: 0-7 dias; tardio: 7-28 dias." },
-  { "id": "fc-perinat-02", "topicId": "perinatologia-classificacao", "front": "Classificação por IG", "back": "Prematuro: <37 sem (precoce <34, tardio 34-36s6d)\nA termo: 37-41s6d\nPós-termo: ≥42 sem" },
-  { "id": "fc-perinat-03", "topicId": "perinatologia-classificacao", "front": "Classificação peso absoluto", "back": "EBPN: <1000 g\nMBPN: 1000-1499 g\nBPN: 1500-2500 g\nMacrossômico: ≥4000 g" },
-  { "id": "fc-perinat-04", "topicId": "perinatologia-classificacao", "front": "PIG / AIG / GIG", "back": "PIG: peso <P10 para IG\nAIG: P10-P90\nGIG: >P90" },
-  { "id": "fc-perinat-05", "topicId": "perinatologia-classificacao", "front": "Capurro vs. Ballard", "back": "Capurro: 5 itens físicos (pele, orelha, mama, mamilo, pregas plantares); termo/quase termo.\nNew Ballard: físicos + neuromusculares; prematuros." },
-  { "id": "fc-perinat-06", "topicId": "perinatologia-classificacao", "front": "RCF simétrica x assimétrica", "back": "Simétrica: 1º trim, PC+peso+estatura, causas genéticas/TORCH.\nAssimétrica: 3º trim, poupa PC, causas placentárias (pré-eclâmpsia, DM)." },
-  { "id": "fc-perinat-07", "topicId": "perinatologia-classificacao", "front": "Teoria de Barker", "back": "Programação fetal: condições intrauterinas e dos primeiros 1000 dias influenciam risco de doenças crônicas no adulto (via epigenética)." },
-  { "id": "fc-perinat-08", "topicId": "perinatologia-classificacao", "front": "Síndrome HELLP", "back": "Complicação da pré-eclâmpsia: Hemólise + Enzimas hepáticas elevadas + Low platelets (plaquetopenia). Alta mortalidade." },
-
-  { "id": "fc-atendrn-01", "topicId": "atendimento-rn-sala-parto", "front": "3 perguntas ao nascimento", "back": "1) IG ≥ 34 sem?\n2) Tônus bom?\n3) Respirando ou chorando?\n3 SIM → pele-a-pele. 1 NÃO → passos iniciais." },
-  { "id": "fc-atendrn-02", "topicId": "atendimento-rn-sala-parto", "front": "ASPAS", "back": "A: Aquecer\nS: Secar (+ touca)\nP: Posicionar (coxim, leve extensão)\nA: Aspirar VAS (se necessário)\nS: Sinais vitais (FC + respiração)\nTudo em ≤30s." },
-  { "id": "fc-atendrn-03", "topicId": "atendimento-rn-sala-parto", "front": "Clampeamento - tipos", "back": "Tardio: 1-3 min (RN bem a termo)\nPrecoce: 30s-1 min (<34 sem bem)\nImediato: RN deprimido, HIV+, anestesia geral, DPP, placenta prévia, nó de cordão" },
-  { "id": "fc-atendrn-04", "topicId": "atendimento-rn-sala-parto", "front": "Apgar", "back": "5 parâmetros (FC, respiração, cor, tônus, reflexo), cada um 0-2, aferido em 1, 5 e 10 min.\nNUNCA usar para decidir reanimação." },
-  { "id": "fc-atendrn-05", "topicId": "atendimento-rn-sala-parto", "front": "Cuidados de rotina", "back": "Clampear+cortar coto; peso/medida; exame físico; Apgar; vitamina K IM; hepatite B IM; Credê (nitrato de prata) se parto vaginal." },
-  { "id": "fc-atendrn-06", "topicId": "atendimento-rn-sala-parto", "front": "Sondas de aspiração", "back": "Sonda 6 → prematuro\nSonda 8 → termo\nPressão máx 100 mmHg; aspirar boca → narinas" },
-  { "id": "fc-atendrn-07", "topicId": "atendimento-rn-sala-parto", "front": "Minuto de ouro", "back": "Primeiro minuto de vida como janela crítica para iniciar ventilação efetiva (se indicada) e minimizar hipóxia/lesão neurológica." },
-
-  { "id": "fc-reanim-01", "topicId": "reanimacao-neonatal-34", "front": "Indicações de VPP", "back": "Após ASPAS, iniciar VPP se FC<100, apneia, gasping ou respiração irregular. Começar em ar ambiente (21%), 40-60 ipm, 30s." },
-  { "id": "fc-reanim-02", "topicId": "reanimacao-neonatal-34", "front": "MR SOPA", "back": "M: Máscara (vedação C e E)\nR: Reposicionar cabeça\nS: Secreções (aspirar)\nO: Open (abrir boca)\nP: Pressão (aumentar até ver tórax)\nA: Alternativa (ML ou IOT)" },
-  { "id": "fc-reanim-03", "topicId": "reanimacao-neonatal-34", "front": "Massagem cardíaca", "back": "Se FC<60 após VPP efetiva.\nTécnica: 2 polegares; terço inferior do esterno; 3:1 (90 compressões : 30 ventilações); 1/3 do diâmetro AP; O2 100%." },
-  { "id": "fc-reanim-04", "topicId": "reanimacao-neonatal-34", "front": "Adrenalina EV", "back": "0,2 mL/kg da solução 1:10.000 (1 mL adrenalina + 9 mL SF), seringa 1 mL, veia umbilical, pode repetir a cada 3 min." },
-  { "id": "fc-reanim-05", "topicId": "reanimacao-neonatal-34", "front": "Adrenalina traqueal", "back": "Única vez, enquanto cateteriza veia umbilical: 1 mL/kg da solução 1:10.000 em seringa de 5 mL." },
-  { "id": "fc-reanim-06", "topicId": "reanimacao-neonatal-34", "front": "Expansão volêmica", "back": "SF 10 mL/kg EV na veia umbilical, em 5-10 min, repetir se necessário." },
-  { "id": "fc-reanim-07", "topicId": "reanimacao-neonatal-34", "front": "SatO2 esperada", "back": "Até 5 min: 70-80%\n5-10 min: 80-90%\n>10 min: 85-95%\nOxímetro pré-ductal (MSD)" },
-  { "id": "fc-reanim-08", "topicId": "reanimacao-neonatal-34", "front": "Fixação da cânula", "back": "Peso (kg) + 6 = marca na rima labial em cm.\nCânula sem cuff; tamanho conforme IG (3 / 3,5 / 4)." },
-
-  { "id": "fc-asfixia-01", "topicId": "asfixia-perinatal", "front": "Tríade da asfixia", "back": "Hipóxia + hipercapnia + acidose metabólica por troca gasosa prejudicada persistente." },
-  { "id": "fc-asfixia-02", "topicId": "asfixia-perinatal", "front": "4 critérios diagnósticos", "back": "1) pH cordão <7,25 (acidose met ou mista)\n2) Apgar 0-3 persistente no 5º min\n3) Manifestações neurológicas\n4) Disfunção multi-orgânica" },
-  { "id": "fc-asfixia-03", "topicId": "asfixia-perinatal", "front": "Classificação Sarnat", "back": "Leve: hiperexcitabilidade, sem convulsão\nModerada: letargia + convulsões + reflexos ↓\nGrave: coma, 50% óbito; sobreviventes 100% sequelas" },
-  { "id": "fc-asfixia-04", "topicId": "asfixia-perinatal", "front": "Hipotermia terapêutica", "back": "RN ≥35-36 sem e ≥1800 g com EHI moderada/grave.\nIniciar <6h, T 33,5°C por 72h, reaquecer 0,5°C/h.\nContra: <35 sem, <1800 g." },
-  { "id": "fc-asfixia-05", "topicId": "asfixia-perinatal", "front": "Critérios pró-hipotermia", "back": "pH<7 ou BE<-16\nEvento agudo (DPP, prolapso)\nApgar ≤5 no 10º min\nVentilação >10 min" },
-  { "id": "fc-asfixia-06", "topicId": "asfixia-perinatal", "front": "Controle de convulsão neonatal", "back": "1ª linha: fenobarbital\n2ª: fenitoína\n3ª: midazolam" },
-  { "id": "fc-asfixia-07", "topicId": "asfixia-perinatal", "front": "Manejo nutricional", "back": "RN asfixiado: jejum de 7-14 dias + NPT, pela vasoconstrição intestinal e risco de ECN/perfuração." },
-
-  { "id": "fc-alta-01", "topicId": "alta-seguimento-rn", "front": "Critérios de alta (termo)", "back": "24-48h (ideal 48h); amamentação efetiva; perda peso <10%; icterícia avaliada; eliminações presentes; triagens feitas; sem intercorrências." },
-  { "id": "fc-alta-02", "topicId": "alta-seguimento-rn", "front": "Queda do coto umbilical", "back": "Entre 7-15 dias.\nDemora → investigar imunodeficiência ou hipotireoidismo." },
-  { "id": "fc-alta-03", "topicId": "alta-seguimento-rn", "front": "Idade corrigida", "back": "Peso e neurológico: até 24 meses\nPC: até 18 meses\nEstatura: até 36-42 meses\nCalendário vacinal NÃO é corrigido." },
-  { "id": "fc-alta-04", "topicId": "alta-seguimento-rn", "front": "1ª consulta ambulatorial", "back": "Ideal 3-5 dias após alta; na prática 7-10 dias. Avaliar icterícia, peso, amamentação, triagens, iniciar vit D." },
-  { "id": "fc-alta-05", "topicId": "alta-seguimento-rn", "front": "Sinais de alerta no RN", "back": "Febre/hipotermia, recusa alimentar, gemência, cianose, vômitos, icterícia <24h ou progressiva, convulsão, onfalite." },
-  { "id": "fc-alta-06", "topicId": "alta-seguimento-rn", "front": "Posição para dormir", "back": "Decúbito dorsal com cabeça lateralizada.\nSem coleito, sem travesseiro, cobertor abaixo da axila. Previne síndrome da morte súbita." },
-
-  { "id": "fc-aloj-01", "topicId": "alojamento-conjunto", "front": "Alojamento conjunto", "back": "RN sadio permanece 24h com a mãe até alta. Favorece vínculo, amamentação e detecção precoce de alterações." },
-  { "id": "fc-aloj-02", "topicId": "alojamento-conjunto", "front": "Apojadura", "back": "Descida fisiológica do leite no 2º-4º dia pós-parto; pode atrasar em cesárea eletiva. Ingurgitamento já é patológico." },
-  { "id": "fc-aloj-03", "topicId": "alojamento-conjunto", "front": "Contraindicações aleitamento", "back": "HIV, HTLV-1, chagas aguda, lesão herpética/sífilis ativa na mama (temp.). Mastite NÃO contraindica." },
-  { "id": "fc-aloj-04", "topicId": "alojamento-conjunto", "front": "Eliminações fisiológicas", "back": "Diurese em 24h; evacuação em 48h.\nVômito bilioso: obstrução intestino delgado\nVômito fecaloide: intestino grosso" },
-  { "id": "fc-aloj-05", "topicId": "alojamento-conjunto", "front": "Hematomas do parto", "back": "Bossa: edema de partes moles, ultrapassa suturas, regride\nCefalohematoma: subperiostal, respeita suturas, tardio\nSubgaleal: grave, risco de choque" },
-  { "id": "fc-aloj-06", "topicId": "alojamento-conjunto", "front": "Hipoglicemia neonatal", "back": "Sintomas: tremor, letargia, apneia, recusa, convulsão.\nDextro seriado em fatores de risco: 1, 3, 6, 12, 24, 48h." },
-  { "id": "fc-aloj-07", "topicId": "alojamento-conjunto", "front": "Perda de peso aceitável", "back": "Fisiológica até 7-10% do peso de nascimento.\nAcima → investigar desidratação, dificuldade alimentar." },
-
-  { "id": "fc-triag-01", "topicId": "triagem-neonatal", "front": "5 testes de triagem", "back": "Pezinho (3-7d), orelhinha (EOA), olhinho (reflexo vermelho), coraçãozinho (oximetria >24h), linguinha (Bristol)." },
-  { "id": "fc-triag-02", "topicId": "triagem-neonatal", "front": "Pezinho - 7 doenças", "back": "Fenilcetonúria, hipotireoidismo, hiperplasia adrenal, hemoglobinopatias, fibrose cística, def. biotinidase, toxoplasmose congênita." },
-  { "id": "fc-triag-03", "topicId": "triagem-neonatal", "front": "Janela do pezinho", "back": "3º-7º dia, após ≥48h de alimentação proteica. Antes → falso negativo PKU ou falso positivo hipotireoidismo." },
-  { "id": "fc-triag-04", "topicId": "triagem-neonatal", "front": "Tratamento empírico", "back": "Única doença do pezinho que pode ser tratada empiricamente (TSH>20 → levotiroxina): hipotireoidismo congênito." },
-  { "id": "fc-triag-05", "topicId": "triagem-neonatal", "front": "Coraçãozinho", "back": "Oximetria >24h de vida, MSD (pré-ductal) + um MI (pós-ductal). Alvo: cardiopatias críticas (VE hipoplásico, Fallot, DATAPVP, coartação)." },
-  { "id": "fc-triag-06", "topicId": "triagem-neonatal", "front": "Leucocoria", "back": "Olhinho branco no teste do olhinho. Sempre patológico: catarata, retinoblastoma, glaucoma, descolamento de retina. Encaminhar imediato." },
-  { "id": "fc-triag-07", "topicId": "triagem-neonatal", "front": "PKU", "back": "Déficit de fenilalanina-hidroxilase, autossômica recessiva. Dieta pobre em fenilalanina para sempre. Sem dieta → retardo mental." },
-  { "id": "fc-triag-08", "topicId": "triagem-neonatal", "front": "Hiperplasia adrenal congênita", "back": "Perdedora de sal: ↓ aldosterona → desidratação, hiponatremia, hiperpotassemia. Forma virilizante: genitália ambígua, pubarca precoce." },
-
-  { "id": "fc-aula6-01", "topicId": "aula-6-perinato", "front": "Sala de parto - T ambiente", "back": "23-25°C. Berço de calor radiante ligado previamente, campo aquecido, touca para o RN." },
-  { "id": "fc-aula6-02", "topicId": "aula-6-perinato", "front": "Baby Puff (T)", "back": "Ventilador mecânico manual em T, com blender para FiO2 precisa, controle de PIP e PEEP. Padrão: PIP 20-25, PEEP 5 cmH2O." },
-  { "id": "fc-aula6-03", "topicId": "aula-6-perinato", "front": "Ambu", "back": "Balão auto-inflável 240 mL. Válvula de escape 30-40 cmH2O (evita barotrauma). Sem reservatório: 21%. Com reservatório: até 100%." },
-  { "id": "fc-aula6-04", "topicId": "aula-6-perinato", "front": "Prematuro extremo - hipotermia", "back": "Não secar; ensacar o RN em saco plástico transparente tipo 'saco de fruta' + touca; calor radiante. Minimiza perdas por evaporação." },
-  { "id": "fc-aula6-05", "topicId": "aula-6-perinato", "front": "Cânula - tamanhos por IG", "back": "28-34 sem: 3,0\n34-38 sem: 3,5\n>38 sem: 3,5-4,0\nSempre sem cuff. Lâminas retas 00/0/1." },
-
-  { "id": "fc-tutor-01", "topicId": "tutoria-casos-clinicos", "front": "Pré-natal completo", "back": "Mínimo de 6 consultas (1 no 1º trim, 2 no 2º, 3 no 3º). Menos → risco aumentado, sinalizar na classificação do RN." },
-  { "id": "fc-tutor-02", "topicId": "tutoria-casos-clinicos", "front": "Bolsa rota prolongada", "back": ">18h → risco aumentado de corioamnionite e sepse neonatal precoce. Colher SWAB GBS e alertar neonatal." },
-  { "id": "fc-tutor-03", "topicId": "tutoria-casos-clinicos", "front": "Pré-eclâmpsia", "back": "PA ≥140/90 + proteinúria (>300 mg/24h) + edema, surge após 20 sem. Fisiop: invasão trofoblástica desorganizada." },
-  { "id": "fc-tutor-04", "topicId": "tutoria-casos-clinicos", "front": "PIG vs RCF", "back": "PIG: peso <P10 ao nascer.\nRCF: crescimento fetal inadequado em 2 USGs. Pode ter RCF + AIG (cresceu pouco mas nasceu no P10-P90)." },
-  { "id": "fc-tutor-05", "topicId": "tutoria-casos-clinicos", "front": "Filho de mãe diabética", "back": "Risco: macrossomia, hipoglicemia (hiperinsulinismo), policetemia, icterícia, hipocalcemia, tocotraumatismo, malformação cardíaca (fazer eco)." },
-
-  { "id": "fc-casoasf-01", "topicId": "caso-asfixia", "front": "Exames no asfixiado", "back": "Gasometria, lactato, eletrólitos, cálcio, CK-MB, transaminases, ureia/creatinina, EEG, USG crânio, ecocardiograma." },
-  { "id": "fc-casoasf-02", "topicId": "caso-asfixia", "front": "Cronologia de dano cerebral", "back": "Primeiras 6h: lesão primária (hipóxia/isquemia).\nApós: reperfusão com ROS, falha de bombas, influxo Ca, edema cerebral. Janela de hipotermia: <6h." },
-  { "id": "fc-casoasf-03", "topicId": "caso-asfixia", "front": "Técnica da hipotermia", "back": "Colchão 4°C, berço desligado, T alvo 33,5°C por 72h, movimentar RN a cada 2h. Reaquecer 0,5°C/h até 36,5°C." },
-  { "id": "fc-casoasf-04", "topicId": "caso-asfixia", "front": "Apgar e asfixia", "back": "Apgar NÃO é marcador isolado de asfixia nem prognóstico. 75% das paralisias cerebrais tiveram Apgar adequado. Apgar ≤3 no 5º min = repercussão." },
-  { "id": "fc-casoasf-05", "topicId": "caso-asfixia", "front": "Tratamento de edema cerebral", "back": "Restrição hídrica com normovolemia. NÃO usar manitol/agentes hiperosmolares nem corticóides em EHI neonatal." },
-
-  { "id": "fc-casoreanim-01", "topicId": "caso-reanimacao", "front": "Veia umbilical", "back": "Via de escolha para medicações na reanimação neonatal. Cateter entra 1-2 cm para garantir posição intravascular." },
-  { "id": "fc-casoreanim-02", "topicId": "caso-reanimacao", "front": "Máscara laríngea", "back": "Alternativa à IOT em VPP prolongada/inefetiva. Requer RN >34 sem e >2 kg. Útil quando equipe menos habilitada em IOT." },
-  { "id": "fc-casoreanim-03", "topicId": "caso-reanimacao", "front": "Indicações de IOT", "back": "1) VPP prolongada/inefetiva\n2) Necessidade de massagem cardíaca\n3) Hérnia diafragmática que precisa de VPP" },
-  { "id": "fc-casoreanim-04", "topicId": "caso-reanimacao", "front": "Reanimação prolongada refratária", "back": "Considerar: malformações pulmonares/VA, cardiopatia congênita, hérnia diafragmática, pneumotórax. Assistolia >20 min → considerar interromper." },
-  { "id": "fc-casoreanim-05", "topicId": "caso-reanimacao", "front": "Avaliação pós-reanimação", "back": "Se recuperou: UTI neonatal, monitorização, avaliar EHI (Sarnat), gasometria, eletrólitos, glicemia, ECO, USG crânio; considerar hipotermia se critérios." },
-
-  { "id": "fc-casosp1-01", "topicId": "casos-sala-parto-1", "front": "Equipe na sala de parto", "back": "3 pessoas para o RN quando risco identificado: pediatra + enfermeira neonatal + auxiliar. Além de obstetra e anestesista." },
-  { "id": "fc-casosp1-02", "topicId": "casos-sala-parto-1", "front": "Por que FC é o sinal principal", "back": "Responde rápido às manobras; Apgar é retrospectivo; FR é difícil de interpretar no RN. FC guia ASPAS → VPP → massagem → medicação." },
-  { "id": "fc-casosp1-03", "topicId": "casos-sala-parto-1", "front": "Oxímetro - localização", "back": "Mão ou punho DIREITO (pré-ductal, sangue 100% arterial antes do canal arterial). Monitor cardíaco: 2 ombros ou braço + coxa E." },
-  { "id": "fc-casosp1-04", "topicId": "casos-sala-parto-1", "front": "Ritmo da VPP", "back": "40-60 insuflações por minuto; ritmo 'aperta / solta / solta'. Com massagem: 3:1 (90 compressões + 30 ventilações por minuto)." },
-  { "id": "fc-casosp1-05", "topicId": "casos-sala-parto-1", "front": "Estrutura fetal - canal arterial", "back": "Comunica artéria pulmonar → aorta. O2 é vasoconstritor potente → fecha em 24-72h. Se não fecha: persistência do canal arterial." },
-
-  { "id": "fc-casosp2-01", "topicId": "casos-sala-parto-2", "front": "Hérnia diafragmática - ventilação", "back": "VPP com MÁSCARA é contraindicada (insufla intestino herniado). Se precisar de VPP: direto por cânula traqueal." },
-  { "id": "fc-casosp2-02", "topicId": "casos-sala-parto-2", "front": "Cânula mal posicionada", "back": "Ausculta assimétrica (seletiva no brônquio direito) → retirar 1-2 cm e reauscultar. Simétrica + FC ↑ = bom posicionamento." },
-  { "id": "fc-casosp2-03", "topicId": "casos-sala-parto-2", "front": "Pulsos nos 4 membros", "back": "Palpar na avaliação inicial. Femorais fracos/ausentes em relação aos braquiais → suspeita de coartação da aorta." },
-  { "id": "fc-casosp2-04", "topicId": "casos-sala-parto-2", "front": "Vacinas na maternidade", "back": "Hepatite B (até 12h); BCG antes da alta se peso ≥2 kg. Vitamina K IM ao nascer. Credê (nitrato de prata) se parto vaginal." }
+  {
+    "id": "fc-perinat-01",
+    "topicId": "perinatologia-classificacao",
+    "front": "Período neonatal",
+    "back": "Do nascimento até 28 dias de vida.\nPrecoce: 0-7 dias; tardio: 7-28 dias."
+  },
+  {
+    "id": "fc-perinat-02",
+    "topicId": "perinatologia-classificacao",
+    "front": "Classificação por IG",
+    "back": "Prematuro: <37 sem (precoce <34, tardio 34-36s6d)\nA termo: 37-41s6d\nPós-termo: ≥42 sem"
+  },
+  {
+    "id": "fc-perinat-03",
+    "topicId": "perinatologia-classificacao",
+    "front": "Classificação peso absoluto",
+    "back": "EBPN: <1000 g\nMBPN: 1000-1499 g\nBPN: 1500-2500 g\nMacrossômico: ≥4000 g"
+  },
+  {
+    "id": "fc-perinat-04",
+    "topicId": "perinatologia-classificacao",
+    "front": "PIG / AIG / GIG",
+    "back": "PIG: peso <P10 para IG\nAIG: P10-P90\nGIG: >P90"
+  },
+  {
+    "id": "fc-perinat-05",
+    "topicId": "perinatologia-classificacao",
+    "front": "Capurro vs. Ballard",
+    "back": "Capurro: 5 itens físicos (pele, orelha, mama, mamilo, pregas plantares); termo/quase termo.\nNew Ballard: físicos + neuromusculares; prematuros."
+  },
+  {
+    "id": "fc-perinat-06",
+    "topicId": "perinatologia-classificacao",
+    "front": "RCF simétrica x assimétrica",
+    "back": "Simétrica: 1º trim, PC+peso+estatura, causas genéticas/TORCH.\nAssimétrica: 3º trim, poupa PC, causas placentárias (pré-eclâmpsia, DM)."
+  },
+  {
+    "id": "fc-perinat-07",
+    "topicId": "perinatologia-classificacao",
+    "front": "Teoria de Barker",
+    "back": "Programação fetal: condições intrauterinas e dos primeiros 1000 dias influenciam risco de doenças crônicas no adulto (via epigenética)."
+  },
+  {
+    "id": "fc-perinat-08",
+    "topicId": "perinatologia-classificacao",
+    "front": "Síndrome HELLP",
+    "back": "Complicação da pré-eclâmpsia: Hemólise + Enzimas hepáticas elevadas + Low platelets (plaquetopenia). Alta mortalidade."
+  },
+  {
+    "id": "fc-atendrn-01",
+    "topicId": "atendimento-rn-sala-parto",
+    "front": "3 perguntas ao nascimento",
+    "back": "1) IG ≥ 34 sem?\n2) Tônus bom?\n3) Respirando ou chorando?\n3 SIM → pele-a-pele. 1 NÃO → passos iniciais."
+  },
+  {
+    "id": "fc-atendrn-02",
+    "topicId": "atendimento-rn-sala-parto",
+    "front": "ASPAS",
+    "back": "A: Aquecer\nS: Secar (+ touca)\nP: Posicionar (coxim, leve extensão)\nA: Aspirar VAS (se necessário)\nS: Sinais vitais (FC + respiração)\nTudo em ≤30s."
+  },
+  {
+    "id": "fc-atendrn-03",
+    "topicId": "atendimento-rn-sala-parto",
+    "front": "Clampeamento - tipos",
+    "back": "Tardio: 1-3 min (RN bem a termo)\nPrecoce: 30s-1 min (<34 sem bem)\nImediato: RN deprimido, HIV+, anestesia geral, DPP, placenta prévia, nó de cordão"
+  },
+  {
+    "id": "fc-atendrn-04",
+    "topicId": "atendimento-rn-sala-parto",
+    "front": "Apgar",
+    "back": "5 parâmetros (FC, respiração, cor, tônus, reflexo), cada um 0-2, aferido em 1, 5 e 10 min.\nNUNCA usar para decidir reanimação."
+  },
+  {
+    "id": "fc-atendrn-05",
+    "topicId": "atendimento-rn-sala-parto",
+    "front": "Cuidados de rotina",
+    "back": "Clampear+cortar coto; peso/medida; exame físico; Apgar; vitamina K IM; hepatite B IM; Credê (nitrato de prata) se parto vaginal."
+  },
+  {
+    "id": "fc-atendrn-06",
+    "topicId": "atendimento-rn-sala-parto",
+    "front": "Sondas de aspiração",
+    "back": "Sonda 6 → prematuro\nSonda 8 → termo\nPressão máx 100 mmHg; aspirar boca → narinas"
+  },
+  {
+    "id": "fc-atendrn-07",
+    "topicId": "atendimento-rn-sala-parto",
+    "front": "Minuto de ouro",
+    "back": "Primeiro minuto de vida como janela crítica para iniciar ventilação efetiva (se indicada) e minimizar hipóxia/lesão neurológica."
+  },
+  {
+    "id": "fc-reanim-01",
+    "topicId": "reanimacao-neonatal-34",
+    "front": "Indicações de VPP",
+    "back": "Após ASPAS, iniciar VPP se FC<100, apneia, gasping ou respiração irregular. Começar em ar ambiente (21%), 40-60 ipm, 30s."
+  },
+  {
+    "id": "fc-reanim-02",
+    "topicId": "reanimacao-neonatal-34",
+    "front": "MR SOPA",
+    "back": "M: Máscara (vedação C e E)\nR: Reposicionar cabeça\nS: Secreções (aspirar)\nO: Open (abrir boca)\nP: Pressão (aumentar até ver tórax)\nA: Alternativa (ML ou IOT)"
+  },
+  {
+    "id": "fc-reanim-03",
+    "topicId": "reanimacao-neonatal-34",
+    "front": "Massagem cardíaca",
+    "back": "Se FC<60 após VPP efetiva.\nTécnica: 2 polegares; terço inferior do esterno; 3:1 (90 compressões : 30 ventilações); 1/3 do diâmetro AP; O2 100%."
+  },
+  {
+    "id": "fc-reanim-04",
+    "topicId": "reanimacao-neonatal-34",
+    "front": "Adrenalina EV",
+    "back": "0,2 mL/kg da solução 1:10.000 (1 mL adrenalina + 9 mL SF), seringa 1 mL, veia umbilical, pode repetir a cada 3 min."
+  },
+  {
+    "id": "fc-reanim-05",
+    "topicId": "reanimacao-neonatal-34",
+    "front": "Adrenalina traqueal",
+    "back": "Única vez, enquanto cateteriza veia umbilical: 1 mL/kg da solução 1:10.000 em seringa de 5 mL."
+  },
+  {
+    "id": "fc-reanim-06",
+    "topicId": "reanimacao-neonatal-34",
+    "front": "Expansão volêmica",
+    "back": "SF 10 mL/kg EV na veia umbilical, em 5-10 min, repetir se necessário."
+  },
+  {
+    "id": "fc-reanim-07",
+    "topicId": "reanimacao-neonatal-34",
+    "front": "SatO2 esperada",
+    "back": "Até 5 min: 70-80%\n5-10 min: 80-90%\n>10 min: 85-95%\nOxímetro pré-ductal (MSD)"
+  },
+  {
+    "id": "fc-reanim-08",
+    "topicId": "reanimacao-neonatal-34",
+    "front": "Fixação da cânula",
+    "back": "Peso (kg) + 6 = marca na rima labial em cm.\nCânula sem cuff; tamanho conforme IG (3 / 3,5 / 4)."
+  },
+  {
+    "id": "fc-asfixia-01",
+    "topicId": "asfixia-perinatal",
+    "front": "Tríade da asfixia",
+    "back": "Hipóxia + hipercapnia + acidose metabólica por troca gasosa prejudicada persistente."
+  },
+  {
+    "id": "fc-asfixia-02",
+    "topicId": "asfixia-perinatal",
+    "front": "4 critérios diagnósticos",
+    "back": "1) pH cordão <7,25 (acidose met ou mista)\n2) Apgar 0-3 persistente no 5º min\n3) Manifestações neurológicas\n4) Disfunção multi-orgânica"
+  },
+  {
+    "id": "fc-asfixia-03",
+    "topicId": "asfixia-perinatal",
+    "front": "Classificação Sarnat",
+    "back": "Leve: hiperexcitabilidade, sem convulsão\nModerada: letargia + convulsões + reflexos ↓\nGrave: coma, 50% óbito; sobreviventes 100% sequelas"
+  },
+  {
+    "id": "fc-asfixia-04",
+    "topicId": "asfixia-perinatal",
+    "front": "Hipotermia terapêutica",
+    "back": "RN ≥35-36 sem e ≥1800 g com EHI moderada/grave.\nIniciar <6h, T 33,5°C por 72h, reaquecer 0,5°C/h.\nContra: <35 sem, <1800 g."
+  },
+  {
+    "id": "fc-asfixia-05",
+    "topicId": "asfixia-perinatal",
+    "front": "Critérios pró-hipotermia",
+    "back": "pH<7 ou BE<-16\nEvento agudo (DPP, prolapso)\nApgar ≤5 no 10º min\nVentilação >10 min"
+  },
+  {
+    "id": "fc-asfixia-06",
+    "topicId": "asfixia-perinatal",
+    "front": "Controle de convulsão neonatal",
+    "back": "1ª linha: fenobarbital\n2ª: fenitoína\n3ª: midazolam"
+  },
+  {
+    "id": "fc-asfixia-07",
+    "topicId": "asfixia-perinatal",
+    "front": "Manejo nutricional",
+    "back": "RN asfixiado: jejum de 7-14 dias + NPT, pela vasoconstrição intestinal e risco de ECN/perfuração."
+  },
+  {
+    "id": "fc-alta-01",
+    "topicId": "alta-seguimento-rn",
+    "front": "Critérios de alta (termo)",
+    "back": "24-48h (ideal 48h); amamentação efetiva; perda peso <10%; icterícia avaliada; eliminações presentes; triagens feitas; sem intercorrências."
+  },
+  {
+    "id": "fc-alta-02",
+    "topicId": "alta-seguimento-rn",
+    "front": "Queda do coto umbilical",
+    "back": "Entre 7-15 dias.\nDemora → investigar imunodeficiência ou hipotireoidismo."
+  },
+  {
+    "id": "fc-alta-03",
+    "topicId": "alta-seguimento-rn",
+    "front": "Idade corrigida",
+    "back": "Peso e neurológico: até 24 meses\nPC: até 18 meses\nEstatura: até 36-42 meses\nCalendário vacinal NÃO é corrigido."
+  },
+  {
+    "id": "fc-alta-04",
+    "topicId": "alta-seguimento-rn",
+    "front": "1ª consulta ambulatorial",
+    "back": "Ideal 3-5 dias após alta; na prática 7-10 dias. Avaliar icterícia, peso, amamentação, triagens, iniciar vit D."
+  },
+  {
+    "id": "fc-alta-05",
+    "topicId": "alta-seguimento-rn",
+    "front": "Sinais de alerta no RN",
+    "back": "Febre/hipotermia, recusa alimentar, gemência, cianose, vômitos, icterícia <24h ou progressiva, convulsão, onfalite."
+  },
+  {
+    "id": "fc-alta-06",
+    "topicId": "alta-seguimento-rn",
+    "front": "Posição para dormir",
+    "back": "Decúbito dorsal com cabeça lateralizada.\nSem coleito, sem travesseiro, cobertor abaixo da axila. Previne síndrome da morte súbita."
+  },
+  {
+    "id": "fc-aloj-01",
+    "topicId": "alojamento-conjunto",
+    "front": "Alojamento conjunto",
+    "back": "RN sadio permanece 24h com a mãe até alta. Favorece vínculo, amamentação e detecção precoce de alterações."
+  },
+  {
+    "id": "fc-aloj-02",
+    "topicId": "alojamento-conjunto",
+    "front": "Apojadura",
+    "back": "Descida fisiológica do leite no 2º-4º dia pós-parto; pode atrasar em cesárea eletiva. Ingurgitamento já é patológico."
+  },
+  {
+    "id": "fc-aloj-03",
+    "topicId": "alojamento-conjunto",
+    "front": "Contraindicações aleitamento",
+    "back": "HIV, HTLV-1, chagas aguda, lesão herpética/sífilis ativa na mama (temp.). Mastite NÃO contraindica."
+  },
+  {
+    "id": "fc-aloj-04",
+    "topicId": "alojamento-conjunto",
+    "front": "Eliminações fisiológicas",
+    "back": "Diurese em 24h; evacuação em 48h.\nVômito bilioso: obstrução intestino delgado\nVômito fecaloide: intestino grosso"
+  },
+  {
+    "id": "fc-aloj-05",
+    "topicId": "alojamento-conjunto",
+    "front": "Hematomas do parto",
+    "back": "Bossa: edema de partes moles, ultrapassa suturas, regride\nCefalohematoma: subperiostal, respeita suturas, tardio\nSubgaleal: grave, risco de choque"
+  },
+  {
+    "id": "fc-aloj-06",
+    "topicId": "alojamento-conjunto",
+    "front": "Hipoglicemia neonatal",
+    "back": "Sintomas: tremor, letargia, apneia, recusa, convulsão.\nDextro seriado em fatores de risco: 1, 3, 6, 12, 24, 48h."
+  },
+  {
+    "id": "fc-aloj-07",
+    "topicId": "alojamento-conjunto",
+    "front": "Perda de peso aceitável",
+    "back": "Fisiológica até 7-10% do peso de nascimento.\nAcima → investigar desidratação, dificuldade alimentar."
+  },
+  {
+    "id": "fc-triag-01",
+    "topicId": "triagem-neonatal",
+    "front": "5 testes de triagem",
+    "back": "Pezinho (3-7d), orelhinha (EOA), olhinho (reflexo vermelho), coraçãozinho (oximetria >24h), linguinha (Bristol)."
+  },
+  {
+    "id": "fc-triag-02",
+    "topicId": "triagem-neonatal",
+    "front": "Pezinho - 7 doenças",
+    "back": "Fenilcetonúria, hipotireoidismo, hiperplasia adrenal, hemoglobinopatias, fibrose cística, def. biotinidase, toxoplasmose congênita."
+  },
+  {
+    "id": "fc-triag-03",
+    "topicId": "triagem-neonatal",
+    "front": "Janela do pezinho",
+    "back": "3º-7º dia, após ≥48h de alimentação proteica. Antes → falso negativo PKU ou falso positivo hipotireoidismo."
+  },
+  {
+    "id": "fc-triag-04",
+    "topicId": "triagem-neonatal",
+    "front": "Tratamento empírico",
+    "back": "Única doença do pezinho que pode ser tratada empiricamente (TSH>20 → levotiroxina): hipotireoidismo congênito."
+  },
+  {
+    "id": "fc-triag-05",
+    "topicId": "triagem-neonatal",
+    "front": "Coraçãozinho",
+    "back": "Oximetria >24h de vida, MSD (pré-ductal) + um MI (pós-ductal). Alvo: cardiopatias críticas (VE hipoplásico, Fallot, DATAPVP, coartação)."
+  },
+  {
+    "id": "fc-triag-06",
+    "topicId": "triagem-neonatal",
+    "front": "Leucocoria",
+    "back": "Olhinho branco no teste do olhinho. Sempre patológico: catarata, retinoblastoma, glaucoma, descolamento de retina. Encaminhar imediato."
+  },
+  {
+    "id": "fc-triag-07",
+    "topicId": "triagem-neonatal",
+    "front": "PKU",
+    "back": "Déficit de fenilalanina-hidroxilase, autossômica recessiva. Dieta pobre em fenilalanina para sempre. Sem dieta → retardo mental."
+  },
+  {
+    "id": "fc-triag-08",
+    "topicId": "triagem-neonatal",
+    "front": "Hiperplasia adrenal congênita",
+    "back": "Perdedora de sal: ↓ aldosterona → desidratação, hiponatremia, hiperpotassemia. Forma virilizante: genitália ambígua, pubarca precoce."
+  },
+  {
+    "id": "fc-aula6-01",
+    "topicId": "aula-6-perinato",
+    "front": "Sala de parto - T ambiente",
+    "back": "23-25°C. Berço de calor radiante ligado previamente, campo aquecido, touca para o RN."
+  },
+  {
+    "id": "fc-aula6-02",
+    "topicId": "aula-6-perinato",
+    "front": "Baby Puff (T)",
+    "back": "Ventilador mecânico manual em T, com blender para FiO2 precisa, controle de PIP e PEEP. Padrão: PIP 20-25, PEEP 5 cmH2O."
+  },
+  {
+    "id": "fc-aula6-03",
+    "topicId": "aula-6-perinato",
+    "front": "Ambu",
+    "back": "Balão auto-inflável 240 mL. Válvula de escape 30-40 cmH2O (evita barotrauma). Sem reservatório: 21%. Com reservatório: até 100%."
+  },
+  {
+    "id": "fc-aula6-04",
+    "topicId": "aula-6-perinato",
+    "front": "Prematuro extremo - hipotermia",
+    "back": "Não secar; ensacar o RN em saco plástico transparente tipo 'saco de fruta' + touca; calor radiante. Minimiza perdas por evaporação."
+  },
+  {
+    "id": "fc-aula6-05",
+    "topicId": "aula-6-perinato",
+    "front": "Cânula - tamanhos por IG",
+    "back": "28-34 sem: 3,0\n34-38 sem: 3,5\n>38 sem: 3,5-4,0\nSempre sem cuff. Lâminas retas 00/0/1."
+  },
+  {
+    "id": "fc-tutor-01",
+    "topicId": "tutoria-casos-clinicos",
+    "front": "Pré-natal completo",
+    "back": "Mínimo de 6 consultas (1 no 1º trim, 2 no 2º, 3 no 3º). Menos → risco aumentado, sinalizar na classificação do RN."
+  },
+  {
+    "id": "fc-tutor-02",
+    "topicId": "tutoria-casos-clinicos",
+    "front": "Bolsa rota prolongada",
+    "back": ">18h → risco aumentado de corioamnionite e sepse neonatal precoce. Colher SWAB GBS e alertar neonatal."
+  },
+  {
+    "id": "fc-tutor-03",
+    "topicId": "tutoria-casos-clinicos",
+    "front": "Pré-eclâmpsia",
+    "back": "PA ≥140/90 + proteinúria (>300 mg/24h) + edema, surge após 20 sem. Fisiop: invasão trofoblástica desorganizada."
+  },
+  {
+    "id": "fc-tutor-04",
+    "topicId": "tutoria-casos-clinicos",
+    "front": "PIG vs RCF",
+    "back": "PIG: peso <P10 ao nascer.\nRCF: crescimento fetal inadequado em 2 USGs. Pode ter RCF + AIG (cresceu pouco mas nasceu no P10-P90)."
+  },
+  {
+    "id": "fc-tutor-05",
+    "topicId": "tutoria-casos-clinicos",
+    "front": "Filho de mãe diabética",
+    "back": "Risco: macrossomia, hipoglicemia (hiperinsulinismo), policetemia, icterícia, hipocalcemia, tocotraumatismo, malformação cardíaca (fazer eco)."
+  },
+  {
+    "id": "fc-casoasf-01",
+    "topicId": "caso-asfixia",
+    "front": "Exames no asfixiado",
+    "back": "Gasometria, lactato, eletrólitos, cálcio, CK-MB, transaminases, ureia/creatinina, EEG, USG crânio, ecocardiograma."
+  },
+  {
+    "id": "fc-casoasf-02",
+    "topicId": "caso-asfixia",
+    "front": "Cronologia de dano cerebral",
+    "back": "Primeiras 6h: lesão primária (hipóxia/isquemia).\nApós: reperfusão com ROS, falha de bombas, influxo Ca, edema cerebral. Janela de hipotermia: <6h."
+  },
+  {
+    "id": "fc-casoasf-03",
+    "topicId": "caso-asfixia",
+    "front": "Técnica da hipotermia",
+    "back": "Colchão 4°C, berço desligado, T alvo 33,5°C por 72h, movimentar RN a cada 2h. Reaquecer 0,5°C/h até 36,5°C."
+  },
+  {
+    "id": "fc-casoasf-04",
+    "topicId": "caso-asfixia",
+    "front": "Apgar e asfixia",
+    "back": "Apgar NÃO é marcador isolado de asfixia nem prognóstico. 75% das paralisias cerebrais tiveram Apgar adequado. Apgar ≤3 no 5º min = repercussão."
+  },
+  {
+    "id": "fc-casoasf-05",
+    "topicId": "caso-asfixia",
+    "front": "Tratamento de edema cerebral",
+    "back": "Restrição hídrica com normovolemia. NÃO usar manitol/agentes hiperosmolares nem corticóides em EHI neonatal."
+  },
+  {
+    "id": "fc-casoreanim-01",
+    "topicId": "caso-reanimacao",
+    "front": "Veia umbilical",
+    "back": "Via de escolha para medicações na reanimação neonatal. Cateter entra 1-2 cm para garantir posição intravascular."
+  },
+  {
+    "id": "fc-casoreanim-02",
+    "topicId": "caso-reanimacao",
+    "front": "Máscara laríngea",
+    "back": "Alternativa à IOT em VPP prolongada/inefetiva. Requer RN >34 sem e >2 kg. Útil quando equipe menos habilitada em IOT."
+  },
+  {
+    "id": "fc-casoreanim-03",
+    "topicId": "caso-reanimacao",
+    "front": "Indicações de IOT",
+    "back": "1) VPP prolongada/inefetiva\n2) Necessidade de massagem cardíaca\n3) Hérnia diafragmática que precisa de VPP"
+  },
+  {
+    "id": "fc-casoreanim-04",
+    "topicId": "caso-reanimacao",
+    "front": "Reanimação prolongada refratária",
+    "back": "Considerar: malformações pulmonares/VA, cardiopatia congênita, hérnia diafragmática, pneumotórax. Assistolia >20 min → considerar interromper."
+  },
+  {
+    "id": "fc-casoreanim-05",
+    "topicId": "caso-reanimacao",
+    "front": "Avaliação pós-reanimação",
+    "back": "Se recuperou: UTI neonatal, monitorização, avaliar EHI (Sarnat), gasometria, eletrólitos, glicemia, ECO, USG crânio; considerar hipotermia se critérios."
+  },
+  {
+    "id": "fc-casosp1-01",
+    "topicId": "casos-sala-parto-1",
+    "front": "Equipe na sala de parto",
+    "back": "3 pessoas para o RN quando risco identificado: pediatra + enfermeira neonatal + auxiliar. Além de obstetra e anestesista."
+  },
+  {
+    "id": "fc-casosp1-02",
+    "topicId": "casos-sala-parto-1",
+    "front": "Por que FC é o sinal principal",
+    "back": "Responde rápido às manobras; Apgar é retrospectivo; FR é difícil de interpretar no RN. FC guia ASPAS → VPP → massagem → medicação."
+  },
+  {
+    "id": "fc-casosp1-03",
+    "topicId": "casos-sala-parto-1",
+    "front": "Oxímetro - localização",
+    "back": "Mão ou punho DIREITO (pré-ductal, sangue 100% arterial antes do canal arterial). Monitor cardíaco: 2 ombros ou braço + coxa E."
+  },
+  {
+    "id": "fc-casosp1-04",
+    "topicId": "casos-sala-parto-1",
+    "front": "Ritmo da VPP",
+    "back": "40-60 insuflações por minuto; ritmo 'aperta / solta / solta'. Com massagem: 3:1 (90 compressões + 30 ventilações por minuto)."
+  },
+  {
+    "id": "fc-casosp1-05",
+    "topicId": "casos-sala-parto-1",
+    "front": "Estrutura fetal - canal arterial",
+    "back": "Comunica artéria pulmonar → aorta. O2 é vasoconstritor potente → fecha em 24-72h. Se não fecha: persistência do canal arterial."
+  },
+  {
+    "id": "fc-casosp2-01",
+    "topicId": "casos-sala-parto-2",
+    "front": "Hérnia diafragmática - ventilação",
+    "back": "VPP com MÁSCARA é contraindicada (insufla intestino herniado). Se precisar de VPP: direto por cânula traqueal."
+  },
+  {
+    "id": "fc-casosp2-02",
+    "topicId": "casos-sala-parto-2",
+    "front": "Cânula mal posicionada",
+    "back": "Ausculta assimétrica (seletiva no brônquio direito) → retirar 1-2 cm e reauscultar. Simétrica + FC ↑ = bom posicionamento."
+  },
+  {
+    "id": "fc-casosp2-03",
+    "topicId": "casos-sala-parto-2",
+    "front": "Pulsos nos 4 membros",
+    "back": "Palpar na avaliação inicial. Femorais fracos/ausentes em relação aos braquiais → suspeita de coartação da aorta."
+  },
+  {
+    "id": "fc-casosp2-04",
+    "topicId": "casos-sala-parto-2",
+    "front": "Vacinas na maternidade",
+    "back": "Hepatite B (até 12h); BCG antes da alta se peso ≥2 kg. Vitamina K IM ao nascer. Credê (nitrato de prata) se parto vaginal."
+  },
+  {
+    "id": "fc-rad-rx-01",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Os 3 critérios de qualidade de uma radiografia de tórax PA são: {{c1::sem rotação}}, {{c2::inspiração adequada}} e {{c3::penetração adequada}}.",
+    "extra": "Inspiração adequada: contar ~9-10 arcos costais posteriores acima do diafragma. Penetração: deve-se enxergar discos vertebrais sutilmente atrás do coração."
+  },
+  {
+    "id": "fc-rad-rx-02",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Pulmão direito: lobos",
+    "back": "3 lobos: Superior, Médio e Inferior.\nFissura horizontal separa LSD do LM; fissura oblíqua separa esses do LID."
+  },
+  {
+    "id": "fc-rad-rx-03",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Pulmão esquerdo: lobos",
+    "back": "2 lobos: Superior e Inferior.\nO equivalente do lobo médio à esquerda é a LÍNGULA (parte do LSE).\nFissura horizontal NÃO existe à esquerda."
+  },
+  {
+    "id": "fc-rad-rx-04",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Hilo esquerdo está mais {{c1::alto}} que o hilo direito (em ~50% das pessoas; nos demais estão na mesma altura, mas o E NUNCA é mais baixo).",
+    "extra": "Hilo direito mais alto que o esquerdo é PATOLÓGICO — pode indicar atelectasia do LID puxando o hilo para baixo, ou colapso lobar."
+  },
+  {
+    "id": "fc-rad-rx-05",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Largura do mediastino superior (acima do botão aórtico) normal: até {{c1::1 corpo vertebral}}. Acima disso = alargamento de mediastino.",
+    "extra": "Causas de alargamento: trauma (hematoma), aneurisma de aorta, tumores (4 Ts: Timoma, Teratoma, Tireoide bócio mergulhante, Terrível linfoma)."
+  },
+  {
+    "id": "fc-rad-rx-06",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Os 4 Ts do alargamento de mediastino tumoral: {{c1::Timoma}}, {{c1::Teratoma}}, {{c1::Tireoide (bócio mergulhante)}} e {{c1::Terrível linfoma}}.",
+    "extra": "Outras causas: trauma (hematoma), aneurisma de aorta."
+  },
+  {
+    "id": "fc-rad-rx-07",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Os 4 arcos da silhueta cardíaca em PA (de cima para baixo, lado esquerdo)",
+    "back": "1º arco: Botão aórtico (Ao)\n2º arco: Tronco da artéria pulmonar (TP)\n3º arco: Ventrículo esquerdo (VE)\n(Aurícula esquerda quando aumentada aparece como 4º arco entre 2º e 3º)"
+  },
+  {
+    "id": "fc-rad-rx-08",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Estruturas da silhueta cardíaca direita em PA",
+    "back": "VCS (veia cava superior) acima e Átrio Direito (AD) abaixo formam a borda direita do coração no PA."
+  },
+  {
+    "id": "fc-rad-rx-09",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Razão cardiotorácica (RCT) normal: < {{c1::50%}} (medida com diâmetro transverso do coração / diâmetro torácico, em PA).",
+    "extra": "Em AP a razão pode chegar a 58% por amplificação. Aumento da RCT = cardiomegalia (ICC, derrame pericárdico, miocardiopatias)."
+  },
+  {
+    "id": "fc-rad-rx-10",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "No perfil, qual estrutura forma a borda cardíaca anterior?",
+    "back": "Ventrículo Direito (VD).\nA borda posterior é formada pelo Átrio Esquerdo (AE) acima e Ventrículo Esquerdo (VE) abaixo.\nVCI passa atrás do VE."
+  },
+  {
+    "id": "fc-rad-rx-11",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Aumento do VD no perfil: o coração ocupa mais de {{c1::1/3}} do espaço retro-esternal.",
+    "extra": "VD aumentado pode ser causado por hipertensão pulmonar (cor pulmonale), DPOC grave, valvopatias."
+  },
+  {
+    "id": "fc-rad-rx-12",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Espaço de Traube — onde fica e o que indica?",
+    "back": "Localização: hipocôndrio E, corresponde à bolha gástrica.\nNormalmente é timpânico à percussão (ar no fundo gástrico).\nQuando ocupado: esplenomegalia (mononucleose, leucemia mieloide crônica, etc.)."
+  },
+  {
+    "id": "fc-rad-rx-13",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Seios costofrênicos — o que avaliar?",
+    "back": "Devem ser AGUDOS e BEM DEFINIDOS. Borramento ou apagamento = derrame pleural (líquido escorre e fica na porção mais declive).\nEm caso de dúvida: decúbito lateral com raios horizontais (Laurell) — líquido escorre."
+  },
+  {
+    "id": "fc-rad-rx-14",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Calcificação das cartilagens costais é fisiológica em até {{c1::70%}} dos adultos (não é patológico).",
+    "extra": "Não confundir com calcificações pleurais (TB, asbesto)."
+  },
+  {
+    "id": "fc-rad-rx-15",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Ausência de sombra mamária à esquerda no RX — o que pensar?",
+    "back": "Mastectomia prévia (geralmente por câncer de mama). Sombra mamária é uma estrutura útil de orientação no RX de tórax."
+  },
+  {
+    "id": "fc-rad-tc-01",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "Em uma única tomografia de tórax podemos analisar duas janelas distintas: janela de {{c1::pulmão}} (parênquima) e janela de {{c2::mediastino}} (estruturas vasculares e partes moles).",
+    "extra": "São o mesmo conjunto de imagens — apenas com ajuste diferente de largura/centro de janela (window width e level)."
+  },
+  {
+    "id": "fc-rad-tc-02",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Janela de Pulmão na TC — o que avaliar?",
+    "back": "Parênquima pulmonar: nódulos, consolidações, vidro fosco, enfisema, fissuras, vasos pulmonares pequenos.\nFundo escuro com pulmão preto (ar) e estruturas brancas finas."
+  },
+  {
+    "id": "fc-rad-tc-03",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Janela de Mediastino na TC — o que avaliar?",
+    "back": "Coração, grandes vasos (aorta, tronco pulmonar, VCS), traqueia/brônquios principais, esôfago, linfonodos mediastinais, partes moles.\nPulmão fica preto (sem detalhe), mas estruturas mediastinais ficam bem definidas."
+  },
+  {
+    "id": "fc-rad-tc-04",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Fissuras pulmonares principais",
+    "back": "Direita: fissura horizontal (separa LSD do LM) + fissura oblíqua (separa LSD/LM do LID).\nEsquerda: apenas fissura oblíqua (separa LSE do LIE)."
+  },
+  {
+    "id": "fc-rad-tc-05",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "Os 3 ramos arteriais que saem do arco da aorta (de proximal para distal): {{c1::tronco braquiocefálico}}, {{c2::artéria carótida comum esquerda}} e {{c3::artéria subclávia esquerda}}.",
+    "extra": "O tronco braquiocefálico se divide em artéria carótida comum direita e artéria subclávia direita."
+  },
+  {
+    "id": "fc-rad-tc-06",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Veias braquiocefálicas: trajeto e fusão",
+    "back": "V. braquiocefálica direita e v. braquiocefálica esquerda fundem-se para formar a VEIA CAVA SUPERIOR (VCS), que desemboca no átrio direito."
+  },
+  {
+    "id": "fc-rad-tc-07",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "No corte axial em altura do tronco da artéria pulmonar vemos: tronco da AP que se bifurca em {{c1::artéria pulmonar direita}} (atrás da aorta ascendente e VCS) e {{c2::artéria pulmonar esquerda}} (cavalgando o brônquio principal esquerdo).",
+    "extra": "A AP direita é mais horizontal; a AP esquerda 'monta' sobre o brônquio principal esquerdo."
+  },
+  {
+    "id": "fc-rad-tc-08",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Câmaras cardíacas em corte axial (vista TC) — quem fica anterior e posterior?",
+    "back": "Anterior: Ventrículo Direito (VD).\nPosterior: Átrio Esquerdo (AE).\nVE fica posterior e à esquerda. AD fica à direita.\nO septo interventricular separa VD de VE."
+  },
+  {
+    "id": "fc-rad-tc-09",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "A veia ázigos drena para a {{c1::veia cava superior (VCS)}} e a hemi-ázigos drena para a {{c2::ázigos}}.",
+    "extra": "Ambas correm posteriormente, ao lado da aorta descendente. Importante referência anatômica em corte axial."
+  },
+  {
+    "id": "fc-rad-tc-10",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Localização do esôfago no corte axial torácico",
+    "back": "Posterior à traqueia (alto), depois posterior ao átrio esquerdo (médio) e anterior à aorta descendente (baixo).\nÚtil pesquisar quando há suspeita de hérnia de hiato ou neoplasia."
+  },
+  {
+    "id": "fc-rad-tc-11",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Aorta torácica — divisões em corte axial",
+    "back": "Aorta ascendente (anterior, à direita) → Arco da aorta (origem dos 3 troncos) → Aorta descendente (posterior, à esquerda da coluna).\nNo nível do tronco pulmonar veem-se aorta ascendente E descendente lado a lado."
+  },
+  {
+    "id": "fc-rad-tc-12",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "TC com contraste iodado: pré-contraste (basal) → fase {{c1::arterial}} (~25-30s, brilha aorta e artérias) → fase {{c2::venosa/portal}} (~70s) → fase tardia.",
+    "extra": "Em angiotomografia para TEP usa-se a fase arterial pulmonar (sincronizada com chegada de iodo na artéria pulmonar)."
+  },
+  {
+    "id": "fc-rad-tc-13",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Brônquios principais — diferença anatômica que importa",
+    "back": "Brônquio principal DIREITO é mais curto, mais largo e mais VERTICAL → corpos estranhos aspirados tendem a ir para o pulmão direito (LID).\nO esquerdo é mais horizontal e angulado."
+  },
+  {
+    "id": "fc-rad-tc-14",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Lóbulo pulmonar secundário — definição e estrutura",
+    "back": "Menor unidade funcional do pulmão (~1 cm).\nAo redor: septo interlobular (0,1 mm) com veia + linfático.\nNo centro: artéria + bronquíolo.\nO espessamento de septos = linhas B de Kerley (edema)."
+  },
+  {
+    "id": "fc-rad-tc-15",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "Linhas B de Kerley são causadas por {{c1::espessamento do septo interlobular}}, classicamente vistas no {{c2::edema agudo de pulmão}}.",
+    "extra": "Aparecem como linhas finas perpendiculares à pleura nas bases pulmonares."
+  },
+  {
+    "id": "fc-rad-cron-01",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "DPOC — fisiopatologia: destruição dos {{c1::septos interalveolares}} (enfisema) e obstrução expiratória, levando a {{c2::hiperinsuflação pulmonar}}.",
+    "extra": "No enfisema os alvéolos destruídos jogam ar no brônquio durante a expiração, que não colaba — característica aprisionamento aéreo."
+  },
+  {
+    "id": "fc-rad-cron-02",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "DPOC — sinais clássicos no RX: {{c1::hipertransparência}} pulmonar, {{c2::redução da trama vascular}}, tórax em {{c3::barril}}, {{c4::retificação das cúpulas diafragmáticas}} e coração em {{c5::gota}}.",
+    "extra": "Também: aumento dos espaços intercostais, horizontalização das costelas, aumento do espaço retroesternal, traqueia em bainha de sabre, bolhas enfisematosas."
+  },
+  {
+    "id": "fc-rad-cron-03",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Traqueia 'em bainha de sabre' — o que indica?",
+    "back": "Traqueia comprimida lateralmente (estreitamento do diâmetro coronal). Achado clássico de DPOC (relacionado à perda de suporte elástico)."
+  },
+  {
+    "id": "fc-rad-cron-04",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Cor pulmonale = IC do {{c1::ventrículo direito}} secundária a doença {{c2::pulmonar}} (classicamente DPOC, gerando hipertensão pulmonar crônica).",
+    "extra": "Sobrecarga pressórica das artérias pulmonares → sobrecarga do VD → dilatação/hipertrofia do VD."
+  },
+  {
+    "id": "fc-rad-cron-05",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Linfonodomegalia hilar CALCIFICADA: causas clássicas {{c1::tuberculose}} e {{c1::histoplasmose}}.",
+    "extra": "Sarcoidose tende a causar linfonodomegalia 'em batata' (não calcificada). Metástases e linfoma são outras causas de linfonodomegalia hilar."
+  },
+  {
+    "id": "fc-rad-cron-06",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Linfonodomegalia hilar 'em batata' — causa clássica",
+    "back": "SARCOIDOSE — tende a produzir linfonodos aumentados, não calcificados, com aspecto arredondado ('em batata')."
+  },
+  {
+    "id": "fc-rad-cron-07",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Causas de lesão cavitada pulmonar: {{c1::tuberculose}}, {{c1::abscesso pulmonar}}, {{c1::CEC (carcinoma escamocelular)}}, {{c1::pneumatocele}}, {{c1::hérnia de hiato (na verdade estômago atrás do coração)}}.",
+    "extra": "Aspergilose forma 'bola fúngica' dentro da cavidade (sinal do crescente), tipicamente infectando cavidade prévia de TB."
+  },
+  {
+    "id": "fc-rad-cron-08",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "6 Cs do Carcinoma Escamo-Celular (CEC) do pulmão: {{c1::Cigarro}}, {{c1::Central}}, {{c1::Cavita}}, {{c1::Cavalheiros (homens)}}, {{c1::Cálcio (hipercalcemia)}} e {{c1::Ceratina (pérolas de queratina)}}.",
+    "extra": "Localização central (brônquica), frequentemente cavita, hipercalcemia por PTHrP. Histologia mostra pérolas de queratina e pontes intercelulares."
+  },
+  {
+    "id": "fc-rad-cron-09",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Tuberculose PRIMÁRIA — achados clássicos",
+    "back": "Nódulo de Ghon: granuloma calcificado periférico.\nComplexo de Ranke: nódulo de Ghon + linfonodo hilar calcificado ligados por linfático.\nGeralmente assintomática."
+  },
+  {
+    "id": "fc-rad-cron-10",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Tuberculose SECUNDÁRIA (pós-primária) — achados clássicos",
+    "back": "Cavitações preferencialmente nos ÁPICES pulmonares (mais aerados).\nDeformidade pulmonar RETRÁTIL (hilos e vasos puxados para cima — 'em água de chuveiro' ou 'pés de bailarina').\nÉ a forma mais transmissível."
+  },
+  {
+    "id": "fc-rad-cron-11",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Tuberculose MILIAR: disseminação {{c1::hematogênica}} com {{c2::nódulos difusos}} pelos pulmões (infiltrado intersticial nodular).",
+    "extra": "Diagnóstico diferencial: histoplasmose miliar (rara). Tamanho dos nódulos ~1-3 mm, distribuição uniforme."
+  },
+  {
+    "id": "fc-rad-cron-12",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Sinal da 'árvore em brotamento' (tree-in-bud)",
+    "back": "Disseminação endobrônquica — classicamente da tuberculose.\nNa TC aparecem pequenos nódulos centrolobulares conectados, lembrando ramos com brotos.\nTambém pode ocorrer em outras infecções das vias aéreas distais."
+  },
+  {
+    "id": "fc-rad-cron-13",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Aspergiloma ('fungus ball' / bola fúngica): lesão cavitada com nódulo interno, classicamente forma-se sobre cavidade prévia de {{c1::tuberculose}}. Sinal radiológico clássico: sinal do {{c2::crescente}}.",
+    "extra": "Aspergillus fumigatus. A bola se move com mudança de decúbito do paciente (sinal do ar em crescente ao redor)."
+  },
+  {
+    "id": "fc-rad-cron-14",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Nódulo pulmonar vs. massa — diferença de tamanho",
+    "back": "Nódulo: até 3 cm.\nMassa: > 3 cm.\nAmbos podem ser benignos ou malignos; tamanho maior aumenta probabilidade de malignidade."
+  },
+  {
+    "id": "fc-rad-cron-15",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Nódulo ÚNICO de BAIXA densidade (densidade de partes moles) = clássico para {{c1::câncer de pulmão}}. Múltiplos nódulos de baixa densidade = {{c2::metástases}}, {{c2::embolia séptica}} ou {{c2::vasculite}}.",
+    "extra": "Alta densidade = calcificação: granuloma (TB antiga) se único; varicela, histoplasmose, silicose, microlitíase alveolar se múltiplos pequenos."
+  },
+  {
+    "id": "fc-rad-cron-16",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Placas pleurais calcificadas múltiplas: pensar em exposição ao {{c1::asbesto (amianto)}} ou {{c1::tuberculose}} prévia.",
+    "extra": "Mesotelioma é câncer primário da pleura associado ao asbesto — espessamento pleural que 'encarcera' o pulmão."
+  },
+  {
+    "id": "fc-rad-cron-17",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Hérnia de hiato — achado radiológico e consequências clínicas",
+    "back": "Estômago dentro do tórax, atrás do coração (imagem cística com nível hidroaéreo retrocárdico).\nCausa refluxo gastroesofágico → esofagite (laringite posterior assimétrica) → úlcera → metaplasia (esôfago de Barret)."
+  },
+  {
+    "id": "fc-rad-emer-01",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Pneumonia LOBAR (localizada): agente clássico {{c1::Streptococcus pneumoniae}} (secreção cor de {{c2::ferrugem}}); ou {{c1::Klebsiella}} (secreção cor de {{c2::rosa/groselha}}).",
+    "extra": "Tratamento típico: amoxicilina + clavulanato ou levofloxacina."
+  },
+  {
+    "id": "fc-rad-emer-02",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Broncopneumonia (opacidades alveolares múltiplas) — principal agente: {{c1::Staphylococcus aureus}} (secreção verde/amarela). Klebsiella também pode causar.",
+    "extra": "Apresenta opacidades dispersas em diferentes lobos, sem distribuição lobar definida."
+  },
+  {
+    "id": "fc-rad-emer-03",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Pneumonia VIRAL (COVID, H1N1) tem padrão de opacidade em {{c1::vidro fosco}} (baixa atenuação), tipicamente {{c2::periférico}} e {{c2::múltiplo}}.",
+    "extra": "Diferente do edema agudo (vidro fosco central e confluente em asa de borboleta)."
+  },
+  {
+    "id": "fc-rad-emer-04",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Pneumonia ATÍPICA: agentes {{c1::Mycoplasma}}, {{c1::Chlamydia}} e {{c1::Legionella}}. Clínica: tosse seca, febre baixa. Tratamento: {{c2::macrolídeo}} (claritromicina).",
+    "extra": "Padrão radiológico variável (atípico). Não usar quinolona em criança (afeta cartilagem)."
+  },
+  {
+    "id": "fc-rad-emer-05",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Sinal do BRONCOGRAMA AÉREO",
+    "back": "Imagem do brônquio (preto/ar) visível DENTRO de uma consolidação branca (alvéolo cheio de pus/líquido).\nAchado clássico de pneumonia bacteriana — indica que há consolidação alveolar em volta do brônquio aerado."
+  },
+  {
+    "id": "fc-rad-emer-06",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Sinal da SILHUETA",
+    "back": "Quando duas estruturas de mesma densidade se TOCAM, a interface entre elas DESAPARECE (some o limite).\nPneumonia do lobo médio borra a borda CARDÍACA direita; pneumonia do LID borra a borda do DIAFRAGMA."
+  },
+  {
+    "id": "fc-rad-emer-07",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Sinal da COLUNA VERTEBRAL (sinal da coluna negra)",
+    "back": "Normalmente, no perfil, a coluna torácica fica progressivamente MAIS ESCURA descendo (mais ar nas bases).\nSe ficar BRANCA na base = consolidação posterior (pneumonia do lobo inferior)."
+  },
+  {
+    "id": "fc-rad-emer-08",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Score CURB-65 para pneumonia: {{c1::C}}onfusão mental, {{c1::U}}reia >50 mg/dL, {{c1::R}} ≥30 irpm, {{c1::B}} (PA <90/60), idade ≥{{c1::65}} anos.",
+    "extra": "0-1 ambulatorial; 2 considerar internação; ≥3 internação; ≥4-5 UTI."
+  },
+  {
+    "id": "fc-rad-emer-09",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Complicações da pneumonia: {{c1::derrame pleural para-pneumônico}}, {{c1::empiema pleural}}, {{c1::pneumatocele}} e {{c1::abscesso pulmonar}}.",
+    "extra": "Empiema = sinal do 'rato embaixo do tapete' (loculações). Abscesso = nível hidroaéreo, febre em pico (bacteremia transitória)."
+  },
+  {
+    "id": "fc-rad-emer-10",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Pneumatocele — definição e contexto",
+    "back": "Cisto de parede fina, NÃO infectado, em criança, geralmente APÓS pneumonia por Staphylococcus aureus.\nCostuma involuir espontaneamente."
+  },
+  {
+    "id": "fc-rad-emer-11",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Edema agudo de pulmão (EAP) — achados radiográficos: {{c1::cardiomegalia}}, {{c1::congestão pulmonar}}, {{c1::redistribuição/inversão da vascularização}} (mais vasos no ápice), {{c1::linhas B de Kerley}} e opacidade em {{c2::asa de borboleta}}.",
+    "extra": "Outros sinais: sinal do manguito brônquico, sinal dos chifres de Aussie, aumento dos hilos. Tratamento mnemônico LMNOP (Lasix, Morfina, Nitrato, Oxigênio, Posição)."
+  },
+  {
+    "id": "fc-rad-emer-12",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Tromboembolismo pulmonar (TEP) — em ~{{c1::70%}} dos casos a radiografia de tórax é {{c2::normal}}.",
+    "extra": "Por isso o RX serve mais para excluir diagnósticos diferenciais (pneumonia, pneumotórax). O exame de escolha é a angiotomografia."
+  },
+  {
+    "id": "fc-rad-emer-13",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "TEP — exame padrão-ouro: {{c1::angiotomografia de tórax}} com contraste iodado, mostrando {{c2::falha de enchimento}} (trombo) na artéria pulmonar.",
+    "extra": "Outros achados (raros mas clássicos): atelectasia segmentar (pneumoconstrição), corcova de Hampton (infarto pulmonar — opacidade triangular periférica), sinal de Westermark (oligoemia regional), sinal de Fleishner (dilatação da artéria pulmonar)."
+  },
+  {
+    "id": "fc-rad-emer-14",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Sinais radiológicos clássicos do TEP — nomeie 3",
+    "back": "1. Corcova de Hampton: opacidade periférica triangular (infarto pulmonar)\n2. Sinal de Westermark: oligoemia regional (menos vasos)\n3. Sinal de Fleishner: dilatação da artéria pulmonar central\nLembrar: 70% dos RX são NORMAIS no TEP."
+  },
+  {
+    "id": "fc-rad-emer-15",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "TEP — alteração ECG clássica: {{c1::S1 Q3 T3 (V3)}}, padrão de sobrecarga aguda do {{c2::ventrículo direito}}.",
+    "extra": "O achado mais COMUM no ECG, porém, é taquicardia sinusal (>90 bpm). Gasometria mostra alcalose respiratória + hipoxemia."
+  },
+  {
+    "id": "fc-rad-emer-16",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Aneurisma dissecante de aorta: lesão do {{c1::endotélio}} → sangue caminha entre as camadas da parede, formando luz {{c2::verdadeira}} e luz {{c2::falsa}} separadas pela {{c3::membrana de dissecação}}.",
+    "extra": "Causa estresse hemodinâmico. Tratamento: endopróteses/stent. Pode causar rouquidão (compressão do nervo laríngeo recorrente)."
+  },
+  {
+    "id": "fc-rad-emer-17",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Aneurisma de aorta ascendente — sintoma vascular distintivo",
+    "back": "Edema de membros superiores e face por compressão da Veia Cava Superior (VCS).\nPode causar síndrome da VCS."
+  },
+  {
+    "id": "fc-rad-prin-01",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Quem descobriu os raios-X e em que ano?",
+    "back": "Wilhelm Conrad Roentgen, em 1895. A primeira radiografia conhecida foi a da mão da sua esposa Bertha."
+  },
+  {
+    "id": "fc-rad-prin-02",
+    "topicId": "rad-principios-metodos",
+    "type": "cloze",
+    "text": "Radiação ionizante possui energia suficiente para arrancar um {{c1::elétron}} de um átomo ou molécula.",
+    "extra": "Os efeitos ocorrem em células somáticas (medula óssea, tireoide, gônadas) e germinativas (consequências hereditárias). O DNA do embrião/feto/criança é especialmente sensível."
+  },
+  {
+    "id": "fc-rad-prin-03",
+    "topicId": "rad-principios-metodos",
+    "type": "cloze",
+    "text": "Métodos COM radiação ionizante: {{c1::radiografia}}, {{c1::mamografia}}, {{c1::tomografia}}, {{c1::densitometria}} e {{c1::cintilografia}}.",
+    "extra": "Métodos SEM radiação ionizante: ressonância magnética e ultrassonografia."
+  },
+  {
+    "id": "fc-rad-prin-04",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Métodos de imagem SEM radiação ionizante",
+    "back": "Ressonância Magnética (RM) e Ultrassonografia (US)."
+  },
+  {
+    "id": "fc-rad-prin-05",
+    "topicId": "rad-principios-metodos",
+    "type": "cloze",
+    "text": "Contraste da {{c1::radiografia}}: bário (trato digestório) e iodo (demais regiões). Bário é contraindicado se houver risco de {{c2::perfuração}} do trato digestório (não absorvível).",
+    "extra": "Iodo na TC é contraindicado em alergia ao iodo, insuficiência renal e em paciente em uso de metformina com nefropatia."
+  },
+  {
+    "id": "fc-rad-prin-06",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Contraste da TC e suas contraindicações",
+    "back": "Contraste: IODO.\nContraindicações:\n- Alergia ao iodo\n- Insuficiência renal\n- Metformina em paciente com nefropatia (risco de acidose lática 48h)"
+  },
+  {
+    "id": "fc-rad-prin-07",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Contraste da Ressonância Magnética e seu risco principal",
+    "back": "Contraste: GADOLÍNIO.\nRisco: pode ocasionar esclerose sistêmica nefrogênica (cuidado em insuficiência renal)."
+  },
+  {
+    "id": "fc-rad-prin-08",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Contraste da Ultrassonografia e contraindicações",
+    "back": "Contraste: MICROBOLHAS.\nContraindicação: quadros cardiopulmonares graves, especialmente hipertensão pulmonar (microbolha pode obstruir vaso)."
+  },
+  {
+    "id": "fc-rad-prin-09",
+    "topicId": "rad-principios-metodos",
+    "type": "cloze",
+    "text": "Em paciente alérgico ao iodo que precisa fazer TC com contraste: {{c1::corticoide por 3 dias}} antes do exame.",
+    "extra": "Outra opção é trocar para outro método (ex: ressonância) quando possível."
+  },
+  {
+    "id": "fc-rad-prin-10",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Quem desenvolveu a Tomografia Computadorizada?",
+    "back": "Godfrey Hounsfield (1919-2014) e Allan Cormack (1924-1998). Por isso a unidade de densidade na TC é Hounsfield (HU)."
+  },
+  {
+    "id": "fc-rad-prin-11",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Princípio físico da Ultrassonografia",
+    "back": "Efeito piezoelétrico (descoberto por Pierre Currie). Usa ondas sonoras > 20.000 Hz (ultrassom) emitidas e captadas pelo transdutor."
+  },
+  {
+    "id": "fc-rad-prin-12",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Princípio físico da Ressonância Magnética",
+    "back": "Baseada nas propriedades magnéticas do átomo de hidrogênio (H), que está abundante na água do corpo. Desenvolvida por Paul Lauterbur."
+  },
+  {
+    "id": "fc-rad-prin-13",
+    "topicId": "rad-principios-metodos",
+    "type": "cloze",
+    "text": "Cisto na imagem: na US é {{c1::anecóico}} (sem ecos); na RM T1 é {{c2::hipointenso}} e na RM T2 é {{c2::hiperintenso}}; na TC é {{c3::hipodenso}}.",
+    "extra": "Anecóico = totalmente preto na US (líquido). Hiperintenso em T2 = brilhante (água)."
+  },
+  {
+    "id": "fc-rad-prin-14",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Estudos contrastados do trato digestivo e contraste usado",
+    "back": "Seriografia esôfago/estômago/duodeno e Trânsito intestinal: bário VO.\nEnema opaco: bário + ar via retal.\nNão usar bário se risco de perfuração."
+  },
+  {
+    "id": "fc-rad-prin-15",
+    "topicId": "rad-principios-metodos",
+    "type": "basic",
+    "front": "Densidades radiológicas em ordem crescente (do mais escuro ao mais branco no RX)",
+    "back": "1. Ar (mais escuro)\n2. Gordura\n3. Partes moles / líquido\n4. Osso ou cálcio\n5. Metal (mais branco)"
+  },
+  {
+    "id": "fc-rad-trau-01",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Pneumotórax — definição e marca radiográfica",
+    "back": "Ar no espaço pleural.\nNo RX: ausência de trama vascular periférica + visualização da margem pulmonar (que é a pleura visceral) deslocada da parede torácica.\nDica: 'janelar' (ajustar contraste) facilita identificar a linha pleural."
+  },
+  {
+    "id": "fc-rad-trau-02",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Pneumotórax pode ser {{c1::traumático}} ou {{c1::espontâneo}} (ruptura de bolha subpleural, mais em jovens longilíneos).",
+    "extra": "Percussão: timpânica (ar). Ausculta: murmúrio vesicular abolido."
+  },
+  {
+    "id": "fc-rad-trau-03",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Pneumotórax HIPERTENSIVO — diagnóstico é {{c1::clínico}} (NÃO esperar exame). Sinais: desvio contralateral da {{c2::traqueia}} e do {{c2::coração}}, hipotensão, jugulares ingurgitadas.",
+    "extra": "Conduta: TORACOCENTESE DE ALÍVIO imediata (agulha calibrosa no 2º EIC LMC ou 5º EIC LAA), seguida de drenagem em selo d'água."
+  },
+  {
+    "id": "fc-rad-trau-04",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Os 4 tipos de choque circulatório: {{c1::hipovolêmico}} (hemorragia, desidratação, queimadura, pancreatite), {{c2::cardiogênico}} (IAM), {{c3::obstrutivo}} (TEP, pneumotórax hipertensivo, tamponamento), {{c4::distributivo}} (sepse, anafilaxia, neurogênico).",
+    "extra": "Reconhecer o tipo é crítico para escolher tratamento (volume, vasopressor, intervenção mecânica)."
+  },
+  {
+    "id": "fc-rad-trau-05",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Sinal do PONTO PULMONAR (lung point)",
+    "back": "Achado de US: limite onde uma região com pneumotórax (sem deslizamento pleural) encontra a região normal (com deslizamento).\nÉ ALTAMENTE específico para pneumotórax. Visível também no Modo M."
+  },
+  {
+    "id": "fc-rad-trau-06",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "US pulmonar — pneumotórax: AUSÊNCIA de {{c1::lung sliding}} (deslizamento pleural) e ausência de {{c2::cauda de cometa}}. No modo M: padrão de 'código de barras' / 'estratosfera' (em vez do padrão mar-areia normal).",
+    "extra": "Lung sliding = movimento brilhante na linha pleural durante respiração. Cauda de cometa = artefatos de reverberação verticais."
+  },
+  {
+    "id": "fc-rad-trau-07",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Linhas A (US): horizontais, indicam pulmão {{c1::aerado normal}}. Linhas B: verticais (cauda de cometa difusa), indicam pulmão {{c2::congesto/edemaciado}} (edema, fibrose).",
+    "extra": "Múltiplas linhas B = síndrome alveolo-intersticial (edema agudo de pulmão, ARDS, pneumonite intersticial)."
+  },
+  {
+    "id": "fc-rad-trau-08",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Derrame pleural — manobra para confirmar quando há dúvida no RX",
+    "back": "Decúbito Lateral com Raios Horizontais (LAURELL) — o líquido escorre para a porção declive, formando uma camada visível ao longo da parede torácica.\nÚtil para diferenciar derrame de espessamento pleural ou consolidação."
+  },
+  {
+    "id": "fc-rad-trau-09",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Tipos de derrame pleural pelo conteúdo: hidrotórax (líquido claro), {{c1::hemotórax}} (sangue, trauma), {{c2::piotórax (empiema)}} (pus) e {{c3::quilotórax}} (linfa).",
+    "extra": "Hidro-pneumotórax = combinação líquido + ar (apresenta nível hidroaéreo). Drenagem em selo d'água indicada para derrame, pneumotórax e hidro-pneumotórax."
+  },
+  {
+    "id": "fc-rad-trau-10",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Atelectasia vs Derrame Pleural — diferença chave",
+    "back": "Atelectasia é RETRÁTIL (puxa estruturas para o lado afetado: traqueia, mediastino, hilo).\nDerrame Pleural é EXPANSIVO (empurra estruturas para o lado oposto)."
+  },
+  {
+    "id": "fc-rad-trau-11",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Contusão Pulmonar — características",
+    "back": "Lesão INTRA-pulmonar pós-trauma (geralmente fratura de costela associada).\nLíquido NÃO escorre (está absorvido pelo pulmão).\nOpacidade não respeita limites lobares.\nPode estar associada a derrame pleural."
+  },
+  {
+    "id": "fc-rad-trau-12",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Síndrome do tórax instável: fratura de pelo menos {{c1::3 costelas seguidas}} em {{c1::2 pontos}} cada, gerando {{c2::movimento paradoxal}} do retalho costal durante a respiração.",
+    "extra": "Insuficiência respiratória → pode necessitar IOT e ventilação mecânica para estabilizar mecanicamente."
+  },
+  {
+    "id": "fc-rad-trau-13",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Pneumomediastino — causas",
+    "back": "Trauma (lesão de traqueia ou brônquios) ou intubação/ventilação com pressão positiva.\nO ar pode dissecar para o subcutâneo (enfisema subcutâneo)."
+  },
+  {
+    "id": "fc-rad-trau-14",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Sinal da FOLHA DE GINKO: ar dissecando entre as fibras do {{c1::músculo peitoral maior}} (enfisema subcutâneo).",
+    "extra": "Indica pneumomediastino com extravasamento para subcutâneo. Edema sem cacifo (ar e não líquido). Pode-se palpar crepitação."
+  },
+  {
+    "id": "fc-rad-trau-15",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Lesão diafragmática — achados radiológicos",
+    "back": "Trauma de alta energia → órgãos abdominais migram para o tórax (estômago, alças).\nTraqueia e coração desviados, pulmão comprimido.\nSonda nasogástrica pode confirmar localização do estômago no tórax."
+  },
+  {
+    "id": "fc-rad-trau-16",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "ATENÇÃO: NÃO passar sonda nasogástrica em suspeita de fratura de {{c1::base de crânio}} — risco da sonda ir para o cérebro. Sinais de fratura de base de crânio: olhos de {{c2::guaxinim}}, sinal de {{c2::Battle}} (equimose retroauricular), liquor pelo ouvido.",
+    "extra": "Fratura de base também pode causar paralisia facial periférica."
+  },
+  {
+    "id": "fc-rad-trau-17",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Aspiração de corpo estranho — achado radiográfico clássico",
+    "back": "Hiperinsuflação UNILATERAL (por obstrução brônquica com mecanismo valvular).\nNa inspiração e expiração o pulmão fica IGUAL (não esvazia).\nEm bebês (que não obedecem comando): RX em decúbito lateral (Laurell) — pulmão em decúbito normalmente esvazia, mas se houver obstrução fica hiperinsuflado."
+  },
+  {
+    "id": "fc-rad-trau-18",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Derrame pericárdico NÃO traumático (lento): aumento da área cardíaca em forma de {{c1::moringa}} (taça invertida), simétrico.",
+    "extra": "Causas: infecciosa (viral, TB), neoplásica, urêmica, autoimune. ICC tipicamente é assimétrico."
+  },
+  {
+    "id": "fc-rad-trau-19",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "HEMOPERICÁRDIO (rápido, traumático) — sinal radiográfico clássico: {{c1::retificação da borda cardíaca esquerda}}.",
+    "extra": "Acúmulo rápido de sangue no pericárdio comprime as câmaras e leva rapidamente a tamponamento (mesmo com pequenos volumes)."
+  },
+  {
+    "id": "fc-rad-trau-20",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Tríade de Beck (tamponamento cardíaco): {{c1::hipotensão arterial}}, aumento da {{c2::PVC}} (jugulares ingurgitadas) e {{c3::hipofonese de bulhas}}.",
+    "extra": "Achados ecocardiográficos: deflexão diastólica do VD, contração vigorosa do AD, derrame anecóico ao redor do coração (janela subxifoide)."
+  },
+  {
+    "id": "fc-rad-trau-21",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "US cardíaco — janela para avaliar derrame pericárdico",
+    "back": "Janela SUBXIFOIDE.\nMarcador do transdutor para o lado direito do paciente; movimentos posterior e superior.\nDerrame aparece como área ANECÓICA (preta) ao redor do coração."
+  },
+  {
+    "id": "fc-rad-trau-22",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Tamponamento cardíaco — achado ecocardiográfico clássico",
+    "back": "DEFLEXÃO DIASTÓLICA DO VENTRÍCULO DIREITO (a parede do VD 'afunda' na diástole pelo pressão do líquido pericárdico).\nTambém: contração vigorosa do AD."
+  }
 ]

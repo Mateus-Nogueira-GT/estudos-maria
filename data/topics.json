@@ -89,5 +89,47 @@
     "name": "Casos — Atendimento em Sala de Parto (II)",
     "source": "Casos clínicos Atendimento do RN em sala de parto (1).pdf",
     "description": "Segundo conjunto de casos clínicos sobre atendimento do RN, clampeamento e cuidados imediatos."
+  },
+  {
+    "id": "rad-principios-metodos",
+    "subjectId": "radiologia",
+    "name": "Princípios e Métodos de Imagem",
+    "source": "Radiologia Médica.pdf",
+    "description": "Radiações ionizantes vs. não-ionizantes, métodos (RX, TC, RM, US, mamografia), contrastes (iodo, bário, gadolínio, microbolhas) e contraindicações."
+  },
+  {
+    "id": "rad-anatomia-rx-torax",
+    "subjectId": "radiologia",
+    "name": "Anatomia Radiográfica do Tórax (RX)",
+    "source": "Semana 2 - Anatomia RX.pdf",
+    "description": "Lobos, fissuras, hilos, mediastino, índice cardiotorácico, arcos cardíacos, técnica de PA/perfil e critérios de qualidade."
+  },
+  {
+    "id": "rad-anatomia-tc-torax",
+    "subjectId": "radiologia",
+    "name": "Anatomia Tomográfica do Tórax (TC)",
+    "source": "Semana 2 - Anatomia TC.pdf",
+    "description": "Janelas (pulmão e mediastino), traqueia, brônquios principais, fissuras, vasos pulmonares e mediastinais por corte axial."
+  },
+  {
+    "id": "rad-emergencias-torax",
+    "subjectId": "radiologia",
+    "name": "Emergências do Tórax",
+    "source": "Semana 4 - Emergências Tórax 2/3.pdf",
+    "description": "Pneumonias e complicações, edema agudo de pulmão, tromboembolismo pulmonar e aneurisma dissecante de aorta."
+  },
+  {
+    "id": "rad-doencas-cronicas-torax",
+    "subjectId": "radiologia",
+    "name": "Doenças Crônicas do Tórax",
+    "source": "Semana 5 - Doenças Crônicas Tórax 2.pdf",
+    "description": "Alargamento do mediastino, DPOC, linfonodomegalia hilar, cavitações, tuberculose, nódulos e calcificações pleurais."
+  },
+  {
+    "id": "rad-trauma-pericardio",
+    "subjectId": "radiologia",
+    "name": "Trauma Torácico e Pericárdio",
+    "source": "Trauma UP - 1/2.pdf, Pericárdio UP.pdf",
+    "description": "Pneumotórax (simples, hipertensivo, hidro), derrame pleural/hemotórax, contusão, pneumomediastino, lesão diafragmática, corpo estranho, derrame pericárdico e tamponamento."
   }
 ]

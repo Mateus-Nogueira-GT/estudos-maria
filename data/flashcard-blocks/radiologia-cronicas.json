@@ -1,0 +1,121 @@
+[
+  {
+    "id": "fc-rad-cron-01",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "DPOC — fisiopatologia: destruição dos {{c1::septos interalveolares}} (enfisema) e obstrução expiratória, levando a {{c2::hiperinsuflação pulmonar}}.",
+    "extra": "No enfisema os alvéolos destruídos jogam ar no brônquio durante a expiração, que não colaba — característica aprisionamento aéreo."
+  },
+  {
+    "id": "fc-rad-cron-02",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "DPOC — sinais clássicos no RX: {{c1::hipertransparência}} pulmonar, {{c2::redução da trama vascular}}, tórax em {{c3::barril}}, {{c4::retificação das cúpulas diafragmáticas}} e coração em {{c5::gota}}.",
+    "extra": "Também: aumento dos espaços intercostais, horizontalização das costelas, aumento do espaço retroesternal, traqueia em bainha de sabre, bolhas enfisematosas."
+  },
+  {
+    "id": "fc-rad-cron-03",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Traqueia 'em bainha de sabre' — o que indica?",
+    "back": "Traqueia comprimida lateralmente (estreitamento do diâmetro coronal). Achado clássico de DPOC (relacionado à perda de suporte elástico)."
+  },
+  {
+    "id": "fc-rad-cron-04",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Cor pulmonale = IC do {{c1::ventrículo direito}} secundária a doença {{c2::pulmonar}} (classicamente DPOC, gerando hipertensão pulmonar crônica).",
+    "extra": "Sobrecarga pressórica das artérias pulmonares → sobrecarga do VD → dilatação/hipertrofia do VD."
+  },
+  {
+    "id": "fc-rad-cron-05",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Linfonodomegalia hilar CALCIFICADA: causas clássicas {{c1::tuberculose}} e {{c1::histoplasmose}}.",
+    "extra": "Sarcoidose tende a causar linfonodomegalia 'em batata' (não calcificada). Metástases e linfoma são outras causas de linfonodomegalia hilar."
+  },
+  {
+    "id": "fc-rad-cron-06",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Linfonodomegalia hilar 'em batata' — causa clássica",
+    "back": "SARCOIDOSE — tende a produzir linfonodos aumentados, não calcificados, com aspecto arredondado ('em batata')."
+  },
+  {
+    "id": "fc-rad-cron-07",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Causas de lesão cavitada pulmonar: {{c1::tuberculose}}, {{c1::abscesso pulmonar}}, {{c1::CEC (carcinoma escamocelular)}}, {{c1::pneumatocele}}, {{c1::hérnia de hiato (na verdade estômago atrás do coração)}}.",
+    "extra": "Aspergilose forma 'bola fúngica' dentro da cavidade (sinal do crescente), tipicamente infectando cavidade prévia de TB."
+  },
+  {
+    "id": "fc-rad-cron-08",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "6 Cs do Carcinoma Escamo-Celular (CEC) do pulmão: {{c1::Cigarro}}, {{c1::Central}}, {{c1::Cavita}}, {{c1::Cavalheiros (homens)}}, {{c1::Cálcio (hipercalcemia)}} e {{c1::Ceratina (pérolas de queratina)}}.",
+    "extra": "Localização central (brônquica), frequentemente cavita, hipercalcemia por PTHrP. Histologia mostra pérolas de queratina e pontes intercelulares."
+  },
+  {
+    "id": "fc-rad-cron-09",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Tuberculose PRIMÁRIA — achados clássicos",
+    "back": "Nódulo de Ghon: granuloma calcificado periférico.\nComplexo de Ranke: nódulo de Ghon + linfonodo hilar calcificado ligados por linfático.\nGeralmente assintomática."
+  },
+  {
+    "id": "fc-rad-cron-10",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Tuberculose SECUNDÁRIA (pós-primária) — achados clássicos",
+    "back": "Cavitações preferencialmente nos ÁPICES pulmonares (mais aerados).\nDeformidade pulmonar RETRÁTIL (hilos e vasos puxados para cima — 'em água de chuveiro' ou 'pés de bailarina').\nÉ a forma mais transmissível."
+  },
+  {
+    "id": "fc-rad-cron-11",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Tuberculose MILIAR: disseminação {{c1::hematogênica}} com {{c2::nódulos difusos}} pelos pulmões (infiltrado intersticial nodular).",
+    "extra": "Diagnóstico diferencial: histoplasmose miliar (rara). Tamanho dos nódulos ~1-3 mm, distribuição uniforme."
+  },
+  {
+    "id": "fc-rad-cron-12",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Sinal da 'árvore em brotamento' (tree-in-bud)",
+    "back": "Disseminação endobrônquica — classicamente da tuberculose.\nNa TC aparecem pequenos nódulos centrolobulares conectados, lembrando ramos com brotos.\nTambém pode ocorrer em outras infecções das vias aéreas distais."
+  },
+  {
+    "id": "fc-rad-cron-13",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Aspergiloma ('fungus ball' / bola fúngica): lesão cavitada com nódulo interno, classicamente forma-se sobre cavidade prévia de {{c1::tuberculose}}. Sinal radiológico clássico: sinal do {{c2::crescente}}.",
+    "extra": "Aspergillus fumigatus. A bola se move com mudança de decúbito do paciente (sinal do ar em crescente ao redor)."
+  },
+  {
+    "id": "fc-rad-cron-14",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Nódulo pulmonar vs. massa — diferença de tamanho",
+    "back": "Nódulo: até 3 cm.\nMassa: > 3 cm.\nAmbos podem ser benignos ou malignos; tamanho maior aumenta probabilidade de malignidade."
+  },
+  {
+    "id": "fc-rad-cron-15",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Nódulo ÚNICO de BAIXA densidade (densidade de partes moles) = clássico para {{c1::câncer de pulmão}}. Múltiplos nódulos de baixa densidade = {{c2::metástases}}, {{c2::embolia séptica}} ou {{c2::vasculite}}.",
+    "extra": "Alta densidade = calcificação: granuloma (TB antiga) se único; varicela, histoplasmose, silicose, microlitíase alveolar se múltiplos pequenos."
+  },
+  {
+    "id": "fc-rad-cron-16",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "cloze",
+    "text": "Placas pleurais calcificadas múltiplas: pensar em exposição ao {{c1::asbesto (amianto)}} ou {{c1::tuberculose}} prévia.",
+    "extra": "Mesotelioma é câncer primário da pleura associado ao asbesto — espessamento pleural que 'encarcera' o pulmão."
+  },
+  {
+    "id": "fc-rad-cron-17",
+    "topicId": "rad-doencas-cronicas-torax",
+    "type": "basic",
+    "front": "Hérnia de hiato — achado radiológico e consequências clínicas",
+    "back": "Estômago dentro do tórax, atrás do coração (imagem cística com nível hidroaéreo retrocárdico).\nCausa refluxo gastroesofágico → esofagite (laringite posterior assimétrica) → úlcera → metaplasia (esôfago de Barret)."
+  }
+]

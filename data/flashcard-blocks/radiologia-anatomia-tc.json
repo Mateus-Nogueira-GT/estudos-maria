@@ -1,0 +1,107 @@
+[
+  {
+    "id": "fc-rad-tc-01",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "Em uma única tomografia de tórax podemos analisar duas janelas distintas: janela de {{c1::pulmão}} (parênquima) e janela de {{c2::mediastino}} (estruturas vasculares e partes moles).",
+    "extra": "São o mesmo conjunto de imagens — apenas com ajuste diferente de largura/centro de janela (window width e level)."
+  },
+  {
+    "id": "fc-rad-tc-02",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Janela de Pulmão na TC — o que avaliar?",
+    "back": "Parênquima pulmonar: nódulos, consolidações, vidro fosco, enfisema, fissuras, vasos pulmonares pequenos.\nFundo escuro com pulmão preto (ar) e estruturas brancas finas."
+  },
+  {
+    "id": "fc-rad-tc-03",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Janela de Mediastino na TC — o que avaliar?",
+    "back": "Coração, grandes vasos (aorta, tronco pulmonar, VCS), traqueia/brônquios principais, esôfago, linfonodos mediastinais, partes moles.\nPulmão fica preto (sem detalhe), mas estruturas mediastinais ficam bem definidas."
+  },
+  {
+    "id": "fc-rad-tc-04",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Fissuras pulmonares principais",
+    "back": "Direita: fissura horizontal (separa LSD do LM) + fissura oblíqua (separa LSD/LM do LID).\nEsquerda: apenas fissura oblíqua (separa LSE do LIE)."
+  },
+  {
+    "id": "fc-rad-tc-05",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "Os 3 ramos arteriais que saem do arco da aorta (de proximal para distal): {{c1::tronco braquiocefálico}}, {{c2::artéria carótida comum esquerda}} e {{c3::artéria subclávia esquerda}}.",
+    "extra": "O tronco braquiocefálico se divide em artéria carótida comum direita e artéria subclávia direita."
+  },
+  {
+    "id": "fc-rad-tc-06",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Veias braquiocefálicas: trajeto e fusão",
+    "back": "V. braquiocefálica direita e v. braquiocefálica esquerda fundem-se para formar a VEIA CAVA SUPERIOR (VCS), que desemboca no átrio direito."
+  },
+  {
+    "id": "fc-rad-tc-07",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "No corte axial em altura do tronco da artéria pulmonar vemos: tronco da AP que se bifurca em {{c1::artéria pulmonar direita}} (atrás da aorta ascendente e VCS) e {{c2::artéria pulmonar esquerda}} (cavalgando o brônquio principal esquerdo).",
+    "extra": "A AP direita é mais horizontal; a AP esquerda 'monta' sobre o brônquio principal esquerdo."
+  },
+  {
+    "id": "fc-rad-tc-08",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Câmaras cardíacas em corte axial (vista TC) — quem fica anterior e posterior?",
+    "back": "Anterior: Ventrículo Direito (VD).\nPosterior: Átrio Esquerdo (AE).\nVE fica posterior e à esquerda. AD fica à direita.\nO septo interventricular separa VD de VE."
+  },
+  {
+    "id": "fc-rad-tc-09",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "A veia ázigos drena para a {{c1::veia cava superior (VCS)}} e a hemi-ázigos drena para a {{c2::ázigos}}.",
+    "extra": "Ambas correm posteriormente, ao lado da aorta descendente. Importante referência anatômica em corte axial."
+  },
+  {
+    "id": "fc-rad-tc-10",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Localização do esôfago no corte axial torácico",
+    "back": "Posterior à traqueia (alto), depois posterior ao átrio esquerdo (médio) e anterior à aorta descendente (baixo).\nÚtil pesquisar quando há suspeita de hérnia de hiato ou neoplasia."
+  },
+  {
+    "id": "fc-rad-tc-11",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Aorta torácica — divisões em corte axial",
+    "back": "Aorta ascendente (anterior, à direita) → Arco da aorta (origem dos 3 troncos) → Aorta descendente (posterior, à esquerda da coluna).\nNo nível do tronco pulmonar veem-se aorta ascendente E descendente lado a lado."
+  },
+  {
+    "id": "fc-rad-tc-12",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "TC com contraste iodado: pré-contraste (basal) → fase {{c1::arterial}} (~25-30s, brilha aorta e artérias) → fase {{c2::venosa/portal}} (~70s) → fase tardia.",
+    "extra": "Em angiotomografia para TEP usa-se a fase arterial pulmonar (sincronizada com chegada de iodo na artéria pulmonar)."
+  },
+  {
+    "id": "fc-rad-tc-13",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Brônquios principais — diferença anatômica que importa",
+    "back": "Brônquio principal DIREITO é mais curto, mais largo e mais VERTICAL → corpos estranhos aspirados tendem a ir para o pulmão direito (LID).\nO esquerdo é mais horizontal e angulado."
+  },
+  {
+    "id": "fc-rad-tc-14",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "basic",
+    "front": "Lóbulo pulmonar secundário — definição e estrutura",
+    "back": "Menor unidade funcional do pulmão (~1 cm).\nAo redor: septo interlobular (0,1 mm) com veia + linfático.\nNo centro: artéria + bronquíolo.\nO espessamento de septos = linhas B de Kerley (edema)."
+  },
+  {
+    "id": "fc-rad-tc-15",
+    "topicId": "rad-anatomia-tc-torax",
+    "type": "cloze",
+    "text": "Linhas B de Kerley são causadas por {{c1::espessamento do septo interlobular}}, classicamente vistas no {{c2::edema agudo de pulmão}}.",
+    "extra": "Aparecem como linhas finas perpendiculares à pleura nas bases pulmonares."
+  }
+]

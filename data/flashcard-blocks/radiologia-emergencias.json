@@ -1,0 +1,121 @@
+[
+  {
+    "id": "fc-rad-emer-01",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Pneumonia LOBAR (localizada): agente clássico {{c1::Streptococcus pneumoniae}} (secreção cor de {{c2::ferrugem}}); ou {{c1::Klebsiella}} (secreção cor de {{c2::rosa/groselha}}).",
+    "extra": "Tratamento típico: amoxicilina + clavulanato ou levofloxacina."
+  },
+  {
+    "id": "fc-rad-emer-02",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Broncopneumonia (opacidades alveolares múltiplas) — principal agente: {{c1::Staphylococcus aureus}} (secreção verde/amarela). Klebsiella também pode causar.",
+    "extra": "Apresenta opacidades dispersas em diferentes lobos, sem distribuição lobar definida."
+  },
+  {
+    "id": "fc-rad-emer-03",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Pneumonia VIRAL (COVID, H1N1) tem padrão de opacidade em {{c1::vidro fosco}} (baixa atenuação), tipicamente {{c2::periférico}} e {{c2::múltiplo}}.",
+    "extra": "Diferente do edema agudo (vidro fosco central e confluente em asa de borboleta)."
+  },
+  {
+    "id": "fc-rad-emer-04",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Pneumonia ATÍPICA: agentes {{c1::Mycoplasma}}, {{c1::Chlamydia}} e {{c1::Legionella}}. Clínica: tosse seca, febre baixa. Tratamento: {{c2::macrolídeo}} (claritromicina).",
+    "extra": "Padrão radiológico variável (atípico). Não usar quinolona em criança (afeta cartilagem)."
+  },
+  {
+    "id": "fc-rad-emer-05",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Sinal do BRONCOGRAMA AÉREO",
+    "back": "Imagem do brônquio (preto/ar) visível DENTRO de uma consolidação branca (alvéolo cheio de pus/líquido).\nAchado clássico de pneumonia bacteriana — indica que há consolidação alveolar em volta do brônquio aerado."
+  },
+  {
+    "id": "fc-rad-emer-06",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Sinal da SILHUETA",
+    "back": "Quando duas estruturas de mesma densidade se TOCAM, a interface entre elas DESAPARECE (some o limite).\nPneumonia do lobo médio borra a borda CARDÍACA direita; pneumonia do LID borra a borda do DIAFRAGMA."
+  },
+  {
+    "id": "fc-rad-emer-07",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Sinal da COLUNA VERTEBRAL (sinal da coluna negra)",
+    "back": "Normalmente, no perfil, a coluna torácica fica progressivamente MAIS ESCURA descendo (mais ar nas bases).\nSe ficar BRANCA na base = consolidação posterior (pneumonia do lobo inferior)."
+  },
+  {
+    "id": "fc-rad-emer-08",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Score CURB-65 para pneumonia: {{c1::C}}onfusão mental, {{c1::U}}reia >50 mg/dL, {{c1::R}} ≥30 irpm, {{c1::B}} (PA <90/60), idade ≥{{c1::65}} anos.",
+    "extra": "0-1 ambulatorial; 2 considerar internação; ≥3 internação; ≥4-5 UTI."
+  },
+  {
+    "id": "fc-rad-emer-09",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Complicações da pneumonia: {{c1::derrame pleural para-pneumônico}}, {{c1::empiema pleural}}, {{c1::pneumatocele}} e {{c1::abscesso pulmonar}}.",
+    "extra": "Empiema = sinal do 'rato embaixo do tapete' (loculações). Abscesso = nível hidroaéreo, febre em pico (bacteremia transitória)."
+  },
+  {
+    "id": "fc-rad-emer-10",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Pneumatocele — definição e contexto",
+    "back": "Cisto de parede fina, NÃO infectado, em criança, geralmente APÓS pneumonia por Staphylococcus aureus.\nCostuma involuir espontaneamente."
+  },
+  {
+    "id": "fc-rad-emer-11",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Edema agudo de pulmão (EAP) — achados radiográficos: {{c1::cardiomegalia}}, {{c1::congestão pulmonar}}, {{c1::redistribuição/inversão da vascularização}} (mais vasos no ápice), {{c1::linhas B de Kerley}} e opacidade em {{c2::asa de borboleta}}.",
+    "extra": "Outros sinais: sinal do manguito brônquico, sinal dos chifres de Aussie, aumento dos hilos. Tratamento mnemônico LMNOP (Lasix, Morfina, Nitrato, Oxigênio, Posição)."
+  },
+  {
+    "id": "fc-rad-emer-12",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Tromboembolismo pulmonar (TEP) — em ~{{c1::70%}} dos casos a radiografia de tórax é {{c2::normal}}.",
+    "extra": "Por isso o RX serve mais para excluir diagnósticos diferenciais (pneumonia, pneumotórax). O exame de escolha é a angiotomografia."
+  },
+  {
+    "id": "fc-rad-emer-13",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "TEP — exame padrão-ouro: {{c1::angiotomografia de tórax}} com contraste iodado, mostrando {{c2::falha de enchimento}} (trombo) na artéria pulmonar.",
+    "extra": "Outros achados (raros mas clássicos): atelectasia segmentar (pneumoconstrição), corcova de Hampton (infarto pulmonar — opacidade triangular periférica), sinal de Westermark (oligoemia regional), sinal de Fleishner (dilatação da artéria pulmonar)."
+  },
+  {
+    "id": "fc-rad-emer-14",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Sinais radiológicos clássicos do TEP — nomeie 3",
+    "back": "1. Corcova de Hampton: opacidade periférica triangular (infarto pulmonar)\n2. Sinal de Westermark: oligoemia regional (menos vasos)\n3. Sinal de Fleishner: dilatação da artéria pulmonar central\nLembrar: 70% dos RX são NORMAIS no TEP."
+  },
+  {
+    "id": "fc-rad-emer-15",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "TEP — alteração ECG clássica: {{c1::S1 Q3 T3 (V3)}}, padrão de sobrecarga aguda do {{c2::ventrículo direito}}.",
+    "extra": "O achado mais COMUM no ECG, porém, é taquicardia sinusal (>90 bpm). Gasometria mostra alcalose respiratória + hipoxemia."
+  },
+  {
+    "id": "fc-rad-emer-16",
+    "topicId": "rad-emergencias-torax",
+    "type": "cloze",
+    "text": "Aneurisma dissecante de aorta: lesão do {{c1::endotélio}} → sangue caminha entre as camadas da parede, formando luz {{c2::verdadeira}} e luz {{c2::falsa}} separadas pela {{c3::membrana de dissecação}}.",
+    "extra": "Causa estresse hemodinâmico. Tratamento: endopróteses/stent. Pode causar rouquidão (compressão do nervo laríngeo recorrente)."
+  },
+  {
+    "id": "fc-rad-emer-17",
+    "topicId": "rad-emergencias-torax",
+    "type": "basic",
+    "front": "Aneurisma de aorta ascendente — sintoma vascular distintivo",
+    "back": "Edema de membros superiores e face por compressão da Veia Cava Superior (VCS).\nPode causar síndrome da VCS."
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "fc-rad-trau-01",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Pneumotórax — definição e marca radiográfica",
+    "back": "Ar no espaço pleural.\nNo RX: ausência de trama vascular periférica + visualização da margem pulmonar (que é a pleura visceral) deslocada da parede torácica.\nDica: 'janelar' (ajustar contraste) facilita identificar a linha pleural."
+  },
+  {
+    "id": "fc-rad-trau-02",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Pneumotórax pode ser {{c1::traumático}} ou {{c1::espontâneo}} (ruptura de bolha subpleural, mais em jovens longilíneos).",
+    "extra": "Percussão: timpânica (ar). Ausculta: murmúrio vesicular abolido."
+  },
+  {
+    "id": "fc-rad-trau-03",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Pneumotórax HIPERTENSIVO — diagnóstico é {{c1::clínico}} (NÃO esperar exame). Sinais: desvio contralateral da {{c2::traqueia}} e do {{c2::coração}}, hipotensão, jugulares ingurgitadas.",
+    "extra": "Conduta: TORACOCENTESE DE ALÍVIO imediata (agulha calibrosa no 2º EIC LMC ou 5º EIC LAA), seguida de drenagem em selo d'água."
+  },
+  {
+    "id": "fc-rad-trau-04",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Os 4 tipos de choque circulatório: {{c1::hipovolêmico}} (hemorragia, desidratação, queimadura, pancreatite), {{c2::cardiogênico}} (IAM), {{c3::obstrutivo}} (TEP, pneumotórax hipertensivo, tamponamento), {{c4::distributivo}} (sepse, anafilaxia, neurogênico).",
+    "extra": "Reconhecer o tipo é crítico para escolher tratamento (volume, vasopressor, intervenção mecânica)."
+  },
+  {
+    "id": "fc-rad-trau-05",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Sinal do PONTO PULMONAR (lung point)",
+    "back": "Achado de US: limite onde uma região com pneumotórax (sem deslizamento pleural) encontra a região normal (com deslizamento).\nÉ ALTAMENTE específico para pneumotórax. Visível também no Modo M."
+  },
+  {
+    "id": "fc-rad-trau-06",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "US pulmonar — pneumotórax: AUSÊNCIA de {{c1::lung sliding}} (deslizamento pleural) e ausência de {{c2::cauda de cometa}}. No modo M: padrão de 'código de barras' / 'estratosfera' (em vez do padrão mar-areia normal).",
+    "extra": "Lung sliding = movimento brilhante na linha pleural durante respiração. Cauda de cometa = artefatos de reverberação verticais."
+  },
+  {
+    "id": "fc-rad-trau-07",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Linhas A (US): horizontais, indicam pulmão {{c1::aerado normal}}. Linhas B: verticais (cauda de cometa difusa), indicam pulmão {{c2::congesto/edemaciado}} (edema, fibrose).",
+    "extra": "Múltiplas linhas B = síndrome alveolo-intersticial (edema agudo de pulmão, ARDS, pneumonite intersticial)."
+  },
+  {
+    "id": "fc-rad-trau-08",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Derrame pleural — manobra para confirmar quando há dúvida no RX",
+    "back": "Decúbito Lateral com Raios Horizontais (LAURELL) — o líquido escorre para a porção declive, formando uma camada visível ao longo da parede torácica.\nÚtil para diferenciar derrame de espessamento pleural ou consolidação."
+  },
+  {
+    "id": "fc-rad-trau-09",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Tipos de derrame pleural pelo conteúdo: hidrotórax (líquido claro), {{c1::hemotórax}} (sangue, trauma), {{c2::piotórax (empiema)}} (pus) e {{c3::quilotórax}} (linfa).",
+    "extra": "Hidro-pneumotórax = combinação líquido + ar (apresenta nível hidroaéreo). Drenagem em selo d'água indicada para derrame, pneumotórax e hidro-pneumotórax."
+  },
+  {
+    "id": "fc-rad-trau-10",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Atelectasia vs Derrame Pleural — diferença chave",
+    "back": "Atelectasia é RETRÁTIL (puxa estruturas para o lado afetado: traqueia, mediastino, hilo).\nDerrame Pleural é EXPANSIVO (empurra estruturas para o lado oposto)."
+  },
+  {
+    "id": "fc-rad-trau-11",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Contusão Pulmonar — características",
+    "back": "Lesão INTRA-pulmonar pós-trauma (geralmente fratura de costela associada).\nLíquido NÃO escorre (está absorvido pelo pulmão).\nOpacidade não respeita limites lobares.\nPode estar associada a derrame pleural."
+  },
+  {
+    "id": "fc-rad-trau-12",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Síndrome do tórax instável: fratura de pelo menos {{c1::3 costelas seguidas}} em {{c1::2 pontos}} cada, gerando {{c2::movimento paradoxal}} do retalho costal durante a respiração.",
+    "extra": "Insuficiência respiratória → pode necessitar IOT e ventilação mecânica para estabilizar mecanicamente."
+  },
+  {
+    "id": "fc-rad-trau-13",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Pneumomediastino — causas",
+    "back": "Trauma (lesão de traqueia ou brônquios) ou intubação/ventilação com pressão positiva.\nO ar pode dissecar para o subcutâneo (enfisema subcutâneo)."
+  },
+  {
+    "id": "fc-rad-trau-14",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Sinal da FOLHA DE GINKO: ar dissecando entre as fibras do {{c1::músculo peitoral maior}} (enfisema subcutâneo).",
+    "extra": "Indica pneumomediastino com extravasamento para subcutâneo. Edema sem cacifo (ar e não líquido). Pode-se palpar crepitação."
+  },
+  {
+    "id": "fc-rad-trau-15",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Lesão diafragmática — achados radiológicos",
+    "back": "Trauma de alta energia → órgãos abdominais migram para o tórax (estômago, alças).\nTraqueia e coração desviados, pulmão comprimido.\nSonda nasogástrica pode confirmar localização do estômago no tórax."
+  },
+  {
+    "id": "fc-rad-trau-16",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "ATENÇÃO: NÃO passar sonda nasogástrica em suspeita de fratura de {{c1::base de crânio}} — risco da sonda ir para o cérebro. Sinais de fratura de base de crânio: olhos de {{c2::guaxinim}}, sinal de {{c2::Battle}} (equimose retroauricular), liquor pelo ouvido.",
+    "extra": "Fratura de base também pode causar paralisia facial periférica."
+  },
+  {
+    "id": "fc-rad-trau-17",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Aspiração de corpo estranho — achado radiográfico clássico",
+    "back": "Hiperinsuflação UNILATERAL (por obstrução brônquica com mecanismo valvular).\nNa inspiração e expiração o pulmão fica IGUAL (não esvazia).\nEm bebês (que não obedecem comando): RX em decúbito lateral (Laurell) — pulmão em decúbito normalmente esvazia, mas se houver obstrução fica hiperinsuflado."
+  },
+  {
+    "id": "fc-rad-trau-18",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Derrame pericárdico NÃO traumático (lento): aumento da área cardíaca em forma de {{c1::moringa}} (taça invertida), simétrico.",
+    "extra": "Causas: infecciosa (viral, TB), neoplásica, urêmica, autoimune. ICC tipicamente é assimétrico."
+  },
+  {
+    "id": "fc-rad-trau-19",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "HEMOPERICÁRDIO (rápido, traumático) — sinal radiográfico clássico: {{c1::retificação da borda cardíaca esquerda}}.",
+    "extra": "Acúmulo rápido de sangue no pericárdio comprime as câmaras e leva rapidamente a tamponamento (mesmo com pequenos volumes)."
+  },
+  {
+    "id": "fc-rad-trau-20",
+    "topicId": "rad-trauma-pericardio",
+    "type": "cloze",
+    "text": "Tríade de Beck (tamponamento cardíaco): {{c1::hipotensão arterial}}, aumento da {{c2::PVC}} (jugulares ingurgitadas) e {{c3::hipofonese de bulhas}}.",
+    "extra": "Achados ecocardiográficos: deflexão diastólica do VD, contração vigorosa do AD, derrame anecóico ao redor do coração (janela subxifoide)."
+  },
+  {
+    "id": "fc-rad-trau-21",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "US cardíaco — janela para avaliar derrame pericárdico",
+    "back": "Janela SUBXIFOIDE.\nMarcador do transdutor para o lado direito do paciente; movimentos posterior e superior.\nDerrame aparece como área ANECÓICA (preta) ao redor do coração."
+  },
+  {
+    "id": "fc-rad-trau-22",
+    "topicId": "rad-trauma-pericardio",
+    "type": "basic",
+    "front": "Tamponamento cardíaco — achado ecocardiográfico clássico",
+    "back": "DEFLEXÃO DIASTÓLICA DO VENTRÍCULO DIREITO (a parede do VD 'afunda' na diástole pelo pressão do líquido pericárdico).\nTambém: contração vigorosa do AD."
+  }
+]

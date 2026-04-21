@@ -1,0 +1,107 @@
+[
+  {
+    "id": "fc-rad-rx-01",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Os 3 critérios de qualidade de uma radiografia de tórax PA são: {{c1::sem rotação}}, {{c2::inspiração adequada}} e {{c3::penetração adequada}}.",
+    "extra": "Inspiração adequada: contar ~9-10 arcos costais posteriores acima do diafragma. Penetração: deve-se enxergar discos vertebrais sutilmente atrás do coração."
+  },
+  {
+    "id": "fc-rad-rx-02",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Pulmão direito: lobos",
+    "back": "3 lobos: Superior, Médio e Inferior.\nFissura horizontal separa LSD do LM; fissura oblíqua separa esses do LID."
+  },
+  {
+    "id": "fc-rad-rx-03",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Pulmão esquerdo: lobos",
+    "back": "2 lobos: Superior e Inferior.\nO equivalente do lobo médio à esquerda é a LÍNGULA (parte do LSE).\nFissura horizontal NÃO existe à esquerda."
+  },
+  {
+    "id": "fc-rad-rx-04",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Hilo esquerdo está mais {{c1::alto}} que o hilo direito (em ~50% das pessoas; nos demais estão na mesma altura, mas o E NUNCA é mais baixo).",
+    "extra": "Hilo direito mais alto que o esquerdo é PATOLÓGICO — pode indicar atelectasia do LID puxando o hilo para baixo, ou colapso lobar."
+  },
+  {
+    "id": "fc-rad-rx-05",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Largura do mediastino superior (acima do botão aórtico) normal: até {{c1::1 corpo vertebral}}. Acima disso = alargamento de mediastino.",
+    "extra": "Causas de alargamento: trauma (hematoma), aneurisma de aorta, tumores (4 Ts: Timoma, Teratoma, Tireoide bócio mergulhante, Terrível linfoma)."
+  },
+  {
+    "id": "fc-rad-rx-06",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Os 4 Ts do alargamento de mediastino tumoral: {{c1::Timoma}}, {{c1::Teratoma}}, {{c1::Tireoide (bócio mergulhante)}} e {{c1::Terrível linfoma}}.",
+    "extra": "Outras causas: trauma (hematoma), aneurisma de aorta."
+  },
+  {
+    "id": "fc-rad-rx-07",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Os 4 arcos da silhueta cardíaca em PA (de cima para baixo, lado esquerdo)",
+    "back": "1º arco: Botão aórtico (Ao)\n2º arco: Tronco da artéria pulmonar (TP)\n3º arco: Ventrículo esquerdo (VE)\n(Aurícula esquerda quando aumentada aparece como 4º arco entre 2º e 3º)"
+  },
+  {
+    "id": "fc-rad-rx-08",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Estruturas da silhueta cardíaca direita em PA",
+    "back": "VCS (veia cava superior) acima e Átrio Direito (AD) abaixo formam a borda direita do coração no PA."
+  },
+  {
+    "id": "fc-rad-rx-09",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Razão cardiotorácica (RCT) normal: < {{c1::50%}} (medida com diâmetro transverso do coração / diâmetro torácico, em PA).",
+    "extra": "Em AP a razão pode chegar a 58% por amplificação. Aumento da RCT = cardiomegalia (ICC, derrame pericárdico, miocardiopatias)."
+  },
+  {
+    "id": "fc-rad-rx-10",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "No perfil, qual estrutura forma a borda cardíaca anterior?",
+    "back": "Ventrículo Direito (VD).\nA borda posterior é formada pelo Átrio Esquerdo (AE) acima e Ventrículo Esquerdo (VE) abaixo.\nVCI passa atrás do VE."
+  },
+  {
+    "id": "fc-rad-rx-11",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Aumento do VD no perfil: o coração ocupa mais de {{c1::1/3}} do espaço retro-esternal.",
+    "extra": "VD aumentado pode ser causado por hipertensão pulmonar (cor pulmonale), DPOC grave, valvopatias."
+  },
+  {
+    "id": "fc-rad-rx-12",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Espaço de Traube — onde fica e o que indica?",
+    "back": "Localização: hipocôndrio E, corresponde à bolha gástrica.\nNormalmente é timpânico à percussão (ar no fundo gástrico).\nQuando ocupado: esplenomegalia (mononucleose, leucemia mieloide crônica, etc.)."
+  },
+  {
+    "id": "fc-rad-rx-13",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Seios costofrênicos — o que avaliar?",
+    "back": "Devem ser AGUDOS e BEM DEFINIDOS. Borramento ou apagamento = derrame pleural (líquido escorre e fica na porção mais declive).\nEm caso de dúvida: decúbito lateral com raios horizontais (Laurell) — líquido escorre."
+  },
+  {
+    "id": "fc-rad-rx-14",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "cloze",
+    "text": "Calcificação das cartilagens costais é fisiológica em até {{c1::70%}} dos adultos (não é patológico).",
+    "extra": "Não confundir com calcificações pleurais (TB, asbesto)."
+  },
+  {
+    "id": "fc-rad-rx-15",
+    "topicId": "rad-anatomia-rx-torax",
+    "type": "basic",
+    "front": "Ausência de sombra mamária à esquerda no RX — o que pensar?",
+    "back": "Mastectomia prévia (geralmente por câncer de mama). Sombra mamária é uma estrutura útil de orientação no RX de tórax."
+  }
+]
