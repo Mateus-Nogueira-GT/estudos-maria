@@ -8,8 +8,13 @@
 
 html,
 body {
-  background-color: #08090b;
+  background-color: #05060a;
   color: #e4e7ef;
+}
+
+body {
+  font-feature-settings: "ss01", "cv02", "cv11";
+  letter-spacing: -0.005em;
 }
 
 * {
@@ -17,8 +22,8 @@ body {
 }
 
 ::selection {
-  background-color: rgba(124, 156, 255, 0.3);
-  color: #e4e7ef;
+  background-color: rgba(196, 181, 253, 0.35);
+  color: #ffffff;
 }
 
 button:disabled {
@@ -27,4 +32,166 @@ button:disabled {
 
 textarea {
   resize: vertical;
+}
+
+/* ──────────────────────────────────────────────
+   Aurora background (Liquid Glass foundation)
+   ────────────────────────────────────────────── */
+
+.aurora {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  background-color: #05060a;
+}
+
+.aurora::before,
+.aurora::after {
+  content: "";
+  position: absolute;
+  inset: -25%;
+  background-repeat: no-repeat;
+  filter: blur(80px) saturate(140%);
+  opacity: 0.85;
+  will-change: transform;
+}
+
+.aurora::before {
+  background-image:
+    radial-gradient(closest-side at 20% 25%, rgba(196, 181, 253, 0.55), transparent 65%),
+    radial-gradient(closest-side at 78% 18%, rgba(186, 230, 253, 0.50), transparent 60%),
+    radial-gradient(closest-side at 65% 78%, rgba(253, 164, 175, 0.45), transparent 60%),
+    radial-gradient(closest-side at 18% 82%, rgba(167, 243, 208, 0.40), transparent 60%);
+  animation: aurora-a 22s ease-in-out infinite;
+}
+
+.aurora::after {
+  background-image:
+    radial-gradient(closest-side at 50% 50%, rgba(254, 215, 170, 0.30), transparent 65%),
+    radial-gradient(closest-side at 85% 60%, rgba(196, 181, 253, 0.35), transparent 60%);
+  animation: aurora-b 30s ease-in-out infinite;
+  opacity: 0.55;
+}
+
+/* Vignette to deepen edges and pull focus to the centre */
+.aurora-vignette {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.55) 100%),
+    linear-gradient(180deg, rgba(5, 6, 10, 0.0) 0%, rgba(5, 6, 10, 0.4) 100%);
+}
+
+/* Subtle film grain — sells the "real glass over light" feel */
+.aurora-grain {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='1.4' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/></svg>");
+}
+
+@keyframes aurora-a {
+  0%, 100% { transform: translate3d(0%, 0%, 0) scale(1); }
+  33%      { transform: translate3d(6%, -4%, 0) scale(1.06); }
+  66%      { transform: translate3d(-5%, 4%, 0) scale(0.96); }
+}
+
+@keyframes aurora-b {
+  0%, 100% { transform: translate3d(0%, 0%, 0) scale(1); }
+  33%      { transform: translate3d(-7%, 5%, 0) scale(0.95); }
+  66%      { transform: translate3d(5%, -3%, 0) scale(1.07); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aurora::before,
+  .aurora::after {
+    animation: none;
+  }
+}
+
+/* ──────────────────────────────────────────────
+   Glass utilities
+   ────────────────────────────────────────────── */
+
+.glass {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.07) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 30px 60px -30px rgba(0, 0, 0, 0.7);
+  transition:
+    border-color 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+.glass:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.10) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  border-color: rgba(255, 255, 255, 0.20);
+}
+
+.glass-strong {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  backdrop-filter: blur(32px) saturate(200%);
+  -webkit-backdrop-filter: blur(32px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.16),
+    0 50px 100px -40px rgba(0, 0, 0, 0.85);
+}
+
+/* Top-edge "light catch" — imitates how light hits glass */
+.glass-edge {
+  position: relative;
+}
+
+.glass-edge::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.06) 28%,
+    transparent 60%
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .glass,
+  .glass-strong {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: rgba(20, 23, 29, 0.92);
+  }
 }

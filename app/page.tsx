@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import { Stethoscope, RefreshCw, Sparkles } from "lucide-react";
+import { Sparkles, RefreshCw } from "lucide-react";
 import { TopicCard } from "@/components/TopicCard";
 import { SubjectTabs } from "@/components/SubjectTabs";
 import {
@@ -52,44 +52,44 @@ export default function HomePage() {
   );
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-12">
-      <header className="mb-8 flex items-start justify-between gap-4">
-        <div className="flex items-start gap-4">
-          <div className="rounded-lg border border-ink-700 bg-ink-800 p-3">
-            <Stethoscope className="h-6 w-6 text-accent" />
-          </div>
-          <div>
-            <h1 className="text-2xl font-semibold text-ink-100">
-              Estudos Maria <span className="text-ink-400">— Quizzes &amp; Flashcards</span>
-            </h1>
-            <p className="mt-1 max-w-xl text-sm text-ink-300">
-              Escolha a matéria abaixo. Seu progresso fica salvo neste navegador.
-            </p>
-          </div>
+    <main className="mx-auto max-w-6xl px-6 py-12 sm:py-16">
+      <header className="mb-10 flex flex-col gap-4 sm:mb-12 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-pastel-lilac/80">
+            Estudos · Maria
+          </p>
+          <h1 className="mt-2 font-display text-4xl font-semibold tracking-tight text-ink-100 sm:text-5xl">
+            Quizzes &amp; Flashcards
+          </h1>
+          <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink-300">
+            Escolha a matéria abaixo. Seu progresso fica salvo neste navegador — sem login, sem servidor.
+          </p>
         </div>
         <button
           onClick={handleReset}
-          className="shrink-0 flex items-center gap-2 rounded-md border border-ink-700 px-3 py-2 text-xs text-ink-300 transition hover:border-ink-500 hover:text-ink-100"
+          className="self-start flex shrink-0 items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-3.5 py-2 text-xs text-ink-200 backdrop-blur-md transition hover:border-white/25 hover:text-ink-100"
           title="Apaga seu progresso salvo"
         >
-          <RefreshCw className="h-3 w-3" />
+          <RefreshCw className="h-3.5 w-3.5" />
           Resetar progresso
         </button>
       </header>
 
-      <div className="mb-8">
+      <div className="mb-10">
         <SubjectTabs
           subjects={subjects}
           activeId={activeSubjectId}
           onChange={handleChangeSubject}
         />
         {activeSubject && (
-          <p className="mt-3 text-sm text-ink-400">{activeSubject.description}</p>
+          <p className="mt-4 max-w-3xl text-sm leading-relaxed text-ink-300">
+            {activeSubject.description}
+          </p>
         )}
       </div>
 
       {topics.length > 0 ? (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {topics.map((topic) => {
             const qCount = countQuestionsByTopic(topic.id);
             const fCount = countFlashcardsByTopic(topic.id);
@@ -106,21 +106,21 @@ export default function HomePage() {
           })}
         </div>
       ) : (
-        <div className="mx-auto flex max-w-lg flex-col items-center gap-4 rounded-xl border border-dashed border-ink-700 bg-ink-800/30 px-6 py-16 text-center">
-          <div className="rounded-full border border-ink-700 bg-ink-800 p-4">
-            <Sparkles className="h-6 w-6 text-accent" />
+        <div className="glass glass-edge mx-auto flex max-w-lg flex-col items-center gap-4 rounded-3xl px-6 py-16 text-center">
+          <div className="rounded-full border border-white/15 bg-white/5 p-4">
+            <Sparkles className="h-6 w-6 text-pastel-lilac" />
           </div>
-          <h2 className="text-lg font-semibold text-ink-100">
+          <h2 className="font-display text-xl font-semibold text-ink-100">
             {activeSubject?.name ?? "Matéria"} — em breve
           </h2>
-          <p className="max-w-sm text-sm text-ink-300">
+          <p className="max-w-sm text-sm leading-relaxed text-ink-300">
             Esta matéria ainda não tem conteúdo. Quando os PDFs forem adicionados,
             os tópicos, questões e flashcards aparecerão aqui automaticamente.
           </p>
         </div>
       )}
 
-      <footer className="mt-12 text-center text-xs text-ink-500">
+      <footer className="mt-16 text-center text-xs text-ink-500">
         Progresso salvo apenas neste navegador (localStorage). Sem login, sem servidor.
       </footer>
     </main>
