@@ -1,11 +1,13 @@
 "use client";
-import { Stethoscope, Scan, type LucideIcon, BookOpen } from "lucide-react";
+import { Stethoscope, Scan, Pill, Baby, type LucideIcon, BookOpen } from "lucide-react";
 import { cn } from "@/lib/cn";
 import type { Subject } from "@/lib/schema";
 
 const ICONS: Record<string, LucideIcon> = {
   stethoscope: Stethoscope,
   scan: Scan,
+  pill: Pill,
+  baby: Baby,
 };
 
 type Props = {

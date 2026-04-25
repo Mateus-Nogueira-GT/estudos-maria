@@ -12,5 +12,19 @@
     "shortName": "Radiologia",
     "description": "Em breve: questões, flashcards e casos de imaginologia.",
     "icon": "scan"
+  },
+  {
+    "id": "gastroenterologia",
+    "name": "Gastroenterologia",
+    "shortName": "Gastro",
+    "description": "Clínica Médica — Abordagem ao paciente GI, DRGE, dispepsia, fígado e vias biliares, pancreatites e distúrbios funcionais do TGI inferior.",
+    "icon": "pill"
+  },
+  {
+    "id": "obstetricia",
+    "name": "Obstetrícia",
+    "shortName": "Obstetrícia",
+    "description": "Anexos embrionários, anatomia pélvica e estática fetal, trabalho de parto, puerpério normal, infecção puerperal, TPP e RPM.",
+    "icon": "baby"
   }
 ]

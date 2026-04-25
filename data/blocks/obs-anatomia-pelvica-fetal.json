@@ -1,0 +1,128 @@
+[
+  {
+    "id": "q-obs-anatpelv-001",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual o tipo de pelve considerado IDEAL para o parto vaginal?",
+    "options": [
+      { "id": "a", "text": "Pelve androide (quadril estreito, semelhante à masculina)", "isCorrect": false, "explanation": "Errado: a pelve androide é estreita e desfavorável." },
+      { "id": "b", "text": "Pelve ginecóide (arredondada)", "isCorrect": true, "explanation": "Correto: a pelve ginecóide/ginecológica tem formato arredondado e é a mais favorável para a passagem do bebê. As outras: antropóide (oval no sentido AP), androide (semelhante à masculina, estreita) e platipelóide (achatada/oval no sentido transversal) — todas dificultam o parto." },
+      { "id": "c", "text": "Pelve antropóide (oval no sentido ântero-posterior)", "isCorrect": false, "explanation": "Errado: é estreitada no sentido AP." },
+      { "id": "d", "text": "Pelve platipelóide (achatada, oval no sentido transversal)", "isCorrect": false, "explanation": "Errado: é a que mais dificulta a saída do bebê." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal"
+  },
+  {
+    "id": "q-obs-anatpelv-002",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre os diâmetros pélvicos importantes na obstetrícia:",
+    "options": [
+      { "id": "a", "text": "A conjugada obstétrica é o diâmetro mais importante e pode ser medida diretamente pelo toque vaginal", "isCorrect": false, "explanation": "Parcialmente errado: a conjugada obstétrica é a mais importante, mas NÃO é mensurável diretamente — só conseguimos medir a conjugada DIAGONAL, e estimamos a obstétrica subtraindo 1,5 cm." },
+      { "id": "b", "text": "A conjugada obstétrica é o diâmetro mais importante; só conseguimos medir clinicamente a conjugada diagonal (toque até o promontório), e a obstétrica é 1,5 cm MENOR que a diagonal", "isCorrect": true, "explanation": "Correto: a conjugada obstétrica é o diâmetro AP mais relevante para a passagem fetal, mas só medimos a conjugada DIAGONAL pelo toque (se toco o promontório → pelve contraída; se não toco → adequada). A obstétrica é estimada como diagonal − 1,5 cm." },
+      { "id": "c", "text": "Se o examinador toca o promontório no toque vaginal, a pelve é considerada adequada para o parto", "isCorrect": false, "explanation": "Errado: é o INVERSO — se toca o promontório, a pelve está CONTRAÍDA; se NÃO alcança, a pelve é adequada." },
+      { "id": "d", "text": "A conjugada obstétrica é 1,5 cm MAIOR que a diagonal", "isCorrect": false, "explanation": "Errado: é 1,5 cm MENOR que a diagonal." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Diâmetros"
+  },
+  {
+    "id": "q-obs-anatpelv-003",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Nas manobras de Leopold-Zweifel, a 3ª manobra avalia:",
+    "options": [
+      { "id": "a", "text": "Identificação do fundo uterino e palpação da cabeça/nádegas para avaliar situação", "isCorrect": false, "explanation": "Errado: essa é a 1ª manobra (palpação do fundo uterino, identificação da situação)." },
+      { "id": "b", "text": "Localização do dorso fetal pela lateral do abdome (posição direita ou esquerda)", "isCorrect": false, "explanation": "Errado: essa é a 2ª manobra (procura o dorso fetal — superfície lisa e resistente)." },
+      { "id": "c", "text": "Apresentação fetal — identifica o polo (cabeça ou nádegas) que está no estreito superior da pelve", "isCorrect": true, "explanation": "Correto: a 3ª manobra de Leopold avalia a APRESENTAÇÃO — o examinador identifica o polo fetal que está no estreito superior da pelve (cefálica ou pélvica). A 4ª manobra avalia o grau de insinuação (descida da apresentação)." },
+      { "id": "d", "text": "Grau de insinuação (descida da apresentação na pelve)", "isCorrect": false, "explanation": "Errado: essa é a 4ª manobra (no final da gestação, palpação da parte inferior da pelve)." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Manobras de Leopold"
+  },
+  {
+    "id": "q-obs-anatpelv-004",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quanto à atitude/deflexão da cabeça fetal, qual é a mais favorável ao parto vaginal?",
+    "options": [
+      { "id": "a", "text": "Apresentação de vértice (cabeça FLETIDA, queixo encostado no peito) — toque palpa occipital e sutura lambdóide; geralmente OP (occipito-púbica)", "isCorrect": true, "explanation": "Correto: a apresentação de VÉRTICE (cabeça bem fletida, queixo no peito) tem o menor diâmetro de passagem. No toque vaginal palpam-se occipital e sutura lambdóide. A variedade OP (occipito-púbica) é a mais favorável." },
+      { "id": "b", "text": "Deflexão de 1º grau (bregma) — toque palpa fontanela anterior", "isCorrect": false, "explanation": "Errado: já é deflexão; pode até corrigir durante o TP, mas não é a mais favorável." },
+      { "id": "c", "text": "Deflexão de 2º grau (fronte) — toque palpa osso frontal", "isCorrect": false, "explanation": "Errado: deflexão de 2º grau geralmente NÃO permite parto vaginal (maior diâmetro de passagem)." },
+      { "id": "d", "text": "Deflexão de 3º grau (face) — toque palpa nariz/boca/queixo", "isCorrect": false, "explanation": "Errado: parto vaginal é difícil e depende da posição do mento." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Atitudes/Deflexões"
+  },
+  {
+    "id": "q-obs-anatpelv-005",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quanto maior a DEFLEXÃO da cabeça fetal:",
+    "options": [
+      { "id": "a", "text": "Menor o diâmetro da apresentação que passa pela pelve, facilitando o parto", "isCorrect": false, "explanation": "Errado: a relação é INVERSA." },
+      { "id": "b", "text": "MAIOR o diâmetro da apresentação que passa pela pelve, dificultando o parto vaginal", "isCorrect": true, "explanation": "Correto: a flexão completa (vértice) apresenta o menor diâmetro. À medida que a cabeça se desflete (bregma → fronte → face), o diâmetro de passagem aumenta progressivamente, dificultando o parto vaginal." },
+      { "id": "c", "text": "O diâmetro de passagem permanece o mesmo", "isCorrect": false, "explanation": "Errado: muda significativamente conforme a atitude." },
+      { "id": "d", "text": "O parto vaginal sempre se torna impossível", "isCorrect": false, "explanation": "Errado: deflexões leves (bregma) podem corrigir durante o TP, e até mesmo a apresentação de face pode permitir parto vaginal a depender da posição do mento." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Deflexões"
+  },
+  {
+    "id": "q-obs-anatpelv-006",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre os planos de De Lee:",
+    "options": [
+      { "id": "a", "text": "O plano 0 corresponde ao estreito superior da bacia", "isCorrect": false, "explanation": "Errado: o plano 0 corresponde ao nível das ESPINHAS ISQUIÁTICAS (não ao estreito superior)." },
+      { "id": "b", "text": "O plano 0 corresponde ao nível das espinhas isquiáticas; planos negativos (-1 a -5) ficam ACIMA e positivos (+1 a +5) ABAIXO; total de 10 cm de passagem", "isCorrect": true, "explanation": "Correto: ponto 0 = espinhas isquiáticas (ponto de maior declive). Planos negativos (-1 a -5) acima das espinhas (pelve falsa) e positivos (+1 a +5) abaixo, progredindo para o períneo. Total de 10 cm de canal de parto." },
+      { "id": "c", "text": "Planos positivos correspondem à apresentação ainda alta, na pelve falsa", "isCorrect": false, "explanation": "Errado: planos POSITIVOS = apresentação BAIXA (abaixo das espinhas isquiáticas)." },
+      { "id": "d", "text": "Plano de De Lee mede a dilatação do colo uterino", "isCorrect": false, "explanation": "Errado: De Lee mede a ALTURA da apresentação fetal, não a dilatação cervical." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Planos de De Lee"
+  },
+  {
+    "id": "q-obs-anatpelv-007",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Sobre as fontanelas fetais:",
+    "options": [
+      { "id": "a", "text": "Bregmática é a posterior, pequena e triangular", "isCorrect": false, "explanation": "Errado: a bregmática é a ANTERIOR (também chamada bregma ou grande), losangular." },
+      { "id": "b", "text": "Bregmática é a fontanela ANTERIOR (grande, losangular); lambdóide é a POSTERIOR (pequena, triangular). A bregmática não desaparece logo após o parto; a lambdóide deforma-se durante o trabalho de parto", "isCorrect": true, "explanation": "Correto: bregmática = anterior, grande, losangular, NÃO desaparece logo após o parto. Lambdóide = posterior, pequena, triangular, deforma-se no parto. Identificar essas estruturas no toque vaginal permite avaliar atitude/grau de deflexão e variedade de posição." },
+      { "id": "c", "text": "As duas fontanelas fecham antes do parto", "isCorrect": false, "explanation": "Errado: ambas estão abertas ao nascimento; o fechamento ocorre meses após (lambdóide ~2 meses, bregmática ~12-18 meses)." },
+      { "id": "d", "text": "A fontanela bregmática é fechada por sutura coronária apenas", "isCorrect": false, "explanation": "Errado: é o ponto de encontro das suturas coronária, sagital e metópica (não apenas coronária)." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Fontanelas"
+  },
+  {
+    "id": "q-obs-anatpelv-008",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a SITUAÇÃO fetal, é correto afirmar que:",
+    "options": [
+      { "id": "a", "text": "Avalia qual parte do feto está em contato com a pelve materna", "isCorrect": false, "explanation": "Errado: isso é a APRESENTAÇÃO. Situação avalia o eixo do feto em relação ao eixo da mãe." },
+      { "id": "b", "text": "Compara o eixo longitudinal do feto (coluna) com o eixo longitudinal da mãe; pode ser longitudinal, transversa/córmica ou oblíqua (transição). Situação transversa ocorre mais em multíparas, polidrâmnio, prematuridade ou placenta prévia", "isCorrect": true, "explanation": "Correto: SITUAÇÃO = eixo longitudinal fetal vs materno. Longitudinal (mais comum), transversa/córmica (em multíparas, polidrâmnio, placenta prévia ocupando parte inferior, prematuridade) e oblíqua (transição). Apresentação córmica está sempre associada à situação transversa." },
+      { "id": "c", "text": "Apresentação cefálica está sempre associada à situação transversa", "isCorrect": false, "explanation": "Errado: apresentação cefálica está associada à situação LONGITUDINAL." },
+      { "id": "d", "text": "Avalia a relação entre a apresentação fetal e o ponto de reparo da pelve materna", "isCorrect": false, "explanation": "Errado: essa é a definição de variedade de POSIÇÃO." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Situação fetal"
+  },
+  {
+    "id": "q-obs-anatpelv-009",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A finalidade da EPISIOTOMIA é:",
+    "options": [
+      { "id": "a", "text": "Acelerar de rotina o segundo período do trabalho de parto", "isCorrect": false, "explanation": "Errado: episiotomia NÃO é de rotina e não deve ser feita para 'acelerar o parto' sem indicação." },
+      { "id": "b", "text": "Realizar uma incisão controlada no períneo (desviando a tesoura do esfíncter anal) para EVITAR a ruptura do esfíncter anal e proteger o períneo, com indicação clínica e anestesia adequada", "isCorrect": true, "explanation": "Correto: a episiotomia é uma incisão MÉDICA controlada no períneo, com a ponta da tesoura desviada do esfíncter anal, com objetivo PROTETOR (evitar laceração de 3º/4º grau). A região é anestesiada (tuberosidade isquiática). Não é violência obstétrica quando bem indicada e consentida." },
+      { "id": "c", "text": "É considerada violência obstétrica em todos os casos", "isCorrect": false, "explanation": "Errado: quando indicada, com consentimento e técnica adequada, é um ato médico legítimo." },
+      { "id": "d", "text": "A episiotomia é feita justamente sobre o esfíncter anal para facilitar a saída", "isCorrect": false, "explanation": "Errado: a tesoura é DESVIADA do esfíncter anal exatamente para protegê-lo." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Musculatura pélvica"
+  }
+]

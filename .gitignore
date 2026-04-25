@@ -28,3 +28,6 @@ yarn-error.log*
 
 # extracted pdf text (auxiliary, not committed)
 /scripts/extracted/
+
+# build report (regenerated on each build)
+/data/.build-report.txt

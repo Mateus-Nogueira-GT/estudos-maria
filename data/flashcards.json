@@ -1,5 +1,509 @@
 [
   {
+    "id": "fc-gastro-abord-01",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "cloze",
+    "text": "A anamnese GI é estruturada em 3 segmentos: {{c1::esôfago}}, {{c2::gastroduodenal (inclui fígado e vesícula)}} e {{c3::intestinal}}.",
+    "extra": "Essa segmentação organiza o raciocínio e evita se perder no relato do paciente."
+  },
+  {
+    "id": "fc-gastro-abord-02",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Segmento 1 (esôfago) — principais queixas",
+    "back": "- Azia / pirose (queimação retroesternal ascendente)\n- Regurgitação ácida (volta da 'água amarga' do estômago)\n- Disfagia esofágica (alimento 'entalado')\n- Odinofagia (dor à deglutição)"
+  },
+  {
+    "id": "fc-gastro-abord-03",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Segmento 2 (gastroduodenal) — principais queixas",
+    "back": "- Epigastralgia (dor na 'boca do estômago')\n- Náusea e vômito\n- Saciedade precoce e empachamento (sintomas de lentidão)\n- Conjunto = síndrome DISPÉPTICA (dor ou lentidão).\n'Gastrite' é diagnóstico endoscópico, não clínico."
+  },
+  {
+    "id": "fc-gastro-abord-04",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Segmento 3 (intestinal) — principais queixas",
+    "back": "- Alteração do hábito intestinal (diarreia, constipação, alternância)\n- Dor abdominal baixa\n- Sempre comparar com o 'normal' do paciente; mudança súbita chama atenção."
+  },
+  {
+    "id": "fc-gastro-abord-05",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "cloze",
+    "text": "Sinais de ALARME em queixas GI: {{c1::sangramento}}, {{c1::perda de peso}}, {{c1::febre}}, {{c1::icterícia}}, {{c1::sintomas desproporcionais}} (acordar à noite, vômitos diários) e {{c1::idade > 50 anos}}.",
+    "extra": "Sinais de alarme aumentam a probabilidade pré-teste de achados relevantes na endoscopia."
+  },
+  {
+    "id": "fc-gastro-abord-06",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Melena",
+    "back": "Fezes NEGRAS, com aspecto de PICHE e odor fétido = sangue DIGERIDO pelo HCl.\nSugere sangramento ALTO do TGI (esôfago, estômago, duodeno — acima do ligamento de Treitz)."
+  },
+  {
+    "id": "fc-gastro-abord-07",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Hematoquezia",
+    "back": "Sangue VERMELHO VIVO pelo ânus.\nSugere sangramento BAIXO (cólon, reto, ânus) — hemorroidas, fissura, diverticulose, câncer, DII."
+  },
+  {
+    "id": "fc-gastro-abord-08",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "cloze",
+    "text": "Indicações de endoscopia digestiva alta: {{c1::idade > 50 anos}}, {{c2::sinais de alarme}}, {{c3::história familiar de risco}} (câncer GI, celíaca, DII) e {{c4::falha no tratamento}}.",
+    "extra": "Sem nenhum desses critérios, pode-se tentar tratamento empírico e medidas comportamentais primeiro."
+  },
+  {
+    "id": "fc-gastro-abord-09",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "cloze",
+    "text": "Hierarquia de correlação sintomas extra-esofágicos com DRGE: ALTO = {{c1::dor torácica não cardíaca}}; MÉDIO = {{c2::tosse seca}}; BAIXO = {{c3::halitose, rouquidão, pigarro, afta, garganta vermelha}}.",
+    "extra": "A presença isolada de sintomas de baixa hierarquia NÃO garante DRGE."
+  },
+  {
+    "id": "fc-gastro-abord-10",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Princípio fundamental da gastroenterologia clínica",
+    "back": "INTENSIDADE da queixa NÃO se correlaciona com gravidade dos achados — paciente com muitos sintomas pode ter exames normais e vice-versa.\nE achado na endoscopia NÃO prova causalidade com o sintoma (~90% das queixas são funcionais)."
+  },
+  {
+    "id": "fc-gastro-ad-01",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "cloze",
+    "text": "Dispepsia clínica = {{c1::dor epigástrica}} E/OU {{c2::sintomas de lentidão}} (náusea, vômito, saciedade precoce, empachamento).",
+    "extra": "'Gastrite' é diagnóstico endoscópico/histológico, não clínico."
+  },
+  {
+    "id": "fc-gastro-ad-02",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Dispepsia orgânica vs funcional",
+    "back": "ORGÂNICA: há achado estrutural que justifica os sintomas (úlcera, H. pylori, câncer, AINE).\nFUNCIONAL: endoscopia NORMAL, sem achado que justifique. Corresponde a ~2/3 das dispepsias investigadas.\nPodem coexistir."
+  },
+  {
+    "id": "fc-gastro-ad-03",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "cloze",
+    "text": "Classes de bloqueadores ácidos (ordem CRESCENTE de potência): {{c1::antiácidos}} → {{c2::antagonistas H2}} → {{c3::IBPs}} → {{c4::vonoprazan (PCAB)}}.",
+    "extra": "Antiácidos apenas neutralizam o ácido presente. H2 têm taquifilaxia. IBPs agem em bombas ATIVAS. Vonoprazan age em bombas ativas E inativas."
+  },
+  {
+    "id": "fc-gastro-ad-04",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Como tomar o omeprazol corretamente?",
+    "back": "15-20 MINUTOS ANTES do café da manhã (em jejum), pois:\n- IBPs agem somente em bombas ATIVAS\n- O maior estímulo de ativação das bombas é a refeição matinal\n- Efeito máximo em 3-5 dias (saturação das células parietais)"
+  },
+  {
+    "id": "fc-gastro-ad-05",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Vantagens do vonoprazan (PCAB) sobre IBPs",
+    "back": "- Age em bombas ATIVAS E INATIVAS (IBP só em ativas)\n- Independe de jejum\n- Efeito máximo já no 1º dia (IBP leva 3-5 dias)\n- Fica mais tempo no canalículo secretor\n- Útil em H. pylori (mantém pH alto → bactéria replica → ATB age melhor) e em esofagite grave"
+  },
+  {
+    "id": "fc-gastro-ad-06",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "cloze",
+    "text": "Falso-negativo na pesquisa de H. pylori pode ocorrer por: {{c1::sangue no estômago}} (biópsia), uso de {{c2::antibióticos}} (atordoam a bactéria) e uso de {{c3::IBP}} nas últimas 2-4 semanas (suspende a bactéria).",
+    "extra": "Recomendação: suspender IBP por 2-4 semanas antes de testes diagnósticos para H. pylori."
+  },
+  {
+    "id": "fc-gastro-ad-07",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Por que tratar H. pylori mesmo em assintomáticos?",
+    "back": "- Potencial CARCINOGÊNICO (classe I IARC — câncer gástrico)\n- Pode evoluir para úlcera (10-20% dos infectados)\n- Transmissão intrafamiliar — recomendar investigar familiares próximos\n- Tratamento reduz risco de atrofia/metaplasia gástrica"
+  },
+  {
+    "id": "fc-gastro-ad-08",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Esquema PREFERENCIAL para erradicar H. pylori atualmente",
+    "back": "VONOPRAZAN + AMOXICILINA em dose alta, por 14 dias.\nAlternativas:\n- Clássico IBP + amoxicilina + claritromicina (perdeu força por resistência)\n- Substituir claritromicina por levofloxacina\n- Esquema quádruplo com bismuto (resgate)\n- Rifabutina em falhas múltiplas"
+  },
+  {
+    "id": "fc-gastro-ad-09",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "cloze",
+    "text": "Mecanismo de sobrevivência do H. pylori: produz {{c1::urease}} → transforma ureia em {{c2::amônia}} → cria ambiente alcalino protetor ao redor da bactéria.",
+    "extra": "O bloqueio ácido potente eleva o pH gástrico, forçando a bactéria a sair do estado quiescente e replicar — aí ela fica vulnerável ao antibiótico."
+  },
+  {
+    "id": "fc-gastro-ad-10",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Controle de erradicação de H. pylori — como e quando?",
+    "back": "4-8 SEMANAS após o término do tratamento.\nMétodos: antígeno fecal OU teste respiratório com ureia marcada.\nNÃO usar sorologia (permanece positiva após erradicação).\nSuspender IBP 2 semanas antes do teste."
+  },
+  {
+    "id": "fc-gastro-ad-11",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "cloze",
+    "text": "AINEs podem causar dispepsia, úlcera gástrica/duodenal e até sangramento SILENCIOSO (pois são analgésicos — o paciente pode não sentir dor). Mesmo {{c1::uma única dose}} pode desencadear quadro em paciente suscetível.",
+    "extra": "Sempre perguntar sobre uso de AINE/AAS em queixa dispéptica."
+  },
+  {
+    "id": "fc-gastro-ad-12",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Toxicidade dos IBPs de uso crônico",
+    "back": "- Curto prazo: dor abdominal, diarreia, cefaleia\n- Longo prazo (associações controversas):\n  * Demência (fraca)\n  * Pólipos de glândulas fúndicas\n  * Alterações de função renal\n  * Hipomagnesemia, deficiência de B12\nObjetivo: achar a MENOR DOSE que mantenha o paciente sem sintomas."
+  },
+  {
+    "id": "fc-gastro-drge-01",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "Refluxo gastroesofágico é {{c1::fisiológico}} em toda a população. Torna-se DOENÇA (DRGE) quando passa do ponto em {{c2::frequência}}, {{c2::intensidade}} ou {{c2::duração}}, causando sintomas recorrentes ou lesão esofágica.",
+    "extra": "Episódios pontuais de refluxo após refeição não configuram doença."
+  },
+  {
+    "id": "fc-gastro-drge-02",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Sintomas de ALTA hierarquia para DRGE",
+    "back": "- Azia (queimação retroesternal ASCENDENTE)\n- Regurgitação ácida\n- Dor torácica NÃO cardíaca\nRecorrentes → diagnóstico clínico de DRGE com alta probabilidade de acerto."
+  },
+  {
+    "id": "fc-gastro-drge-03",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "Classificação de Los Angeles para esofagite: A ({{c1::≤ 5 mm}}), B ({{c1::> 5 mm sem confluência}}), C ({{c1::confluente, < 75% circunferência}}) e D ({{c1::confluente, ≥ 75% circunferência}}).",
+    "extra": "Grau A NÃO é definidor de DRGE (achado frequente na população). B, C e D são definidores mesmo sem sintomas."
+  },
+  {
+    "id": "fc-gastro-drge-04",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Por que esofagite grau A não é definidora de DRGE?",
+    "back": "Porque é encontrada com frequência na população geral, mesmo em assintomáticos.\nApenas indica que HÁ refluxo (fisiológico). Precisa-se do contexto clínico.\nB, C e D são definidoras da doença."
+  },
+  {
+    "id": "fc-gastro-drge-05",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "Esôfago de Barrett = {{c1::metaplasia intestinal}} no esôfago distal, tipicamente ≥ {{c2::1 cm}}. É achado DEFINIDOR de DRGE e aumenta risco de {{c3::adenocarcinoma de esôfago}}.",
+    "extra": "Quatro tipos de metaplasia possíveis: gástrica, juncional, pancreática e intestinal — só a intestinal é Barrett."
+  },
+  {
+    "id": "fc-gastro-drge-06",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Vigilância em Esôfago de Barrett",
+    "back": "- Barrett CURTO (< 3 cm) sem displasia → baixo risco; vigilância endoscópica + tratar refluxo.\n- Barrett EXTENSO (> 3 cm) com displasia → risco aumentado; vigilância mais próxima, considerar terapia endoscópica (ablação por radiofrequência) / esofagectomia se displasia alta / câncer."
+  },
+  {
+    "id": "fc-gastro-drge-07",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Achado mais comum na endoscopia de paciente com DRGE",
+    "back": "Endoscopia NORMAL, em ~80% dos casos.\nA exposição ácida não é suficiente para causar lesão estrutural visível. Reforça que o diagnóstico é CLÍNICO."
+  },
+  {
+    "id": "fc-gastro-drge-08",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "pHmetria de 24h — parâmetros anormais: esôfago com pH < 4 por mais de {{c1::6%}} do dia OU mais de {{c2::80}} episódios de refluxo em 24h.",
+    "extra": "Usada em dúvida diagnóstica ou para correlacionar percepção de refluxo com exposição real."
+  },
+  {
+    "id": "fc-gastro-drge-09",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Definição endoscópica de DRGE (achados definidores)",
+    "back": "- Esofagite B, C ou D (LA)\n- Metaplasia do esôfago distal (incluindo Esôfago de Barrett)\n- Estenose péptica\nA maioria dos exames, porém, é NORMAL."
+  },
+  {
+    "id": "fc-gastro-drge-10",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Estenose péptica",
+    "back": "Estreitamento fibrótico do esôfago distal por refluxo crônico.\nClínica: disfagia progressiva para sólidos.\nTratamento: IBP/vonoprazan + dilatação endoscópica."
+  },
+  {
+    "id": "fc-gastro-drge-11",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "Medidas comportamentais para DRGE: {{c1::perda de peso}} se sobrepeso, {{c1::elevar a cabeceira}}, evitar deitar até {{c2::2-3h}} pós-refeição, reduzir {{c3::gorduras, álcool, café, cítricos, pimenta}}, {{c4::cessação do tabagismo}}.",
+    "extra": "O tabaco relaxa o EEI e piora o refluxo."
+  },
+  {
+    "id": "fc-gastro-drge-12",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Disfagia intensa + perda de peso em paciente com DRGE crônica: o que pensar?",
+    "back": "SINAL DE ALARME — investigar causas associadas:\n- Estenose péptica\n- Adenocarcinoma de esôfago (sobre Barrett)\n- Outras lesões estruturais\nConduta: ENDOSCOPIA imediata."
+  },
+  {
+    "id": "fc-gastro-drge-13",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "Metaplasia do esôfago distal: mudança do epitélio {{c1::escamoso estratificado}} para epitélio {{c2::colunar}} — tentativa de proteção contra exposição ácida. Os 4 tipos são: {{c3::gástrica, juncional, pancreática, intestinal}}.",
+    "extra": "A metaplasia INTESTINAL com extensão ≥ 1 cm define o Esôfago de Barrett."
+  },
+  {
+    "id": "fc-gastro-drge-14",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Quando a endoscopia é indicada em DRGE?",
+    "back": "Critérios clássicos: idade > 50 anos, sinais de alarme, história familiar de risco, falha terapêutica.\nSem esses critérios: diagnóstico clínico + teste terapêutico com IBP 4-8 semanas."
+  },
+  {
+    "id": "fc-gastro-fvb-01",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "cloze",
+    "text": "Provas hepáticas: {{c1::TGO/TGP}} = lesão hepatocelular (dano ao hepatócito); {{c2::fosfatase alcalina e GGT}} = colestase (obstrução canalicular); {{c3::bilirrubinas}} = excreção; {{c4::TAP (INR) e albumina}} = provas SINTÉTICAS (função hepatocelular).",
+    "extra": "Padrão hepatocelular: ↑ TGO/TGP. Padrão colestático: ↑ FA + GGT ± bilirrubina direta. Padrão misto: ambos."
+  },
+  {
+    "id": "fc-gastro-fvb-02",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Fosfatase alcalina (FA) — origens possíveis",
+    "back": "- Canalicular/biliar (fígado)\n- Ósseo (osteoblastos)\n- Placenta (gravidez)\n- Intestino\nPor isso a GGT acompanha na suspeita de origem hepática: GGT isolada é quase só biliar — se FA elevada E GGT normal, pensar em causa óssea/gravidez."
+  },
+  {
+    "id": "fc-gastro-fvb-03",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Exame de primeira escolha para investigar cálculos em vesícula biliar",
+    "back": "ULTRASSONOGRAFIA (ecografia) abdominal superior.\nAlta sensibilidade, sem radiação, baixo custo. TC não é primeira escolha (muitos cálculos são de colesterol, invisíveis na TC)."
+  },
+  {
+    "id": "fc-gastro-fvb-04",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "cloze",
+    "text": "Ordem de investigação da via biliar (do menos invasivo ao mais invasivo): {{c1::ultrassonografia}} → {{c2::colangiorressonância}} → {{c3::ecoendoscopia}} → {{c4::CPRE}}.",
+    "extra": "CPRE é o mais invasivo (risco de pancreatite pós-procedimento), mas permite remoção terapêutica de cálculos."
+  },
+  {
+    "id": "fc-gastro-fvb-05",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Características da DOR BILIAR clássica",
+    "back": "- CONTÍNUA (não 'vai e volta' como cólica intestinal)\n- Andar superior do abdome / hipocôndrio direito\n- Frequentemente APÓS refeições (especialmente gordurosas)\n- Irradiação para DORSO DIREITO ou OMBRO direito\n- Associada a náusea e vômito"
+  },
+  {
+    "id": "fc-gastro-fvb-06",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "cloze",
+    "text": "Sinal de Murphy positivo = parada da respiração durante palpação profunda do ponto cístico (hipocôndrio direito) por dor — sugestivo de {{c1::colecistite aguda}}.",
+    "extra": "Especificidade não é absoluta, mas é um clássico à beira do leito."
+  },
+  {
+    "id": "fc-gastro-fvb-07",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "cloze",
+    "text": "TRÍADE DE CHARCOT (colangite): {{c1::dor em QSD}} + {{c2::febre}} + {{c3::icterícia}}.",
+    "extra": "Com adição de CONFUSÃO MENTAL e CHOQUE = PÊNTADE DE REYNOLDS (colangite grave, emergência)."
+  },
+  {
+    "id": "fc-gastro-fvb-08",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Coledocolitíase",
+    "back": "Cálculo no ducto COLÉDOCO (via biliar principal).\nClínica: dor biliar + icterícia colestática + padrão colestático laboratorial (↑ FA, GGT, bilirrubina direta).\nTratamento: CPRE (remoção do cálculo) + colecistectomia posterior."
+  },
+  {
+    "id": "fc-gastro-fvb-09",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Pancreatite biliar",
+    "back": "Pancreatite aguda desencadeada por microcálculo que obstrui transitoriamente a papila duodenal (onde desemboca o ducto pancreático).\nLITÍASE BILIAR é a principal causa de pancreatite aguda (~50% dos casos)."
+  },
+  {
+    "id": "fc-gastro-fvb-10",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "cloze",
+    "text": "Colelitíase é {{c1::assintomática}} na maioria dos casos. Indicações de colecistectomia: {{c2::colelitíase sintomática}} (cólica biliar, colecistite, coledocolitíase, pancreatite biliar, colangite) ou grupos especiais de risco.",
+    "extra": "Colelitíase assintomática em paciente sem fatores de risco geralmente NÃO exige cirurgia."
+  },
+  {
+    "id": "fc-gastro-fvb-11",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Dilatação da árvore biliar na imagem — o que indica?",
+    "back": "OBSTRUÇÃO em algum ponto da via biliar.\nInvestigar: cálculo (coledocolitíase), estenose, tumor (cabeça de pâncreas, colangiocarcinoma, ampuloma).\nExames: colangio-RM e/ou ecoendoscopia."
+  },
+  {
+    "id": "fc-gastro-fvb-12",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Síndromes biliares — resumo",
+    "back": "- Colelitíase: cálculos na vesícula (geralmente assintomática)\n- Cólica biliar: dor contínua pós-prandial transitória\n- Colecistite aguda: inflamação + febre + Murphy +\n- Coledocolitíase: cálculo no colédoco + icterícia\n- Colangite: dor + febre + icterícia (Charcot) — emergência\n- Pancreatite biliar: microcálculo obstruindo a papila"
+  },
+  {
+    "id": "fc-gastro-panc-01",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Pâncreas = órgão {{c1::retroperitoneal}}, dividido em cabeça, corpo e cauda. Ducto principal = {{c2::Wirsung}}; ducto acessório = {{c3::Santorini}}. Desembocam na {{c4::2ª porção duodenal}} (papila duodenal / esfíncter de Oddi).",
+    "extra": "Posição retroperitoneal explica a dor 'em faixa' irradiando para o dorso."
+  },
+  {
+    "id": "fc-gastro-panc-02",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Porção EXÓCRINA ({{c1::80%}} da massa) = células {{c2::acinares}} que secretam enzimas digestivas. Porção ENDÓCRINA ({{c3::20%}}) = ilhotas de Langerhans (insulina, glucagon, somatostatina).",
+    "extra": "Lesão exócrina = síndrome de má absorção. Lesão endócrina = diabetes."
+  },
+  {
+    "id": "fc-gastro-panc-03",
+    "topicId": "gastro-pancreatites",
+    "type": "basic",
+    "front": "Enzimas pancreáticas — qual a principal pró-enzima e sua ativação",
+    "back": "TRIPSINOGÊNIO → convertido em TRIPSINA pela enteropeptidase do duodeno.\nTripsina é o COFATOR que ativa outras pró-enzimas (quimotripsina, elastase, lipase/fosfolipase), permitindo a digestão de carboidratos, lipídeos e proteínas."
+  },
+  {
+    "id": "fc-gastro-panc-04",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Hormônios que estimulam secreção pancreática: {{c1::secretina}} (estimulada pelo HCl no duodeno → libera bicarbonato) e {{c2::colecistoquinina (CCK)}} (estimulada por gordura/proteína → contrai vesícula + libera enzimas pancreáticas).",
+    "extra": "Suco pancreático = enzimas + água + eletrólitos + bicarbonato (para neutralizar o ácido do estômago)."
+  },
+  {
+    "id": "fc-gastro-panc-05",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Amilase: sobe {{c1::precocemente}} (início do processo), meia-vida {{c2::curta (~10h)}}, permanece elevada {{c3::3-5 dias}}. Sensível mas POUCO ESPECÍFICA.",
+    "extra": "Pode elevar em obstrução intestinal, caxumba, IRC, macroamilasemia, gravidez ectópica, câncer de ovário/pulmão."
+  },
+  {
+    "id": "fc-gastro-panc-06",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Lipase: maior {{c1::especificidade}} para pancreatite aguda, permanece elevada {{c2::7-10 dias}}. Combinação amilase + lipase aumenta a precisão diagnóstica.",
+    "extra": "Pode não elevar em etiologias alcoólica e hipertrigliceridêmica."
+  },
+  {
+    "id": "fc-gastro-panc-07",
+    "topicId": "gastro-pancreatites",
+    "type": "basic",
+    "front": "IMPORTANTE: valor absoluto de amilase/lipase tem valor prognóstico?",
+    "back": "NÃO. Valor alto não significa pancreatite grave.\nAmilase/lipase são MARCADORES DIAGNÓSTICOS (> 3x LSN); gravidade é avaliada clinicamente (SIRS, disfunção orgânica, critérios Atlanta/escores BISAP, APACHE II, Ranson)."
+  },
+  {
+    "id": "fc-gastro-panc-08",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "CRITÉRIOS DE ATLANTA — diagnóstico de pancreatite aguda (2 de 3): {{c1::dor abdominal sugestiva}}, {{c2::amilase/lipase > 3x LSN}}, {{c3::achados de imagem característicos (TC/RM/US)}}.",
+    "extra": "Mais de 80% dos casos fecham diagnóstico só com dor + enzimas; imagem é para dúvida."
+  },
+  {
+    "id": "fc-gastro-panc-09",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Causas de pancreatite aguda: {{c1::litíase biliar (principal)}} + {{c2::álcool}} = ~80% dos casos. Outras: hipertrigliceridemia (> 1000), medicamentos, pós-CPRE, trauma, autoimune, hipercalcemia, infecções virais.",
+    "extra": "Na litíase biliar, microcálculos migram e obstruem a papila duodenal, impedindo drenagem pancreática."
+  },
+  {
+    "id": "fc-gastro-panc-10",
+    "topicId": "gastro-pancreatites",
+    "type": "basic",
+    "front": "Sinal de Cullen e sinal de Grey-Turner",
+    "back": "Ambos indicam SANGRAMENTO RETROPERITONEAL (pancreatite necrohemorrágica) = mau prognóstico.\n- CULLEN: equimose PERIUMBILICAL\n- GREY-TURNER: equimose nos FLANCOS\nMarcadores semiológicos clássicos de pancreatite aguda grave."
+  },
+  {
+    "id": "fc-gastro-panc-11",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Pancreatite EDEMATOSA-INTERSTICIAL: ~{{c1::80%}} dos casos, forma MAIS LEVE, mortalidade pequena. Pancreatite NECROSANTE: minoria, com {{c2::necrose}} do parênquima e/ou tecidos peripancreáticos.",
+    "extra": "Coleções líquidas ficam até 4 semanas (transudato); após isso viram pseudocisto (forma edematosa) ou walled-off necrosis (forma necrosante)."
+  },
+  {
+    "id": "fc-gastro-panc-12",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "GRAVIDADE da pancreatite aguda: LEVE ({{c1::sem disfunção orgânica}}); MODERADA (disfunção orgânica TRANSITÓRIA, reverte em ≤ 48h); GRAVE (disfunção orgânica PERSISTENTE > 48h).",
+    "extra": "Disfunção orgânica = respiratória, cardiovascular, renal, hepática, hematológica, neurológica, metabólica."
+  },
+  {
+    "id": "fc-gastro-panc-13",
+    "topicId": "gastro-pancreatites",
+    "type": "basic",
+    "front": "Tratamento inicial da pancreatite aguda — pilares",
+    "back": "1. JEJUM — repouso pancreático\n2. HIDRATAÇÃO EV precoce e adequada (5-10 mL/kg/h nas primeiras 24h)\n3. ANALGESIA\n4. SUPORTE CLÍNICO e monitorização\n5. Reintrodução precoce de dieta (oral/enteral) conforme tolerância — baixa gordura\nNÃO fazer antibiótico profilático."
+  },
+  {
+    "id": "fc-gastro-panc-14",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Etiologias da pancreatite CRÔNICA (mnemônica {{c1::TIGARO}}): {{c2::Tóxico-metabólica}} (álcool principal, tabagismo, hipercalcemia), {{c3::Idiopática}}, {{c3::Genética}}, {{c3::Autoimune}} (IgG4), {{c3::Recorrente}}, {{c3::Obstrutiva}}.",
+    "extra": "Tríade clássica (tardia, < 30% dos casos): calcificações pancreáticas + esteatorreia + DM."
+  },
+  {
+    "id": "fc-gastro-tgi-01",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "SII (Síndrome do Intestino Irritável) = doença {{c1::funcional}} do TGI, com desregulação do eixo {{c2::cérebro-intestino-microbiota}}.",
+    "extra": "Não ameaça a vida e não aumenta risco de câncer — mas compromete qualidade de vida."
+  },
+  {
+    "id": "fc-gastro-tgi-02",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "Critérios ROMA IV para SII: {{c1::dor abdominal}} recorrente ≥ {{c2::1x/semana}} nos últimos {{c3::3 meses}} (início há ≥ 6 meses), com 2 dos 3: relação com {{c4::evacuação}}, alteração de {{c4::frequência}} e de {{c4::forma}} das fezes.",
+    "extra": "Dor é sintoma central — sem dor, não é SII."
+  },
+  {
+    "id": "fc-gastro-tgi-03",
+    "topicId": "gastro-tgi-inferior",
+    "type": "basic",
+    "front": "Perfil típico do paciente com SII",
+    "back": "- Mulher jovem (< 50 anos)\n- Sintomas crônicos/cíclicos (≥ 6 meses)\n- Piora com estresse\n- Sem perda de peso, sem anemia, sem sangue nas fezes, sem despertar noturno\n- Sem história familiar de câncer GI, DII ou celíaca\n- Exame físico normal"
+  },
+  {
+    "id": "fc-gastro-tgi-04",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "Investigação laboratorial MÍNIMA em SII (afastar doença orgânica): {{c1::hemograma}}, {{c1::bioquímica}} (função hepática/renal), {{c1::TSH}}, {{c1::PCR e calprotectina fecal}} (afasta DII), {{c1::parasitológico}} e {{c1::sorologia para doença celíaca}} se padrão diarreico.",
+    "extra": "Colonoscopia só se > 50 anos, sinais de alarme ou história familiar de risco."
+  },
+  {
+    "id": "fc-gastro-tgi-05",
+    "topicId": "gastro-tgi-inferior",
+    "type": "basic",
+    "front": "Sinais de alarme que AFASTAM SII (investigar doença orgânica)",
+    "back": "- Sangue nas fezes\n- Perda ponderal inexplicada\n- Anemia ferropriva\n- Despertar noturno pela dor/diarreia\n- Início após 50 anos\n- História familiar de câncer GI, DII ou celíaca\n- Febre, sinais inflamatórios\n→ Investigar com colonoscopia, EDA, sorologias"
+  },
+  {
+    "id": "fc-gastro-tgi-06",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "Dieta {{c1::low-FODMAP}}: restrição temporária (6-12 semanas) de carboidratos fermentáveis, seguida de reintrodução gradual para identificar gatilhos. Indicada em pacientes com MUITOS sintomas — NÃO é primeira linha.",
+    "extra": "Primeira linha é dieta saudável padrão + modificações comportamentais. Low-FODMAP pede acompanhamento nutricional."
+  },
+  {
+    "id": "fc-gastro-tgi-07",
+    "topicId": "gastro-tgi-inferior",
+    "type": "basic",
+    "front": "Tratamento sintomático da SII por padrão predominante",
+    "back": "- Padrão DIARREICO: loperamida, ondansetrona, colestiramina\n- Padrão CONSTIPADO: lactulose, PEG, bisacodil, picossulfato, lubiprostona, prucaloprida\n- Padrão de DOR: antiespasmódicos (pinavério, mebeverina, trimebutina, otilônio)\n- Refratário: neuromoduladores em dose baixa (tricíclicos para diarreico; ISRS para constipado)"
+  },
+  {
+    "id": "fc-gastro-tgi-08",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "Intolerância à lactose: falta da enzima {{c1::lactase}} → lactose não digerida chega ao cólon → fermentação bacteriana → {{c2::gases (H2)}} + {{c2::ácidos graxos de cadeia curta}} → distensão e diarreia (efeito osmótico).",
+    "extra": "No Brasil, ~60% da população tem predisposição genética. Causa mais comum da deficiência: NÃO PERSISTÊNCIA da lactase (desliga a produção na vida adulta)."
+  },
+  {
+    "id": "fc-gastro-tgi-09",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "Teste respiratório de hidrogênio para intolerância à lactose: exposição a {{c1::25 g de lactose}} → medição do H2 exalado. Alternativa: teste de {{c2::tolerância à lactose}} com 50g — pico sérico de glicose < 20 mg/dL em 2h com sintomas = intolerância; > 30 mg/dL descarta.",
+    "extra": "Dieta de prova (retirada temporária) é alternativa prática inicial."
+  },
+  {
+    "id": "fc-gastro-tgi-10",
+    "topicId": "gastro-tgi-inferior",
+    "type": "basic",
+    "front": "Doença celíaca — quando suspeitar em adultos?",
+    "back": "- História familiar de 1º grau (10% de risco)\n- SII com padrão diarreico\n- Anemia ferropriva inexplicada\n- Deficiências nutricionais, osteoporose precoce\n- Elevação inexplicada de transaminases\n- Dermatite herpetiforme, DM tipo 1, tireoidite autoimune\n- Infertilidade, abortamento de repetição\nInvestigar com sorologia (antitransglutaminase IgA + IgA total) e, se positiva, biópsia duodenal. Tratamento = dieta sem glúten por toda a vida ('tudo ou nada')."
+  },
+  {
     "id": "fc-perinat-01",
     "topicId": "perinatologia-classificacao",
     "front": "Período neonatal",

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "q-gastro-drge-001",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual é a alteração fisiológica mais comum do esôfago, presente em praticamente toda a população?",
+    "options": [
+      { "id": "a", "text": "Acalasia", "isCorrect": false, "explanation": "Acalasia é uma doença motora rara, não a alteração mais comum." },
+      { "id": "b", "text": "Refluxo gastroesofágico fisiológico", "isCorrect": true, "explanation": "Correto: todo mundo tem episódios de refluxo — volta de conteúdo ácido do estômago, geralmente pós-refeição, por alteração momentânea do tônus do EEI. Só vira DOENÇA quando passa do ponto (frequência/intensidade/repercussão)." },
+      { "id": "c", "text": "Divertículo de Zenker", "isCorrect": false, "explanation": "Divertículo é patologia rara (faringoesofágico), não a alteração mais comum." },
+      { "id": "d", "text": "Esôfago de Barrett", "isCorrect": false, "explanation": "Barrett é consequência tardia e rara da DRGE, não a alteração mais comum da população." }
+    ],
+    "reference": "Gastroenterologia 2 — pág. 1"
+  },
+  {
+    "id": "q-gastro-drge-002",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Sintomas de ALTA hierarquia de correlação com DRGE são:",
+    "options": [
+      { "id": "a", "text": "Azia (queimação retroesternal ascendente), regurgitação ácida e dor torácica não cardíaca", "isCorrect": true, "explanation": "Correto: esses três são os sintomas típicos de alta hierarquia. Quando recorrentes, permitem o diagnóstico clínico de DRGE com alta probabilidade de acerto." },
+      { "id": "b", "text": "Halitose, pigarro e rouquidão", "isCorrect": false, "explanation": "São sintomas extraesofágicos de BAIXA hierarquia — o fato de tê-los NÃO garante DRGE." },
+      { "id": "c", "text": "Diarreia, flatulência e dor abdominal baixa", "isCorrect": false, "explanation": "Esses são sintomas de segmento 3 (intestinal) — sem relação direta com refluxo esofágico." },
+      { "id": "d", "text": "Febre, perda de peso e icterícia", "isCorrect": false, "explanation": "Esses são sinais de ALARME; não são sintomas típicos de DRGE e indicam investigação." }
+    ],
+    "reference": "Gastroenterologia 2 — pág. 1"
+  },
+  {
+    "id": "q-gastro-drge-003",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Na endoscopia, qual achado NÃO é definidor de DRGE?",
+    "options": [
+      { "id": "a", "text": "Esofagite A (Los Angeles)", "isCorrect": true, "explanation": "Correto: esofagite A é encontrada com frequência na população geral e NÃO é definidora de doença do refluxo. Classifica-se como achado inespecífico; o contexto clínico é necessário." },
+      { "id": "b", "text": "Esofagite B, C ou D", "isCorrect": false, "explanation": "Esofagites B/C/D SÃO definidoras de DRGE, independentemente de sintomas." },
+      { "id": "c", "text": "Esôfago de Barrett", "isCorrect": false, "explanation": "Barrett (metaplasia intestinal > 1 cm) é achado definidor de DRGE." },
+      { "id": "d", "text": "Estenose péptica", "isCorrect": false, "explanation": "Estenose péptica é consequência da DRGE e a define." }
+    ],
+    "reference": "Gastroenterologia 2 — pág. 2"
+  },
+  {
+    "id": "q-gastro-drge-004",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Esôfago de Barrett é definido por:",
+    "options": [
+      { "id": "a", "text": "Metaplasia GÁSTRICA no esôfago distal", "isCorrect": false, "explanation": "Metaplasia gástrica é uma das 4 formas possíveis, mas não configura Barrett isoladamente — o Barrett exige metaplasia INTESTINAL." },
+      { "id": "b", "text": "Metaplasia INTESTINAL (epitélio colunar intestinal) no esôfago distal, geralmente > 1 cm", "isCorrect": true, "explanation": "Correto: Barrett é uma metaplasia intestinal, com células caliciformes, no esôfago distal, em geral ≥ 1 cm. Há 4 tipos de metaplasia possíveis (gástrica, juncional, pancreática e intestinal) — só a intestinal é Barrett." },
+      { "id": "c", "text": "Úlcera péptica no esôfago", "isCorrect": false, "explanation": "Úlcera é outra lesão, não define Barrett." },
+      { "id": "d", "text": "Estenose do esfíncter esofágico inferior", "isCorrect": false, "explanation": "Estenose péptica é complicação distinta; Barrett é definido por tipo de epitélio." }
+    ],
+    "reference": "Gastroenterologia 2 — pág. 2"
+  },
+  {
+    "id": "q-gastro-drge-005",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o risco de câncer no esôfago de Barrett:",
+    "options": [
+      { "id": "a", "text": "Todo Barrett evolui para câncer em menos de 5 anos", "isCorrect": false, "explanation": "Falso — a maior parte dos Barrett NÃO evolui; o risco depende da extensão e presença de displasia." },
+      { "id": "b", "text": "Barrett curto (< 3 cm) sem displasia tem baixo risco; Barrett extenso (> 3 cm) com displasia tem risco aumentado — segue em vigilância e trata-se o refluxo", "isCorrect": true, "explanation": "Correto: estratificação de risco pelo tamanho e displasia. Curtos sem displasia: baixo risco. Extensos com displasia: risco aumentado. Conduta: vigilância endoscópica + tratar refluxo." },
+      { "id": "c", "text": "Barrett curto sempre exige esofagectomia", "isCorrect": false, "explanation": "Esofagectomia é reservada a casos selecionados (displasia de alto grau ou câncer) — não para todo Barrett curto." },
+      { "id": "d", "text": "Barrett não tem relação com câncer", "isCorrect": false, "explanation": "Barrett é fator de risco reconhecido para adenocarcinoma de esôfago." }
+    ],
+    "reference": "Gastroenterologia 2 — pág. 2"
+  },
+  {
+    "id": "q-gastro-drge-006",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Para que serve a pHmetria de 24h no estudo da DRGE?",
+    "options": [
+      { "id": "a", "text": "Visualizar o epitélio esofágico como uma endoscopia", "isCorrect": false, "explanation": "pHmetria não é método de imagem — mede pH da luz esofágica por cateter durante 24h." },
+      { "id": "b", "text": "Quantificar a exposição ácida esofágica ao longo do dia e correlacionar com os sintomas", "isCorrect": true, "explanation": "Correto: cateter no esôfago mede o pH; considera-se anormal quando o esôfago fica com pH < 4 por > 6% do dia, ou > 80 episódios de refluxo. Útil em dúvida diagnóstica e para correlacionar percepção x refluxo real." },
+      { "id": "c", "text": "Medir força muscular do esfíncter esofágico superior", "isCorrect": false, "explanation": "Essa é função da manometria esofágica, não da pHmetria." },
+      { "id": "d", "text": "Detectar H. pylori", "isCorrect": false, "explanation": "H. pylori não é detectado pelo pH esofágico." }
+    ],
+    "reference": "Gastroenterologia 2 — Exame funcional"
+  },
+  {
+    "id": "q-gastro-drge-007",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em uma endoscopia de paciente com clínica clássica de DRGE, qual o achado mais comum?",
+    "options": [
+      { "id": "a", "text": "Esofagite grau D de Los Angeles", "isCorrect": false, "explanation": "Esofagite grau D é grave e incomum — representa grande queimadura." },
+      { "id": "b", "text": "Esôfago de Barrett extenso", "isCorrect": false, "explanation": "Barrett é minoria dos achados." },
+      { "id": "c", "text": "Endoscopia NORMAL (em cerca de 80% dos casos de DRGE)", "isCorrect": true, "explanation": "Correto: ~80% das endoscopias em pacientes com DRGE são normais — a exposição ácida não é suficiente para causar lesão estrutural visível. Isso reforça que o diagnóstico é CLÍNICO." },
+      { "id": "d", "text": "Úlcera duodenal ativa", "isCorrect": false, "explanation": "Úlcera duodenal não é achado típico da DRGE (é do segmento gastroduodenal, associada a H. pylori ou AINE)." }
+    ],
+    "reference": "Gastroenterologia 2 — pág. 2"
+  },
+  {
+    "id": "q-gastro-drge-008",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual medida comportamental tem impacto clínico demonstrado no tratamento da DRGE?",
+    "options": [
+      { "id": "a", "text": "Perda de peso (se sobrepeso/obesidade) e evitar deitar em até 2-3h após refeições", "isCorrect": true, "explanation": "Correto: o ganho de peso aumenta o refluxo e há relação dose-resposta com IMC. Deitar logo após comer favorece o refluxo postural. Ambos são medidas de primeira linha." },
+      { "id": "b", "text": "Tomar água em grandes volumes imediatamente após comer", "isCorrect": false, "explanation": "Volume grande imediatamente pós-refeição pode distender o estômago e favorecer refluxo." },
+      { "id": "c", "text": "Fumar após refeições ajuda a digestão", "isCorrect": false, "explanation": "O tabaco PIORA o refluxo — relaxa o EEI e aumenta a produção ácida." },
+      { "id": "d", "text": "Consumir álcool como digestivo", "isCorrect": false, "explanation": "Álcool é gatilho reconhecido e piora o refluxo." }
+    ],
+    "reference": "Acidez Gástrica 2 — Estratégias comportamentais"
+  },
+  {
+    "id": "q-gastro-drge-009",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Paciente com disfagia intensa, progressiva, associada a perda de peso, relata azia há anos. Qual a conduta?",
+    "options": [
+      { "id": "a", "text": "Tratar apenas com IBP — a disfagia é do próprio refluxo", "isCorrect": false, "explanation": "Disfagia INTENSA E PROGRESSIVA com perda de peso é SINAL DE ALARME — não trate empiricamente; investigue." },
+      { "id": "b", "text": "Encaminhar à endoscopia para investigar causas associadas (estenose péptica, neoplasia esofágica, Barrett complicado)", "isCorrect": true, "explanation": "Correto: disfagia intensa em paciente com DRGE crônica obriga investigação por EDA — causas possíveis: estenose péptica, adenocarcinoma sobre Barrett, outras lesões." },
+      { "id": "c", "text": "Solicitar apenas pHmetria de 24h", "isCorrect": false, "explanation": "pHmetria não resolve um alarme estrutural como disfagia com perda de peso." },
+      { "id": "d", "text": "Iniciar nutrição parenteral", "isCorrect": false, "explanation": "Nutrição parenteral não é diagnóstico; precisa identificar a causa primeiro." }
+    ],
+    "reference": "Gastroenterologia 2; Queixas GI 2 — sinais de alarme"
+  },
+  {
+    "id": "q-gastro-drge-010",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o diagnóstico clínico da DRGE:",
+    "options": [
+      { "id": "a", "text": "Exige endoscopia em todos os casos", "isCorrect": false, "explanation": "Falso — o diagnóstico é CLÍNICO na maioria dos casos; endoscopia é reservada a critérios específicos." },
+      { "id": "b", "text": "Pode ser feito clinicamente (sintomas típicos recorrentes + boa resposta ao IBP) e a endoscopia é reservada a critérios específicos", "isCorrect": true, "explanation": "Correto: sintomas de alto ranking recorrentes já permitem presumir DRGE; se melhora com IBP, diagnóstico provavelmente correto. Endoscopia apenas se: > 50 anos, alarme, história familiar de risco ou falha no tratamento." },
+      { "id": "c", "text": "Depende obrigatoriamente de pHmetria", "isCorrect": false, "explanation": "pHmetria é reservada a casos de dúvida diagnóstica." },
+      { "id": "d", "text": "Requer biópsia confirmatória em toda consulta", "isCorrect": false, "explanation": "Biópsia não é rotineira na DRGE; só se houver achado endoscópico suspeito." }
+    ],
+    "reference": "Gastroenterologia 2 — definição"
+  },
+  {
+    "id": "q-gastro-drge-011",
+    "topicId": "gastro-drge-esofago",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual mecanismo explica a metaplasia do esôfago (e Barrett) na DRGE crônica?",
+    "options": [
+      { "id": "a", "text": "Substituição do epitélio escamoso distal por epitélio colunar — tentativa de proteção contra a exposição ácida", "isCorrect": true, "explanation": "Correto: a mucosa escamosa original é sensível ao ácido; na agressão crônica as células se transformam em epitélio colunar (mais resistente) como mecanismo adaptativo. Quatro tipos possíveis: gástrica, juncional, pancreática, intestinal (essa define Barrett se > 1 cm)." },
+      { "id": "b", "text": "Infecção aguda por H. pylori no esôfago", "isCorrect": false, "explanation": "H. pylori coloniza o estômago, não o esôfago; e é bacteriana, não metaplásica." },
+      { "id": "c", "text": "Deficiência vitamínica do paciente", "isCorrect": false, "explanation": "Metaplasia não é causada por déficit vitamínico." },
+      { "id": "d", "text": "Hereditariedade monogênica clássica", "isCorrect": false, "explanation": "Barrett tem fatores genéticos, mas a metaplasia é induzida pelo refluxo, não por uma mutação monogênica." }
+    ],
+    "reference": "Gastroenterologia 2 — pág. 2"
+  },
+  {
+    "id": "q-gastro-drge-012",
+    "topicId": "gastro-drge-esofago",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Caso clínico: homem de 58 anos, tabagista, obeso, refere azia há 10 anos. Nega disfagia, sangramento ou perda de peso. Usa omeprazol esporadicamente com alívio. Quais são suas considerações diagnósticas e condutas?",
+    "modelAnswer": "Considerações: paciente tem critérios para indicar endoscopia digestiva alta — idade > 50 anos, sintomas crônicos de DRGE, fatores de risco (tabagismo, obesidade, sexo masculino). Mesmo sem sinais de alarme, a probabilidade pré-teste de achados (esofagite B/C/D, Barrett, estenose) é alta o suficiente para justificar a investigação. Conduta: (1) solicitar EDA; (2) orientar medidas comportamentais — cessação do tabagismo, perda de peso, elevar cabeceira, evitar refeições próximas ao deitar, reduzir gatilhos alimentares; (3) iniciar IBP em dose plena (ex.: omeprazol 20 mg antes do café da manhã) por 8 semanas; (4) reavaliar com resultado da EDA para ajustar conduta. Se houver Barrett, discutir vigilância; se esofagite C/D, otimizar bloqueio ácido (dose dupla de IBP ou vonoprazan) e rever em 8 semanas; se estenose péptica, avaliar dilatação endoscópica.",
+    "keyPoints": [
+      "Indica EDA: > 50 anos + sintomas crônicos + fatores de risco (tabaco, obesidade, sexo masculino)",
+      "Medidas comportamentais (cessar tabagismo, perder peso, cabeceira elevada)",
+      "IBP em dose plena 8 semanas, tomado antes do café da manhã",
+      "Reavaliar com achado da EDA — ajustar conduta conforme grau da lesão",
+      "Vigilância se Barrett; dose dupla ou vonoprazan se esofagite C/D"
+    ],
+    "reference": "Gastroenterologia 2; Acidez Gástrica 2"
+  },
+  {
+    "id": "q-gastro-drge-013",
+    "topicId": "gastro-drge-esofago",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "O que é estenose péptica? Qual é o mecanismo e como ela se relaciona com a DRGE?",
+    "modelAnswer": "A estenose péptica é um estreitamento fibrótico do esôfago distal decorrente da inflamação crônica causada por refluxo prolongado. A exposição ácida sustentada leva a ciclos de lesão epitelial e cicatrização, com deposição de colágeno e fibrose que reduzem o lúmen esofágico. Clinicamente, o paciente apresenta DISFAGIA (geralmente para sólidos e progressiva), às vezes emagrecimento. É um achado definidor de DRGE na endoscopia. O tratamento combina bloqueio ácido potente (IBP ou vonoprazan para controlar a doença de base) e dilatação endoscópica da estenose.",
+    "keyPoints": [
+      "Estreitamento fibrótico do esôfago distal",
+      "Causa: inflamação crônica por refluxo de longa data",
+      "Mecanismo: lesão → cicatrização → fibrose → redução do lúmen",
+      "Clínica: disfagia progressiva para sólidos",
+      "Achado definidor de DRGE na EDA",
+      "Tratamento: IBP/vonoprazan + dilatação endoscópica"
+    ],
+    "reference": "Gastroenterologia 2 — pág. 2"
+  },
+  {
+    "id": "q-gastro-drge-014",
+    "topicId": "gastro-drge-esofago",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva a classificação de Los Angeles para esofagite e explique sua importância clínica.",
+    "modelAnswer": "A classificação de Los Angeles (LA) estratifica a gravidade da esofagite erosiva visível na endoscopia em 4 graus (A, B, C, D): (A) uma ou mais lesões mucosas ≤ 5 mm, sem confluência; (B) lesões > 5 mm, sem confluência entre pregas; (C) lesões confluentes entre duas ou mais pregas, ocupando < 75% da circunferência; (D) lesões confluentes ocupando ≥ 75% da circunferência.\n\nImportância clínica: (1) o grau A é achado frequente na população e NÃO define DRGE por si só — requer contexto clínico; (2) graus B, C e D SÃO definidores da doença, mesmo em pacientes assintomáticos; (3) graus maiores (C e D) orientam bloqueio ácido mais potente (dose dupla de IBP ou vonoprazan) e tempo maior de tratamento; (4) graus C/D aumentam risco de complicações (estenose, Barrett) e tendem a indicar vigilância endoscópica de seguimento.",
+    "keyPoints": [
+      "4 graus: A (≤5mm), B (>5mm sem confluência), C (confluente <75%), D (confluente ≥75%)",
+      "Grau A não é definidor de DRGE (achado inespecífico)",
+      "Graus B, C e D definem DRGE independente de sintomas",
+      "Graus C/D exigem bloqueio ácido mais potente e maior tempo",
+      "Graus C/D têm maior risco de complicações (estenose, Barrett)"
+    ],
+    "reference": "Gastroenterologia 2 — pág. 2"
+  }
+]

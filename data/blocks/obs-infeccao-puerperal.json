@@ -1,0 +1,114 @@
+[
+  {
+    "id": "q-obs-infpuerp-001",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A forma clínica MAIS FREQUENTE de infecção puerperal é:",
+    "options": [
+      { "id": "a", "text": "Mastite", "isCorrect": false, "explanation": "Errado: mastite ocorre em 33% das lactantes e em geral aparece 2-3 semanas pós-parto, mas a forma mais frequente de INFECÇÃO PUERPERAL é a endomiometrite." },
+      { "id": "b", "text": "Endomiometrite (endometrite + miometrite)", "isCorrect": true, "explanation": "Correto: a endomiometrite é a forma clínica mais frequente de infecção puerperal (3-20% das mães). É geralmente POLIMICROBIANA (estreptococo β-hemolítico do grupo B em ~30% dos casos)." },
+      { "id": "c", "text": "Pielonefrite", "isCorrect": false, "explanation": "Errado: ITU pode ocorrer no puerpério mas não é a infecção puerperal mais frequente." },
+      { "id": "d", "text": "Fasciite necrosante", "isCorrect": false, "explanation": "Errado: rara, embora gravíssima (mortalidade ~50%)." }
+    ],
+    "reference": "Infecção Puerperal"
+  },
+  {
+    "id": "q-obs-infpuerp-002",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O DIAGNÓSTICO de endomiometrite puerperal é fundamentalmente:",
+    "options": [
+      { "id": "a", "text": "Apenas laboratorial (hemograma com leucocitose)", "isCorrect": false, "explanation": "Errado: laboratório auxilia, mas o diagnóstico é CLÍNICO." },
+      { "id": "b", "text": "CLÍNICO: febre persistente (T > 38°C por ≥ 2 dias, ou início após 2º dia pós-parto, ou T ≥ 38,7°C nas 1ªs 24 h), dor/sensibilidade uterina, lóquios fétidos/purulentos, subinvolução uterina, colo aberto", "isCorrect": true, "explanation": "Correto: endomiometrite é diagnóstico CLÍNICO — febre puerperal persistente (T > 38°C por pelo menos 2 dias OU iniciada do 2º dia pós-parto OU T ≥ 38,7°C nas primeiras 24 h), associada a dor/sensibilidade uterina, lóquios purulentos e fétidos, subinvolução uterina e colo aberto/pérvio. REG, falta de apetite. Costuma surgir entre 3º-7º dia pós-parto. Exames complementares (hemograma, urocultura, hemocultura, USG) avaliam extensão e diferenciais." },
+      { "id": "c", "text": "Apenas por USG transvaginal", "isCorrect": false, "explanation": "Errado: USG ajuda mas não é o critério diagnóstico." },
+      { "id": "d", "text": "Apenas por hemocultura positiva", "isCorrect": false, "explanation": "Errado: bacteremia ocorre em 10-20% dos casos; a maioria das pacientes não tem hemocultura positiva." }
+    ],
+    "reference": "Infecção Puerperal — Endometrite"
+  },
+  {
+    "id": "q-obs-infpuerp-003",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o TRATAMENTO da endometrite puerperal:",
+    "options": [
+      { "id": "a", "text": "Iniciar com mesmo antibiótico usado na profilaxia, mesmo que a infecção tenha aparecido apesar dela", "isCorrect": false, "explanation": "Errado: se a profilaxia não impediu a infecção, NÃO se usa o mesmo antibiótico." },
+      { "id": "b", "text": "Cobertura para Gram +, Gram - e anaeróbios (clindamicina + aminoglicosídeo é esquema clássico); transição EV → VO somente após 48 h sem febre; se restos placentários, indicar curetagem (ATB sozinho não age sobre o tecido retido)", "isCorrect": true, "explanation": "Correto: cobertura ampla para Gram +, Gram - e anaeróbios. Esquema clássico = clindamicina + gentamicina/amicacina. Suspeita de enterococo → adicionar ampicilina. Mantém EV até 48 h sem febre antes de transição para VO. Restos placentários exigem curetagem (ATB não penetra tecido retido). Curetagem repetida pode levar à síndrome de Asherman (sinéquias intrauterinas)." },
+      { "id": "c", "text": "Curetagem é desnecessária mesmo com restos placentários — basta antibiótico", "isCorrect": false, "explanation": "Errado: ATB não age sobre tecido retido — curetagem é necessária." },
+      { "id": "d", "text": "Pode-se passar para via oral logo nas primeiras 24 h após início do tratamento", "isCorrect": false, "explanation": "Errado: aguardar 48 h sem febre." }
+    ],
+    "reference": "Infecção Puerperal — Tratamento"
+  },
+  {
+    "id": "q-obs-infpuerp-004",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "São FATORES DE RISCO para infecção puerperal, EXCETO:",
+    "options": [
+      { "id": "a", "text": "Cesariana, RPM (ruptura prematura de membranas) e excesso de toques vaginais", "isCorrect": false, "explanation": "São fatores de risco." },
+      { "id": "b", "text": "Anemia, obesidade, diabetes mellitus, perda sanguínea > 800 mL", "isCorrect": false, "explanation": "São fatores de risco." },
+      { "id": "c", "text": "Cirurgia muito prolongada (> 1 h), corioamnionite e ASA > 3", "isCorrect": false, "explanation": "São fatores de risco." },
+      { "id": "d", "text": "Parto vaginal sem episiotomia em primigesta jovem saudável", "isCorrect": true, "explanation": "Correto: parto vaginal sem episiotomia em mulher jovem saudável é a situação de MENOR risco para infecção puerperal. Os outros (cesariana, RPM, toques repetidos, anemia, obesidade, DM, perda sanguínea elevada, cirurgia > 1 h, corioamnionite, ASA > 3, pré-eclâmpsia) são fatores de risco bem estabelecidos." }
+    ],
+    "reference": "Infecção Puerperal — Fatores de risco"
+  },
+  {
+    "id": "q-obs-infpuerp-005",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A MASTITE puerperal:",
+    "options": [
+      { "id": "a", "text": "Geralmente ocorre 2-3 semanas pós-parto, em 33% das lactantes; o agente mais comum é o Staphylococcus aureus; tratamento com cefalosporina + analgésicos; NÃO se suspende a amamentação e a mama deve ser esvaziada por ordenha", "isCorrect": true, "explanation": "Correto: a mastite ocorre em ~33% das lactantes, geralmente 2-3 semanas pós-parto, secundária a fissura mamilar e ducto obstruído. Agente mais comum: S. aureus (também S. epidermidis). Sintomas: dor, calor, febre, ingurgitamento, hiperemia. Pode evoluir para abscesso. ATB de escolha: cefalosporina. NÃO se suspende a amamentação — esvaziar a mama por ordenha é parte essencial do tratamento. Abscesso → drenagem cirúrgica." },
+      { "id": "b", "text": "Causada principalmente por bactéria anaeróbia da flora vaginal", "isCorrect": false, "explanation": "Errado: agente mais comum é o S. aureus (cocos Gram + da pele)." },
+      { "id": "c", "text": "Indica suspensão imediata da amamentação", "isCorrect": false, "explanation": "Errado: amamentação deve ser MANTIDA, com esvaziamento da mama." },
+      { "id": "d", "text": "Não responde a antibióticos, exigindo sempre tratamento cirúrgico", "isCorrect": false, "explanation": "Errado: responde bem a ATB; cirurgia (drenagem) só se houver abscesso." }
+    ],
+    "reference": "Infecção Puerperal — Mastite"
+  },
+  {
+    "id": "q-obs-infpuerp-006",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "A FASCIITE NECROSANTE puerperal caracteriza-se por:",
+    "options": [
+      { "id": "a", "text": "Quadro indolente, com mortalidade < 5%, e tratamento exclusivamente clínico com antibiótico oral", "isCorrect": false, "explanation": "Errado: é gravíssima, mortalidade ~50%, exige cirurgia." },
+      { "id": "b", "text": "Acometimento da fáscia (e potencialmente musculatura), evolução RÁPIDA com toxemia e febre alta, alto índice de mortalidade (~50%); agente mais comum: Streptococcus β-hemolítico grupo A; tratamento exige DESBRIDAMENTO cirúrgico, ATB e UTI", "isCorrect": true, "explanation": "Correto: a fasciite necrosante atinge a fáscia muscular (e pode estender-se à musculatura), causando áreas extensas de necrose entre o 3º e 5º dia pós-parto. Agente principal: Streptococcus β-hemolítico do grupo A. Mortalidade ~50%. Apresentação: eritema, edema, dor, evolução rápida para toxemia, febre alta, prostração extrema. Tratamento: DESBRIDAMENTO cirúrgico precoce (aberto, com retirada de necrose diariamente), antibiótico de amplo espectro e UTI; reconstrução plástica posterior." },
+      { "id": "c", "text": "Acomete apenas o tecido celular subcutâneo, sem necrose tecidual", "isCorrect": false, "explanation": "Errado: atinge a FÁSCIA — daí o nome." },
+      { "id": "d", "text": "Causa indolor e febre baixa", "isCorrect": false, "explanation": "Errado: dor INTENSA e febre alta." }
+    ],
+    "reference": "Infecção Puerperal — Fasciite necrosante"
+  },
+  {
+    "id": "q-obs-infpuerp-007",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre a TROMBOFLEBITE SÉPTICA PÉLVICA puerperal:",
+    "options": [
+      { "id": "a", "text": "A veia mais comumente acometida é a femoral", "isCorrect": false, "explanation": "Errado: a veia mais comumente acometida é a OVARIANA DIREITA." },
+      { "id": "b", "text": "Forma trombos sépticos em vasos pélvicos (ovariana direita é a mais comum); o trombo bacteriano pode causar bacteremia e êmbolos sépticos a distância (30-40% pulmonares se não tratada). Tratamento empírico com HEPARINA — se a febre cessa em 7-10 dias, confirma o diagnóstico", "isCorrect": true, "explanation": "Correto: tromboflebite séptica pélvica é a formação de trombos com bactérias agregadas em vasos pélvicos, mais comum na veia OVARIANA DIREITA. Pode liberar êmbolos sépticos para a circulação pulmonar (30-40% se não tratada). Diagnóstico geralmente é EMPÍRICO/TERAPÊUTICO: dá-se heparina; se a bacteremia/febre cessa em 7-10 dias, confirma-se a hipótese. Fatores de risco: RPM, parto distócico, anemia, cesariana, desnutrição." },
+      { "id": "c", "text": "Diagnóstico definitivo só é possível por venografia, exigindo confirmação prévia ao tratamento", "isCorrect": false, "explanation": "Errado: diagnóstico é frequentemente TERAPÊUTICO (resposta à heparina)." },
+      { "id": "d", "text": "Não causa bacteremia nem complicações sistêmicas", "isCorrect": false, "explanation": "Errado: pode evoluir com êmbolos pulmonares sépticos." }
+    ],
+    "reference": "Infecção Puerperal — Tromboflebite séptica pélvica"
+  },
+  {
+    "id": "q-obs-infpuerp-008",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "No manejo da SEPSE puerperal, o foco principal é:",
+    "options": [
+      { "id": "a", "text": "Apenas antibiótico de amplo espectro, sem necessidade de identificar foco", "isCorrect": false, "explanation": "Errado: é fundamental identificar e remover o foco." },
+      { "id": "b", "text": "REMOVER o foco da infecção (curetagem de restos placentários, drenagem de abscessos, desbridamento, colpotomia para abscesso de fundo de saco de Douglas), ATB de amplo espectro e suporte intensivo; manejo cirúrgico (histerectomia) para miometrite, infecção por Clostridium ou refratariedade", "isCorrect": true, "explanation": "Correto: o pilar do tratamento da sepse puerperal é o CONTROLE DO FOCO INFECCIOSO — curetagem de restos placentários, drenagem de abscessos, desbridamento de tecidos necróticos, colpotomia para drenagem do fundo de saco de Douglas. Indica-se manejo cirúrgico maior (histerectomia, laparotomia) em miometrite refratária, infecção por Clostridium, abscessos não drenáveis e tromboflebite séptica refratária. ATB amplo espectro e UTI são essenciais. SEMPRE colher cultura para identificar o microrganismo." },
+      { "id": "c", "text": "Manter conduta expectante e aguardar resolução espontânea", "isCorrect": false, "explanation": "Errado: sepse é emergência ameaçadora à vida." },
+      { "id": "d", "text": "Aguardar 48 h de antibiótico antes de qualquer intervenção cirúrgica", "isCorrect": false, "explanation": "Errado: o controle de foco é precoce e prioritário." }
+    ],
+    "reference": "Infecção Puerperal — Sepse"
+  }
+]

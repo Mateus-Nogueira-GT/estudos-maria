@@ -1,0 +1,72 @@
+[
+  {
+    "id": "fc-gastro-tgi-01",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "SII (Síndrome do Intestino Irritável) = doença {{c1::funcional}} do TGI, com desregulação do eixo {{c2::cérebro-intestino-microbiota}}.",
+    "extra": "Não ameaça a vida e não aumenta risco de câncer — mas compromete qualidade de vida."
+  },
+  {
+    "id": "fc-gastro-tgi-02",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "Critérios ROMA IV para SII: {{c1::dor abdominal}} recorrente ≥ {{c2::1x/semana}} nos últimos {{c3::3 meses}} (início há ≥ 6 meses), com 2 dos 3: relação com {{c4::evacuação}}, alteração de {{c4::frequência}} e de {{c4::forma}} das fezes.",
+    "extra": "Dor é sintoma central — sem dor, não é SII."
+  },
+  {
+    "id": "fc-gastro-tgi-03",
+    "topicId": "gastro-tgi-inferior",
+    "type": "basic",
+    "front": "Perfil típico do paciente com SII",
+    "back": "- Mulher jovem (< 50 anos)\n- Sintomas crônicos/cíclicos (≥ 6 meses)\n- Piora com estresse\n- Sem perda de peso, sem anemia, sem sangue nas fezes, sem despertar noturno\n- Sem história familiar de câncer GI, DII ou celíaca\n- Exame físico normal"
+  },
+  {
+    "id": "fc-gastro-tgi-04",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "Investigação laboratorial MÍNIMA em SII (afastar doença orgânica): {{c1::hemograma}}, {{c1::bioquímica}} (função hepática/renal), {{c1::TSH}}, {{c1::PCR e calprotectina fecal}} (afasta DII), {{c1::parasitológico}} e {{c1::sorologia para doença celíaca}} se padrão diarreico.",
+    "extra": "Colonoscopia só se > 50 anos, sinais de alarme ou história familiar de risco."
+  },
+  {
+    "id": "fc-gastro-tgi-05",
+    "topicId": "gastro-tgi-inferior",
+    "type": "basic",
+    "front": "Sinais de alarme que AFASTAM SII (investigar doença orgânica)",
+    "back": "- Sangue nas fezes\n- Perda ponderal inexplicada\n- Anemia ferropriva\n- Despertar noturno pela dor/diarreia\n- Início após 50 anos\n- História familiar de câncer GI, DII ou celíaca\n- Febre, sinais inflamatórios\n→ Investigar com colonoscopia, EDA, sorologias"
+  },
+  {
+    "id": "fc-gastro-tgi-06",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "Dieta {{c1::low-FODMAP}}: restrição temporária (6-12 semanas) de carboidratos fermentáveis, seguida de reintrodução gradual para identificar gatilhos. Indicada em pacientes com MUITOS sintomas — NÃO é primeira linha.",
+    "extra": "Primeira linha é dieta saudável padrão + modificações comportamentais. Low-FODMAP pede acompanhamento nutricional."
+  },
+  {
+    "id": "fc-gastro-tgi-07",
+    "topicId": "gastro-tgi-inferior",
+    "type": "basic",
+    "front": "Tratamento sintomático da SII por padrão predominante",
+    "back": "- Padrão DIARREICO: loperamida, ondansetrona, colestiramina\n- Padrão CONSTIPADO: lactulose, PEG, bisacodil, picossulfato, lubiprostona, prucaloprida\n- Padrão de DOR: antiespasmódicos (pinavério, mebeverina, trimebutina, otilônio)\n- Refratário: neuromoduladores em dose baixa (tricíclicos para diarreico; ISRS para constipado)"
+  },
+  {
+    "id": "fc-gastro-tgi-08",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "Intolerância à lactose: falta da enzima {{c1::lactase}} → lactose não digerida chega ao cólon → fermentação bacteriana → {{c2::gases (H2)}} + {{c2::ácidos graxos de cadeia curta}} → distensão e diarreia (efeito osmótico).",
+    "extra": "No Brasil, ~60% da população tem predisposição genética. Causa mais comum da deficiência: NÃO PERSISTÊNCIA da lactase (desliga a produção na vida adulta)."
+  },
+  {
+    "id": "fc-gastro-tgi-09",
+    "topicId": "gastro-tgi-inferior",
+    "type": "cloze",
+    "text": "Teste respiratório de hidrogênio para intolerância à lactose: exposição a {{c1::25 g de lactose}} → medição do H2 exalado. Alternativa: teste de {{c2::tolerância à lactose}} com 50g — pico sérico de glicose < 20 mg/dL em 2h com sintomas = intolerância; > 30 mg/dL descarta.",
+    "extra": "Dieta de prova (retirada temporária) é alternativa prática inicial."
+  },
+  {
+    "id": "fc-gastro-tgi-10",
+    "topicId": "gastro-tgi-inferior",
+    "type": "basic",
+    "front": "Doença celíaca — quando suspeitar em adultos?",
+    "back": "- História familiar de 1º grau (10% de risco)\n- SII com padrão diarreico\n- Anemia ferropriva inexplicada\n- Deficiências nutricionais, osteoporose precoce\n- Elevação inexplicada de transaminases\n- Dermatite herpetiforme, DM tipo 1, tireoidite autoimune\n- Infertilidade, abortamento de repetição\nInvestigar com sorologia (antitransglutaminase IgA + IgA total) e, se positiva, biópsia duodenal. Tratamento = dieta sem glúten por toda a vida ('tudo ou nada')."
+  }
+]

@@ -131,5 +131,96 @@
     "name": "Trauma Torácico e Pericárdio",
     "source": "Trauma UP - 1/2.pdf, Pericárdio UP.pdf",
     "description": "Pneumotórax (simples, hipertensivo, hidro), derrame pleural/hemotórax, contusão, pneumomediastino, lesão diafragmática, corpo estranho, derrame pericárdico e tamponamento."
+  },
+  {
+    "id": "gastro-abordagem-clinica",
+    "subjectId": "gastroenterologia",
+    "name": "Abordagem Clínica ao Paciente GI",
+    "source": "Queixas Gastrointestinais 2.pdf",
+    "description": "Anamnese segmentada (esôfago, gastroduodenal, intestinal), sinais de alarme, manifestações extras, critérios para indicar endoscopia."
+  },
+  {
+    "id": "gastro-drge-esofago",
+    "subjectId": "gastroenterologia",
+    "name": "DRGE e Doenças do Esôfago",
+    "source": "Gastroenterologia 2.pdf + Acidez Gástrica 2.pdf",
+    "description": "Fisiopatologia do refluxo, hierarquia de sintomas, esofagite A-D, metaplasia/esôfago de Barrett, estenose péptica, pHmetria, critérios para endoscopia."
+  },
+  {
+    "id": "gastro-acidez-dispepsia",
+    "subjectId": "gastroenterologia",
+    "name": "Acidez Gástrica e Dispepsia",
+    "source": "Acidez Gástrica 2.pdf + Gastroenterologia 2.pdf",
+    "description": "Dispepsia orgânica vs. funcional, H. pylori (diagnóstico, tratamento), antiácidos, antagonistas H2, IBPs, vonoprazan, estratégia terapêutica."
+  },
+  {
+    "id": "gastro-fig-vias-biliares",
+    "subjectId": "gastroenterologia",
+    "name": "Fígado e Vias Biliares",
+    "source": "Síndromes Colestáticas 2.pdf",
+    "description": "Enzimas hepatocanaliculares (FA, GGT, TGO/TGP), colelitíase, colecistite, coledocolitíase, colangite (tríade de Charcot), ordem de exames de imagem."
+  },
+  {
+    "id": "gastro-pancreatites",
+    "subjectId": "gastroenterologia",
+    "name": "Pancreatites",
+    "source": "Aula 2 - Pancreatites.pdf",
+    "description": "Anatomia e fisiologia pancreática, amilase/lipase, critérios de Atlanta (diagnóstico da pancreatite aguda), etiologias, gravidade e complicações, pancreatite crônica (TIGARO)."
+  },
+  {
+    "id": "gastro-tgi-inferior",
+    "subjectId": "gastroenterologia",
+    "name": "TGI Inferior e Distúrbios Funcionais",
+    "source": "2º BIM Aula 3 - Queixas do TGI inferior.pdf",
+    "description": "SII (critérios Roma IV), eixo cérebro-intestino-microbiota, dieta low-FODMAP, intolerância à lactose, doença celíaca, SIBO."
+  },
+  {
+    "id": "obs-anexos-embriao-feto",
+    "subjectId": "obstetricia",
+    "name": "Anexos do Embrião e do Feto",
+    "source": "1 Anexos Do Embrião E Do Feto.pdf",
+    "description": "Placenta (cito/sinciciotrofoblasto), vilosidades coriônicas, espaço interviloso, invasão trofoblástica e pré-eclâmpsia, barreira placentária, transporte materno-fetal, cordão umbilical, líquido amniótico, vesícula vitelínica."
+  },
+  {
+    "id": "obs-anatomia-pelvica-fetal",
+    "subjectId": "obstetricia",
+    "name": "Anatomia Pélvica e Estática Fetal",
+    "source": "2 Anatomia Pélvica Estática Fetal.pdf",
+    "description": "Pelve (conjugada obstétrica/diagonal), tipos de pelve (ginecóide, antropóide, andróide, platipelóide), manobras de Leopold, situação, apresentação, atitude/deflexões, posição/variedade, fontanelas, planos de De Lee."
+  },
+  {
+    "id": "obs-trabalho-parto",
+    "subjectId": "obstetricia",
+    "name": "Trabalho de Parto",
+    "source": "Trabalho De Parto.pdf",
+    "description": "Definição clínica de TP, exame de toque (dilatação, apagamento, plano de De Lee), situação/apresentação/posição/variedade, sutura sagital e fontanelas, movimentos cardinais, dequitação."
+  },
+  {
+    "id": "obs-assistencia-trabalho-parto",
+    "subjectId": "obstetricia",
+    "name": "Assistência ao 1º, 2º e 3º Período do Trabalho de Parto",
+    "source": "3 Assistência Ao 1º, 2º E 3º Período Do Trabalho De Parto.pdf",
+    "description": "Contração uterina (tríplice gradiente), Braxton-Hicks, fase latente vs ativa, curvas de Friedman/Zhang, descida fetal, descolamento placentário (Schultze vs Duncan), 4º período (Greenberg), partograma, manejo ativo."
+  },
+  {
+    "id": "obs-puerperio-normal",
+    "subjectId": "obstetricia",
+    "name": "Puerpério Normal",
+    "source": "4 Puerpério Normal.pdf",
+    "description": "Estágios (imediato, tardio, remoto), involução uterina, lóquios, alterações endócrinas/cardiovasculares/sanguíneas, hemorragia puerperal (4Ts), manobra de Hamilton, mastite, TVP, síndrome blue vs depressão pós-parto."
+  },
+  {
+    "id": "obs-infeccao-puerperal",
+    "subjectId": "obstetricia",
+    "name": "Infecção Puerperal",
+    "source": "5 Infecção Puerperal.pdf",
+    "description": "Endomiometrite (clínica e diagnóstico), febre puerperal, fatores de risco, antibioticoterapia, pelviperitonite, infecção de FO, mastite (S. aureus), fasciite necrosante, tromboflebite séptica pélvica, sepse materna."
+  },
+  {
+    "id": "obs-tpp-rpm",
+    "subjectId": "obstetricia",
+    "name": "Trabalho de Parto Prematuro e Ruptura Prematura de Membranas",
+    "source": "6 Trabalho De Parto Prematuro E Ruptura Prematura De Membranas.pdf",
+    "description": "Definições (TPP, RPM, RPPM), fatores de risco, tocólise (nifedipina/atosiban), corticoterapia (betametasona), neuroproteção (SO4Mg), diagnóstico de RPM, manejo conforme IG, indicações de interrupção imediata."
   }
 ]

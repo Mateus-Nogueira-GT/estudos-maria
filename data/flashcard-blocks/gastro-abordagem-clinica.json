@@ -1,0 +1,72 @@
+[
+  {
+    "id": "fc-gastro-abord-01",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "cloze",
+    "text": "A anamnese GI é estruturada em 3 segmentos: {{c1::esôfago}}, {{c2::gastroduodenal (inclui fígado e vesícula)}} e {{c3::intestinal}}.",
+    "extra": "Essa segmentação organiza o raciocínio e evita se perder no relato do paciente."
+  },
+  {
+    "id": "fc-gastro-abord-02",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Segmento 1 (esôfago) — principais queixas",
+    "back": "- Azia / pirose (queimação retroesternal ascendente)\n- Regurgitação ácida (volta da 'água amarga' do estômago)\n- Disfagia esofágica (alimento 'entalado')\n- Odinofagia (dor à deglutição)"
+  },
+  {
+    "id": "fc-gastro-abord-03",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Segmento 2 (gastroduodenal) — principais queixas",
+    "back": "- Epigastralgia (dor na 'boca do estômago')\n- Náusea e vômito\n- Saciedade precoce e empachamento (sintomas de lentidão)\n- Conjunto = síndrome DISPÉPTICA (dor ou lentidão).\n'Gastrite' é diagnóstico endoscópico, não clínico."
+  },
+  {
+    "id": "fc-gastro-abord-04",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Segmento 3 (intestinal) — principais queixas",
+    "back": "- Alteração do hábito intestinal (diarreia, constipação, alternância)\n- Dor abdominal baixa\n- Sempre comparar com o 'normal' do paciente; mudança súbita chama atenção."
+  },
+  {
+    "id": "fc-gastro-abord-05",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "cloze",
+    "text": "Sinais de ALARME em queixas GI: {{c1::sangramento}}, {{c1::perda de peso}}, {{c1::febre}}, {{c1::icterícia}}, {{c1::sintomas desproporcionais}} (acordar à noite, vômitos diários) e {{c1::idade > 50 anos}}.",
+    "extra": "Sinais de alarme aumentam a probabilidade pré-teste de achados relevantes na endoscopia."
+  },
+  {
+    "id": "fc-gastro-abord-06",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Melena",
+    "back": "Fezes NEGRAS, com aspecto de PICHE e odor fétido = sangue DIGERIDO pelo HCl.\nSugere sangramento ALTO do TGI (esôfago, estômago, duodeno — acima do ligamento de Treitz)."
+  },
+  {
+    "id": "fc-gastro-abord-07",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Hematoquezia",
+    "back": "Sangue VERMELHO VIVO pelo ânus.\nSugere sangramento BAIXO (cólon, reto, ânus) — hemorroidas, fissura, diverticulose, câncer, DII."
+  },
+  {
+    "id": "fc-gastro-abord-08",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "cloze",
+    "text": "Indicações de endoscopia digestiva alta: {{c1::idade > 50 anos}}, {{c2::sinais de alarme}}, {{c3::história familiar de risco}} (câncer GI, celíaca, DII) e {{c4::falha no tratamento}}.",
+    "extra": "Sem nenhum desses critérios, pode-se tentar tratamento empírico e medidas comportamentais primeiro."
+  },
+  {
+    "id": "fc-gastro-abord-09",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "cloze",
+    "text": "Hierarquia de correlação sintomas extra-esofágicos com DRGE: ALTO = {{c1::dor torácica não cardíaca}}; MÉDIO = {{c2::tosse seca}}; BAIXO = {{c3::halitose, rouquidão, pigarro, afta, garganta vermelha}}.",
+    "extra": "A presença isolada de sintomas de baixa hierarquia NÃO garante DRGE."
+  },
+  {
+    "id": "fc-gastro-abord-10",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "basic",
+    "front": "Princípio fundamental da gastroenterologia clínica",
+    "back": "INTENSIDADE da queixa NÃO se correlaciona com gravidade dos achados — paciente com muitos sintomas pode ter exames normais e vice-versa.\nE achado na endoscopia NÃO prova causalidade com o sintoma (~90% das queixas são funcionais)."
+  }
+]

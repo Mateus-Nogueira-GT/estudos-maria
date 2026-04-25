@@ -1,0 +1,86 @@
+[
+  {
+    "id": "fc-gastro-ad-01",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "cloze",
+    "text": "Dispepsia clínica = {{c1::dor epigástrica}} E/OU {{c2::sintomas de lentidão}} (náusea, vômito, saciedade precoce, empachamento).",
+    "extra": "'Gastrite' é diagnóstico endoscópico/histológico, não clínico."
+  },
+  {
+    "id": "fc-gastro-ad-02",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Dispepsia orgânica vs funcional",
+    "back": "ORGÂNICA: há achado estrutural que justifica os sintomas (úlcera, H. pylori, câncer, AINE).\nFUNCIONAL: endoscopia NORMAL, sem achado que justifique. Corresponde a ~2/3 das dispepsias investigadas.\nPodem coexistir."
+  },
+  {
+    "id": "fc-gastro-ad-03",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "cloze",
+    "text": "Classes de bloqueadores ácidos (ordem CRESCENTE de potência): {{c1::antiácidos}} → {{c2::antagonistas H2}} → {{c3::IBPs}} → {{c4::vonoprazan (PCAB)}}.",
+    "extra": "Antiácidos apenas neutralizam o ácido presente. H2 têm taquifilaxia. IBPs agem em bombas ATIVAS. Vonoprazan age em bombas ativas E inativas."
+  },
+  {
+    "id": "fc-gastro-ad-04",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Como tomar o omeprazol corretamente?",
+    "back": "15-20 MINUTOS ANTES do café da manhã (em jejum), pois:\n- IBPs agem somente em bombas ATIVAS\n- O maior estímulo de ativação das bombas é a refeição matinal\n- Efeito máximo em 3-5 dias (saturação das células parietais)"
+  },
+  {
+    "id": "fc-gastro-ad-05",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Vantagens do vonoprazan (PCAB) sobre IBPs",
+    "back": "- Age em bombas ATIVAS E INATIVAS (IBP só em ativas)\n- Independe de jejum\n- Efeito máximo já no 1º dia (IBP leva 3-5 dias)\n- Fica mais tempo no canalículo secretor\n- Útil em H. pylori (mantém pH alto → bactéria replica → ATB age melhor) e em esofagite grave"
+  },
+  {
+    "id": "fc-gastro-ad-06",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "cloze",
+    "text": "Falso-negativo na pesquisa de H. pylori pode ocorrer por: {{c1::sangue no estômago}} (biópsia), uso de {{c2::antibióticos}} (atordoam a bactéria) e uso de {{c3::IBP}} nas últimas 2-4 semanas (suspende a bactéria).",
+    "extra": "Recomendação: suspender IBP por 2-4 semanas antes de testes diagnósticos para H. pylori."
+  },
+  {
+    "id": "fc-gastro-ad-07",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Por que tratar H. pylori mesmo em assintomáticos?",
+    "back": "- Potencial CARCINOGÊNICO (classe I IARC — câncer gástrico)\n- Pode evoluir para úlcera (10-20% dos infectados)\n- Transmissão intrafamiliar — recomendar investigar familiares próximos\n- Tratamento reduz risco de atrofia/metaplasia gástrica"
+  },
+  {
+    "id": "fc-gastro-ad-08",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Esquema PREFERENCIAL para erradicar H. pylori atualmente",
+    "back": "VONOPRAZAN + AMOXICILINA em dose alta, por 14 dias.\nAlternativas:\n- Clássico IBP + amoxicilina + claritromicina (perdeu força por resistência)\n- Substituir claritromicina por levofloxacina\n- Esquema quádruplo com bismuto (resgate)\n- Rifabutina em falhas múltiplas"
+  },
+  {
+    "id": "fc-gastro-ad-09",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "cloze",
+    "text": "Mecanismo de sobrevivência do H. pylori: produz {{c1::urease}} → transforma ureia em {{c2::amônia}} → cria ambiente alcalino protetor ao redor da bactéria.",
+    "extra": "O bloqueio ácido potente eleva o pH gástrico, forçando a bactéria a sair do estado quiescente e replicar — aí ela fica vulnerável ao antibiótico."
+  },
+  {
+    "id": "fc-gastro-ad-10",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Controle de erradicação de H. pylori — como e quando?",
+    "back": "4-8 SEMANAS após o término do tratamento.\nMétodos: antígeno fecal OU teste respiratório com ureia marcada.\nNÃO usar sorologia (permanece positiva após erradicação).\nSuspender IBP 2 semanas antes do teste."
+  },
+  {
+    "id": "fc-gastro-ad-11",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "cloze",
+    "text": "AINEs podem causar dispepsia, úlcera gástrica/duodenal e até sangramento SILENCIOSO (pois são analgésicos — o paciente pode não sentir dor). Mesmo {{c1::uma única dose}} pode desencadear quadro em paciente suscetível.",
+    "extra": "Sempre perguntar sobre uso de AINE/AAS em queixa dispéptica."
+  },
+  {
+    "id": "fc-gastro-ad-12",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "basic",
+    "front": "Toxicidade dos IBPs de uso crônico",
+    "back": "- Curto prazo: dor abdominal, diarreia, cefaleia\n- Longo prazo (associações controversas):\n  * Demência (fraca)\n  * Pólipos de glândulas fúndicas\n  * Alterações de função renal\n  * Hipomagnesemia, deficiência de B12\nObjetivo: achar a MENOR DOSE que mantenha o paciente sem sintomas."
+  }
+]

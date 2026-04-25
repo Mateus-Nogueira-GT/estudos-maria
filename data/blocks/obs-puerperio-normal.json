@@ -1,0 +1,128 @@
+[
+  {
+    "id": "q-obs-puerp-001",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Os ESTÁGIOS do puerpério são, na ordem:",
+    "options": [
+      { "id": "a", "text": "Imediato (1º-10º dia), tardio (10º-45º dia) e remoto (após o 45º dia)", "isCorrect": true, "explanation": "Correto: imediato (1º-10º dia, fase de modificações mais agressivas e maior risco de hemorragia); tardio (10º-45º dia, recuperação genital e foco em contracepção na UBS); remoto (após o 45º dia, duração imprecisa, depende de retorno menstrual e fim das involuções)." },
+      { "id": "b", "text": "Tardio (1º-10º dia), imediato (10º-45º dia) e remoto", "isCorrect": false, "explanation": "Errado: ordem invertida." },
+      { "id": "c", "text": "Greenberg, imediato e remoto", "isCorrect": false, "explanation": "Errado: Greenberg é o 4º período do PARTO (1ª hora pós-parto), não estágio do puerpério." },
+      { "id": "d", "text": "Imediato (1ª hora), tardio (até 24 h) e remoto (após 24 h)", "isCorrect": false, "explanation": "Errado: durações incorretas." }
+    ],
+    "reference": "Puerpério Normal — Estágios"
+  },
+  {
+    "id": "q-obs-puerp-002",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a INVOLUÇÃO UTERINA no puerpério:",
+    "options": [
+      { "id": "a", "text": "O útero pesa ~1 kg ao nascimento e regride ~1 cm/dia, voltando a ser órgão pélvico (não palpável acima da sínfise púbica) em torno do 10º dia; ao fim do puerpério pesa ~300 g", "isCorrect": true, "explanation": "Correto: imediatamente após o parto o útero pesa ~1 kg. A involução é de ~1 cm/dia, e em ~10 dias volta a ser órgão pélvico (não mais palpável acima da sínfise). Ao final do puerpério pesa ~300 g. Se persistir grande/palpável após 10 dias = SUBINVOLUÇÃO (suspeitar de retenção placentária ou endometrite)." },
+      { "id": "b", "text": "O útero ganha ~1 cm/dia (cresce) durante o puerpério", "isCorrect": false, "explanation": "Errado: o útero REGREDE 1 cm/dia." },
+      { "id": "c", "text": "A involução completa ocorre em 24 horas após o parto", "isCorrect": false, "explanation": "Errado: leva 5-6 semanas para retorno completo." },
+      { "id": "d", "text": "Útero permanece em formato gravídico permanentemente após o parto", "isCorrect": false, "explanation": "Errado: regride ao tamanho pré-gestacional, embora não exatamente igual." }
+    ],
+    "reference": "Puerpério Normal — Involução uterina"
+  },
+  {
+    "id": "q-obs-puerp-003",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Sobre os LÓQUIOS, é CORRETO afirmar:",
+    "options": [
+      { "id": "a", "text": "São corrimentos infecciosos que devem ser sempre tratados com antibiótico", "isCorrect": false, "explanation": "Errado: NÃO são corrimento nem infecção — não precisam tratamento." },
+      { "id": "b", "text": "São drenagem fisiológica uterina puerperal (exsudato, transudato, sangue), começam sanguinolentos, depois aguados, amarelados (~10 dias) e finalmente esbranquiçados — não precisam tratamento", "isCorrect": true, "explanation": "Correto: lóquios = drenagem uterina puerperal fisiológica. Evolução: lóquia rubra (sanguinolenta, primeiros dias) → fusca (aguada, do 3º ao 10º dia) → flava (amarelo gema, ~10 dias) → alba (branca, sem odor, no puerpério tardio). NÃO é menstruação nem infecção. Lóquios FÉTIDOS ou PURULENTOS são alarme de endometrite." },
+      { "id": "c", "text": "Lóquios fétidos e purulentos são esperados como evolução normal", "isCorrect": false, "explanation": "Errado: lóquios fétidos sugerem ENDOMETRITE." },
+      { "id": "d", "text": "São equivalentes a uma menstruação prolongada", "isCorrect": false, "explanation": "Errado: não são menstruação." }
+    ],
+    "reference": "Puerpério Normal — Lóquios"
+  },
+  {
+    "id": "q-obs-puerp-004",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A LACTAÇÃO inicia-se no puerpério porque:",
+    "options": [
+      { "id": "a", "text": "Há aumento de estrogênio e progesterona após o parto", "isCorrect": false, "explanation": "Errado: o oposto — há QUEDA brusca de estrogênio e progesterona após a dequitação." },
+      { "id": "b", "text": "A queda abrupta de estrogênio e progesterona após a dequitação libera a ação da prolactina (que estava inibida), iniciando a produção de leite (~72 h pós-parto)", "isCorrect": true, "explanation": "Correto: durante a gestação, estrogênio e progesterona placentários inibem a ação da prolactina sobre os ácinos. Com a dequitação, há queda abrupta desses hormônios, liberando a prolactina e iniciando a lactogênese (~72 h pós-parto). Sucção mamilar mantém prolactina alta e libera ocitocina (ejeção láctea + contração uterina, ajudando na involução)." },
+      { "id": "c", "text": "A produção de leite depende exclusivamente da ocitocina", "isCorrect": false, "explanation": "Errado: ocitocina causa EJEÇÃO; a produção depende da PROLACTINA." },
+      { "id": "d", "text": "A lactação inicia-se imediatamente no momento do parto, em todas as mulheres", "isCorrect": false, "explanation": "Errado: o leite maduro só começa em ~72 h; antes há colostro." }
+    ],
+    "reference": "Puerpério Normal — Lactação"
+  },
+  {
+    "id": "q-obs-puerp-005",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quais são os '4 Ts' das causas de HEMORRAGIA PÓS-PARTO?",
+    "options": [
+      { "id": "a", "text": "Tônus (atonia uterina), Trauma (lacerações), Tecido (retenção placentária), Trombina (coagulopatias)", "isCorrect": true, "explanation": "Correto: os 4Ts são Tônus (atonia uterina — causa MAIS COMUM, responde a massagem e ocitócitos), Trauma (lacerações de trajeto — colo, vagina, períneo, ruptura uterina), Tecido (retenção placentária ou de fragmentos — pode necessitar curetagem) e Trombina (coagulopatias — hemoterapia)." },
+      { "id": "b", "text": "Tônus, Tireoide, Tecido, Trombo", "isCorrect": false, "explanation": "Errado: tireoide e trombo não são os Ts da HPP." },
+      { "id": "c", "text": "Trauma, Trombo, Tireoide, Tecido", "isCorrect": false, "explanation": "Errado." },
+      { "id": "d", "text": "Tempo, Trabalho, Tração, Trombo", "isCorrect": false, "explanation": "Errado." }
+    ],
+    "reference": "Puerpério Normal — Hemorragia puerperal"
+  },
+  {
+    "id": "q-obs-puerp-006",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quando há suspeita de hemorragia puerperal por ATONIA uterina, a 1ª medida é:",
+    "options": [
+      { "id": "a", "text": "Histerectomia de urgência", "isCorrect": false, "explanation": "Errado: histerectomia é último recurso, após falha de medidas conservadoras." },
+      { "id": "b", "text": "Massagem uterina + uterotônicos (ocitocina) — Manobra de Hamilton se persistir (compressão bimanual com punho intravaginal e mão sobre o fundo uterino)", "isCorrect": true, "explanation": "Correto: 1ª medida é massagem uterina + ocitocina IV. Se a atonia persiste, faz-se a MANOBRA DE HAMILTON — uma mão sobre o abdome (no fundo uterino) e a outra em punho fechado pelo canal vaginal, comprimindo o útero entre as duas. Após, escala-se para outros uterotônicos (metilergometrina, misoprostol), tamponamento e cirurgia se refratário." },
+      { "id": "c", "text": "Aguardar 2 h para ver evolução do sangramento", "isCorrect": false, "explanation": "Errado: HPP é EMERGÊNCIA — não se espera." },
+      { "id": "d", "text": "Curetagem uterina imediata", "isCorrect": false, "explanation": "Errado: curetagem só é indicada quando há retenção de restos placentários (causa Tecido), não para atonia." }
+    ],
+    "reference": "Puerpério Normal — Atonia uterina"
+  },
+  {
+    "id": "q-obs-puerp-007",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre CONTRACEPÇÃO no puerpério em mulher que está amamentando:",
+    "options": [
+      { "id": "a", "text": "Estrogênio é seguro e recomendado, pois aumenta a produção de leite", "isCorrect": false, "explanation": "Errado: estrogênio REDUZ a produção de leite — é contraindicado em lactantes." },
+      { "id": "b", "text": "Devem-se evitar métodos contendo estrogênio (reduz produção láctea); progesterona pode ser iniciada após 6 semanas. Opções: DIU, implante, pílula de progesterona, injetável trimestral, condom", "isCorrect": true, "explanation": "Correto: o estrogênio diminui a produção de leite, então em lactantes preferem-se métodos só de progesterona (após 6 semanas), DIU (cobre ou hormonal), implante subdérmico, injetável trimestral ou condom. A amamentação reduz mas NÃO impede a gravidez (a ovulação ocorre antes da 1ª menstruação)." },
+      { "id": "c", "text": "A amamentação exclusiva impede 100% da gravidez", "isCorrect": false, "explanation": "Errado: reduz, mas não exclui — a ovulação pode ocorrer antes da 1ª menstruação." },
+      { "id": "d", "text": "Proibida qualquer contracepção até o 6º mês pós-parto", "isCorrect": false, "explanation": "Errado: deve ser orientada já no puerpério, sob risco de nova gravidez precoce." }
+    ],
+    "reference": "Puerpério Normal — Contracepção"
+  },
+  {
+    "id": "q-obs-puerp-008",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "É CORRETO afirmar sobre a SÍNDROME BLUE puerperal:",
+    "options": [
+      { "id": "a", "text": "É equivalente à depressão pós-parto e exige uso de antidepressivos", "isCorrect": false, "explanation": "Errado: blue é TRANSITÓRIA, não exige medicação na maioria dos casos." },
+      { "id": "b", "text": "É uma depressão pós-parto TRANSITÓRIA causada pela queda hormonal abrupta, dura até 2 semanas e geralmente melhora apenas com apoio familiar/conversa; se persistir além disso, considerar depressão pós-parto", "isCorrect": true, "explanation": "Correto: a síndrome BLUE (baby blues) é transitória, dura até 2 semanas, secundária à queda abrupta dos hormônios. Crises de choro e instabilidade emocional. Resolve com apoio. Quando persiste após 15 dias = DEPRESSÃO PÓS-PARTO (mãe se sente incapaz de cuidar do filho). Diferente ainda da PSICOSE PUERPERAL — alucinações, perda de vínculo com o bebê, exige afastar mãe-filho imediatamente; bipolares têm 50% mais chance." },
+      { "id": "c", "text": "Surge apenas após 6 meses do parto", "isCorrect": false, "explanation": "Errado: surge na 1ª-2ª semana." },
+      { "id": "d", "text": "Sempre evolui para psicose puerperal", "isCorrect": false, "explanation": "Errado: a maioria resolve espontaneamente." }
+    ],
+    "reference": "Puerpério Normal — Alterações psíquicas"
+  },
+  {
+    "id": "q-obs-puerp-009",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A TROMBOSE VENOSA PROFUNDA no puerpério:",
+    "options": [
+      { "id": "a", "text": "É a principal causa de morte materna OBSTÉTRICA direta", "isCorrect": false, "explanation": "Errado: a hemorragia puerperal é a principal causa direta. TVP/TEP é a principal causa de morte materna NÃO obstétrica." },
+      { "id": "b", "text": "É a principal causa de morte materna NÃO obstétrica; a gestação aumenta em ~5x o risco de TEP/TVP (tríade de Virchow: estase + hipercoagulabilidade + lesão endotelial); deambulação precoce é fundamental para prevenção", "isCorrect": true, "explanation": "Correto: TVP/TEP é a principal causa de morte materna NÃO obstétrica. A gestação aumenta o risco em ~5×, pelos 3 fatores da tríade de Virchow: ESTASE (compressão pélvica, repouso), HIPERCOAGULABILIDADE (aumento de fator VIII, plaquetas, fibrinogênio para reduzir HPP) e LESÃO ENDOTELIAL (manipulação cirúrgica). Sinal de Homan: dor à dorsiflexão do pé. Deambulação precoce é a principal medida preventiva." },
+      { "id": "c", "text": "Não tem relação com a gestação", "isCorrect": false, "explanation": "Errado: gestação aumenta o risco em ~5x." },
+      { "id": "d", "text": "Sempre é sintomática (dor e edema unilateral)", "isCorrect": false, "explanation": "Errado: a maioria é ASSINTOMÁTICA." }
+    ],
+    "reference": "Puerpério Normal — Trombose venosa profunda"
+  }
+]

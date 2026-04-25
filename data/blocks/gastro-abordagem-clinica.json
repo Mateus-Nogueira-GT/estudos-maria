@@ -1,0 +1,146 @@
+[
+  {
+    "id": "q-gastro-abord-001",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A estruturação da anamnese gastrointestinal em três segmentos tem qual finalidade principal?",
+    "options": [
+      { "id": "a", "text": "Preencher formulários obrigatórios do SUS", "isCorrect": false, "explanation": "Burocracia não é a razão; a segmentação tem função clínica." },
+      { "id": "b", "text": "Direcionar o raciocínio clínico e não se perder nos sintomas que o paciente descreve do seu jeito", "isCorrect": true, "explanation": "Correto: a segmentação (esôfago / gastroduodenal / intestinal) organiza as queixas, permite formar linhas de raciocínio e evita que o médico siga a narrativa confusa do paciente sem direcionamento." },
+      { "id": "c", "text": "Calcular um score de gravidade", "isCorrect": false, "explanation": "Segmentos não geram score — são uma ferramenta organizadora da anamnese." },
+      { "id": "d", "text": "Substituir o exame físico", "isCorrect": false, "explanation": "A anamnese nunca substitui o exame físico; são complementares." }
+    ],
+    "reference": "Queixas GI 2 — seguimentação"
+  },
+  {
+    "id": "q-gastro-abord-002",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quais são os 3 segmentos do tubo digestivo usados para estruturar a anamnese?",
+    "options": [
+      { "id": "a", "text": "Oral, gástrico, hepático", "isCorrect": false, "explanation": "A cavidade oral não costuma ser um segmento isolado na anamnese de queixas do TGI; e hepático entra no segmento 2 (gastroduodenal)." },
+      { "id": "b", "text": "Esôfago / gastroduodenal (inclui fígado e vesícula) / intestinal", "isCorrect": true, "explanation": "Correto: segmento 1 esôfago; segmento 2 estômago, duodeno, fígado e vesícula; segmento 3 intestinos." },
+      { "id": "c", "text": "Faringe, estômago, cólon", "isCorrect": false, "explanation": "Faltam duodeno/delgado e o anexo hepatobiliar (segmento 2)." },
+      { "id": "d", "text": "Superior, médio e inferior, sem detalhamento anatômico", "isCorrect": false, "explanation": "A divisão clínica nomeia explicitamente as estruturas de cada segmento." }
+    ],
+    "reference": "Queixas GI 2 — pág. 1"
+  },
+  {
+    "id": "q-gastro-abord-003",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual dos seguintes NÃO é considerado sinal de alarme em queixas gastrointestinais?",
+    "options": [
+      { "id": "a", "text": "Perda de peso involuntária", "isCorrect": false, "explanation": "É sinal de alarme clássico — deve ser quantificada." },
+      { "id": "b", "text": "Melena ou hematêmese", "isCorrect": false, "explanation": "Sangramento é um dos principais sinais de alarme." },
+      { "id": "c", "text": "Azia ocasional após refeições gordurosas", "isCorrect": true, "explanation": "Correto: azia ocasional pós-refeição é evento fisiológico/funcional frequente e NÃO configura sinal de alarme." },
+      { "id": "d", "text": "Icterícia", "isCorrect": false, "explanation": "Icterícia é sinal de alarme — até se provar o contrário, a árvore biliar está machucada." }
+    ],
+    "reference": "Queixas GI 2 — Sinais de alarme"
+  },
+  {
+    "id": "q-gastro-abord-004",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Paciente relata fezes negras, com aspecto de piche e odor muito forte. Como classificamos esse achado?",
+    "options": [
+      { "id": "a", "text": "Hematoquezia", "isCorrect": false, "explanation": "Hematoquezia é sangue VERMELHO VIVO nas fezes, geralmente de origem baixa (colônica/retal)." },
+      { "id": "b", "text": "Melena — sangue digerido, sugerindo sangramento alto (acima do ligamento de Treitz)", "isCorrect": true, "explanation": "Correto: cor 'piche' e odor fétido caracterizam melena — sangue digerido pela ação do HCl. Sugere sangramento do TGI alto (esôfago, estômago ou duodeno)." },
+      { "id": "c", "text": "Enterorragia", "isCorrect": false, "explanation": "Enterorragia é sangramento vivo/volumoso pelo ânus, também de origem baixa." },
+      { "id": "d", "text": "Esteatorreia", "isCorrect": false, "explanation": "Esteatorreia é gordura nas fezes (fezes claras, volumosas, brilhantes), não relacionada a sangue digerido." }
+    ],
+    "reference": "Queixas GI 2 — Sinais de alarme"
+  },
+  {
+    "id": "q-gastro-abord-005",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual sintoma extraesofágico tem MAIOR hierarquia de associação com DRGE?",
+    "options": [
+      { "id": "a", "text": "Dor torácica não cardíaca", "isCorrect": true, "explanation": "Correto: dor (torácica não cardíaca) tem a maior hierarquia de correlação com DRGE entre as manifestações extras. Tosse tem correlação média; halitose, rouquidão, pigarro, afta e garganta vermelha têm baixa correlação." },
+      { "id": "b", "text": "Halitose", "isCorrect": false, "explanation": "Halitose é de BAIXA hierarquia — muitos outros diagnósticos explicam halitose." },
+      { "id": "c", "text": "Garganta vermelha", "isCorrect": false, "explanation": "Baixa hierarquia — muitos diagnósticos competem (IVAS, alergia, irritantes)." },
+      { "id": "d", "text": "Pigarro", "isCorrect": false, "explanation": "Baixa hierarquia — não específico para DRGE." }
+    ],
+    "reference": "Gastroenterologia 2 — hierarquia de sintomas"
+  },
+  {
+    "id": "q-gastro-abord-006",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Paciente com dispepsia sem sinais de alarme, 32 anos, sem história familiar de câncer GI. A conduta inicial mais razoável é:",
+    "options": [
+      { "id": "a", "text": "Endoscopia digestiva alta imediata para todos", "isCorrect": false, "explanation": "Em paciente jovem, sem alarmes, sem história familiar e sem falha terapêutica, a endoscopia não precisa ser a primeira intervenção." },
+      { "id": "b", "text": "Propor intervenções comportamentais e/ou teste terapêutico; reservar endoscopia para sinais de alarme, falha no tratamento ou > 50 anos", "isCorrect": true, "explanation": "Correto: a estratégia clínica é tentar tratar/modificar hábitos; endoscopia é indicada quando há alarmes, falha terapêutica, história familiar de risco ou idade > 50 anos." },
+      { "id": "c", "text": "Colonoscopia com biópsias aleatórias", "isCorrect": false, "explanation": "Colonoscopia não é exame inicial para queixas do segmento superior." },
+      { "id": "d", "text": "TC de abdome com contraste", "isCorrect": false, "explanation": "TC não é o exame inicial para dispepsia sem alarmes — expõe a radiação sem agregar no raciocínio." }
+    ],
+    "reference": "Queixas GI 2; Gastroenterologia 2"
+  },
+  {
+    "id": "q-gastro-abord-007",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a relação entre intensidade de sintomas e achados em exames complementares em gastroenterologia:",
+    "options": [
+      { "id": "a", "text": "A intensidade da queixa correlaciona-se diretamente com a gravidade dos achados endoscópicos", "isCorrect": false, "explanation": "NÃO há correlação direta: paciente com muitos sintomas pode ter endoscopia normal e vice-versa." },
+      { "id": "b", "text": "Paciente sem queixa nunca terá achados patológicos relevantes", "isCorrect": false, "explanation": "Falso: pacientes assintomáticos podem ter achados (ex.: úlcera silenciosa por AINE, Barrett curto, H. pylori)." },
+      { "id": "c", "text": "A intensidade da queixa NÃO se relaciona com os achados; o achado de alteração também não garante que ela seja a responsável pela queixa", "isCorrect": true, "explanation": "Correto: é um princípio central da gastro clínica — queixa e achado podem ser dissociados, e um achado não implica necessariamente causalidade com o sintoma." },
+      { "id": "d", "text": "Sempre que há queixa, há um achado anatômico que a justifica", "isCorrect": false, "explanation": "Pelo contrário — ~90% das queixas são funcionais (sem achado estrutural que as justifique)." }
+    ],
+    "reference": "Queixas GI 2 — Princípios"
+  },
+  {
+    "id": "q-gastro-abord-008",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Por que é importante perguntar sobre uso de AINEs e antibióticos recentes em paciente com queixa dispéptica?",
+    "options": [
+      { "id": "a", "text": "AINEs podem causar úlcera/lesão péptica (mesmo dose única) e antibióticos alteram microbiota e a investigação de H. pylori", "isCorrect": true, "explanation": "Correto: AINEs são causa frequente de dispepsia e úlcera (podem sangrar mesmo sem dor por efeito analgésico); ATBs podem 'atordoar' o H. pylori e dar falso-negativo em pesquisa." },
+      { "id": "b", "text": "Apenas por curiosidade — não têm impacto clínico", "isCorrect": false, "explanation": "Tem impacto enorme: podem ser a causa do problema OU interferir no exame." },
+      { "id": "c", "text": "Porque AINE sempre exige internação hospitalar", "isCorrect": false, "explanation": "Incorreto — a maioria das dispepsias por AINE resolve com retirada do medicamento e bloqueio ácido." },
+      { "id": "d", "text": "Para acionar farmacovigilância obrigatória", "isCorrect": false, "explanation": "Farmacovigilância não é a razão clínica principal." }
+    ],
+    "reference": "Queixas GI 2; Gastroenterologia 2"
+  },
+  {
+    "id": "q-gastro-abord-009",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva os 4 principais critérios que indicam endoscopia digestiva alta em paciente com queixa dispéptica ou de refluxo.",
+    "modelAnswer": "Indica-se endoscopia digestiva alta (EDA) quando há pelo menos um dos seguintes critérios: (1) idade > 50 anos — maior risco de neoplasia e achados estruturais; (2) sinais de alarme (sangramento — hematêmese, melena —, perda de peso involuntária, disfagia, vômitos persistentes, icterícia); (3) história familiar de risco (câncer do TGI, doença celíaca, doença inflamatória intestinal); e (4) falha terapêutica após tentativa de tratamento adequado (ex.: IBP por 4-8 semanas sem melhora). Esses critérios aumentam a probabilidade pré-teste de haver achado relevante na EDA; na ausência deles, a estratégia clínica (modificação de hábitos + teste terapêutico) costuma ser suficiente.",
+    "keyPoints": [
+      "Idade > 50 anos",
+      "Sinais de alarme (sangue, perda de peso, disfagia, icterícia, vômitos persistentes)",
+      "História familiar de risco (câncer GI, celíaca, DII)",
+      "Falha terapêutica após tratamento adequado"
+    ],
+    "reference": "Queixas GI 2; Gastroenterologia 2"
+  },
+  {
+    "id": "q-gastro-abord-010",
+    "topicId": "gastro-abordagem-clinica",
+    "type": "open",
+    "difficulty": "easy",
+    "prompt": "Caso clínico: Homem, 45 anos, vem à consulta por 'azia'. Queimação retroesternal ascendente há 6 meses, 3x/semana, piora ao deitar. Sem perda de peso, sem disfagia, sem sangramento, sem icterícia. Nega uso de AINE. IMC 29, tabagista 20 maços/ano. Como você estrutura a anamnese para este caso? Qual sua conduta inicial?",
+    "modelAnswer": "Estruturação da anamnese: (1) Segmento 1 (esôfago) — confirmar característica da azia (queimação retroesternal ascendente), regurgitação, disfagia, pigarro, tosse seca. (2) Segmento 2 (gastroduodenal) — epigastralgia, náuseas, saciedade precoce, vômitos. (3) Segmento 3 (intestinal) — hábito intestinal, dor abdominal baixa. (4) Sinais de alarme — sangramento, perda de peso, icterícia, disfagia progressiva. (5) Antecedentes — uso de AINE/AAS, outros medicamentos; hábitos (tabagismo!, álcool, IMC); história familiar. (6) Exame físico básico — PA, peso/IMC, inspeção geral.\n\nNeste caso, diagnóstico clínico provável de DRGE. Conduta inicial: (a) medidas comportamentais — perda de peso, cessação do tabagismo, elevar cabeceira, evitar deitar até 2h pós-refeição, reduzir gatilhos alimentares (gordura, álcool, cafeína, cítricos, pimenta); (b) teste terapêutico com IBP por 4-8 semanas; (c) reavaliar. Não há necessidade de endoscopia inicial: não tem alarmes, tem < 50 anos e ainda não foi tratado. Se falhar → endoscopia.",
+    "keyPoints": [
+      "Anamnese em 3 segmentos (esôfago, gastroduodenal, intestinal)",
+      "Checar sinais de alarme (ausentes aqui)",
+      "Avaliar hábitos e medicações",
+      "Diagnóstico clínico de DRGE (sintomas de alto ranking, recorrentes)",
+      "Medidas comportamentais + teste terapêutico com IBP 4-8 semanas",
+      "Reservar endoscopia para falha terapêutica"
+    ],
+    "reference": "Queixas GI 2; Gastroenterologia 2; Acidez Gástrica 2"
+  }
+]

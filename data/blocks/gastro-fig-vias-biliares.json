@@ -1,0 +1,178 @@
+[
+  {
+    "id": "q-gastro-fvb-001",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quais enzimas são consideradas MARCADORES DE COLESTASE (alteração no fluxo biliar)?",
+    "options": [
+      { "id": "a", "text": "TGO (AST) e TGP (ALT)", "isCorrect": false, "explanation": "TGO e TGP são marcadores hepatocelulares (de dano ao hepatócito), não canaliculares." },
+      { "id": "b", "text": "Fosfatase alcalina (FA) e gama-glutamil-transferase (GGT)", "isCorrect": true, "explanation": "Correto: FA e GGT são enzimas canaliculares/ductais, marcadores de COLESTASE. Sua elevação conjunta aponta para problema na drenagem biliar (pedra, estenose, colangite, tumor)." },
+      { "id": "c", "text": "Amilase e lipase", "isCorrect": false, "explanation": "São enzimas pancreáticas, não hepáticas." },
+      { "id": "d", "text": "Albumina e TAP (INR)", "isCorrect": false, "explanation": "Albumina e TAP são provas SINTÉTICAS do fígado (função, não colestase)." }
+    ],
+    "reference": "Síndromes Colestáticas 2"
+  },
+  {
+    "id": "q-gastro-fvb-002",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual é o exame de imagem de PRIMEIRA ESCOLHA para investigar cálculos em vesícula biliar?",
+    "options": [
+      { "id": "a", "text": "Tomografia computadorizada de abdome", "isCorrect": false, "explanation": "TC não é a primeira escolha para litíase biliar (muitos cálculos são colesterolíticos, não visíveis). É melhor para pancreatite." },
+      { "id": "b", "text": "Ultrassonografia (ecografia) de abdome superior", "isCorrect": true, "explanation": "Correto: US é o exame de primeira escolha — alta sensibilidade para cálculos em vesícula, sem radiação, disponível, barato." },
+      { "id": "c", "text": "Colangiorressonância", "isCorrect": false, "explanation": "Colangio-RM é muito boa para vias biliares, mas só depois da US — reservada quando US é inconclusiva ou para via biliar intra-hepática." },
+      { "id": "d", "text": "Endoscopia digestiva alta", "isCorrect": false, "explanation": "EDA não enxerga a vesícula." }
+    ],
+    "reference": "Síndromes Colestáticas 2 — Investigação"
+  },
+  {
+    "id": "q-gastro-fvb-003",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual a ordem CRESCENTE de exames para investigação da via biliar (do menos invasivo ao mais invasivo)?",
+    "options": [
+      { "id": "a", "text": "CPRE → TC → US", "isCorrect": false, "explanation": "Ordem errada; CPRE é o MAIS invasivo (invasivo com risco de pancreatite iatrogênica)." },
+      { "id": "b", "text": "Ecografia (US) → colangiorressonância → ecoendoscopia → CPRE", "isCorrect": true, "explanation": "Correto: começa pela US (não invasiva, barata, primeira linha), depois colangio-RM (detalha via biliar sem contraste EV invasivo), depois ecoendoscopia (maior sensibilidade para microcálculos), e por último CPRE (invasiva, ideal para tratamento — remoção de cálculos)." },
+      { "id": "c", "text": "Ecoendoscopia → US → TC → CPRE", "isCorrect": false, "explanation": "Ordem errada — US é sempre o primeiro." },
+      { "id": "d", "text": "RM → US → CPRE → TC", "isCorrect": false, "explanation": "RM de abdome não é primeiro passo; US é mais acessível e rápida." }
+    ],
+    "reference": "Síndromes Colestáticas 2 — pág. 3"
+  },
+  {
+    "id": "q-gastro-fvb-004",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual é a característica da DOR BILIAR (cólica biliar)?",
+    "options": [
+      { "id": "a", "text": "Dor em queimação retroesternal que melhora com IBP", "isCorrect": false, "explanation": "Essa é a descrição de azia/DRGE, não de dor biliar." },
+      { "id": "b", "text": "Dor contínua em andar superior do abdome, frequentemente após refeições gordurosas, podendo irradiar para região dorsal direita / ombro; associada a náusea/vômito", "isCorrect": true, "explanation": "Correto: a cólica biliar é tipicamente pós-prandial (quando a vesícula contrai), contínua (diferente da cólica intestinal que vai e volta), no andar superior, com irradiação para dorso/ombro e náusea/vômito." },
+      { "id": "c", "text": "Dor em cólica com diarreia explosiva", "isCorrect": false, "explanation": "Padrão intestinal, não biliar." },
+      { "id": "d", "text": "Dor suprapúbica em mulher jovem", "isCorrect": false, "explanation": "Compatível com dor urinária/ginecológica, não biliar." }
+    ],
+    "reference": "Síndromes Colestáticas 2 — Diagnóstico"
+  },
+  {
+    "id": "q-gastro-fvb-005",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Paciente com dor em epigástrio e icterícia. Fosfatase alcalina aumentada 3x LSN, GGT elevada, bilirrubina direta aumentada. Qual o raciocínio?",
+    "options": [
+      { "id": "a", "text": "Hepatite viral aguda", "isCorrect": false, "explanation": "Hepatite aguda cursa tipicamente com AUMENTO MARCANTE de TGO/TGP (padrão hepatocelular), com FA/GGT menos elevadas." },
+      { "id": "b", "text": "Síndrome colestática — suspeita alta de obstrução da via biliar (cálculo, tumor, estenose); investigar com US, colangio-RM", "isCorrect": true, "explanation": "Correto: padrão colestático com dor + icterícia sugere obstrução. Causa clássica: coledocolitíase. Imagem orienta o tratamento." },
+      { "id": "c", "text": "Pancreatite aguda isolada sem comprometimento biliar", "isCorrect": false, "explanation": "Pancreatite sem colestase não costuma elevar FA/GGT desproporcionalmente; o padrão aqui é colestático." },
+      { "id": "d", "text": "Doença ulcerosa péptica", "isCorrect": false, "explanation": "Úlcera não gera icterícia nem colestase." }
+    ],
+    "reference": "Síndromes Colestáticas 2"
+  },
+  {
+    "id": "q-gastro-fvb-006",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A TRÍADE DE CHARCOT caracteriza qual condição?",
+    "options": [
+      { "id": "a", "text": "Pancreatite aguda grave", "isCorrect": false, "explanation": "Pancreatite tem outros marcadores (sinais de Cullen, Grey-Turner, SIRS)." },
+      { "id": "b", "text": "Colangite (infecção da via biliar) — dor em QSD/andar superior + febre + icterícia", "isCorrect": true, "explanation": "Correto: a tríade de Charcot é clássica da colangite ascendente. Quando se acrescentam confusão mental e choque, forma-se a pêntade de Reynolds (colangite grave)." },
+      { "id": "c", "text": "Doença do refluxo gastroesofágico", "isCorrect": false, "explanation": "DRGE não cursa com febre nem icterícia." },
+      { "id": "d", "text": "Síndrome do intestino irritável", "isCorrect": false, "explanation": "SII é funcional, sem febre/icterícia." }
+    ],
+    "reference": "Síndromes Colestáticas 2 — Colangite"
+  },
+  {
+    "id": "q-gastro-fvb-007",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O sinal de MURPHY positivo na palpação abdominal sugere:",
+    "options": [
+      { "id": "a", "text": "Apendicite", "isCorrect": false, "explanation": "Apendicite tem outros sinais (Blumberg, Rovsing)." },
+      { "id": "b", "text": "Colecistite aguda (inflamação da vesícula) — parada súbita da inspiração à palpação do ponto cístico", "isCorrect": true, "explanation": "Correto: paciente 'trava' a respiração ao palpar-se profundamente o hipocôndrio direito durante inspiração, pela dor de contato com a vesícula inflamada." },
+      { "id": "c", "text": "Pancreatite", "isCorrect": false, "explanation": "Pancreatite não tem Murphy como marcador típico." },
+      { "id": "d", "text": "Hérnia de hiato", "isCorrect": false, "explanation": "Hérnia de hiato é achado radiológico, sem sinal palpatório específico." }
+    ],
+    "reference": "Síndromes Colestáticas 2 — Exame físico"
+  },
+  {
+    "id": "q-gastro-fvb-008",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a colelitíase (pedras na vesícula), é correto afirmar:",
+    "options": [
+      { "id": "a", "text": "Toda colelitíase exige cirurgia imediata", "isCorrect": false, "explanation": "A maioria das colelitíases é ASSINTOMÁTICA e em muitos casos a conduta é apenas observação — cirurgia é indicada para sintomáticos ou em grupos específicos de risco." },
+      { "id": "b", "text": "A maioria das colelitíases é assintomática; a indicação clássica de colecistectomia é a colelitíase sintomática (cólica biliar, complicações)", "isCorrect": true, "explanation": "Correto: a maior parte dos pacientes com cálculos nunca apresenta sintomas. Cólica biliar, colecistite, coledocolitíase, pancreatite biliar e colangite são indicações de tratamento." },
+      { "id": "c", "text": "Exames laboratoriais sempre são alterados em colelitíase", "isCorrect": false, "explanation": "Em colelitíase NÃO complicada os exames podem estar totalmente normais." },
+      { "id": "d", "text": "Colelitíase NÃO aumenta o risco de pancreatite", "isCorrect": false, "explanation": "Falso: a litíase biliar é a PRINCIPAL causa de pancreatite aguda." }
+    ],
+    "reference": "Síndromes Colestáticas 2"
+  },
+  {
+    "id": "q-gastro-fvb-009",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Paciente com colelitíase desenvolve dor súbita, náusea, icterícia leve e aumento isolado das enzimas canaliculares. O diagnóstico mais provável é:",
+    "options": [
+      { "id": "a", "text": "Hepatite viral aguda", "isCorrect": false, "explanation": "Hepatite viral eleva principalmente TGO/TGP; o padrão aqui é canalicular." },
+      { "id": "b", "text": "Coledocolitíase — cálculo no ducto colédoco obstruindo o fluxo biliar", "isCorrect": true, "explanation": "Correto: cálculo migrado da vesícula para o colédoco causa obstrução, icterícia e padrão colestático. Investigar com US → colangio-RM; tratamento clássico é CPRE para retirada do cálculo + posterior colecistectomia." },
+      { "id": "c", "text": "Pancreatite crônica reagudizada", "isCorrect": false, "explanation": "Pancreatite crônica não costuma cursar com colestase isolada." },
+      { "id": "d", "text": "Úlcera duodenal perfurada", "isCorrect": false, "explanation": "Úlcera perfurada cursa com abdome agudo peritonítico, não com icterícia colestática." }
+    ],
+    "reference": "Síndromes Colestáticas 2"
+  },
+  {
+    "id": "q-gastro-fvb-010",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Dilatação da árvore biliar na imagem sugere:",
+    "options": [
+      { "id": "a", "text": "Doença funcional sem implicação clínica", "isCorrect": false, "explanation": "Dilatação biliar é um achado anatômico que aponta para obstrução — não funcional." },
+      { "id": "b", "text": "Obstrução da drenagem biliar em algum ponto da via (procurar cálculo, estenose ou tumor)", "isCorrect": true, "explanation": "Correto: dilatação = obstrução → o tamanho e nível da dilatação ajudam a topografar a lesão. Exige investigação com colangio-RM e/ou ecoendoscopia." },
+      { "id": "c", "text": "Má absorção intestinal", "isCorrect": false, "explanation": "Má absorção não causa dilatação biliar." },
+      { "id": "d", "text": "Cirrose sempre", "isCorrect": false, "explanation": "Cirrose pode gerar alterações, mas dilatação biliar é primariamente obstrutiva." }
+    ],
+    "reference": "Síndromes Colestáticas 2"
+  },
+  {
+    "id": "q-gastro-fvb-011",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Caso clínico: Mulher de 62 anos, 80 kg, IMC 33, chega ao pronto-atendimento com dor abdominal forte em andar superior há 2 horas, sem irradiação, contínua, associada a vômitos (4x) e náusea. Última refeição foi almoço. Sem febre, sem icterícia, sem sangramento. Exame: PA 145/90, FC 100, abdome globoso, palpação superficial dolorosa, Murphy negativo. Labs: Fosfatase alcalina e TGP aumentadas; amilase/lipase normais. US: cálculo em vesícula. Qual seu diagnóstico e conduta imediata?",
+    "modelAnswer": "Diagnóstico: COLELITÍASE SINTOMÁTICA com possível componente de colecistite inicial/cólica biliar, com padrão misto hepatocelular (↑ TGP) e canalicular (↑ FA) — sugere algum grau de obstrução biliar transitória ou irritação inflamatória; amilase/lipase normais afastam pancreatite biliar associada. Murphy negativo torna colecistite aguda menos provável neste momento.\n\nConduta imediata: (1) analgesia e antieméticos; (2) jejum; (3) hidratação venosa; (4) repetir exames em 6-12h (provas hepáticas, amilase/lipase, hemograma, PCR) para acompanhar evolução; (5) solicitar colangio-RM se persistir suspeita de coledocolitíase (FA/TGP em ascensão, icterícia); (6) avaliação cirúrgica para colecistectomia eletiva precoce (durante internação ou em curto prazo); (7) orientações sobre dieta pobre em gordura no período pré-operatório. Se surgir febre, leucocitose ou icterícia importante → reavaliar para colecistite ou colangite (ATB e CPRE conforme o caso).",
+    "keyPoints": [
+      "Diagnóstico: colelitíase sintomática (cólica biliar) com provável componente inflamatório",
+      "Afastar pancreatite biliar (amilase/lipase normais) e colangite (sem febre/icterícia/sepse)",
+      "Suporte: jejum, hidratação EV, analgesia, antieméticos",
+      "Seriamento laboratorial para detectar progressão (coledocolitíase, colecistite, colangite)",
+      "Colangio-RM se suspeita de cálculo em colédoco",
+      "Colecistectomia eletiva precoce após estabilização",
+      "Alerta: febre/icterícia importante → colangite (tríade de Charcot) — emergência com ATB + CPRE"
+    ],
+    "reference": "Síndromes Colestáticas 2"
+  },
+  {
+    "id": "q-gastro-fvb-012",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Cite as principais síndromes biliares que um acadêmico deve saber reconhecer, com o 'conceito em uma linha' de cada uma.",
+    "modelAnswer": "1) COLELITÍASE — presença de cálculos na vesícula, frequentemente assintomática. 2) CÓLICA BILIAR — dor no andar superior, pós-prandial, por contração da vesícula contra cálculo impactado transitoriamente. 3) COLECISTITE AGUDA — inflamação da vesícula por obstrução do ducto cístico, com dor persistente, febre, Murphy positivo; cirurgia geralmente indicada. 4) COLEDOCOLITÍASE — cálculo no ducto colédoco, causa obstrução e icterícia com padrão colestático; trata-se com CPRE + colecistectomia. 5) COLANGITE (AGUDA/ASCENDENTE) — infecção da via biliar obstruída, tríade de Charcot (dor + febre + icterícia), emergência médica (ATB + desobstrução por CPRE). 6) PANCREATITE BILIAR — pancreatite aguda deflagrada por microcálculo que obstrui temporariamente a papila duodenal; causa principal de pancreatite aguda. 7) COLECISTITE CRÔNICA CALCULOSA — inflamação crônica com espessamento da parede vesicular, associada a cálculos persistentes.",
+    "keyPoints": [
+      "Colelitíase: cálculos na vesícula (frequentemente assintomática)",
+      "Cólica biliar: dor pós-prandial transitória por obstrução do ducto cístico",
+      "Colecistite aguda: inflamação + dor persistente + febre + Murphy +",
+      "Coledocolitíase: cálculo no colédoco → icterícia colestática",
+      "Colangite: infecção da via biliar (Charcot: dor + febre + icterícia) — emergência",
+      "Pancreatite biliar: microcálculo obstruindo a papila — principal causa de pancreatite aguda",
+      "Colecistite crônica calculosa: parede vesicular espessada por inflamação persistente"
+    ],
+    "reference": "Síndromes Colestáticas 2"
+  }
+]
