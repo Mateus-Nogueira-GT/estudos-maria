@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ChevronRight, Eye } from "lucide-react";
 import type { OpenQuestion as OpenQuestionType, Result } from "@/lib/schema";
 import { cn } from "@/lib/cn";
+import { DIFFICULTY_BADGE, DIFFICULTY_LABEL } from "@/lib/difficulty";
 
 type Props = {
   question: OpenQuestionType;
@@ -35,8 +36,13 @@ export function OpenQuestion({ question, onNext, questionNumber, totalQuestions 
         <span>
           Questão {questionNumber} de {totalQuestions}
         </span>
-        <span className="rounded-full border border-ink-700 px-2 py-0.5 font-mono uppercase tracking-wide">
-          aberta · {question.difficulty}
+        <span
+          className={cn(
+            "rounded-full border px-2 py-0.5 font-mono uppercase tracking-wide",
+            DIFFICULTY_BADGE[question.difficulty]
+          )}
+        >
+          aberta · {DIFFICULTY_LABEL[question.difficulty]}
         </span>
       </div>
 
