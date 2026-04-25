@@ -22,11 +22,11 @@ export function Flashcard({ card, questionNumber, totalCards }: Props) {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex items-center justify-between text-xs text-ink-400">
-        <span>
+      <div className="flex items-center justify-between text-xs text-ink-300">
+        <span className="font-mono tabular-nums">
           Flashcard {questionNumber} de {totalCards}
           {isCloze && (
-            <span className="ml-2 rounded-full border border-accent/40 bg-accent/10 px-2 py-0.5 text-[10px] font-mono uppercase tracking-wide text-accent">
+            <span className="ml-2 rounded-full border border-pastel-lilac/40 bg-pastel-lilac/10 px-2 py-0.5 text-[10px] font-mono uppercase tracking-wide text-pastel-lilac">
               cloze
             </span>
           )}
@@ -55,19 +55,23 @@ function BasicCard({
   return (
     <button
       onClick={onToggle}
-      className="relative h-64 w-full [perspective:1200px]"
+      className="relative h-72 w-full [perspective:1200px]"
     >
       <div
         className={cn(
-          "absolute inset-0 rounded-xl transition-transform duration-500 [transform-style:preserve-3d]",
+          "absolute inset-0 rounded-3xl transition-transform duration-500 [transform-style:preserve-3d]",
           flipped && "[transform:rotateY(180deg)]"
         )}
       >
-        <div className="absolute inset-0 flex items-center justify-center rounded-xl border border-ink-700 bg-ink-800/60 p-8 text-center [backface-visibility:hidden]">
-          <p className="text-lg font-medium text-ink-100">{card.front}</p>
+        <div className="glass glass-edge absolute inset-0 flex items-center justify-center rounded-3xl p-8 text-center [backface-visibility:hidden]">
+          <p className="font-display text-xl font-medium leading-snug text-ink-100">
+            {card.front}
+          </p>
         </div>
-        <div className="absolute inset-0 flex items-center justify-center overflow-auto rounded-xl border border-accent/40 bg-ink-800 p-8 text-left [backface-visibility:hidden] [transform:rotateY(180deg)]">
-          <p className="text-sm leading-relaxed text-ink-100 whitespace-pre-line">{card.back}</p>
+        <div className="glass-strong glass-edge absolute inset-0 flex items-center justify-center overflow-auto rounded-3xl p-8 text-left [backface-visibility:hidden] [transform:rotateY(180deg)] shadow-[0_0_70px_-12px_rgba(196,181,253,0.45)]">
+          <p className="text-sm leading-relaxed text-ink-100 whitespace-pre-line">
+            {card.back}
+          </p>
         </div>
       </div>
     </button>
@@ -88,8 +92,8 @@ function ClozeCard({
     <button
       onClick={onToggle}
       className={cn(
-        "min-h-64 w-full rounded-xl border bg-ink-800/60 p-8 text-left transition",
-        revealed ? "border-accent/40" : "border-ink-700 hover:border-ink-500"
+        "glass glass-edge min-h-72 w-full rounded-3xl p-8 text-left transition",
+        revealed && "shadow-[0_0_70px_-12px_rgba(196,181,253,0.45)]"
       )}
     >
       <p className="text-base leading-relaxed text-ink-100 whitespace-pre-line">
@@ -99,14 +103,14 @@ function ClozeCard({
           ) : revealed ? (
             <span
               key={i}
-              className="rounded bg-accent/20 px-1.5 py-0.5 font-medium text-accent"
+              className="rounded bg-pastel-lilac/20 px-1.5 py-0.5 font-medium text-pastel-lilac"
             >
               {seg.answer}
             </span>
           ) : (
             <span
               key={i}
-              className="inline-block min-w-[3ch] rounded border border-dashed border-ink-500 bg-ink-700/40 px-2 py-0.5 text-center font-mono text-ink-400"
+              className="inline-block min-w-[3ch] rounded border border-dashed border-white/30 bg-white/[0.04] px-2 py-0.5 text-center font-mono text-ink-300"
               aria-label={seg.hint ? `lacuna: ${seg.hint}` : "lacuna"}
             >
               {seg.hint ? `[${seg.hint}]` : "[…]"}
@@ -115,7 +119,7 @@ function ClozeCard({
         )}
       </p>
       {revealed && card.extra && (
-        <div className="mt-4 border-t border-ink-700 pt-4 text-sm text-ink-300 whitespace-pre-line">
+        <div className="mt-4 border-t border-white/10 pt-4 text-sm text-ink-200 whitespace-pre-line">
           {card.extra}
         </div>
       )}

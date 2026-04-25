@@ -41,7 +41,7 @@ export default function QuizPage() {
     return (
       <main className="mx-auto max-w-3xl px-6 py-12">
         <p className="text-ink-300">Tópico não encontrado.</p>
-        <Link href="/" className="mt-4 inline-block text-accent underline">
+        <Link href="/" className="mt-4 inline-block text-pastel-lilac underline">
           Voltar
         </Link>
       </main>
@@ -54,7 +54,7 @@ export default function QuizPage() {
         <Link href="/" className="mb-6 inline-flex items-center gap-2 text-sm text-ink-300 hover:text-ink-100">
           <ArrowLeft className="h-4 w-4" /> Voltar
         </Link>
-        <h1 className="text-xl font-semibold text-ink-100">{topic.name}</h1>
+        <h1 className="font-display text-2xl font-semibold text-ink-100">{topic.name}</h1>
         <p className="mt-4 text-sm text-ink-300">Sem questões para este tópico ainda.</p>
       </main>
     );
@@ -87,20 +87,24 @@ export default function QuizPage() {
   }
 
   return (
-    <main className="mx-auto max-w-3xl px-6 py-10">
+    <main className="mx-auto max-w-3xl px-6 py-10 sm:py-14">
       <Link
         href="/"
-        className="mb-6 inline-flex items-center gap-2 text-sm text-ink-300 hover:text-ink-100"
+        className="mb-8 inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-ink-200 backdrop-blur-md transition hover:border-white/25 hover:text-ink-100"
       >
         <ArrowLeft className="h-4 w-4" /> Voltar aos tópicos
       </Link>
 
       {!finished && (
         <>
-          <div className="mb-6">
-            <p className="text-xs uppercase tracking-wider text-ink-400">Quiz</p>
-            <h1 className="mt-1 text-lg font-semibold text-ink-100">{topic.name}</h1>
-            <div className="mt-3">
+          <div className="mb-8">
+            <p className="font-mono text-xs uppercase tracking-[0.2em] text-pastel-lilac/80">
+              Quiz
+            </p>
+            <h1 className="mt-2 font-display text-2xl font-semibold tracking-tight text-ink-100 sm:text-3xl">
+              {topic.name}
+            </h1>
+            <div className="mt-4">
               <ProgressBar value={index / order.length} showLabel={false} />
             </div>
           </div>
