@@ -1,0 +1,128 @@
+[
+  {
+    "id": "q-obs-asstp-001",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quais são os 4 PERÍODOS do trabalho de parto?",
+    "options": [
+      { "id": "a", "text": "1º Latente, 2º ativa, 3º expulsão, 4º dequitação", "isCorrect": false, "explanation": "Errado: latente e ativa são FASES do 1º período (dilatação), não períodos." },
+      { "id": "b", "text": "1º Dilatação, 2º expulsão, 3º dequitação, 4º Greenberg/observação (1ª hora pós-parto)", "isCorrect": true, "explanation": "Correto: 1º dilatação (do início das contrações até dilatação de 10 cm; tem fases latente e ativa); 2º expulsão (saída do bebê); 3º dequitação (saída da placenta); 4º Greenberg ou observação (1ª hora pós-parto, fase crítica de hemorragia)." },
+      { "id": "c", "text": "1º Greenberg, 2º dilatação, 3º expulsão, 4º dequitação", "isCorrect": false, "explanation": "Errado: ordem incorreta." },
+      { "id": "d", "text": "1º Insinuação, 2º descida, 3º rotação, 4º expulsão", "isCorrect": false, "explanation": "Errado: esses são movimentos cardinais, não períodos clínicos." }
+    ],
+    "reference": "Assistência ao 1º, 2º e 3º Período"
+  },
+  {
+    "id": "q-obs-asstp-002",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O TRÍPLICE GRADIENTE DESCENDENTE da contração uterina significa que:",
+    "options": [
+      { "id": "a", "text": "A contração começa pelo segmento inferior do útero e sobe até o fundo", "isCorrect": false, "explanation": "Errado: o sentido é DESCENDENTE — começa no FUNDO uterino e propaga-se para baixo." },
+      { "id": "b", "text": "Inicia-se nos marca-passos no FUNDO uterino, propaga-se para baixo (a 2 cm/s, completando em ~15 s) com intensidade, duração e início mais precoces nas porções altas — empurrando o feto para baixo", "isCorrect": true, "explanation": "Correto: tríplice gradiente descendente = (1) propagação descendente, (2) maior intensidade nas porções altas, (3) maior duração nas porções altas. A contração começa nos marca-passos do fundo, propaga a 2 cm/s e completa a onda contrátil em ~15 segundos. Esse padrão organiza a contração para EMPURRAR o feto para fora." },
+      { "id": "c", "text": "As contrações têm a mesma intensidade e duração em todo o útero simultaneamente", "isCorrect": false, "explanation": "Errado: o tríplice gradiente caracteriza-se justamente pela DIFERENÇA de intensidade/duração entre fundo e segmento inferior." },
+      { "id": "d", "text": "A contração propaga-se de modo aleatório, sem padrão coordenado", "isCorrect": false, "explanation": "Errado: o tríplice gradiente é justamente o oposto — padrão organizado e coordenado." }
+    ],
+    "reference": "Assistência — Contração uterina"
+  },
+  {
+    "id": "q-obs-asstp-003",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Sobre as fases do 1º período (dilatação) segundo o conceito atual:",
+    "options": [
+      { "id": "a", "text": "Fase latente: 0-6 cm, lenta e progressiva (sem tempo definido); fase ativa: 6-10 cm, mais dolorosa, intensa, coordenada e rápida", "isCorrect": true, "explanation": "Correto: a fase LATENTE vai de 0 a 6 cm, é lenta e pode durar até 2 semanas (paciente não precisa estar internada). A fase ATIVA começa em 6 cm, com contrações mais dolorosas, intensas e coordenadas, evoluindo até 10 cm. Esse limiar de 6 cm (curva de Zhang) substituiu o antigo limite de 4 cm (Friedman)." },
+      { "id": "b", "text": "Fase latente: 0-10 cm; fase ativa: > 10 cm", "isCorrect": false, "explanation": "Errado: dilatação > 10 cm não existe — 10 cm é o limite." },
+      { "id": "c", "text": "Fase ativa: 0-6 cm; fase latente: 6-10 cm", "isCorrect": false, "explanation": "Errado: ordem invertida." },
+      { "id": "d", "text": "A fase ativa exige internação imediata em qualquer dilatação > 1 cm", "isCorrect": false, "explanation": "Errado: a internação no início da fase latente expõe a paciente a intervenções desnecessárias; recomenda-se entrada com 5-6 cm." }
+    ],
+    "reference": "Assistência — Fases do 1º período"
+  },
+  {
+    "id": "q-obs-asstp-004",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A diferença entre as curvas de FRIEDMAN e ZHANG para a fase ativa é:",
+    "options": [
+      { "id": "a", "text": "Friedman: progressão linear com dilatação mínima de 1 cm/h; Zhang: evolução mais lenta e variável, com fase ativa começando em dilatações maiores", "isCorrect": true, "explanation": "Correto: a curva clássica de Friedman assume progressão linear com dilatação mínima de ~1 cm/h e início da fase ativa em ~4 cm. A curva de Zhang (mais moderna, baseada em coortes maiores) mostra evolução muito mais lenta nas fases iniciais e início da fase ativa em ~6 cm. Adotar Zhang reduz diagnósticos equivocados de distocia e cesarianas desnecessárias." },
+      { "id": "b", "text": "Friedman é mais permissiva e Zhang mais rigorosa", "isCorrect": false, "explanation": "Errado: o oposto — Zhang é MAIS PERMISSIVA com a duração da fase ativa." },
+      { "id": "c", "text": "São idênticas, diferindo apenas no autor", "isCorrect": false, "explanation": "Errado: têm parâmetros e implicações clínicas distintas." },
+      { "id": "d", "text": "Friedman descreve apenas o 2º período (expulsivo)", "isCorrect": false, "explanation": "Errado: Friedman descreve a curva da fase ativa do 1º período (dilatação)." }
+    ],
+    "reference": "Assistência — Curvas de progressão"
+  },
+  {
+    "id": "q-obs-asstp-005",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre os mecanismos de descolamento placentário, é CORRETO afirmar:",
+    "options": [
+      { "id": "a", "text": "Mecanismo de Baudelocque-Schultze: 75% dos casos, descolamento CENTRAL, sai com a face FETAL para baixo (brilhante), sangramento DISCRETO após a expulsão completa", "isCorrect": true, "explanation": "Correto: SCHULTZE (75%) — descolamento central, placenta sai com face FETAL (brilhante) primeiro, sangramento discreto APÓS a expulsão completa, mais comum em apresentações cefálicas. DUNCAN (25%) — descolamento pela borda, placenta sai LATERALMENTE com face MATERNA (opaca) primeiro, sangramento PRECOCE, mais comum em pélvicas." },
+      { "id": "b", "text": "Mecanismo de Schultze: 25%, descolamento lateral, sangramento precoce", "isCorrect": false, "explanation": "Errado: descreve Duncan, não Schultze." },
+      { "id": "c", "text": "Mecanismo de Duncan: face fetal sai primeiro (brilhante)", "isCorrect": false, "explanation": "Errado: Duncan = face MATERNA primeiro (opaca)." },
+      { "id": "d", "text": "Schultze e Duncan são mecanismos de descolamento prematuro de placenta (DPP)", "isCorrect": false, "explanation": "Errado: NADA a ver com DPP — são mecanismos NORMAIS de dequitação após o parto." }
+    ],
+    "reference": "Assistência — Descolamento placentário"
+  },
+  {
+    "id": "q-obs-asstp-006",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O 4º PERÍODO (Greenberg) corresponde a:",
+    "options": [
+      { "id": "a", "text": "Fase latente do 1º período", "isCorrect": false, "explanation": "Errado: nada a ver." },
+      { "id": "b", "text": "1ª hora pós-parto, com observação rigorosa de sinais vitais e sangramento (período de maior risco de hemorragia puerperal)", "isCorrect": true, "explanation": "Correto: o 4º período (Greenberg/observação) é a 1ª hora pós-parto. Avaliam-se contração uterina, sinais vitais (a cada 15 minutos), sangramento (volume e características) e o contato mãe-bebê. É o período de maior risco de HEMORRAGIA PUERPERAL — daí a vigilância contínua." },
+      { "id": "c", "text": "Período do puerpério tardio (10º-45º dia)", "isCorrect": false, "explanation": "Errado: o 4º período é apenas a 1ª hora pós-parto." },
+      { "id": "d", "text": "Período entre a dequitação e a alta hospitalar (geralmente 48 h)", "isCorrect": false, "explanation": "Errado: é apenas a 1ª hora." }
+    ],
+    "reference": "Assistência — 4º período"
+  },
+  {
+    "id": "q-obs-asstp-007",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "São intervenções do MANEJO ATIVO do 3º período do parto, EXCETO:",
+    "options": [
+      { "id": "a", "text": "Administração de ocitocina (reduz risco de hemorragia)", "isCorrect": false, "explanation": "Faz parte do manejo ativo." },
+      { "id": "b", "text": "Tração controlada do cordão umbilical", "isCorrect": false, "explanation": "Faz parte do manejo ativo." },
+      { "id": "c", "text": "Massagem uterina pós-dequitação", "isCorrect": false, "explanation": "Faz parte do manejo ativo." },
+      { "id": "d", "text": "Curetagem uterina de rotina após a saída da placenta", "isCorrect": true, "explanation": "Correto: a curetagem NÃO faz parte do manejo ativo de rotina. Só é feita se houver retenção placentária com fragmentos comprovados na cavidade. O manejo ativo padronizado inclui: ocitocina (reduz hemorragia), clampeamento do cordão, tração controlada do cordão e massagem uterina." }
+    ],
+    "reference": "Assistência — Manejo ativo do 3º período"
+  },
+  {
+    "id": "q-obs-asstp-008",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Para parturientes em trabalho de parto, recomenda-se DECÚBITO LATERAL ESQUERDO porque:",
+    "options": [
+      { "id": "a", "text": "Acelera a dilatação cervical em todas as pacientes", "isCorrect": false, "explanation": "Errado: a posição não acelera diretamente a dilatação." },
+      { "id": "b", "text": "Aumenta o débito sanguíneo para a placenta — em decúbito DORSAL ocorre compressão das veias cavas, reduzindo o fluxo placentário", "isCorrect": true, "explanation": "Correto: o útero gravídico em decúbito dorsal comprime a veia cava inferior e a aorta, reduzindo o retorno venoso e o fluxo útero-placentário (síndrome de hipotensão supina). O decúbito lateral esquerdo desloca o útero para fora dos grandes vasos, melhorando perfusão materna e fetal." },
+      { "id": "c", "text": "Reduz a oxigenação fetal", "isCorrect": false, "explanation": "Errado: AUMENTA, não reduz." },
+      { "id": "d", "text": "Facilita a aplicação de anestesia peridural", "isCorrect": false, "explanation": "Para anestesia, prefere-se a posição sentada ou lateral, mas esse não é o motivo principal de orientar lateral esquerdo no TP." }
+    ],
+    "reference": "Assistência — Posição materna"
+  },
+  {
+    "id": "q-obs-asstp-009",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Líquido amniótico esverdeado/meconial sugere:",
+    "options": [
+      { "id": "a", "text": "Hemorragia intra-uterina ativa", "isCorrect": false, "explanation": "Errado: hemorragia daria líquido VERMELHO/sanguinolento." },
+      { "id": "b", "text": "Eliminação de mecônio fetal in utero — possível sinal de sofrimento fetal; aumenta risco de síndrome de aspiração meconial no RN, exige vigilância e preparo neonatal", "isCorrect": true, "explanation": "Correto: líquido amniótico tinto de mecônio (esverdeado/marrom) indica eliminação fetal de fezes intrauterinas — frequentemente associada a sofrimento ou hipóxia fetal. Aumenta o risco de síndrome de aspiração meconial e sepse neonatal. A conduta inclui monitorização rigorosa, preparo da equipe neonatal e cuidados específicos no RN não vigoroso." },
+      { "id": "c", "text": "Pós-termo banal sem implicação clínica", "isCorrect": false, "explanation": "Errado: o branco com descamação é típico de pós-termo; ESVERDEADO indica mecônio." },
+      { "id": "d", "text": "Líquido amniótico normal de termo", "isCorrect": false, "explanation": "Errado: o normal é claro." }
+    ],
+    "reference": "Assistência — Características do líquido amniótico"
+  }
+]

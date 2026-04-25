@@ -1,0 +1,128 @@
+[
+  {
+    "id": "q-obs-tpprpm-001",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual a definição de TRABALHO DE PARTO PREMATURO (TPP)?",
+    "options": [
+      { "id": "a", "text": "Qualquer contração antes de 37 semanas, mesmo sem alteração do colo", "isCorrect": false, "explanation": "Errado: precisa haver alteração cervical confirmada." },
+      { "id": "b", "text": "Contrações regulares (1 a 2 em 10 minutos), não associadas a movimentos fetais, com ALTERAÇÃO CERVICAL confirmada, em paciente com IG entre 20-22 semanas e < 37 semanas", "isCorrect": true, "explanation": "Correto: TPP = contrações regulares (1-2 em 10 min), não relacionadas a movimentos fetais, com alteração cervical confirmada, entre 20-22 semanas e antes de 37 semanas. Antes de 20-22 semanas é considerado aborto. PARTO prematuro é o nascimento com < 37 semanas (consequência do TPP)." },
+      { "id": "c", "text": "Nascimento com < 42 semanas", "isCorrect": false, "explanation": "Errado: 42 semanas é pós-termo. Prematuro é < 37 semanas." },
+      { "id": "d", "text": "Apenas dilatação cervical de 4 cm sem necessidade de contrações", "isCorrect": false, "explanation": "Errado: 4 cm sem contração ritmada não caracteriza TPP — pode ser incompetência istmocervical." }
+    ],
+    "reference": "TPP e RPM — Definições"
+  },
+  {
+    "id": "q-obs-tpprpm-002",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O PRINCIPAL fator de risco para TPP é:",
+    "options": [
+      { "id": "a", "text": "Anemia materna leve", "isCorrect": false, "explanation": "Errado: não é o principal fator." },
+      { "id": "b", "text": "TPP ou parto prematuro PRÉVIO", "isCorrect": true, "explanation": "Correto: ter TPP ou parto prematuro em gestação anterior é o principal fator de risco. Outros: colo curto (< 25 mm na USG transvaginal entre 18-24 semanas), gemelaridade, sangramento gestacional, tabagismo, infecções (ITU, vaginose bacteriana, IST) — atenção a corrimentos novos, com dor ou prurido." },
+      { "id": "c", "text": "Idade materna entre 25 e 30 anos", "isCorrect": false, "explanation": "Errado: faixa etária ideal para gestação." },
+      { "id": "d", "text": "Ganho de peso adequado na gestação", "isCorrect": false, "explanation": "Errado: ganho adequado é protetor, não fator de risco." }
+    ],
+    "reference": "TPP e RPM — Fatores de risco"
+  },
+  {
+    "id": "q-obs-tpprpm-003",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a TOCÓLISE no manejo do TPP:",
+    "options": [
+      { "id": "a", "text": "Deve ser mantida indefinidamente até a 37ª semana para impedir o parto", "isCorrect": false, "explanation": "Errado: NÃO se mantém indefinidamente; só serve para 'ganhar 48 h'." },
+      { "id": "b", "text": "Tem o objetivo de GANHAR TEMPO (48 h) para o corticoide fazer efeito ou para transferência; não deve ser prolongada (sem benefício no desfecho e com risco materno — edema pulmonar, hipotensão, hepatotoxicidade). Drogas comuns: nifedipina ou atosiban", "isCorrect": true, "explanation": "Correto: a tocólise só serve para ganhar 48 h — tempo necessário para o corticoide fazer efeito sobre o pulmão fetal, ou para transferência da paciente para hospital com UTI neonatal. Manter tocólise por mais tempo NÃO melhora o desfecho e aumenta riscos maternos (edema pulmonar com beta-agonistas, hipotensão com nifedipina, hepatotoxicidade com atosiban). Drogas: nifedipina (BCC) ou atosiban (antagonista de ocitocina)." },
+      { "id": "c", "text": "Está indicada em corioamnionite confirmada", "isCorrect": false, "explanation": "Errado: corioamnionite é CONTRAINDICAÇÃO ABSOLUTA — paciente precisa parir." },
+      { "id": "d", "text": "Está indicada em gestações > 34 semanas", "isCorrect": false, "explanation": "Errado: gestação > 34 semanas é contraindicação (relação risco-benefício desfavorável)." }
+    ],
+    "reference": "TPP e RPM — Tocólise"
+  },
+  {
+    "id": "q-obs-tpprpm-004",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "São CONTRAINDICAÇÕES ABSOLUTAS à tocólise no TPP:",
+    "options": [
+      { "id": "a", "text": "Corioamnionite, sofrimento fetal agudo, malformação fetal letal, descolamento prematuro de placenta com instabilidade, gestação > 34 semanas", "isCorrect": true, "explanation": "Correto: as contraindicações ABSOLUTAS à tocólise são situações em que prolongar a gestação trará MAIS RISCO do que benefício: corioamnionite (infecção do líquido amniótico — paciente PRECISA parir), sofrimento fetal agudo, malformação fetal letal, DPP com instabilidade hemodinâmica, e gestação > 34 semanas (risco-benefício desfavorável)." },
+      { "id": "b", "text": "Idade gestacional 28 semanas com bem-estar fetal preservado", "isCorrect": false, "explanation": "Errado: é exatamente a indicação para tocólise + corticoide." },
+      { "id": "c", "text": "Bolsa íntegra com colo de 1 cm", "isCorrect": false, "explanation": "Errado: bolsa íntegra é situação favorável." },
+      { "id": "d", "text": "Diabetes gestacional bem controlada", "isCorrect": false, "explanation": "Errado: não é contraindicação." }
+    ],
+    "reference": "TPP e RPM — Contraindicações à tocólise"
+  },
+  {
+    "id": "q-obs-tpprpm-005",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a CORTICOTERAPIA antenatal no TPP:",
+    "options": [
+      { "id": "a", "text": "Não tem benefício comprovado em qualquer IG", "isCorrect": false, "explanation": "Errado: tem benefício amplamente comprovado." },
+      { "id": "b", "text": "Betametasona 12 mg IM, 2 doses (intervalo 24 h, melhor efeito em 48 h) — promove maturação pulmonar fetal, reduz risco de hemorragia intracraniana e ajuda na maturação intestinal (reduz enterocolite necrosante)", "isCorrect": true, "explanation": "Correto: betametasona 12 mg IM em 2 doses com 24 h de intervalo (melhor efeito em 48 h). Benefícios: maturação pulmonar fetal (reduz síndrome do desconforto respiratório), redução do risco de hemorragia intracraniana e maturação intestinal (reduz enterocolite necrosante). Esse é o motivo principal para a tocólise — ganhar 48 h para o corticoide agir." },
+      { "id": "c", "text": "Apenas reduz risco de infecção materna, sem efeitos no feto", "isCorrect": false, "explanation": "Errado: o efeito principal é fetal (maturação)." },
+      { "id": "d", "text": "Deve ser dada apenas em gestações > 37 semanas", "isCorrect": false, "explanation": "Errado: está indicada em risco de parto prematuro (< 34 semanas e em alguns casos até 36 6/7 semanas), justamente porque os fetos a termo já têm maturidade." }
+    ],
+    "reference": "TPP e RPM — Corticoterapia"
+  },
+  {
+    "id": "q-obs-tpprpm-006",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quando se indica SULFATO DE MAGNÉSIO (NEUROPROTEÇÃO) no TPP?",
+    "options": [
+      { "id": "a", "text": "Em todo TPP, independente da IG", "isCorrect": false, "explanation": "Errado: só em < 32 semanas." },
+      { "id": "b", "text": "IG < 32 semanas com risco IMINENTE de parto prematuro (não foi possível inibir) — reduz o risco de paralisia cerebral e melhora o prognóstico neurológico do RN", "isCorrect": true, "explanation": "Correto: SO4Mg está indicado para NEUROPROTEÇÃO fetal em IG < 32 semanas com risco iminente de parto prematuro (quando a tocólise falhou ou está contraindicada). Reduz o risco de paralisia cerebral, melhora o prognóstico neurológico e reduz risco de convulsões neonatais." },
+      { "id": "c", "text": "Em qualquer paciente com TPP entre 34-37 semanas", "isCorrect": false, "explanation": "Errado: indicação só para < 32 semanas." },
+      { "id": "d", "text": "Como tocolítico de primeira linha", "isCorrect": false, "explanation": "Errado: SO4Mg NÃO é tocolítico de 1ª linha; é usado para neuroproteção quando o parto é iminente." }
+    ],
+    "reference": "TPP e RPM — Neuroproteção"
+  },
+  {
+    "id": "q-obs-tpprpm-007",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual o método PADRÃO-OURO para diagnóstico de Ruptura Prematura de Membranas (RPM)?",
+    "options": [
+      { "id": "a", "text": "USG transvaginal", "isCorrect": false, "explanation": "Errado: USG ajuda em ILA reduzido mas não é padrão-ouro." },
+      { "id": "b", "text": "Exame especular: visualização DIRETA de líquido amniótico saindo pelo orifício cervical ou em fundo de saco vaginal (faz-se manobra de Valsalva e mobilização do polo fetal). Métodos auxiliares: pH (líquido básico ~7,8), cristalização em folha de samambaia, PAMG-1 (AmniSure)", "isCorrect": true, "explanation": "Correto: o exame ESPECULAR é o padrão-ouro — visualização direta de líquido amniótico saindo pelo orifício cervical, ou acumulado em fundo de saco vaginal. Auxilia-se com manobra de Valsalva e mobilização do polo fetal. Métodos complementares: pH (líquido amniótico básico ~7,8 — diferente da vagina ácida), cristalização em folha de samambaia (após secagem em lâmina), PAMG-1 (AmniSure) em dúvida diagnóstica. EVITAR toque vaginal rotineiro — aumenta risco de infecção." },
+      { "id": "c", "text": "Toque vaginal seriado", "isCorrect": false, "explanation": "Errado: toque vaginal aumenta risco de infecção em bolsa rota — DEVE SER EVITADO." },
+      { "id": "d", "text": "Hemograma com leucocitose", "isCorrect": false, "explanation": "Errado: laboratório só ajuda no diagnóstico de corioamnionite." }
+    ],
+    "reference": "TPP e RPM — Diagnóstico de RPM"
+  },
+  {
+    "id": "q-obs-tpprpm-008",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Em RPPM (ruptura prematura de membranas pré-termo) com < 34 semanas, sem corioamnionite, a conduta é:",
+    "options": [
+      { "id": "a", "text": "Indução imediata do parto, independentemente da IG", "isCorrect": false, "explanation": "Errado: só se faz indução imediata em ≥ 37 semanas, ou se houver indicação obrigatória (corioamnionite, sofrimento fetal, DPP, prolapso de cordão)." },
+      { "id": "b", "text": "Conduta EXPECTANTE com internação, monitorização contínua, corticoide antenatal e antibioticoprofilaxia (esquema clássico: azitromicina VO dose única + ampicilina EV 48 h → amoxicilina VO 5 dias)", "isCorrect": true, "explanation": "Correto: RPPM < 34 semanas SEM indicações de interrupção → conduta expectante. Internação com monitorização materno-fetal contínua, corticoide antenatal (betametasona) e antibioticoprofilaxia para aumentar o período de latência e reduzir corioamnionite. Esquema típico: azitromicina VO dose única + ampicilina EV 48 h → amoxicilina VO 5 dias. Entre 34-36 6/7 semanas geralmente interrompe-se. ≥ 37 semanas → indução." },
+      { "id": "c", "text": "Tocólise prolongada para impedir o parto até 40 semanas", "isCorrect": false, "explanation": "Errado: tocólise prolongada não tem benefício e tem riscos." },
+      { "id": "d", "text": "Cesárea eletiva imediata em qualquer RPPM", "isCorrect": false, "explanation": "Errado: cesárea só por indicação obstétrica; não é a regra na RPPM." }
+    ],
+    "reference": "TPP e RPM — Manejo da RPPM"
+  },
+  {
+    "id": "q-obs-tpprpm-009",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "São indicações de INTERRUPÇÃO IMEDIATA da gestação independente da IG, EXCETO:",
+    "options": [
+      { "id": "a", "text": "Corioamnionite", "isCorrect": false, "explanation": "Indicação clássica — ATB amplo espectro imediatamente e parto." },
+      { "id": "b", "text": "Sofrimento fetal agudo", "isCorrect": false, "explanation": "Indicação clássica." },
+      { "id": "c", "text": "Descolamento prematuro de placenta (DPP)", "isCorrect": false, "explanation": "Indicação clássica." },
+      { "id": "d", "text": "Hipertensão crônica controlada com PA 130×80 mmHg em paciente assintomática", "isCorrect": true, "explanation": "Correto: HAS crônica controlada e assintomática NÃO exige interrupção imediata. As indicações ABSOLUTAS de interrupção independente da IG são: corioamnionite (líquido purulento, febre, taquicardia, leucocitose, útero doloroso), sofrimento fetal agudo, DPP e prolapso de cordão (emergência obstétrica). A via de parto depende das condições obstétricas." }
+    ],
+    "reference": "TPP e RPM — Indicações de interrupção"
+  }
+]

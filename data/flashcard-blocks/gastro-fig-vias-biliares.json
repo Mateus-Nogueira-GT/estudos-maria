@@ -1,0 +1,86 @@
+[
+  {
+    "id": "fc-gastro-fvb-01",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "cloze",
+    "text": "Provas hepáticas: {{c1::TGO/TGP}} = lesão hepatocelular (dano ao hepatócito); {{c2::fosfatase alcalina e GGT}} = colestase (obstrução canalicular); {{c3::bilirrubinas}} = excreção; {{c4::TAP (INR) e albumina}} = provas SINTÉTICAS (função hepatocelular).",
+    "extra": "Padrão hepatocelular: ↑ TGO/TGP. Padrão colestático: ↑ FA + GGT ± bilirrubina direta. Padrão misto: ambos."
+  },
+  {
+    "id": "fc-gastro-fvb-02",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Fosfatase alcalina (FA) — origens possíveis",
+    "back": "- Canalicular/biliar (fígado)\n- Ósseo (osteoblastos)\n- Placenta (gravidez)\n- Intestino\nPor isso a GGT acompanha na suspeita de origem hepática: GGT isolada é quase só biliar — se FA elevada E GGT normal, pensar em causa óssea/gravidez."
+  },
+  {
+    "id": "fc-gastro-fvb-03",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Exame de primeira escolha para investigar cálculos em vesícula biliar",
+    "back": "ULTRASSONOGRAFIA (ecografia) abdominal superior.\nAlta sensibilidade, sem radiação, baixo custo. TC não é primeira escolha (muitos cálculos são de colesterol, invisíveis na TC)."
+  },
+  {
+    "id": "fc-gastro-fvb-04",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "cloze",
+    "text": "Ordem de investigação da via biliar (do menos invasivo ao mais invasivo): {{c1::ultrassonografia}} → {{c2::colangiorressonância}} → {{c3::ecoendoscopia}} → {{c4::CPRE}}.",
+    "extra": "CPRE é o mais invasivo (risco de pancreatite pós-procedimento), mas permite remoção terapêutica de cálculos."
+  },
+  {
+    "id": "fc-gastro-fvb-05",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Características da DOR BILIAR clássica",
+    "back": "- CONTÍNUA (não 'vai e volta' como cólica intestinal)\n- Andar superior do abdome / hipocôndrio direito\n- Frequentemente APÓS refeições (especialmente gordurosas)\n- Irradiação para DORSO DIREITO ou OMBRO direito\n- Associada a náusea e vômito"
+  },
+  {
+    "id": "fc-gastro-fvb-06",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "cloze",
+    "text": "Sinal de Murphy positivo = parada da respiração durante palpação profunda do ponto cístico (hipocôndrio direito) por dor — sugestivo de {{c1::colecistite aguda}}.",
+    "extra": "Especificidade não é absoluta, mas é um clássico à beira do leito."
+  },
+  {
+    "id": "fc-gastro-fvb-07",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "cloze",
+    "text": "TRÍADE DE CHARCOT (colangite): {{c1::dor em QSD}} + {{c2::febre}} + {{c3::icterícia}}.",
+    "extra": "Com adição de CONFUSÃO MENTAL e CHOQUE = PÊNTADE DE REYNOLDS (colangite grave, emergência)."
+  },
+  {
+    "id": "fc-gastro-fvb-08",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Coledocolitíase",
+    "back": "Cálculo no ducto COLÉDOCO (via biliar principal).\nClínica: dor biliar + icterícia colestática + padrão colestático laboratorial (↑ FA, GGT, bilirrubina direta).\nTratamento: CPRE (remoção do cálculo) + colecistectomia posterior."
+  },
+  {
+    "id": "fc-gastro-fvb-09",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Pancreatite biliar",
+    "back": "Pancreatite aguda desencadeada por microcálculo que obstrui transitoriamente a papila duodenal (onde desemboca o ducto pancreático).\nLITÍASE BILIAR é a principal causa de pancreatite aguda (~50% dos casos)."
+  },
+  {
+    "id": "fc-gastro-fvb-10",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "cloze",
+    "text": "Colelitíase é {{c1::assintomática}} na maioria dos casos. Indicações de colecistectomia: {{c2::colelitíase sintomática}} (cólica biliar, colecistite, coledocolitíase, pancreatite biliar, colangite) ou grupos especiais de risco.",
+    "extra": "Colelitíase assintomática em paciente sem fatores de risco geralmente NÃO exige cirurgia."
+  },
+  {
+    "id": "fc-gastro-fvb-11",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Dilatação da árvore biliar na imagem — o que indica?",
+    "back": "OBSTRUÇÃO em algum ponto da via biliar.\nInvestigar: cálculo (coledocolitíase), estenose, tumor (cabeça de pâncreas, colangiocarcinoma, ampuloma).\nExames: colangio-RM e/ou ecoendoscopia."
+  },
+  {
+    "id": "fc-gastro-fvb-12",
+    "topicId": "gastro-fig-vias-biliares",
+    "type": "basic",
+    "front": "Síndromes biliares — resumo",
+    "back": "- Colelitíase: cálculos na vesícula (geralmente assintomática)\n- Cólica biliar: dor contínua pós-prandial transitória\n- Colecistite aguda: inflamação + febre + Murphy +\n- Coledocolitíase: cálculo no colédoco + icterícia\n- Colangite: dor + febre + icterícia (Charcot) — emergência\n- Pancreatite biliar: microcálculo obstruindo a papila"
+  }
+]

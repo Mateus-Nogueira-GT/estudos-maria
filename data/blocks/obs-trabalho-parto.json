@@ -1,0 +1,114 @@
+[
+  {
+    "id": "q-obs-tp-001",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual a definição clínica de TRABALHO DE PARTO?",
+    "options": [
+      { "id": "a", "text": "Qualquer contração uterina, mesmo indolor e irregular, mesmo sem alteração no colo", "isCorrect": false, "explanation": "Errado: descreve contrações de Braxton-Hicks, NÃO trabalho de parto verdadeiro." },
+      { "id": "b", "text": "Contrações uterinas REGULARES e DOLOROSAS associadas a MUDANÇA CERVICAL progressiva (apagamento e/ou dilatação); a descida progressiva da apresentação reforça o diagnóstico", "isCorrect": true, "explanation": "Correto: TP = contração + colo em mudança. Na prática, ≥ 2 contrações de 40 segundos em 10 minutos com dilatação ≥ 4-5 cm caracteriza TP estabelecido. Contrações sem alteração cervical = parto FALSO (Braxton-Hicks)." },
+      { "id": "c", "text": "Apenas a presença de bolsa rota é suficiente", "isCorrect": false, "explanation": "Errado: bolsa rota sem contrações e sem alteração cervical é RPM, não TP." },
+      { "id": "d", "text": "Dilatação de 10 cm sem necessidade de contrações", "isCorrect": false, "explanation": "Errado: 10 cm é o final da fase ativa, mas o TP é caracterizado pela ASSOCIAÇÃO de contrações e mudança cervical." }
+    ],
+    "reference": "Trabalho de Parto"
+  },
+  {
+    "id": "q-obs-tp-002",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quais variáveis devem ser DESCRITAS no exame de toque vaginal de uma parturiente?",
+    "options": [
+      { "id": "a", "text": "Apenas dilatação cervical em centímetros", "isCorrect": false, "explanation": "Incompleto." },
+      { "id": "b", "text": "Dilatação cervical (0-10 cm), apagamento, consistência e posição do colo, apresentação e variedade de posição fetal, plano de De Lee, integridade das membranas e características do líquido (se rota)", "isCorrect": true, "explanation": "Correto: o toque vaginal completo descreve dilatação (0-10 cm), apagamento (colo curto/fino), consistência e posição do colo, apresentação fetal (cefálica/pélvica/córmica) e variedade de posição, estação/plano de De Lee (engajamento = plano 0), e integridade das membranas (com características do líquido se rota — claro, esverdeado, hemorrágico)." },
+      { "id": "c", "text": "Apenas dilatação e apagamento", "isCorrect": false, "explanation": "Incompleto: precisa também de plano, apresentação, posição e estado das membranas." },
+      { "id": "d", "text": "Apenas integridade das membranas", "isCorrect": false, "explanation": "Insuficiente." }
+    ],
+    "reference": "Trabalho de Parto — Toque vaginal"
+  },
+  {
+    "id": "q-obs-tp-003",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual a sequência dos MOVIMENTOS CARDINAIS do parto?",
+    "options": [
+      { "id": "a", "text": "Engajamento → flexão → descida → rotação interna → extensão → restituição → desprendimento dos ombros", "isCorrect": true, "explanation": "Correto: a sequência clássica é insinuação/engajamento → flexão → descida → rotação interna → extensão (desprendimento da cabeça) → restituição/rotação externa → desprendimento dos ombros e expulsão do feto." },
+      { "id": "b", "text": "Descida → rotação externa → engajamento → desprendimento dos ombros → flexão", "isCorrect": false, "explanation": "Errado: ordem incorreta." },
+      { "id": "c", "text": "Rotação externa → engajamento → flexão → descida → desprendimento", "isCorrect": false, "explanation": "Errado: rotação externa (restituição) ocorre APÓS o desprendimento da cabeça." },
+      { "id": "d", "text": "Descida → flexão → engajamento → desprendimento", "isCorrect": false, "explanation": "Errado: o engajamento ocorre ANTES da descida." }
+    ],
+    "reference": "Trabalho de Parto — Movimentos cardinais"
+  },
+  {
+    "id": "q-obs-tp-004",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em uma apresentação cefálica fletida, qual estrutura é o PONTO DE REPARO no toque vaginal e qual variedade de posição é a mais favorável?",
+    "options": [
+      { "id": "a", "text": "Bregma; variedade ODP (occipito-direita posterior)", "isCorrect": false, "explanation": "Errado: bregma é o ponto de reparo na deflexão de 1º grau (não na vértice). ODP é desfavorável." },
+      { "id": "b", "text": "Occipício; variedade OA / LOA (occipito-anterior, à esquerda anterior) — as variedades anteriores são as mais favoráveis", "isCorrect": true, "explanation": "Correto: na cefálica fletida (apresentação de vértice), o ponto de reparo é o OCCIPÍCIO (achamos pela sutura sagital + fontanela posterior pequena triangular). LOA/OA são as variedades MAIS FAVORÁVEIS para o parto vaginal. Variedades posteriores (OP/ODP) costumam alongar o trabalho de parto." },
+      { "id": "c", "text": "Mento; variedade MOP (mento occipito-posterior)", "isCorrect": false, "explanation": "Errado: o mento é referência na apresentação de FACE (deflexão de 3º grau), não na cefálica fletida." },
+      { "id": "d", "text": "Sacrum; variedade SDP", "isCorrect": false, "explanation": "Errado: o sacro é referência da apresentação PÉLVICA, não da cefálica." }
+    ],
+    "reference": "Trabalho de Parto — Pontos de reparo"
+  },
+  {
+    "id": "q-obs-tp-005",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "São SINAIS CLÍNICOS de descolamento placentário no terceiro período:",
+    "options": [
+      { "id": "a", "text": "Útero amolecido, sangramento ausente e descida do fundo uterino", "isCorrect": false, "explanation": "Errado: tudo invertido — após descolamento o útero fica GLOBOSO E FIRME, com elevação (ascensão) do fundo uterino e jato de sangue." },
+      { "id": "b", "text": "Jato de sangue vaginal, alongamento do cordão umbilical, útero globoso e firme, ascensão do fundo uterino", "isCorrect": true, "explanation": "Correto: os 4 sinais clássicos de descolamento placentário são: (1) jato sanguíneo vaginal, (2) alongamento do cordão umbilical, (3) útero globoso e firme (corpo fica esférico), (4) ascensão do fundo uterino. A placenta deve ser eliminada em até 30 minutos; após o desprendimento, inspecionar a integridade." },
+      { "id": "c", "text": "Hipotensão materna obrigatória e bradicardia fetal", "isCorrect": false, "explanation": "Errado: nessa fase o feto já nasceu; bradicardia fetal não é sinal de descolamento placentário no 3º período." },
+      { "id": "d", "text": "Encurtamento do cordão umbilical na vulva", "isCorrect": false, "explanation": "Errado: o cordão ALONGA-SE (sai mais para fora), não encurta." }
+    ],
+    "reference": "Trabalho de Parto — 3º período"
+  },
+  {
+    "id": "q-obs-tp-006",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Sobre laceração perineal, qual a classificação CORRETA?",
+    "options": [
+      { "id": "a", "text": "1º grau pega esfíncter anal; 4º grau pega apenas pele", "isCorrect": false, "explanation": "Errado: ordem invertida." },
+      { "id": "b", "text": "1º grau: pele/mucosa; 2º grau: musculatura perineal; 3º grau: esfíncter anal; 4º grau: rompe a mucosa anal/retal também", "isCorrect": true, "explanation": "Correto: a classificação progride pela profundidade: 1º grau (pele e mucosa vaginal), 2º grau (envolve musculatura perineal), 3º grau (atinge esfíncter anal externo/interno) e 4º grau (rompe também a mucosa anal/retal). 3º e 4º graus exigem reparo cuidadoso por risco de incontinência fecal." },
+      { "id": "c", "text": "2º grau atinge somente o esfíncter anal", "isCorrect": false, "explanation": "Errado: o esfíncter anal é o 3º grau." },
+      { "id": "d", "text": "3º grau atinge apenas a pele perineal", "isCorrect": false, "explanation": "Errado: o 3º grau atinge ESFÍNCTER anal." }
+    ],
+    "reference": "Trabalho de Parto — Lacerações"
+  },
+  {
+    "id": "q-obs-tp-007",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "No SEGUNDO período do trabalho de parto, são SINAIS DE ALERTA que sugerem necessidade de reavaliação:",
+    "options": [
+      { "id": "a", "text": "Persistência em variedade OP/OT (occipito-posterior ou occipito-transversa) com falha de descida, ausência de mudança de rotação/estação apesar de contrações e puxo, exaustão materna ou alteração do bem-estar fetal", "isCorrect": true, "explanation": "Correto: durante o expulsivo as 2 perguntas-chave são: 'O bebê está girando? Está descendo?'. Se a apresentação persiste em OP/OT sem rotação para OP, e não há descida apesar de puxo eficaz, configura distocia. Soma-se exaustão materna e alteração da vitalidade fetal — todas indicações de reavaliação e potencialmente intervenção (parto instrumental ou cesárea)." },
+      { "id": "b", "text": "Rotação interna progressiva e descida regular da apresentação", "isCorrect": false, "explanation": "Errado: isso é progressão NORMAL, não alerta." },
+      { "id": "c", "text": "Frequência cardíaca fetal entre 110-160 bpm", "isCorrect": false, "explanation": "Errado: faixa NORMAL (110-160 bpm) não é sinal de alerta." },
+      { "id": "d", "text": "Caput sucedâneo e moldagem leve compatíveis com a progressão", "isCorrect": false, "explanation": "Errado: caput e moldagem leves COMPATÍVEIS são esperados — só preocupam quando excessivos sem progressão." }
+    ],
+    "reference": "Trabalho de Parto — 2º período"
+  },
+  {
+    "id": "q-obs-tp-008",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Quem NÃO pode realizar o toque vaginal no acompanhamento do trabalho de parto?",
+    "options": [
+      { "id": "a", "text": "Médico obstetra", "isCorrect": false, "explanation": "Errado: médico obstetra é responsável pelo TP." },
+      { "id": "b", "text": "Enfermeira obstétrica habilitada", "isCorrect": false, "explanation": "Errado: a enfermeira obstétrica pode até realizar o parto, desde que sem intercorrência." },
+      { "id": "c", "text": "Doula", "isCorrect": true, "explanation": "Correto: a DOULA acompanha emocional e fisicamente, mas NÃO faz toque vaginal. Toda paciente tem direito a 1 acompanhante (lei do acompanhante), e a doula não conta como esse acompanhante." },
+      { "id": "d", "text": "Acompanhante autorizado pela paciente", "isCorrect": false, "explanation": "Errado: o acompanhante leigo não faz exame, mas a pergunta é sobre quem está envolvido na assistência clínica — a doula é a única explicitamente impedida de tocar." }
+    ],
+    "reference": "Trabalho de Parto — Acompanhamento"
+  }
+]

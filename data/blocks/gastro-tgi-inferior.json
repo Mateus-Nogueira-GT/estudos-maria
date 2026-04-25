@@ -1,0 +1,150 @@
+[
+  {
+    "id": "q-gastro-tgi-001",
+    "topicId": "gastro-tgi-inferior",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A Síndrome do Intestino Irritável (SII) é classificada como:",
+    "options": [
+      { "id": "a", "text": "Doença orgânica do intestino (com lesão estrutural)", "isCorrect": false, "explanation": "SII é uma doença FUNCIONAL — sem lesão estrutural demonstrável." },
+      { "id": "b", "text": "Doença FUNCIONAL do tubo digestivo, associada a desregulação do eixo cérebro-intestino-microbiota", "isCorrect": true, "explanation": "Correto: SII é o protótipo das doenças funcionais do TGI. Envolve distúrbios da motilidade, hipersensibilidade visceral e mal funcionamento do eixo cérebro-intestino-microbiota." },
+      { "id": "c", "text": "Doença inflamatória intestinal", "isCorrect": false, "explanation": "DII (Crohn, retocolite) tem inflamação comprovada na histologia — é orgânica, não funcional." },
+      { "id": "d", "text": "Neoplasia maligna", "isCorrect": false, "explanation": "SII não é câncer nem lesão pré-maligna; não aumenta risco de neoplasia." }
+    ],
+    "reference": "TGI inferior — SII"
+  },
+  {
+    "id": "q-gastro-tgi-002",
+    "topicId": "gastro-tgi-inferior",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Os CRITÉRIOS DE ROMA IV para SII exigem:",
+    "options": [
+      { "id": "a", "text": "Diarreia isolada por > 1 ano, independente de dor", "isCorrect": false, "explanation": "Dor abdominal É o achado central — não dispensável." },
+      { "id": "b", "text": "Dor abdominal recorrente (≥ 1 vez/semana, nos últimos 3 meses, com início ≥ 6 meses) + pelo menos 2 dos 3: relação com evacuação, mudança de frequência, mudança da forma das fezes", "isCorrect": true, "explanation": "Correto: Roma IV = dor abdominal recorrente (≥ 1x/semana) por pelo menos 3 meses (sintomas iniciados há ≥ 6 meses), com 2 de 3 critérios: (1) relação com defecação (pode aliviar ou piorar); (2) alteração na FREQUÊNCIA evacuatória; (3) alteração na FORMA (consistência) das fezes." },
+      { "id": "c", "text": "Sangramento retal + febre + perda de peso", "isCorrect": false, "explanation": "Esses são SINAIS DE ALARME que AFASTAM SII e pedem investigação orgânica." },
+      { "id": "d", "text": "Apenas constipação por mais de 1 mês", "isCorrect": false, "explanation": "Constipação isolada sem dor abdominal não preenche os critérios de Roma IV para SII." }
+    ],
+    "reference": "TGI inferior — Critérios Roma IV"
+  },
+  {
+    "id": "q-gastro-tgi-003",
+    "topicId": "gastro-tgi-inferior",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a SII, quais características do PACIENTE TORNAM O DIAGNÓSTICO MAIS PROVÁVEL?",
+    "options": [
+      { "id": "a", "text": "Idade > 60 anos, perda de peso, anemia", "isCorrect": false, "explanation": "Ao contrário — esses achados aumentam probabilidade de doença ORGÂNICA e afastam SII." },
+      { "id": "b", "text": "Jovens (< 50 anos), predomínio em mulheres, sintomas cíclicos crônicos sem sinais de alarme", "isCorrect": true, "explanation": "Correto: SII é mais frequente em jovens e mulheres, sintomas são crônicos/cíclicos, sem ameaça à vida, sem emagrecimento, sem anemia, sem sangramento. Idade mais avançada aumenta suspeita de doença orgânica." },
+      { "id": "c", "text": "Sintomas iniciados após os 65 anos", "isCorrect": false, "explanation": "Início tardio é sinal de alerta — investigar causa orgânica." },
+      { "id": "d", "text": "Início agudo com febre", "isCorrect": false, "explanation": "Febre é sinal de alarme — investigar infecção ou inflamação." }
+    ],
+    "reference": "TGI inferior — SII — perfil clínico"
+  },
+  {
+    "id": "q-gastro-tgi-004",
+    "topicId": "gastro-tgi-inferior",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual INVESTIGAÇÃO LABORATORIAL MÍNIMA é recomendada antes de confirmar o diagnóstico de SII?",
+    "options": [
+      { "id": "a", "text": "Apenas um hemograma", "isCorrect": false, "explanation": "Insuficiente — é preciso afastar causas orgânicas frequentes." },
+      { "id": "b", "text": "Hemograma, bioquímica (função hepática e renal), TSH, pesquisa de infecções intestinais (parasitológico), PCR e calprotectina fecal", "isCorrect": true, "explanation": "Correto: essa é a investigação mínima para afastar doença orgânica (DII via calprotectina, celíaca, tireoidopatia, infecção intestinal ativa). Adicional conforme suspeita: sorologia para doença celíaca, teste de intolerância à lactose." },
+      { "id": "c", "text": "Colonoscopia em todos", "isCorrect": false, "explanation": "Colonoscopia só se > 50 anos, sinais de alarme ou história familiar — não rotina." },
+      { "id": "d", "text": "RM de abdome", "isCorrect": false, "explanation": "RM não é exame inicial." }
+    ],
+    "reference": "TGI inferior — Investigação mínima"
+  },
+  {
+    "id": "q-gastro-tgi-005",
+    "topicId": "gastro-tgi-inferior",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quais são os principais SINAIS DE ALARME que afastam SII e indicam investigação orgânica?",
+    "options": [
+      { "id": "a", "text": "Dor ao evacuar que alivia", "isCorrect": false, "explanation": "É parte dos critérios de Roma IV para SII — NÃO é alarme." },
+      { "id": "b", "text": "Sangue nas fezes, perda ponderal, anemia ferropriva, despertar noturno pela dor, início > 50 anos, história familiar de câncer GI, DII ou doença celíaca", "isCorrect": true, "explanation": "Correto: esses sinais aumentam a probabilidade de causa orgânica (neoplasia, DII, celíaca) e obrigam investigação específica (colonoscopia, endoscopia, sorologias)." },
+      { "id": "c", "text": "Alternância de hábito intestinal há anos, sem outros achados", "isCorrect": false, "explanation": "Alternância crônica sem alarmes é muito compatível com SII — não é alarme." },
+      { "id": "d", "text": "Estresse aumenta os sintomas", "isCorrect": false, "explanation": "Piora com estresse é padrão de SII (eixo cérebro-intestino), não alarme." }
+    ],
+    "reference": "TGI inferior — Sinais de alarme"
+  },
+  {
+    "id": "q-gastro-tgi-006",
+    "topicId": "gastro-tgi-inferior",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a DIETA LOW-FODMAP na SII:",
+    "options": [
+      { "id": "a", "text": "Deve ser seguida por toda a vida", "isCorrect": false, "explanation": "Não — é uma dieta de INTERVENÇÃO temporária. Uso prolongado compromete microbiota e pode gerar restrições nutricionais." },
+      { "id": "b", "text": "É uma dieta de intervenção: restrição por cerca de 6-12 semanas, seguida de reintrodução gradual grupo a grupo para identificar gatilhos individuais", "isCorrect": true, "explanation": "Correto: FODMAPs (fermentable oligo-, di-, monosaccharides and polyols) são carboidratos fermentáveis que pioram sintomas em muitos pacientes com SII. A dieta tem 3 fases: eliminação (6-12 semanas) → reintrodução (identificar gatilhos) → manutenção personalizada." },
+      { "id": "c", "text": "É primeira linha terapêutica em todos os pacientes", "isCorrect": false, "explanation": "Primeira linha é uma dieta saudável padrão; low-FODMAP é reservada a pacientes com muitos sintomas." },
+      { "id": "d", "text": "Dispensa acompanhamento nutricional", "isCorrect": false, "explanation": "É uma dieta restritiva complexa; idealmente feita com nutricionista." }
+    ],
+    "reference": "TGI inferior — Orientações dietéticas"
+  },
+  {
+    "id": "q-gastro-tgi-007",
+    "topicId": "gastro-tgi-inferior",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Na intolerância à lactose, o mecanismo principal dos sintomas é:",
+    "options": [
+      { "id": "a", "text": "Reação imunológica mediada por IgE (alergia)", "isCorrect": false, "explanation": "Isso descreve ALERGIA à proteína do leite de vaca (APLV), não intolerância à lactose." },
+      { "id": "b", "text": "Lactose chega ao cólon sem ser digerida → fermentação por bactérias → produção de ácidos graxos de cadeia curta e gases (H2, CH4) → efeito osmótico e distensão → diarreia, cólica, flatulência", "isCorrect": true, "explanation": "Correto: a deficiência da lactase (na borda em escova do intestino delgado) faz a lactose chegar intacta ao cólon, onde é fermentada. O gás e o efeito osmótico causam os sintomas." },
+      { "id": "c", "text": "Destruição autoimune do pâncreas", "isCorrect": false, "explanation": "Sem relação com lactose — isso seria diabetes tipo 1." },
+      { "id": "d", "text": "Obstrução do ducto colédoco", "isCorrect": false, "explanation": "Sem relação com intolerância à lactose." }
+    ],
+    "reference": "TGI inferior — Intolerância à lactose"
+  },
+  {
+    "id": "q-gastro-tgi-008",
+    "topicId": "gastro-tgi-inferior",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre a DOENÇA CELÍACA em adultos, qual afirmação é correta?",
+    "options": [
+      { "id": "a", "text": "É uma alergia imediata ao glúten, mediada por IgE", "isCorrect": false, "explanation": "NÃO — é uma enteropatia AUTOIMUNE (mediada por IgA/IgG e por linfócitos T) desencadeada pelo glúten, não alergia IgE." },
+      { "id": "b", "text": "É uma doença autoimune desencadeada pelo glúten, com atrofia vilositária duodenal; pode apresentar-se de forma clássica (diarreia, má-absorção) ou com manifestações extraintestinais (anemia ferropriva, osteoporose, dermatite herpetiforme, infertilidade, elevação inexplicada de transaminases)", "isCorrect": true, "explanation": "Correto: em adultos predominam formas atípicas. Suspeita quando há SII com padrão diarreico, anemia ferropriva, deficiências vitamínicas, osteoporose precoce, condições autoimunes associadas. Tratamento: dieta sem glúten por toda a vida (com adesão rigorosa — 'tudo ou nada')." },
+      { "id": "c", "text": "Só ocorre em crianças", "isCorrect": false, "explanation": "Pode ser diagnosticada em qualquer idade, inclusive idosos." },
+      { "id": "d", "text": "É curada com corticoide por 2 semanas", "isCorrect": false, "explanation": "Corticoide não trata doença celíaca — o tratamento é a retirada do glúten." }
+    ],
+    "reference": "TGI inferior — Doença celíaca"
+  },
+  {
+    "id": "q-gastro-tgi-009",
+    "topicId": "gastro-tgi-inferior",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Explique o conceito do 'eixo cérebro-intestino-microbiota' e sua relação com a SII.",
+    "modelAnswer": "O eixo cérebro-intestino-microbiota descreve a comunicação BIDIRECIONAL entre o sistema nervoso central, o sistema nervoso entérico (chamado de 'segundo cérebro') e a microbiota intestinal. Essa comunicação envolve vias neurais (nervo vago), sistema imune (citocinas), hormônios (CRH, cortisol) e metabólitos microbianos (ácidos graxos de cadeia curta, serotonina produzida no intestino).\n\nNa SII, há desregulação desse eixo, manifestando-se como: (1) hipersensibilidade visceral — o mesmo estímulo intestinal (distensão, por exemplo) é percebido como dor; (2) alteração da motilidade intestinal; (3) modulação pelo estado emocional — estresse, ansiedade e depressão amplificam sintomas; (4) alterações quali-quantitativas da microbiota. Por isso o manejo da SII inclui medidas farmacológicas sintomáticas, mas também dieta, probióticos, atividade física regular, higiene do sono, tratamento psicológico (TCC, hipnose intestinal) e, em alguns casos, neuromoduladores (tricíclicos, ISRSs, SNRIs em dose baixa) que atuam justamente nesse eixo.",
+    "keyPoints": [
+      "Comunicação bidirecional: SNC ↔ sistema nervoso entérico ↔ microbiota",
+      "Mediadores: vago, citocinas, hormônios, metabólitos microbianos",
+      "Desregulação na SII: hipersensibilidade visceral, motilidade, emoção, microbiota",
+      "Manejo multimodal: dieta, probióticos, atividade física, sono, TCC, neuromoduladores",
+      "Estresse/ansiedade amplificam sintomas"
+    ],
+    "reference": "TGI inferior — SII/Eixo cérebro-intestino"
+  },
+  {
+    "id": "q-gastro-tgi-010",
+    "topicId": "gastro-tgi-inferior",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Caso clínico: Mulher, 28 anos, vem com dor abdominal em hipogástrio, tipo cólica, com alívio após evacuar, associada a períodos de diarreia (3-4x/dia) alternando com constipação. Sintomas há 18 meses, pelo menos 1-2x/semana. Piora em épocas de estresse no trabalho. Sem perda de peso, sem sangramento, sem febre. Exame normal. Sem história familiar de câncer GI, DII ou celíaca. Como você aborda o caso?",
+    "modelAnswer": "Diagnóstico provável: Síndrome do Intestino Irritável com padrão MISTO (alternância diarreia/constipação) — preenche critérios de Roma IV: dor abdominal recorrente, ≥ 1x/semana, ≥ 3 meses (18 meses), início ≥ 6 meses atrás, com relação com evacuação, alteração de frequência e de forma das fezes. Paciente jovem, mulher, sem sinais de alarme, sem história familiar — perfil típico.\n\nConduta:\n1) INVESTIGAÇÃO MÍNIMA para afastar doença orgânica: hemograma, bioquímica (função renal/hepática), TSH, PCR, CALPROTECTINA FECAL (para afastar DII), parasitológico, e sorologia para doença CELÍACA (antitransglutaminase IgA + IgA total) — dado que a apresentação com diarreia é compatível com celíaca atípica.\n2) Se tudo normal: confirmo SII clinicamente, sem necessidade de colonoscopia (paciente jovem, sem alarmes).\n3) EXPLICAÇÃO ao paciente sobre a natureza funcional da doença (crônica, que não 'vira' câncer, que não ameaça à vida, mas impacta qualidade de vida) e sobre o eixo cérebro-intestino.\n4) MEDIDAS NÃO-FARMACOLÓGICAS: atividade física regular, higiene do sono, tratamento psicológico se ansiedade/depressão; dieta saudável → considerar low-FODMAP se persistirem sintomas; probióticos (psyllium) para regularizar ritmo intestinal.\n5) TERAPIA SINTOMÁTICA conforme padrão predominante: antiespasmódicos (pinavério, mebeverina, trimebutina) para dor; loperamida se diarreia; laxativos osmóticos (lactulose, PEG) se constipação.\n6) Se refratário: considerar neuromoduladores em dose baixa (amitriptilina para padrão diarreico; ISRS para padrão constipado) — atuam no eixo cérebro-intestino.\n7) Acompanhamento clínico regular; reinvestigar se surgirem sinais de alarme.",
+    "keyPoints": [
+      "Provável SII padrão misto preenchendo Roma IV",
+      "Perfil típico: mulher jovem, cíclico, sem alarmes, sem história familiar",
+      "Investigação mínima antes de confirmar: hemograma, bioquímica, TSH, PCR, calprotectina fecal, parasitológico, sorologia para celíaca",
+      "Explicação da natureza funcional; não é câncer, não ameaça vida",
+      "Medidas não-farmacológicas: atividade física, sono, psicoterapia, dieta; psyllium",
+      "Low-FODMAP se muitos sintomas (temporária + reintrodução)",
+      "Sintomáticos por padrão: antiespasmódicos, loperamida, laxativos osmóticos",
+      "Neuromoduladores (tricíclicos, ISRS) em casos refratários",
+      "Reinvestigar se aparecerem sinais de alarme"
+    ],
+    "reference": "TGI inferior — SII (caso integrativo)"
+  }
+]

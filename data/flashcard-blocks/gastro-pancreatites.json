@@ -1,0 +1,100 @@
+[
+  {
+    "id": "fc-gastro-panc-01",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Pâncreas = órgão {{c1::retroperitoneal}}, dividido em cabeça, corpo e cauda. Ducto principal = {{c2::Wirsung}}; ducto acessório = {{c3::Santorini}}. Desembocam na {{c4::2ª porção duodenal}} (papila duodenal / esfíncter de Oddi).",
+    "extra": "Posição retroperitoneal explica a dor 'em faixa' irradiando para o dorso."
+  },
+  {
+    "id": "fc-gastro-panc-02",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Porção EXÓCRINA ({{c1::80%}} da massa) = células {{c2::acinares}} que secretam enzimas digestivas. Porção ENDÓCRINA ({{c3::20%}}) = ilhotas de Langerhans (insulina, glucagon, somatostatina).",
+    "extra": "Lesão exócrina = síndrome de má absorção. Lesão endócrina = diabetes."
+  },
+  {
+    "id": "fc-gastro-panc-03",
+    "topicId": "gastro-pancreatites",
+    "type": "basic",
+    "front": "Enzimas pancreáticas — qual a principal pró-enzima e sua ativação",
+    "back": "TRIPSINOGÊNIO → convertido em TRIPSINA pela enteropeptidase do duodeno.\nTripsina é o COFATOR que ativa outras pró-enzimas (quimotripsina, elastase, lipase/fosfolipase), permitindo a digestão de carboidratos, lipídeos e proteínas."
+  },
+  {
+    "id": "fc-gastro-panc-04",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Hormônios que estimulam secreção pancreática: {{c1::secretina}} (estimulada pelo HCl no duodeno → libera bicarbonato) e {{c2::colecistoquinina (CCK)}} (estimulada por gordura/proteína → contrai vesícula + libera enzimas pancreáticas).",
+    "extra": "Suco pancreático = enzimas + água + eletrólitos + bicarbonato (para neutralizar o ácido do estômago)."
+  },
+  {
+    "id": "fc-gastro-panc-05",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Amilase: sobe {{c1::precocemente}} (início do processo), meia-vida {{c2::curta (~10h)}}, permanece elevada {{c3::3-5 dias}}. Sensível mas POUCO ESPECÍFICA.",
+    "extra": "Pode elevar em obstrução intestinal, caxumba, IRC, macroamilasemia, gravidez ectópica, câncer de ovário/pulmão."
+  },
+  {
+    "id": "fc-gastro-panc-06",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Lipase: maior {{c1::especificidade}} para pancreatite aguda, permanece elevada {{c2::7-10 dias}}. Combinação amilase + lipase aumenta a precisão diagnóstica.",
+    "extra": "Pode não elevar em etiologias alcoólica e hipertrigliceridêmica."
+  },
+  {
+    "id": "fc-gastro-panc-07",
+    "topicId": "gastro-pancreatites",
+    "type": "basic",
+    "front": "IMPORTANTE: valor absoluto de amilase/lipase tem valor prognóstico?",
+    "back": "NÃO. Valor alto não significa pancreatite grave.\nAmilase/lipase são MARCADORES DIAGNÓSTICOS (> 3x LSN); gravidade é avaliada clinicamente (SIRS, disfunção orgânica, critérios Atlanta/escores BISAP, APACHE II, Ranson)."
+  },
+  {
+    "id": "fc-gastro-panc-08",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "CRITÉRIOS DE ATLANTA — diagnóstico de pancreatite aguda (2 de 3): {{c1::dor abdominal sugestiva}}, {{c2::amilase/lipase > 3x LSN}}, {{c3::achados de imagem característicos (TC/RM/US)}}.",
+    "extra": "Mais de 80% dos casos fecham diagnóstico só com dor + enzimas; imagem é para dúvida."
+  },
+  {
+    "id": "fc-gastro-panc-09",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Causas de pancreatite aguda: {{c1::litíase biliar (principal)}} + {{c2::álcool}} = ~80% dos casos. Outras: hipertrigliceridemia (> 1000), medicamentos, pós-CPRE, trauma, autoimune, hipercalcemia, infecções virais.",
+    "extra": "Na litíase biliar, microcálculos migram e obstruem a papila duodenal, impedindo drenagem pancreática."
+  },
+  {
+    "id": "fc-gastro-panc-10",
+    "topicId": "gastro-pancreatites",
+    "type": "basic",
+    "front": "Sinal de Cullen e sinal de Grey-Turner",
+    "back": "Ambos indicam SANGRAMENTO RETROPERITONEAL (pancreatite necrohemorrágica) = mau prognóstico.\n- CULLEN: equimose PERIUMBILICAL\n- GREY-TURNER: equimose nos FLANCOS\nMarcadores semiológicos clássicos de pancreatite aguda grave."
+  },
+  {
+    "id": "fc-gastro-panc-11",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Pancreatite EDEMATOSA-INTERSTICIAL: ~{{c1::80%}} dos casos, forma MAIS LEVE, mortalidade pequena. Pancreatite NECROSANTE: minoria, com {{c2::necrose}} do parênquima e/ou tecidos peripancreáticos.",
+    "extra": "Coleções líquidas ficam até 4 semanas (transudato); após isso viram pseudocisto (forma edematosa) ou walled-off necrosis (forma necrosante)."
+  },
+  {
+    "id": "fc-gastro-panc-12",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "GRAVIDADE da pancreatite aguda: LEVE ({{c1::sem disfunção orgânica}}); MODERADA (disfunção orgânica TRANSITÓRIA, reverte em ≤ 48h); GRAVE (disfunção orgânica PERSISTENTE > 48h).",
+    "extra": "Disfunção orgânica = respiratória, cardiovascular, renal, hepática, hematológica, neurológica, metabólica."
+  },
+  {
+    "id": "fc-gastro-panc-13",
+    "topicId": "gastro-pancreatites",
+    "type": "basic",
+    "front": "Tratamento inicial da pancreatite aguda — pilares",
+    "back": "1. JEJUM — repouso pancreático\n2. HIDRATAÇÃO EV precoce e adequada (5-10 mL/kg/h nas primeiras 24h)\n3. ANALGESIA\n4. SUPORTE CLÍNICO e monitorização\n5. Reintrodução precoce de dieta (oral/enteral) conforme tolerância — baixa gordura\nNÃO fazer antibiótico profilático."
+  },
+  {
+    "id": "fc-gastro-panc-14",
+    "topicId": "gastro-pancreatites",
+    "type": "cloze",
+    "text": "Etiologias da pancreatite CRÔNICA (mnemônica {{c1::TIGARO}}): {{c2::Tóxico-metabólica}} (álcool principal, tabagismo, hipercalcemia), {{c3::Idiopática}}, {{c3::Genética}}, {{c3::Autoimune}} (IgG4), {{c3::Recorrente}}, {{c3::Obstrutiva}}.",
+    "extra": "Tríade clássica (tardia, < 30% dos casos): calcificações pancreáticas + esteatorreia + DM."
+  }
+]

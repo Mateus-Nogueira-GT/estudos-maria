@@ -1,0 +1,114 @@
+[
+  {
+    "id": "q-obs-anexos-001",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Sobre a placenta, é CORRETO afirmar que:",
+    "options": [
+      { "id": "a", "text": "É um órgão exclusivamente materno, formado pelo endométrio modificado", "isCorrect": false, "explanation": "Errado: a placenta é fetomaterna — é o ÚNICO órgão formado por tecido de dois indivíduos distintos (porção fetal = córion frondoso; porção materna = decídua)." },
+      { "id": "b", "text": "É um órgão fetomaterno temporário, com porção fetal (córion frondoso) e porção materna (decídua), responsável por nutrição, trocas gasosas e função endócrina", "isCorrect": true, "explanation": "Correto: a placenta é o anexo mais importante da gestação. Sua unidade funcional é a vilosidade coriônica + espaço interviloso banhado por sangue materno. Faz nutrição, excreção, trocas gasosas, função endócrina (hCG, progesterona, hPL) e modulação imunológica." },
+      { "id": "c", "text": "É derivada exclusivamente do mesoderma embrionário", "isCorrect": false, "explanation": "Errado: deriva do trofoblasto (camada externa do blastocisto), que se diferencia em cito- e sinciciotrofoblasto." },
+      { "id": "d", "text": "Persiste como órgão funcional após o nascimento", "isCorrect": false, "explanation": "Errado: é um órgão temporário, eliminado no 3º período do parto (dequitação)." }
+    ],
+    "reference": "Anexos do Embrião e do Feto"
+  },
+  {
+    "id": "q-obs-anexos-002",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A diferenciação do trofoblasto produz duas camadas com funções distintas. Qual delas invade o endométrio, forma lacunas que recebem sangue materno e secreta hCG?",
+    "options": [
+      { "id": "a", "text": "Citotrofoblasto", "isCorrect": false, "explanation": "Errado: o citotrofoblasto é a camada proliferativa INTERNA, que repõe as células do sinciciotrofoblasto." },
+      { "id": "b", "text": "Sinciciotrofoblasto", "isCorrect": true, "explanation": "Correto: o sinciciotrofoblasto invade o endométrio, forma lacunas que recebem sangue materno e secreta hCG (base para o teste de gravidez)." },
+      { "id": "c", "text": "Mesoderma extraembrionário", "isCorrect": false, "explanation": "Errado: o mesoderma extraembrionário invade as vilosidades secundárias e dá origem aos capilares fetais (vilosidade terciária), mas não secreta hCG." },
+      { "id": "d", "text": "Decídua basal", "isCorrect": false, "explanation": "Errado: a decídua basal é a porção materna (endométrio modificado), não trofoblástica." }
+    ],
+    "reference": "Anexos do Embrião e do Feto"
+  },
+  {
+    "id": "q-obs-anexos-003",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A invasão trofoblástica das artérias espiraladas (8-18ª semana) é fundamental porque:",
+    "options": [
+      { "id": "a", "text": "Aumenta a resistência vascular materna, garantindo pressão de perfusão alta na placenta", "isCorrect": false, "explanation": "Errado: o efeito é EXATAMENTE O OPOSTO — transforma vasos de alta resistência em vasos de BAIXA resistência." },
+      { "id": "b", "text": "Transforma artérias espiraladas de alta resistência em vasos de baixa resistência, garantindo fluxo sanguíneo abundante; sua falha causa pré-eclâmpsia e RCIU", "isCorrect": true, "explanation": "Correto: o trofoblasto extraviloso substitui células musculares lisas e endotélio das espiraladas, transformando-as em vasos de baixa resistência. Falha nesse processo gera má perfusão placentária, pré-eclâmpsia (vasoconstrição generalizada e HAS) e restrição do crescimento intrauterino (peso fetal < percentil 10). A aspirina age preventivamente nesse processo." },
+      { "id": "c", "text": "Inicia a hematopoiese fetal", "isCorrect": false, "explanation": "Errado: a hematopoiese precoce ocorre na vesícula vitelínica, não pela invasão trofoblástica." },
+      { "id": "d", "text": "Produz a barreira placentária", "isCorrect": false, "explanation": "Errado: a barreira placentária é formada por sincício, citotrofoblasto, membrana basal trofoblástica, mesoderma vilositário e endotélio capilar fetal — não pela invasão arterial." }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Invasão trofoblástica"
+  },
+  {
+    "id": "q-obs-anexos-004",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O cordão umbilical normal é composto por:",
+    "options": [
+      { "id": "a", "text": "1 artéria (sangue oxigenado) e 2 veias (sangue desoxigenado)", "isCorrect": false, "explanation": "Errado: a proporção é INVERTIDA — 2 artérias e 1 veia." },
+      { "id": "b", "text": "2 artérias umbilicais (sangue desoxigenado, do feto para a placenta) + 1 veia umbilical (sangue oxigenado, da placenta para o feto), envoltos pela geleia de Wharton", "isCorrect": true, "explanation": "Correto: 2 artérias umbilicais (desoxigenado/CO2 do feto → placenta) e 1 veia umbilical (oxigenado, placenta → feto, via ducto venoso até o coração). A geleia de Wharton evita colabamento/compressão. A inserção velamentosa (sem geleia de Wharton no final do cordão) é PATOLÓGICA." },
+      { "id": "c", "text": "2 artérias e 2 veias umbilicais", "isCorrect": false, "explanation": "Errado: existe apenas 1 veia umbilical." },
+      { "id": "d", "text": "Apenas vasos linfáticos e nervos", "isCorrect": false, "explanation": "Errado: o cordão umbilical não tem vasos linfáticos nem inervação." }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Cordão umbilical"
+  },
+  {
+    "id": "q-obs-anexos-005",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o transporte transplacentário de glicose e aminoácidos é CORRETO afirmar:",
+    "options": [
+      { "id": "a", "text": "Glicose passa por transporte ativo, com gasto de ATP, dependente de insulina materna", "isCorrect": false, "explanation": "Errado: glicose passa por DIFUSÃO FACILITADA (GLUT1 e GLUT3), sem gasto de ATP e sem necessidade de insulina." },
+      { "id": "b", "text": "Glicose passa por difusão facilitada (GLUT1 e GLUT3, sem insulina); aminoácidos passam por transporte ATIVO (contra gradiente, com ATP), o que mantém concentração fetal 2-3x maior que a materna", "isCorrect": true, "explanation": "Correto: glicose — difusão facilitada via GLUT1/GLUT3 (sem insulina). Na diabetes materna, a hiperglicemia faz mais glicose chegar ao feto, que produz mais insulina (anabólico) → hiperinsulinismo fetal e macrossomia. Aminoácidos — transporte ATIVO contra gradiente, mantendo concentração fetal 2-3× maior que a materna, essencial para síntese proteica e crescimento." },
+      { "id": "c", "text": "Glicose e aminoácidos passam por difusão simples através da barreira placentária", "isCorrect": false, "explanation": "Errado: difusão simples atravessa apenas substâncias lipossolúveis e de baixo peso molecular (O2, CO2)." },
+      { "id": "d", "text": "Os dois nutrientes só passam ao feto após a 32ª semana, com a maturação da barreira placentária", "isCorrect": false, "explanation": "Errado: os transportes existem desde o início da circulação placentária funcional; o que muda no 3º trimestre é o aumento da eficiência das trocas pela maturação/afinamento da barreira." }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Transporte materno-fetal"
+  },
+  {
+    "id": "q-obs-anexos-006",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o líquido amniótico é CORRETO afirmar:",
+    "options": [
+      { "id": "a", "text": "É estático ao longo da gestação, com volume constante", "isCorrect": false, "explanation": "Errado: NÃO é estático — há equilíbrio dinâmico entre produção e absorção, com pico volumétrico em torno de 32-34 semanas e redução próximo ao termo." },
+      { "id": "b", "text": "A principal via de produção é a urina fetal (até 1 L/dia); a principal via de absorção é a deglutição fetal (500-1000 mL/dia). Oligodrâmnio: ILA < 5 cm; polidrâmnio: ILA > 24 cm", "isCorrect": true, "explanation": "Correto: vias de produção — urina fetal (principal, até 1 L/dia), secreção pulmonar fetal e difusão transmembranosa (predomina no 1º trimestre). Vias de remoção — deglutição fetal (500-1000 mL/dia), absorção intramembranosa e reabsorção transmembranosa. Critérios: oligodrâmnio ILA < 5 cm; polidrâmnio ILA > 24 cm." },
+      { "id": "c", "text": "É produzido majoritariamente pela mãe e absorvido pela placenta", "isCorrect": false, "explanation": "Errado: a produção é majoritariamente FETAL (urina e secreção pulmonar)." },
+      { "id": "d", "text": "Polidrâmnio é definido como ILA < 5 cm", "isCorrect": false, "explanation": "Errado: ILA < 5 é OLIGODRÂMNIO; polidrâmnio é ILA > 24 cm." }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Líquido amniótico"
+  },
+  {
+    "id": "q-obs-anexos-007",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A vesícula vitelínica (saco vitelínico) é importante porque:",
+    "options": [
+      { "id": "a", "text": "Persiste durante toda a gestação como órgão de troca materno-fetal", "isCorrect": false, "explanation": "Errado: é um anexo TRANSITÓRIO, visível entre 5,5 e 12 semanas." },
+      { "id": "b", "text": "Faz hematopoiese primitiva (a partir da 3ª semana), nutrição precoce antes da circulação útero-placentária plena, e abriga as células germinativas primordiais; é marcador de vitalidade embrionária", "isCorrect": true, "explanation": "Correto: o saco vitelínico produz eritroblastos primitivos a partir da 3ª semana, faz nutrição precoce (antes da placenta plenamente desenvolvida) e abriga as células germinativas primordiais. Sua visualização na USG entre 5,5 e 12 semanas é marcador de vitalidade embrionária." },
+      { "id": "c", "text": "É responsável pela produção de hCG no início da gestação", "isCorrect": false, "explanation": "Errado: o hCG é produzido pelo SINCICIOTROFOBLASTO." },
+      { "id": "d", "text": "Origina o cordão umbilical", "isCorrect": false, "explanation": "Errado: o cordão umbilical se desenvolve a partir do pedúnculo embrionário/alantoide; o saco vitelínico contribui apenas marginalmente." }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Vesícula vitelínica"
+  },
+  {
+    "id": "q-obs-anexos-008",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Quanto à barreira placentária, é CORRETO afirmar:",
+    "options": [
+      { "id": "a", "text": "Mantém espessura constante (cerca de 25 µm) durante toda a gestação", "isCorrect": false, "explanation": "Errado: a barreira AFINA progressivamente — vai de ~25 µm para 2-4 µm — para aumentar a eficiência das trocas conforme as demandas fetais aumentam." },
+      { "id": "b", "text": "Vai de ~25 µm para 2-4 µm conforme a gestação avança, aumentando a eficiência das trocas; medicações que a atravessam podem ser teratogênicas (ex.: a penicilina passa, permitindo tratar mãe e feto na sífilis)", "isCorrect": true, "explanation": "Correto: a barreira placentária afina ao longo da gestação (25 → 2-4 µm), o que aumenta a eficiência das trocas no 3º trimestre. Filtra substâncias e protege o feto, mas medicações que a atravessam podem ter efeito teratogênico — daí a recomendação de uso criterioso na gestação. A penicilina atravessa a barreira, permitindo tratar mãe e feto em casos de sífilis." },
+      { "id": "c", "text": "Impede totalmente a passagem de imunoglobulinas maternas, deixando o RN sem imunidade passiva", "isCorrect": false, "explanation": "Errado: IgG materna PASSA via endocitose mediada por receptor FcRn, especialmente no 3º trimestre, gerando imunidade passiva ao feto — por isso prematuros têm menos IgG." },
+      { "id": "d", "text": "É composta exclusivamente por endotélio capilar fetal", "isCorrect": false, "explanation": "Errado: é formada por sincício e citotrofoblasto, membrana basal trofoblástica, tecido conjuntivo vilositário, membrana basal endotelial e endotélio capilar fetal." }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Barreira placentária"
+  }
+]

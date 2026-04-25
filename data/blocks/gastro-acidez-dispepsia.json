@@ -1,0 +1,175 @@
+[
+  {
+    "id": "q-gastro-ad-001",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Por que 'gastrite' não é um diagnóstico clínico adequado?",
+    "options": [
+      { "id": "a", "text": "Porque 'gastrite' é um diagnóstico histopatológico/endoscópico; clinicamente o correto é falar em DISPEPSIA (dor ou lentidão)", "isCorrect": true, "explanation": "Correto: na clínica a queixa é dispepsia (dor no epigástrio e/ou sintomas de lentidão como náusea, saciedade precoce, empachamento). 'Gastrite' descreve o aspecto endoscópico/histológico, não a síndrome clínica." },
+      { "id": "b", "text": "Porque gastrite nunca existe", "isCorrect": false, "explanation": "Existe sim — mas como achado histológico/endoscópico, não como síndrome clínica a ser tratada empiricamente." },
+      { "id": "c", "text": "Porque gastrite só ocorre em crianças", "isCorrect": false, "explanation": "Não há essa limitação etária." },
+      { "id": "d", "text": "Porque gastrite é sinônimo de câncer", "isCorrect": false, "explanation": "Gastrite NÃO é sinônimo de câncer." }
+    ],
+    "reference": "Gastroenterologia 2; Queixas GI 2"
+  },
+  {
+    "id": "q-gastro-ad-002",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Dispepsia clinicamente é definida por:",
+    "options": [
+      { "id": "a", "text": "Apenas azia retroesternal", "isCorrect": false, "explanation": "Azia retroesternal é sintoma de refluxo (segmento 1), não dispepsia (segmento 2)." },
+      { "id": "b", "text": "Dor em epigástrio E/OU sintomas de lentidão (náusea, vômito, saciedade precoce, empachamento)", "isCorrect": true, "explanation": "Correto: dispepsia = dor ou lentidão. Pode ser orgânica (úlcera, H. pylori, câncer) ou funcional (sem achado)." },
+      { "id": "c", "text": "Apenas diarreia crônica", "isCorrect": false, "explanation": "Diarreia é sintoma de segmento 3 (intestinal)." },
+      { "id": "d", "text": "Hematêmese", "isCorrect": false, "explanation": "Hematêmese é sinal de alarme, não a definição da síndrome dispéptica." }
+    ],
+    "reference": "Gastroenterologia 2 — Seguimento 2"
+  },
+  {
+    "id": "q-gastro-ad-003",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Dispepsia FUNCIONAL é:",
+    "options": [
+      { "id": "a", "text": "Dispepsia com úlcera confirmada na endoscopia", "isCorrect": false, "explanation": "Se há úlcera, é dispepsia ORGÂNICA (tem justificativa estrutural)." },
+      { "id": "b", "text": "Queixas dispépticas em paciente com endoscopia NORMAL (sem achado estrutural que justifique os sintomas)", "isCorrect": true, "explanation": "Correto: por definição, dispepsia funcional é aquela sem achado estrutural. Representa ~2/3 das dispepsias investigadas. O diagnóstico formal exige ao menos uma endoscopia, que deve ser normal." },
+      { "id": "c", "text": "Dispepsia por H. pylori ativo", "isCorrect": false, "explanation": "Dispepsia associada a H. pylori (confirmada quando melhora após tratamento) é dispepsia orgânica, não funcional." },
+      { "id": "d", "text": "Dispepsia por uso de AINE", "isCorrect": false, "explanation": "AINE causa dispepsia orgânica (lesão gástrica/duodenal)." }
+    ],
+    "reference": "Gastroenterologia 2; Acidez Gástrica 2"
+  },
+  {
+    "id": "q-gastro-ad-004",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Paciente com dispepsia, endoscopia com H. pylori positivo e sem úlcera. Como saber se o H. pylori é responsável pelos sintomas?",
+    "options": [
+      { "id": "a", "text": "Pelo exame de sangue isolado", "isCorrect": false, "explanation": "Sorologia apenas identifica exposição, não causalidade com sintoma atual." },
+      { "id": "b", "text": "Tratar a infecção e observar resposta: se os sintomas melhoram após erradicação, trata-se de dispepsia associada ao H. pylori; se não melhoram, dispepsia funcional", "isCorrect": true, "explanation": "Correto: a causalidade se estabelece pela resposta ao tratamento. Critério: melhora sintomática após erradicação e sem recorrência por 6-12 meses define dispepsia associada ao H. pylori." },
+      { "id": "c", "text": "Realizar nova endoscopia imediatamente após o tratamento", "isCorrect": false, "explanation": "Não é necessário — a avaliação é clínica no acompanhamento." },
+      { "id": "d", "text": "Solicitar ressonância magnética", "isCorrect": false, "explanation": "RM não tem papel no diagnóstico de causalidade de dispepsia por H. pylori." }
+    ],
+    "reference": "Gastroenterologia 2"
+  },
+  {
+    "id": "q-gastro-ad-005",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual a classe de bloqueadores ácidos com a MENOR potência entre as listadas?",
+    "options": [
+      { "id": "a", "text": "Antiácidos (hidróxido de Al/Mg, carbonato de Ca)", "isCorrect": true, "explanation": "Correto: antiácidos NÃO são bloqueadores ácidos verdadeiros — apenas neutralizam o ácido presente na luz. Ação rápida, curta duração, útil para sintomas leves e ocasionais." },
+      { "id": "b", "text": "Antagonistas H2 (cimetidina, famotidina)", "isCorrect": false, "explanation": "Bloqueiam receptor H2 das células parietais — potência intermediária, sujeitos à taquifilaxia." },
+      { "id": "c", "text": "Inibidores da bomba de prótons (omeprazol, pantoprazol)", "isCorrect": false, "explanation": "IBPs são de alta potência, padrão-ouro há décadas." },
+      { "id": "d", "text": "Bloqueador ácido competitivo de potássio / vonoprazan", "isCorrect": false, "explanation": "Vonoprazan (PCAB) tem potência ainda maior que IBPs e age mais rápido." }
+    ],
+    "reference": "Acidez Gástrica 2"
+  },
+  {
+    "id": "q-gastro-ad-006",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Qual a orientação correta para tomar omeprazol?",
+    "options": [
+      { "id": "a", "text": "Tomar após a refeição, independentemente do horário", "isCorrect": false, "explanation": "Tomar após a refeição é incorreto — as bombas já estão ativadas, o remédio perde efeito." },
+      { "id": "b", "text": "Tomar 15-20 minutos ANTES do café da manhã (em jejum), para que a bomba seja ativada pela alimentação e o IBP possa bloqueá-la", "isCorrect": true, "explanation": "Correto: IBP atua em bombas de prótons ATIVAS. Tomar em jejum e comer em seguida sincroniza o pico de concentração do fármaco com a ativação máxima das bombas." },
+      { "id": "c", "text": "Tomar apenas à noite, antes de dormir", "isCorrect": false, "explanation": "O maior número de bombas é ativado no café da manhã; o horário recomendado para a dose principal é antes desta refeição." },
+      { "id": "d", "text": "Fazer bochechos com omeprazol", "isCorrect": false, "explanation": "Fora da prática — não faz sentido farmacológico." }
+    ],
+    "reference": "Acidez Gástrica 2 — IBPs"
+  },
+  {
+    "id": "q-gastro-ad-007",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "O vonoprazan (PCAB — bloqueador ácido competitivo de potássio) tem como vantagem sobre os IBPs:",
+    "options": [
+      { "id": "a", "text": "Independência do jejum, início de ação mais rápido (efeito máximo já no 1º dia) e bloqueio de bombas ativas E inativas", "isCorrect": true, "explanation": "Correto: o vonoprazan não depende de bombas ativas (IBP só age em bombas ativas), não exige jejum e atinge efeito máximo em 24h. É particularmente útil quando se precisa de bloqueio potente em pouco tempo (H. pylori, esofagite grave)." },
+      { "id": "b", "text": "É mais barato que os IBPs", "isCorrect": false, "explanation": "Na prática, é mais caro." },
+      { "id": "c", "text": "Tem menos efeitos colaterais descritos do que qualquer IBP", "isCorrect": false, "explanation": "Perfil de segurança ainda em acompanhamento; não há superioridade demonstrada nesse aspecto." },
+      { "id": "d", "text": "Pode ser tomado em todas as idades sem restrição", "isCorrect": false, "explanation": "Como qualquer fármaco, tem indicações e avaliações específicas por idade/condição." }
+    ],
+    "reference": "Acidez Gástrica 2 — Vonoprazan"
+  },
+  {
+    "id": "q-gastro-ad-008",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a pesquisa de H. pylori, NÃO é fonte de falso-negativo:",
+    "options": [
+      { "id": "a", "text": "Presença de sangue no estômago (biópsia)", "isCorrect": false, "explanation": "Sangue pode mascarar a bactéria na biópsia — é causa de falso-negativo." },
+      { "id": "b", "text": "Uso recente de antibióticos", "isCorrect": false, "explanation": "ATB 'atordoa' o H. pylori (não mata, mas reduz a carga) — pode dar falso-negativo." },
+      { "id": "c", "text": "Uso de IBP (omeprazol) nas últimas 2-4 semanas", "isCorrect": false, "explanation": "IBP suprime a bactéria transitoriamente — é causa clássica de falso-negativo; por isso é preciso suspender IBP 2-4 semanas antes da pesquisa." },
+      { "id": "d", "text": "Histórico familiar de câncer gástrico", "isCorrect": true, "explanation": "Correto: história familiar de câncer NÃO interfere no resultado do teste para H. pylori — é fator de risco epidemiológico, não de interferência laboratorial." }
+    ],
+    "reference": "Gastroenterologia 2 — diagnóstico H. pylori"
+  },
+  {
+    "id": "q-gastro-ad-009",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Por que deve-se tratar o H. pylori mesmo em paciente assintomático e sem úlcera, quando detectado?",
+    "options": [
+      { "id": "a", "text": "Porque é causa de diarreia crônica", "isCorrect": false, "explanation": "H. pylori coloniza o estômago; diarreia não é manifestação clássica." },
+      { "id": "b", "text": "Porque tem potencial CARCINOGÊNICO (associado a câncer gástrico) e pode ser transmitido no convívio familiar", "isCorrect": true, "explanation": "Correto: H. pylori é classificado como carcinógeno classe I pela IARC. Tratamento reduz risco de câncer e atrofia/metaplasia gástrica. Recomenda-se investigar familiares próximos (pesquisa em fezes)." },
+      { "id": "c", "text": "Porque causa insuficiência cardíaca", "isCorrect": false, "explanation": "Sem relação etiológica estabelecida." },
+      { "id": "d", "text": "Porque sempre evolui para sangramento em poucos dias", "isCorrect": false, "explanation": "A infecção é crônica e na maioria dos casos indolente por anos." }
+    ],
+    "reference": "Gastroenterologia 2"
+  },
+  {
+    "id": "q-gastro-ad-010",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Qual esquema é hoje considerado a melhor escolha (1ª linha preferencial) para erradicação de H. pylori?",
+    "options": [
+      { "id": "a", "text": "Omeprazol + amoxicilina + claritromicina (esquema clássico, 'OAC')", "isCorrect": false, "explanation": "Esquema clássico, mas perdeu eficácia pela resistência crescente à claritromicina — deixou de ser a melhor escolha." },
+      { "id": "b", "text": "Vonoprazan + amoxicilina em dose alta (esquema dual de alta eficácia)", "isCorrect": true, "explanation": "Correto: o esquema vonoprazan + amoxicilina é atualmente o mais indicado (alta eficácia de erradicação, menos comprimidos, menos resistência)." },
+      { "id": "c", "text": "Monoterapia com omeprazol por 14 dias", "isCorrect": false, "explanation": "Bloqueio ácido sozinho não erradica a bactéria — serve apenas como adjuvante." },
+      { "id": "d", "text": "Rifabutina isolada", "isCorrect": false, "explanation": "Rifabutina é reservada como terapia de resgate em falhas múltiplas; muito cara e pouco disponível." }
+    ],
+    "reference": "Gastroenterologia 2 — Tratamento H. pylori"
+  },
+  {
+    "id": "q-gastro-ad-011",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Explique o racional de associar bloqueio ácido potente (ex.: vonoprazan) ao antibiótico no tratamento do H. pylori.",
+    "modelAnswer": "O H. pylori sobrevive no estômago graças à sua capacidade de neutralizar o ácido local (produz urease que transforma ureia em amônia). Em ambiente ácido normal, a bactéria está em estado metabólico de baixa replicação, o que reduz a exposição e ação do antibiótico. Ao bloquear potentemente o ácido (elevando o pH gástrico), a bactéria tenta sobreviver replicando-se mais (estado germinativo), ficando mais vulnerável aos antibióticos. Além disso, o pH mais alto favorece a biodisponibilidade e estabilidade de vários antibióticos no estômago. Por isso, esquemas combinam IBP ou vonoprazan + antibiótico(s): o bloqueio ácido potencializa a erradicação. Vonoprazan, por atingir bloqueio máximo já no 1º dia (sem depender de bomba ativa), é preferível a IBP em muitos cenários.",
+    "keyPoints": [
+      "H. pylori sobrevive ao ácido por ação da urease (produz amônia)",
+      "Em ácido a bactéria fica quiescente — difícil matar com antibiótico",
+      "Bloqueio potente → aumenta pH → bactéria entra em estado replicativo → mais suscetível",
+      "pH elevado também melhora biodisponibilidade/estabilidade de ATBs",
+      "Vonoprazan tem vantagem por atingir bloqueio máximo mais rápido"
+    ],
+    "reference": "Gastroenterologia 2; Acidez Gástrica 2"
+  },
+  {
+    "id": "q-gastro-ad-012",
+    "topicId": "gastro-acidez-dispepsia",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Caso clínico: Mulher, 38 anos, há 4 meses com dor epigástrica em queimação, pós-prandial, 3-4x/semana. Sem perda de peso, sem sangramento. Usou omeprazol 20 mg/dia por 4 semanas com melhora parcial. Fez endoscopia: gastrite eritematosa leve e H. pylori positivo. Qual sua conduta?",
+    "modelAnswer": "Trata-se de dispepsia investigada com H. pylori positivo. Como o tratamento empírico com IBP foi insuficiente e a paciente tem infecção, está indicado o tratamento de erradicação do H. pylori. Opções: (1) Esquema dual preferencial: vonoprazan + amoxicilina em dose alta por 14 dias; (2) Alternativa: esquema clássico substituindo claritromicina por levofloxacina (IBP + amoxicilina + levofloxacina); (3) Esquema quádruplo (IBP + metronidazol + tetraciclina + bismuto) se falhar ou contraindicação à amoxicilina.\n\nOrientações adicionais: explicar à paciente o porquê do tratamento (potencial carcinogênico, transmissão intrafamiliar); suspender AINEs se em uso; reforçar adesão. Após 4-8 semanas do término do tratamento, fazer controle da erradicação (preferencialmente teste de antígeno fecal ou teste respiratório se disponível; NÃO sorologia). Se os sintomas resolverem após erradicação e não recorrerem em 6-12 meses: dispepsia associada ao H. pylori. Se persistirem: dispepsia funcional sobreposta — investigar fatores comportamentais, ansiedade/depressão e considerar neuromoduladores.",
+    "keyPoints": [
+      "Dispepsia investigada com H. pylori = indicar erradicação",
+      "Esquema preferencial: vonoprazan + amoxicilina 14 dias",
+      "Alternativas: IBP + amoxicilina + levofloxacina OU esquema quádruplo (+ bismuto)",
+      "Suspender AINEs, orientar adesão, avaliar familiares",
+      "Controle de erradicação 4-8 semanas pós-tratamento (antígeno fecal / teste respiratório)",
+      "Se sintomas persistirem após erradicação: dispepsia funcional associada"
+    ],
+    "reference": "Gastroenterologia 2; Acidez Gástrica 2"
+  }
+]

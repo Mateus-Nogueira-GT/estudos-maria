@@ -1,0 +1,207 @@
+[
+  {
+    "id": "q-gastro-panc-001",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "O pâncreas é dividido funcionalmente em:",
+    "options": [
+      { "id": "a", "text": "Porção arterial e porção venosa", "isCorrect": false, "explanation": "Essa é uma divisão vascular, não funcional." },
+      { "id": "b", "text": "Porção EXÓCRINA (ácinos, secreção digestiva) e ENDÓCRINA (ilhotas de Langerhans — insulina, glucagon, somatostatina)", "isCorrect": true, "explanation": "Correto: a porção exócrina corresponde a ~80% da massa (células acinares, secretam enzimas digestivas e bicarbonato) e a porção endócrina ~20% (ilhotas de Langerhans — metabolismo glicêmico)." },
+      { "id": "c", "text": "Cabeça e cauda apenas", "isCorrect": false, "explanation": "Essa é a divisão anatômica, não funcional." },
+      { "id": "d", "text": "Parte intestinal e parte gástrica", "isCorrect": false, "explanation": "O pâncreas não tem subdivisões gástrica/intestinal." }
+    ],
+    "reference": "Aula 2 — Pancreatites"
+  },
+  {
+    "id": "q-gastro-panc-002",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Lesão extensa da porção EXÓCRINA do pâncreas causa:",
+    "options": [
+      { "id": "a", "text": "Diabetes mellitus", "isCorrect": false, "explanation": "Diabetes é causado por lesão ENDÓCRINA (ilhotas)." },
+      { "id": "b", "text": "Síndrome de má-absorção / insuficiência exócrina — gordura nas fezes (esteatorreia), desnutrição, déficit de vitaminas lipossolúveis", "isCorrect": true, "explanation": "Correto: sem enzimas digestivas, há má digestão/absorção, especialmente de gorduras. Manifesta-se como esteatorreia, perda ponderal e deficiência de vitaminas A, D, E, K." },
+      { "id": "c", "text": "Hipertireoidismo", "isCorrect": false, "explanation": "Não há relação direta." },
+      { "id": "d", "text": "Úlcera gástrica", "isCorrect": false, "explanation": "Sem relação direta." }
+    ],
+    "reference": "Aula 2 — Pancreatites"
+  },
+  {
+    "id": "q-gastro-panc-003",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quais são as DUAS principais causas de pancreatite aguda?",
+    "options": [
+      { "id": "a", "text": "Litíase biliar e álcool (respondem por ~80% dos casos)", "isCorrect": true, "explanation": "Correto: litíase biliar (principal) + álcool (segunda mais comum) representam ~80% das pancreatites agudas. Outras causas: hipertrigliceridemia, medicamentos, infecção viral, iatrogenia pós-CPRE, trauma, autoimune, genética." },
+      { "id": "b", "text": "Hepatite viral e sepse", "isCorrect": false, "explanation": "Não são causas principais de pancreatite aguda." },
+      { "id": "c", "text": "H. pylori e AINE", "isCorrect": false, "explanation": "H. pylori e AINE causam dispepsia/úlcera, não pancreatite diretamente." },
+      { "id": "d", "text": "Hipotireoidismo e diabetes tipo 2", "isCorrect": false, "explanation": "Hipotireoidismo e DM2 não são causas primárias clássicas." }
+    ],
+    "reference": "Aula 2 — Pancreatites"
+  },
+  {
+    "id": "q-gastro-panc-004",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Os CRITÉRIOS DE ATLANTA para diagnóstico de pancreatite aguda exigem a presença de pelo menos 2 dos 3 seguintes:",
+    "options": [
+      { "id": "a", "text": "Febre, leucocitose e taquicardia", "isCorrect": false, "explanation": "Esses são sinais de SIRS, não os critérios de Atlanta para diagnóstico." },
+      { "id": "b", "text": "Dor abdominal sugestiva + elevação de enzimas pancreáticas (amilase/lipase > 3x LSN) + achados de imagem característicos (TC/RM/US)", "isCorrect": true, "explanation": "Correto: 2 de 3 desses critérios selam o diagnóstico. Mais de 80% dos casos fecham diagnóstico só com os 2 primeiros (clínica + laboratório) — imagem reserva-se para dúvida diagnóstica." },
+      { "id": "c", "text": "Icterícia + anemia + febre", "isCorrect": false, "explanation": "Esses achados compõem quadros colestáticos/colangite, não critérios de pancreatite." },
+      { "id": "d", "text": "Diarreia + vômito + perda de peso", "isCorrect": false, "explanation": "Sinais inespecíficos; não são critérios diagnósticos." }
+    ],
+    "reference": "Aula 2 — Pancreatites — Critérios de Atlanta"
+  },
+  {
+    "id": "q-gastro-panc-005",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Entre amilase e lipase, qual tem maior ESPECIFICIDADE para pancreatite aguda?",
+    "options": [
+      { "id": "a", "text": "Amilase — porque é a mais precoce", "isCorrect": false, "explanation": "A amilase é sensível e precoce, mas pouco específica: várias condições elevam amilase (obstrução intestinal, caxumba, litíase biliar isolada, insuficiência renal, macroamilasemia, neoplasias)." },
+      { "id": "b", "text": "Lipase — permanece elevada 7-10 dias e tem maior especificidade", "isCorrect": true, "explanation": "Correto: lipase tem meia-vida maior (permanece elevada por 7-10 dias) e é mais específica para lesão pancreática. Combinar amilase + lipase aumenta a especificidade." },
+      { "id": "c", "text": "Ambas têm mesma especificidade", "isCorrect": false, "explanation": "Lipase é mais específica." },
+      { "id": "d", "text": "Nenhuma tem utilidade diagnóstica", "isCorrect": false, "explanation": "Ambas fazem parte dos critérios de Atlanta (> 3x LSN)." }
+    ],
+    "reference": "Aula 2 — Pancreatites"
+  },
+  {
+    "id": "q-gastro-panc-006",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre os valores de amilase e lipase na pancreatite aguda:",
+    "options": [
+      { "id": "a", "text": "Valor mais alto = pancreatite mais grave, com prognóstico pior", "isCorrect": false, "explanation": "INCORRETO: o valor absoluto da amilase/lipase NÃO tem valor prognóstico. Elas marcam lesão, mas não gravidade. Um valor muito alto não prediz mortalidade." },
+      { "id": "b", "text": "O valor absoluto NÃO tem correlação com gravidade/prognóstico — serve apenas para diagnóstico", "isCorrect": true, "explanation": "Correto: amilase/lipase são marcadores DIAGNÓSTICOS de lesão pancreática (> 3x LSN). Gravidade se avalia por critérios clínicos (SIRS, disfunção orgânica persistente), laboratoriais (creatinina, hematócrito, PCR) e de imagem." },
+      { "id": "c", "text": "Amilase normal afasta pancreatite aguda", "isCorrect": false, "explanation": "Não: amilase pode ser normal em algumas etiologias (alcoólica, hipertrigliceridemia) — o diagnóstico pode ser feito com lipase + imagem." },
+      { "id": "d", "text": "Lipase > 1000 sempre indica UTI", "isCorrect": false, "explanation": "Decisão de UTI é CLÍNICA, não baseada apenas em valor laboratorial isolado." }
+    ],
+    "reference": "Aula 2 — Pancreatites"
+  },
+  {
+    "id": "q-gastro-panc-007",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A DOR da pancreatite aguda tem como característica clássica:",
+    "options": [
+      { "id": "a", "text": "Dor em pontada no hipogástrio, aliviada pela evacuação", "isCorrect": false, "explanation": "Esse é o perfil da SII ou de dor colônica — não pancreatite." },
+      { "id": "b", "text": "Dor contínua, em quadrante superior / epigástrio, 'em faixa', irradiando para o dorso, de moderada a forte intensidade; piora com alimentação", "isCorrect": true, "explanation": "Correto: dor em faixa, irradiada para o dorso, é o padrão clássico (pâncreas é retroperitoneal). Alimentação piora (estimula liberação enzimática); jejum/flexão do tronco aliviam um pouco." },
+      { "id": "c", "text": "Dor retroesternal em queimação", "isCorrect": false, "explanation": "Descreve azia/DRGE, não pancreatite." },
+      { "id": "d", "text": "Dor cólica com fezes amolecidas", "isCorrect": false, "explanation": "Padrão intestinal, não pancreático." }
+    ],
+    "reference": "Aula 2 — Pancreatites — Manifestações clínicas"
+  },
+  {
+    "id": "q-gastro-panc-008",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Os sinais semiológicos de Cullen e Grey-Turner indicam:",
+    "options": [
+      { "id": "a", "text": "Infecção intestinal leve", "isCorrect": false, "explanation": "Não têm relação com infecção intestinal." },
+      { "id": "b", "text": "Sangramento retroperitoneal = MAU prognóstico em pancreatite aguda grave", "isCorrect": true, "explanation": "Correto: Cullen = equimose PERIUMBILICAL; Grey-Turner = equimose nos FLANCOS. Ambos sinalizam sangramento retroperitoneal importante (complicação de pancreatite necrohemorrágica) — mau prognóstico, alta mortalidade." },
+      { "id": "c", "text": "Apendicite perfurada", "isCorrect": false, "explanation": "Apendicite tem outros sinais (Blumberg, Rovsing)." },
+      { "id": "d", "text": "Hepatite aguda fulminante", "isCorrect": false, "explanation": "Sem relação." }
+    ],
+    "reference": "Aula 2 — Pancreatites — Sinais semiológicos"
+  },
+  {
+    "id": "q-gastro-panc-009",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a pancreatite edematosa-intersticial:",
+    "options": [
+      { "id": "a", "text": "É a forma MAIS GRAVE (representa 80% dos casos)", "isCorrect": false, "explanation": "É a forma MAIS LEVE, não a mais grave. Representa ~80% dos casos." },
+      { "id": "b", "text": "Corresponde a 80% dos casos; apresenta edema do parênquima, possível coleção líquida; mortalidade baixa", "isCorrect": true, "explanation": "Correto: forma edematosa-intersticial = inflamação + edema (com ou sem coleções líquidas), sem necrose extensa. Benigna na maioria; pode evoluir com pseudocisto (> 4 semanas)." },
+      { "id": "c", "text": "Sempre exige cirurgia imediata", "isCorrect": false, "explanation": "Falso: tratamento é clínico de suporte na maioria; cirurgia é exceção." },
+      { "id": "d", "text": "Caracteriza-se por necrose extensa", "isCorrect": false, "explanation": "Necrose caracteriza a forma NECROSANTE (minoria, mais grave)." }
+    ],
+    "reference": "Aula 2 — Pancreatites — Classificação"
+  },
+  {
+    "id": "q-gastro-panc-010",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Quando solicitar TC COM CONTRASTE na pancreatite aguda?",
+    "options": [
+      { "id": "a", "text": "Em todos os pacientes, nas primeiras 24 horas", "isCorrect": false, "explanation": "Imagem nas primeiras 72h TENDE A SUBESTIMAR a gravidade — não deve ser rotina precoce." },
+      { "id": "b", "text": "Suspeita de pancreatite grave, ausência de melhora, suspeita de necrose infectada (febre, piora clínica, leucocitose/PCR em ascensão) — geralmente após 72h", "isCorrect": true, "explanation": "Correto: TC com contraste IV é indicada quando há suspeita de complicação (necrose, necrose infectada, coleções peripancreáticas significativas) e/ou falta de melhora clínica. O timing ideal é ≥ 72h para avaliar necrose." },
+      { "id": "c", "text": "Apenas após alta hospitalar", "isCorrect": false, "explanation": "Imagem após alta é para seguimento de coleções crônicas, não para manejo agudo." },
+      { "id": "d", "text": "Em todos os casos com amilase elevada", "isCorrect": false, "explanation": "Amilase elevada isolada não obriga TC — diagnóstico pode ser firmado clínico-laboratorialmente." }
+    ],
+    "reference": "Aula 2 — Pancreatites"
+  },
+  {
+    "id": "q-gastro-panc-011",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A mnemônica TIGARO sintetiza as causas de:",
+    "options": [
+      { "id": "a", "text": "Pancreatite AGUDA", "isCorrect": false, "explanation": "As causas de pancreatite aguda são resumidas como GET SMASHED (em inglês) ou biliar/álcool/outros." },
+      { "id": "b", "text": "Pancreatite CRÔNICA — Tóxico-metabólica / Idiopática / Genética / Autoimune / Recorrente / Obstrutiva", "isCorrect": true, "explanation": "Correto: TIGARO classifica as etiologias da pancreatite crônica. T: tóxico-metabólica (álcool é o principal, tabagismo, hipercalcemia, hipertrigliceridemia, medicamentos, IRC); I: idiopática; G: genética; A: autoimune (IgG4); R: recorrente (pancreatites agudas repetidas); O: obstrutiva." },
+      { "id": "c", "text": "Doença ulcerosa péptica", "isCorrect": false, "explanation": "Úlcera péptica tem outra classificação (AINE, H. pylori, estresse, etc.)." },
+      { "id": "d", "text": "Hepatites", "isCorrect": false, "explanation": "Hepatites têm classificação própria (viral A-E, autoimune, medicamentosa, alcoólica, NAFLD)." }
+    ],
+    "reference": "Aula 2 — Pancreatite crônica — TIGARO"
+  },
+  {
+    "id": "q-gastro-panc-012",
+    "topicId": "gastro-pancreatites",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A TRÍADE CLÁSSICA (e tardia) da pancreatite crônica é:",
+    "options": [
+      { "id": "a", "text": "Dor, icterícia e febre", "isCorrect": false, "explanation": "Essa é a tríade de Charcot (colangite), não da pancreatite crônica." },
+      { "id": "b", "text": "Calcificações pancreáticas + esteatorreia + diabetes mellitus", "isCorrect": true, "explanation": "Correto: clássica da pancreatite crônica — calcificações (imagem), esteatorreia (insuficiência exócrina) e diabetes (insuficiência endócrina). Presente em < 30% e TARDIA — precisa de perda funcional ≥ 90% para aparecer." },
+      { "id": "c", "text": "Anemia, trombocitopenia e esplenomegalia", "isCorrect": false, "explanation": "Essa tríade sugere hiperesplenismo, não pancreatite crônica." },
+      { "id": "d", "text": "Hipertensão, diabetes e dislipidemia", "isCorrect": false, "explanation": "Descreve síndrome metabólica." }
+    ],
+    "reference": "Aula 2 — Pancreatite crônica"
+  },
+  {
+    "id": "q-gastro-panc-013",
+    "topicId": "gastro-pancreatites",
+    "type": "open",
+    "difficulty": "medium",
+    "prompt": "Descreva os princípios do TRATAMENTO INICIAL (não-cirúrgico) da pancreatite aguda.",
+    "modelAnswer": "O tratamento inicial é de suporte, com 4 pilares principais:\n\n1) JEJUM — repouso pancreático para reduzir a estimulação secretora (sem comida → menos CCK/secretina → menos liberação enzimática). Reintroduzir dieta precocemente após melhora clínica (via oral ou enteral conforme tolerância).\n\n2) HIDRATAÇÃO ENDOVENOSA PRECOCE E ADEQUADA — pancreatite cursa com perda importante de líquido para o 3º espaço (hipovolemia relativa, hemoconcentração, lesão de órgãos-alvo). Recomenda-se infusão de 5-10 mL/kg/h nas primeiras 24h (volume ajustado conforme comorbidades e parâmetros perfusionais — diurese, FC, lactato).\n\n3) ANALGESIA — dor é um sintoma importante; usar analgésicos comuns e opióides conforme necessidade.\n\n4) SUPORTE CLÍNICO E MONITORIZAÇÃO — O2 se necessário, controle de SV, avaliação seriada de função orgânica. Nutrição precoce (oral ou enteral) conforme clínica, com baixo teor de gordura; a nutrição enteral é preferida à parenteral (preserva barreira intestinal, reduz translocação bacteriana).\n\nAtenção: NÃO usar antibiótico profilático — só tratar se houver evidência de infecção (necrose infectada, colangite associada).",
+    "keyPoints": [
+      "Jejum + repouso pancreático, reintrodução alimentar precoce conforme tolerância",
+      "Hidratação EV precoce e adequada (5-10 mL/kg/h nas primeiras 24h)",
+      "Analgesia (comuns e opióides se necessário)",
+      "Monitorização clínica e de função orgânica",
+      "Preferir nutrição enteral à parenteral (preserva barreira intestinal)",
+      "NÃO fazer antibiótico profilático — só se infecção comprovada"
+    ],
+    "reference": "Aula 2 — Pancreatites — Tratamento"
+  },
+  {
+    "id": "q-gastro-panc-014",
+    "topicId": "gastro-pancreatites",
+    "type": "open",
+    "difficulty": "hard",
+    "prompt": "Caso clínico: Homem, 48 anos, etilista crônico (1 garrafa de destilado/dia há 20 anos), chega ao PS com dor abdominal intensa 'em faixa' irradiando para o dorso há 12h, náuseas e vômitos. PA 100/60, FC 115, FR 24, T 38,1°C. Labs: amilase 800 U/L, lipase 2000 U/L, Hct 47%, leucócitos 15.000, creatinina 1,6, PCR 150. Descreva seu raciocínio diagnóstico e os próximos passos.",
+    "modelAnswer": "Diagnóstico: PANCREATITE AGUDA (Critérios de Atlanta ≥ 2 atendidos): dor abdominal sugestiva + elevação de lipase > 3x LSN. Etiologia provável: ALCOÓLICA (dano direto às células acinares + disrupção metabólica) — etilismo crônico, sem história sugestiva de colelitíase.\n\nAvaliação de GRAVIDADE — PREOCUPANTE:\n- SIRS: FC > 90, FR > 20, T > 38°C, leucócitos > 12.000 → atende ≥ 2 critérios.\n- Preditores de gravidade presentes: idade (relativamente jovem, mas) creatinina elevada (1,6), hematócrito elevado (47%, sugere hemoconcentração por perda para 3º espaço), PCR elevada, obesidade a avaliar.\n\nPRÓXIMOS PASSOS:\n1) Internação em unidade com recursos (UTI a considerar pelo SIRS e lesão renal).\n2) Reposição volêmica agressiva (cristaloide 5-10 mL/kg/h nas primeiras 24h), monitorando diurese, FC, PA, lactato.\n3) Analgesia adequada (paracetamol/dipirona + opióide se necessário).\n4) Jejum inicial, reintroduzir dieta enteral precoce após melhora.\n5) Monitorar função orgânica (renal, pulmonar, cardiovascular, hematológica, hepática, metabólica — definição de disfunção orgânica persistente > 48h = pancreatite grave).\n6) US abdominal ainda assim — afastar causa biliar associada.\n7) TC com contraste APÓS 72h se não melhorar / suspeita de necrose / complicações.\n8) Considerar orientação de abstinência e suporte para álcool (após estabilização).\n9) NÃO iniciar antibiótico profilático; só se houver suspeita de infecção.",
+    "keyPoints": [
+      "Diagnóstico: pancreatite aguda (Atlanta = dor + lipase > 3x LSN)",
+      "Etiologia mais provável: alcoólica (histórico)",
+      "Gravidade preocupante: SIRS + lesão renal + hemoconcentração + PCR elevada",
+      "Internação, cogitar UTI, reposição volêmica agressiva (5-10 mL/kg/h)",
+      "Analgesia, jejum inicial, reintrodução de dieta precoce conforme tolerância",
+      "Monitorar função orgânica (disfunção > 48h = pancreatite grave)",
+      "US para afastar causa biliar; TC com contraste ≥ 72h se não melhorar",
+      "Suporte para etilismo após estabilização",
+      "NÃO fazer antibiótico profilático"
+    ],
+    "reference": "Aula 2 — Pancreatites — Caso integrativo"
+  }
+]

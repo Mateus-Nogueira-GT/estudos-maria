@@ -1,0 +1,100 @@
+[
+  {
+    "id": "fc-gastro-drge-01",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "Refluxo gastroesofágico é {{c1::fisiológico}} em toda a população. Torna-se DOENÇA (DRGE) quando passa do ponto em {{c2::frequência}}, {{c2::intensidade}} ou {{c2::duração}}, causando sintomas recorrentes ou lesão esofágica.",
+    "extra": "Episódios pontuais de refluxo após refeição não configuram doença."
+  },
+  {
+    "id": "fc-gastro-drge-02",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Sintomas de ALTA hierarquia para DRGE",
+    "back": "- Azia (queimação retroesternal ASCENDENTE)\n- Regurgitação ácida\n- Dor torácica NÃO cardíaca\nRecorrentes → diagnóstico clínico de DRGE com alta probabilidade de acerto."
+  },
+  {
+    "id": "fc-gastro-drge-03",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "Classificação de Los Angeles para esofagite: A ({{c1::≤ 5 mm}}), B ({{c1::> 5 mm sem confluência}}), C ({{c1::confluente, < 75% circunferência}}) e D ({{c1::confluente, ≥ 75% circunferência}}).",
+    "extra": "Grau A NÃO é definidor de DRGE (achado frequente na população). B, C e D são definidores mesmo sem sintomas."
+  },
+  {
+    "id": "fc-gastro-drge-04",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Por que esofagite grau A não é definidora de DRGE?",
+    "back": "Porque é encontrada com frequência na população geral, mesmo em assintomáticos.\nApenas indica que HÁ refluxo (fisiológico). Precisa-se do contexto clínico.\nB, C e D são definidoras da doença."
+  },
+  {
+    "id": "fc-gastro-drge-05",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "Esôfago de Barrett = {{c1::metaplasia intestinal}} no esôfago distal, tipicamente ≥ {{c2::1 cm}}. É achado DEFINIDOR de DRGE e aumenta risco de {{c3::adenocarcinoma de esôfago}}.",
+    "extra": "Quatro tipos de metaplasia possíveis: gástrica, juncional, pancreática e intestinal — só a intestinal é Barrett."
+  },
+  {
+    "id": "fc-gastro-drge-06",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Vigilância em Esôfago de Barrett",
+    "back": "- Barrett CURTO (< 3 cm) sem displasia → baixo risco; vigilância endoscópica + tratar refluxo.\n- Barrett EXTENSO (> 3 cm) com displasia → risco aumentado; vigilância mais próxima, considerar terapia endoscópica (ablação por radiofrequência) / esofagectomia se displasia alta / câncer."
+  },
+  {
+    "id": "fc-gastro-drge-07",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Achado mais comum na endoscopia de paciente com DRGE",
+    "back": "Endoscopia NORMAL, em ~80% dos casos.\nA exposição ácida não é suficiente para causar lesão estrutural visível. Reforça que o diagnóstico é CLÍNICO."
+  },
+  {
+    "id": "fc-gastro-drge-08",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "pHmetria de 24h — parâmetros anormais: esôfago com pH < 4 por mais de {{c1::6%}} do dia OU mais de {{c2::80}} episódios de refluxo em 24h.",
+    "extra": "Usada em dúvida diagnóstica ou para correlacionar percepção de refluxo com exposição real."
+  },
+  {
+    "id": "fc-gastro-drge-09",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Definição endoscópica de DRGE (achados definidores)",
+    "back": "- Esofagite B, C ou D (LA)\n- Metaplasia do esôfago distal (incluindo Esôfago de Barrett)\n- Estenose péptica\nA maioria dos exames, porém, é NORMAL."
+  },
+  {
+    "id": "fc-gastro-drge-10",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Estenose péptica",
+    "back": "Estreitamento fibrótico do esôfago distal por refluxo crônico.\nClínica: disfagia progressiva para sólidos.\nTratamento: IBP/vonoprazan + dilatação endoscópica."
+  },
+  {
+    "id": "fc-gastro-drge-11",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "Medidas comportamentais para DRGE: {{c1::perda de peso}} se sobrepeso, {{c1::elevar a cabeceira}}, evitar deitar até {{c2::2-3h}} pós-refeição, reduzir {{c3::gorduras, álcool, café, cítricos, pimenta}}, {{c4::cessação do tabagismo}}.",
+    "extra": "O tabaco relaxa o EEI e piora o refluxo."
+  },
+  {
+    "id": "fc-gastro-drge-12",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Disfagia intensa + perda de peso em paciente com DRGE crônica: o que pensar?",
+    "back": "SINAL DE ALARME — investigar causas associadas:\n- Estenose péptica\n- Adenocarcinoma de esôfago (sobre Barrett)\n- Outras lesões estruturais\nConduta: ENDOSCOPIA imediata."
+  },
+  {
+    "id": "fc-gastro-drge-13",
+    "topicId": "gastro-drge-esofago",
+    "type": "cloze",
+    "text": "Metaplasia do esôfago distal: mudança do epitélio {{c1::escamoso estratificado}} para epitélio {{c2::colunar}} — tentativa de proteção contra exposição ácida. Os 4 tipos são: {{c3::gástrica, juncional, pancreática, intestinal}}.",
+    "extra": "A metaplasia INTESTINAL com extensão ≥ 1 cm define o Esôfago de Barrett."
+  },
+  {
+    "id": "fc-gastro-drge-14",
+    "topicId": "gastro-drge-esofago",
+    "type": "basic",
+    "front": "Quando a endoscopia é indicada em DRGE?",
+    "back": "Critérios clássicos: idade > 50 anos, sinais de alarme, história familiar de risco, falha terapêutica.\nSem esses critérios: diagnóstico clínico + teste terapêutico com IBP 4-8 semanas."
+  }
+]
