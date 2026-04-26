@@ -28,7 +28,7 @@ export const ObjectiveQuestionSchema = z
     id: z.string().min(1),
     topicId: z.string().min(1),
     type: z.literal("objective"),
-    difficulty: z.enum(["easy", "medium", "hard"]),
+    difficulty: z.enum(["easy", "medium", "hard", "bonus"]),
     prompt: z.string().min(1),
     options: z.array(OptionSchema).min(2).max(5),
     reference: z.string().optional(),
@@ -44,7 +44,7 @@ export const OpenQuestionSchema = z.object({
   id: z.string().min(1),
   topicId: z.string().min(1),
   type: z.literal("open"),
-  difficulty: z.enum(["easy", "medium", "hard"]),
+  difficulty: z.enum(["easy", "medium", "hard", "bonus"]),
   prompt: z.string().min(1),
   modelAnswer: z.string().min(1),
   keyPoints: z.array(z.string().min(1)).min(2).max(10),
@@ -93,5 +93,5 @@ export type Question = ObjectiveQuestion | OpenQuestion;
 export type BasicFlashcard = z.infer<typeof BasicFlashcardSchema>;
 export type ClozeFlashcard = z.infer<typeof ClozeFlashcardSchema>;
 export type Flashcard = BasicFlashcard | ClozeFlashcard;
-export type Difficulty = "easy" | "medium" | "hard";
+export type Difficulty = "easy" | "medium" | "hard" | "bonus";
 export type Result = "correct" | "partial" | "wrong";

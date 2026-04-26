@@ -110,5 +110,61 @@
       { "id": "d", "text": "Acompanhante autorizado pela paciente", "isCorrect": false, "explanation": "Errado: o acompanhante leigo não faz exame, mas a pergunta é sobre quem está envolvido na assistência clínica — a doula é a única explicitamente impedida de tocar." }
     ],
     "reference": "Trabalho de Parto — Acompanhamento"
+  },
+  {
+    "id": "q-obs-tp-009",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Ao realizar o toque vaginal, o examinador palpa a sutura sagital e a fontanela posterior (pequena, triangular). Qual a finalidade clínica desse achado?",
+    "options": [
+      { "id": "a", "text": "Confirmar a dilatação cervical em centímetros", "isCorrect": false, "explanation": "Errado: dilatação se mede pela abertura do colo, não pela palpação da fontanela." },
+      { "id": "b", "text": "Identificar o OCCIPÍCIO (ponto de reparo na cefálica fletida) e, a partir dele, definir a VARIEDADE DE POSIÇÃO da apresentação em relação à pelve materna", "isCorrect": true, "explanation": "Correto: a fontanela POSTERIOR (pequena, triangular, formada pelo encontro das suturas lambdóide e sagital) marca o OCCIPÍCIO — o ponto de reparo da apresentação cefálica fletida (de vértice). A direção da sutura sagital + posição da fontanela posterior permite descrever a variedade (OEA, OIDP, OP, etc.). Ver a fontanela posterior bem palpável também CONFIRMA flexão adequada da cabeça." },
+      { "id": "c", "text": "Calcular a idade gestacional do feto", "isCorrect": false, "explanation": "Errado: IG é determinada pela DUM ou USG precoce, não pelo toque." },
+      { "id": "d", "text": "Avaliar a vitalidade fetal", "isCorrect": false, "explanation": "Errado: vitalidade fetal é avaliada pelo BCF, mobilograma ou cardiotocografia." }
+    ],
+    "reference": "Trabalho de Parto — Pontos de reparo"
+  },
+  {
+    "id": "q-obs-tp-010",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o APAGAMENTO cervical (esvaecimento) durante o trabalho de parto:",
+    "options": [
+      { "id": "a", "text": "É a abertura do orifício externo do colo, medida em centímetros (0 a 10 cm)", "isCorrect": false, "explanation": "Errado: isso é DILATAÇÃO. Apagamento é diferente." },
+      { "id": "b", "text": "É a redução PROGRESSIVA do COMPRIMENTO/ESPESSURA do colo, expressa em PORCENTAGEM (0% = colo longo e grosso; 100% = colo totalmente apagado, fino como uma folha de papel)", "isCorrect": true, "explanation": "Correto: apagamento (esvaecimento) é o encurtamento e afinamento do colo uterino — antes do TP o colo tem 2-3 cm de comprimento; com as contrações, ele 'sobe' progressivamente, ficando mais fino. 100% = colo totalmente apagado. Em PRIMÍPARAS o apagamento geralmente PRECEDE a dilatação (apaga primeiro, depois dilata); em MULTÍPARAS o apagamento e a dilatação tendem a ocorrer simultaneamente." },
+      { "id": "c", "text": "É o descolamento das membranas pelo orifício interno", "isCorrect": false, "explanation": "Errado: isso é manobra de Hamilton (descolamento de membranas para induzir TP), não apagamento." },
+      { "id": "d", "text": "É o tempo total do trabalho de parto", "isCorrect": false, "explanation": "Errado: apagamento é uma característica anatômica do colo, não duração do TP." }
+    ],
+    "reference": "Trabalho de Parto — Apagamento cervical"
+  },
+  {
+    "id": "q-obs-tp-011",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Caso clínico: paciente PRIMIGESTA, 38 semanas, em fase ativa do TP. Avaliações sucessivas: 14h00 = 4 cm; 15h00 = 4 cm; 16h00 = 5 cm. Outra paciente, MULTÍPARA (G3P2), mesma IG: 14h00 = 4 cm; 15h00 = 5,5 cm; 16h00 = 7 cm. Como avaliar a progressão segundo as curvas atuais (Zhang)?",
+    "options": [
+      { "id": "a", "text": "Ambas estão em distocia — qualquer dilatação < 1 cm/h em fase ativa indica intervenção imediata (curva de Friedman)", "isCorrect": false, "explanation": "Errado: aplicar Friedman estritamente leva a diagnósticos FALSO-POSITIVOS de distocia e cesarianas desnecessárias. As curvas modernas (Zhang) são MAIS PERMISSIVAS, especialmente nas fases iniciais (4-6 cm) e em primigestas." },
+      { "id": "b", "text": "Pela curva de Zhang, a primigesta pode demorar mais de 6 h para sair de 4-5 cm sem caracterizar distocia; a multípara progride normalmente. Conduta: REAVALIAR ambas com paciência, garantir contratilidade efetiva e bem-estar fetal antes de intervir", "isCorrect": true, "explanation": "Correto: Zhang demonstrou que a fase ativa começa de fato em ~6 cm e que a progressão até lá pode ser muito mais lenta que o 1 cm/h de Friedman, especialmente em primigestas. A primigesta do caso (4 → 4 → 5 cm em 2h) ainda está em latência tardia / início de fase ativa — não é distocia. A multípara (4 → 5,5 → 7) progride como esperado. Conduta: paciência + monitorização + descartar contração ineficaz antes de cesárea." },
+      { "id": "c", "text": "A primigesta deve ir para cesárea imediatamente; a multípara deve receber ocitocina", "isCorrect": false, "explanation": "Errado: nenhuma das duas tem indicação de intervenção nesse momento — esse manejo agressivo eleva taxa de cesárea sem benefício materno-fetal." },
+      { "id": "d", "text": "A diferença entre primigestas e multíparas não tem relevância clínica para avaliar progressão", "isCorrect": false, "explanation": "Errado: PARIDADE é fator determinante — multíparas têm fase ativa mais rápida; primigestas demoram naturalmente mais." }
+    ],
+    "reference": "Trabalho de Parto — Curvas de Friedman/Zhang"
+  },
+  {
+    "id": "q-obs-tp-012",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre as características do LÍQUIDO AMNIÓTICO no parto e seu significado clínico, é INCORRETO afirmar:",
+    "options": [
+      { "id": "a", "text": "Líquido CLARO: aspecto normal, sem implicação adversa", "isCorrect": false, "explanation": "Está correto: líquido claro é o esperado em gestação a termo bem oxigenada." },
+      { "id": "b", "text": "Líquido ESVERDEADO/MARROM (mecônio): eliminação fetal de fezes intra-útero — possível sinal de SOFRIMENTO FETAL/hipóxia; aumenta risco de síndrome de aspiração meconial; exige preparo neonatal", "isCorrect": false, "explanation": "Está correto: mecônio espesso ('em ervilha') é especialmente preocupante. Em pós-termo pode ocorrer sem sofrimento por amadurecimento intestinal, mas sempre exige vigilância e preparo da equipe neonatal." },
+      { "id": "c", "text": "Líquido VERMELHO/SANGUINOLENTO: sugere HEMORRAGIA INTRAUTERINA (descolamento prematuro de placenta, ruptura de seio marginal) — emergência obstétrica", "isCorrect": false, "explanation": "Está correto: líquido sanguinolento durante o TP é alarme — pode indicar DPP, ruptura de seio marginal, ruptura uterina, prolapso de cordão com lesão. Conduta de emergência." },
+      { "id": "d", "text": "Líquido BRANCO com descamação: indica corioamnionite e exige interrupção imediata da gestação", "isCorrect": true, "explanation": "Correto (essa é a INCORRETA): líquido BRANCO com descamação (vernix caseoso) é tipicamente de gestação PÓS-TERMO — quando o feto perdeu o vernix da pele e ele se acumula no líquido. NÃO é sinal de corioamnionite. Corioamnionite cursa com líquido PURULENTO/FÉTIDO + febre materna + taquicardia + dor uterina + leucocitose — esses sim indicam interrupção imediata." }
+    ],
+    "reference": "Trabalho de Parto — Características do líquido amniótico"
   }
 ]

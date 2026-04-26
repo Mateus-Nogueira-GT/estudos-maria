@@ -124,5 +124,75 @@
       { "id": "d", "text": "Líquido amniótico normal de termo", "isCorrect": false, "explanation": "Errado: o normal é claro." }
     ],
     "reference": "Assistência — Características do líquido amniótico"
+  },
+  {
+    "id": "q-obs-asstp-010",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Em qual momento a parturiente deve ser orientada a iniciar os PUXOS (esforços expulsivos voluntários)?",
+    "options": [
+      { "id": "a", "text": "Assim que sente as primeiras contrações dolorosas (em qualquer dilatação)", "isCorrect": false, "explanation": "Errado: puxar antes da dilatação completa não acelera o parto, edema o colo, exaure a mãe e prejudica oxigenação fetal." },
+      { "id": "b", "text": "Apenas após DILATAÇÃO COMPLETA (10 cm) — o puxo deve coincidir com a contração, idealmente quando há sensação espontânea de evacuação", "isCorrect": true, "explanation": "Correto: o puxo só deve começar com dilatação COMPLETA (10 cm). Antes disso, é ineficaz (a apresentação ainda não atravessa o colo) e prejudicial (edema cervical, exaustão materna, hipóxia fetal por contração + Valsalva). Idealmente, o puxo é DIRIGIDO ('puxe quando sentir vontade de evacuar') ou ESPONTÂNEO durante a contração." },
+      { "id": "c", "text": "Quando a paciente atinge 5 cm de dilatação", "isCorrect": false, "explanation": "Errado: 5 cm é início de fase ativa, ainda há muita dilatação pela frente." },
+      { "id": "d", "text": "Apenas após o nascimento completo da cabeça", "isCorrect": false, "explanation": "Errado: nesse momento o trabalho expulsivo da cabeça já terminou; faltam apenas os ombros." }
+    ],
+    "reference": "Assistência — Início do puxo"
+  },
+  {
+    "id": "q-obs-asstp-011",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Durante a fase ATIVA do trabalho de parto, qual a frequência adequada de monitorização materno-fetal em paciente de baixo risco?",
+    "options": [
+      { "id": "a", "text": "Sinais vitais a cada 4 h; BCF a cada 30 min; dinâmica uterina a cada 1 h; toque vaginal a cada 1-2 h", "isCorrect": true, "explanation": "Correto: o padrão de cuidado em fase ativa de baixo risco é: SV maternos 4/4h; BCF a cada 30 min (período latente) ou a cada 15 min (período expulsivo); dinâmica uterina (contar contrações em 10 min) a cada hora; toque vaginal a cada 1-2 horas para avaliar dilatação, apagamento, descida e eventualmente integridade das membranas. Toque excessivo aumenta risco de infecção." },
+      { "id": "b", "text": "Sinais vitais a cada 30 min; BCF a cada 4 h; toque a cada 5 minutos", "isCorrect": false, "explanation": "Errado: BCF a cada 4 h é insuficiente (não detecta sofrimento agudo); toque a cada 5 min aumenta MUITO o risco de infecção." },
+      { "id": "c", "text": "Apenas no início e no final do TP — não há necessidade de avaliações intermediárias", "isCorrect": false, "explanation": "Errado: parto exige vigilância contínua para detectar precocemente distocias, sofrimento fetal e complicações maternas." },
+      { "id": "d", "text": "Cardiotocografia contínua obrigatória em TODA paciente, independentemente de risco", "isCorrect": false, "explanation": "Errado: em pacientes de BAIXO risco, ausculta intermitente é tão segura quanto cardiotocografia contínua, evitando intervenções desnecessárias. CTG contínua é indicada para alto risco (mecônio, indução, pré-eclâmpsia, RCIU, etc.)." }
+    ],
+    "reference": "Assistência — Monitorização materno-fetal"
+  },
+  {
+    "id": "q-obs-asstp-012",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre os MÉTODOS de avaliação da contração uterina:",
+    "options": [
+      { "id": "a", "text": "Palpação manual (mão sobre o útero) é o único método válido — qualquer aparelho substitui a sensibilidade do examinador", "isCorrect": false, "explanation": "Errado: palpação é importante mas tem limitações; aparelhos (tocodinamômetro, cateter intrauterino) complementam." },
+      { "id": "b", "text": "Palpação manual permite avaliar FREQUÊNCIA e DURAÇÃO subjetivamente; tocodinamômetro EXTERNO (parte da cardiotoco) é não-invasivo e mostra padrão gráfico das contrações; cateter de pressão INTRAUTERINA é o único que mede INTENSIDADE precisa em mmHg (mas é invasivo, raramente usado no Brasil)", "isCorrect": true, "explanation": "Correto: (1) PALPAÇÃO MANUAL — não-invasiva, semi-quantitativa, depende do examinador (geralmente avalia 'útero endurece por X segundos, X vezes em 10 min'). (2) TOCODINAMÔMETRO EXTERNO — sensor abdominal acoplado à cardiotoco; mostra frequência, duração, padrão gráfico; NÃO mede intensidade absoluta. (3) CATETER DE PRESSÃO INTRAUTERINA — invasivo (passa pelo colo até a cavidade amniótica); mede intensidade em mmHg de forma precisa; usado em situações especiais (induções complicadas, suspeita de hipotonia)." },
+      { "id": "c", "text": "Apenas o cateter de pressão intrauterina é confiável; os demais devem ser abandonados", "isCorrect": false, "explanation": "Errado: o cateter é invasivo e raramente necessário no Brasil. Os métodos não-invasivos resolvem a maioria das situações." },
+      { "id": "d", "text": "A frequência cardíaca materna substitui a avaliação direta da contração", "isCorrect": false, "explanation": "Errado: FC materna não traduz contratilidade uterina." }
+    ],
+    "reference": "Assistência — Avaliação da atividade uterina"
+  },
+  {
+    "id": "q-obs-asstp-013",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "A MANOBRA DE RITGEN, executada no segundo período do trabalho de parto, consiste em:",
+    "options": [
+      { "id": "a", "text": "Pressão suprapúbica para acelerar a descida fetal", "isCorrect": false, "explanation": "Errado: pressão suprapúbica (manobra de Kristeller) é controversa e contraindicada — está associada a ruptura uterina, lesões fetais e maternas." },
+      { "id": "b", "text": "Aplicação de pressão controlada no MENTO FETAL através do PERÍNEO (com a mão dominante por trás) ao mesmo tempo em que a outra mão controla a coroação da cabeça — visa CONTROLAR o desprendimento da cabeça e PROTEGER o períneo de lacerações", "isCorrect": true, "explanation": "Correto: a manobra de Ritgen é uma técnica de proteção perineal no DESPRENDIMENTO da cabeça fetal. O obstetra usa uma mão para controlar a velocidade de desprendimento (apoiada no occipício para evitar saída brusca) e a outra (geralmente coberta com compressa) faz pressão sobre o mento fetal através do períneo posterior — favorecendo o mecanismo de DEFLEXÃO controlada da cabeça e reduzindo lacerações de 3º/4º grau. Após a saída da cabeça, ocorre a rotação externa (restituição) e o desprendimento dos ombros." },
+      { "id": "c", "text": "Manobra de extração de placenta retida", "isCorrect": false, "explanation": "Errado: a manobra para extração placentária é Jakob-Dublin (tração + rotação)." },
+      { "id": "d", "text": "Procedimento para reposicionar útero invertido", "isCorrect": false, "explanation": "Errado: para inversão uterina utiliza-se a manobra de Johnson." }
+    ],
+    "reference": "Assistência — Manobras obstétricas / 2º período"
+  },
+  {
+    "id": "q-obs-asstp-014",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "bonus",
+    "prompt": "Caso clínico (BÔNUS — internato): Multípara G3P2, 39 semanas, em fase ATIVA do TP. Evolução: 14h00 = 6 cm, BCF 140 bpm, contrações 3/10min de 40s, bolsa íntegra. 17h00 = 8 cm, mesmas contrações, BCF 145 bpm reativo, líquido claro após amniotomia espontânea. 20h00 = 8 cm, mesmas contrações, BCF reativo, sem novas alterações. Qual o diagnóstico e a CONDUTA SEQUENCIAL mais apropriada?",
+    "options": [
+      { "id": "a", "text": "Cesárea imediata por sofrimento fetal", "isCorrect": false, "explanation": "Errado: BCF está reativo (140-145 bpm), líquido claro — não há sofrimento fetal. Cesárea sem tentativa de correção é precipitada." },
+      { "id": "b", "text": "Diagnóstico: PARADA SECUNDÁRIA DA DILATAÇÃO (sem progressão da dilatação por ≥ 2-3 h em fase ativa apesar de contratilidade aparentemente adequada). Conduta sequencial: (1) reavaliar EFETIVIDADE da contração (palpação + tocodinamômetro — pode ser HIPOSSISTOLIA mascarada); (2) confirmar bolsa rota (já ocorreu — amniotomia espontânea ✓); (3) iniciar OCITOCINA EV em bomba de infusão, dose inicial baixa (1-2 mU/min), incrementando a cada 20-30 min até atingir 3-5 contrações em 10 min; (4) reavaliar em 2 h — se progressão, manter; se persiste parada e descartada hipoSSITOLIA → suspeita de DESPROPORÇÃO CEFALOPÉLVICA (DCP) → CESÁREA. Manter monitorização contínua de BCF.", "isCorrect": true, "explanation": "Correto: parada secundária da dilatação é definida como ausência de progressão da dilatação por ≥ 2 h (alguns autores usam ≥ 4 h) em paciente em fase ATIVA com contratilidade adequada. Conduta racional: PRIMEIRO otimizar contratilidade (ocitocina), garantindo bolsa rota; reavaliar em 2 h; se persiste apesar de contratilidade efetiva, presume-se DCP → cesárea. Sempre monitorizar BCF na infusão de ocitocina (risco de taquissistolia → sofrimento fetal). NUNCA usar ocitocina sem monitorização contínua." },
+      { "id": "c", "text": "Aguardar mais 6 horas antes de qualquer intervenção, pois multíparas podem ter progressão imprevisível", "isCorrect": false, "explanation": "Errado: 3 horas sem progressão em fase ativa de multípara já caracteriza parada — manejo conservador prolongado aumenta risco de exaustão e infecção." },
+      { "id": "d", "text": "Repetir amniotomia, pois a primeira pode não ter sido efetiva", "isCorrect": false, "explanation": "Errado: bolsa já está rota; repetir amniotomia não faz sentido. O passo é otimizar contratilidade." }
+    ],
+    "reference": "Assistência — Parada secundária da dilatação / manejo ativo"
   }
 ]

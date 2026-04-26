@@ -110,5 +110,61 @@
       { "id": "d", "text": "Aguardar 48 h de antibiótico antes de qualquer intervenção cirúrgica", "isCorrect": false, "explanation": "Errado: o controle de foco é precoce e prioritário." }
     ],
     "reference": "Infecção Puerperal — Sepse"
+  },
+  {
+    "id": "q-obs-infpuerp-009",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual o quadro clínico clássico da FEBRE PUERPERAL (sugestiva de infecção)?",
+    "options": [
+      { "id": "a", "text": "T < 37,5 ºC nas primeiras 6 h após o parto, sem outros sintomas", "isCorrect": false, "explanation": "Errado: febre baixa (~37,5 ºC) nas primeiras 24h é frequentemente apenas pela 'febre do leite' (apojadura), não infecção." },
+      { "id": "b", "text": "T > 38 ºC PERSISTENTE por ≥ 2 dias, OU início após o 2º dia pós-parto, OU T ≥ 38,7 ºC nas primeiras 24 h — geralmente acompanhada de DOR uterina, lóquios FÉTIDOS/PURULENTOS, subinvolução uterina e colo aberto/pérvio", "isCorrect": true, "explanation": "Correto: critérios clássicos da febre puerperal — temperatura ≥ 38 ºC mantida por ao menos 2 dias, ou que se inicia após o 2º dia pós-parto, ou ≥ 38,7 ºC nas 1ªs 24 h. Aparece tipicamente entre o 3º e 7º dia (quando muitas pacientes já estão em casa). Sinais associados: dor uterina, lóquios fétidos/purulentos, subinvolução, colo pérvio, REG, falta de apetite. Casos graves (10-20%) cursam com bacteremia." },
+      { "id": "c", "text": "Febre alta de início súbito sempre acompanhada de convulsão", "isCorrect": false, "explanation": "Errado: convulsão sugere eclâmpsia, não infecção puerperal." },
+      { "id": "d", "text": "Hipotermia persistente nas primeiras 24h", "isCorrect": false, "explanation": "Errado: febre puerperal é HIPER-térmica; hipotermia pode ocorrer em sepse grave (Gram negativos), mas não é o quadro clássico." }
+    ],
+    "reference": "Infecção Puerperal — Febre puerperal"
+  },
+  {
+    "id": "q-obs-infpuerp-010",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A SÍNDROME DE ASHERMAN é uma complicação que pode ocorrer após:",
+    "options": [
+      { "id": "a", "text": "Parto vaginal sem episiotomia", "isCorrect": false, "explanation": "Errado: parto vaginal não é causa." },
+      { "id": "b", "text": "CURETAGENS REPETIDAS (especialmente após aborto e endometrite) — caracteriza-se por SINÉQUIAS INTRAUTERINAS (aderências entre as paredes do útero), levando a amenorreia/hipomenorreia, infertilidade e dor pélvica. Prevenção: curetagem criteriosa (não excessiva), tratamento adequado da endometrite", "isCorrect": true, "explanation": "Correto: a síndrome de Asherman é a formação de aderências/sinéquias na cavidade uterina secundária à lesão da camada basal do endométrio — geralmente após CURETAGENS REPETIDAS (mais comum após aborto e endometrite). Apresenta-se com amenorreia ou hipomenorreia (porque o endométrio funcional é destruído), infertilidade, abortos de repetição. Diagnóstico: histeroscopia. Prevenção: evitar curetagens repetidas/agressivas; tratar endometrite com ATB antes de qualquer instrumentação." },
+      { "id": "c", "text": "Uso de DIU de cobre", "isCorrect": false, "explanation": "Errado: DIU não causa Asherman." },
+      { "id": "d", "text": "Cesárea segmentar transversa", "isCorrect": false, "explanation": "Errado: cesárea segmentar não está associada a Asherman; a complicação cirúrgica clássica seria deiscência ou aderências peritoneais externas." }
+    ],
+    "reference": "Infecção Puerperal — Tratamento e complicações"
+  },
+  {
+    "id": "q-obs-infpuerp-011",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre a PELVIPERITONITE como complicação da infecção puerperal:",
+    "options": [
+      { "id": "a", "text": "É uma forma branda de endometrite, tratada apenas com antibiótico oral", "isCorrect": false, "explanation": "Errado: pelviperitonite é uma forma GRAVE — disseminação linfática da infecção uterina ao peritônio pélvico. Exige tratamento agressivo." },
+      { "id": "b", "text": "Resulta de DISSEMINAÇÃO LINFÁTICA da infecção a partir do útero. Sinais sistêmicos GRAVES: febre alta, taquicardia, hipotensão, distensão abdominal, ÍLEO PARALÍTICO, DOR INTENSA com defesa muscular no baixo ventre, ABAULAMENTO do fundo de saco posterior ao toque (presença de coleção). Conduta: ATB amplo espectro + LAPAROTOMIA / HISTERECTOMIA se indicado + COLPOTOMIA para drenagem de abscesso de fundo de saco de Douglas", "isCorrect": true, "explanation": "Correto: pelviperitonite acontece quando a endometrite/endomiometrite NÃO é controlada e se dissemina pelo peritônio pélvico. Quadro clínico GRAVE: SIRS franca + sinais peritoneais + abaulamento do fundo de saco posterior (coleção purulenta). Conduta: ATB amplo espectro + intervenção cirúrgica (laparotomia para drenagem/histerectomia se útero infectado refratário) + colpotomia para drenar abscesso de Douglas. Diferenciar de PERITONITE GENERALIZADA (estende-se por toda a cavidade abdominal — ainda mais grave)." },
+      { "id": "c", "text": "Não exige cirurgia em nenhuma situação", "isCorrect": false, "explanation": "Errado: drenagem cirúrgica de abscessos é frequentemente necessária. ATB sozinho não acessa coleções." },
+      { "id": "d", "text": "É equivalente à infecção da ferida operatória", "isCorrect": false, "explanation": "Errado: infecção de FO é superficial (acomete a parede); pelviperitonite acomete o peritônio pélvico — quadros completamente diferentes em gravidade e manejo." }
+    ],
+    "reference": "Infecção Puerperal — Pelviperitonite"
+  },
+  {
+    "id": "q-obs-infpuerp-012",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre a INFECÇÃO DE FERIDA OPERATÓRIA (FO) em puérpera OBESA pós-cesariana:",
+    "options": [
+      { "id": "a", "text": "A sutura intradérmica é a preferida em pacientes obesas, por ser mais rápida e estética", "isCorrect": false, "explanation": "Errado: em obesas, a sutura intradérmica é DESACONSELHADA — quando infecciona é difícil de abrir para drenagem. Pontos separados são preferidos." },
+      { "id": "b", "text": "A FO é o local mais COMUM de infecção pós-cesárea (~4-12%), sendo S. aureus o agente principal. Em pacientes OBESAS recomenda-se: SUTURA POR PONTOS SEPARADOS (NÃO intradérmica — facilita abertura para drenagem se infectar); cuidado com 'abdome em avental' (área úmida favorece bactérias); orientação de higiene rigorosa; observação para sinais de deiscência", "isCorrect": true, "explanation": "Correto: a FO é o sítio mais comum de infecção pós-cesariana (4-12%), tipicamente por S. aureus. Em OBESAS, fatores predisponentes: tecido adiposo aumentado (menor perfusão tecidual), abdome em avental (microclima úmido/macerado), retração mecânica difícil. Recomendações: sutura por pontos separados (não intradérmica), boa hemostasia, ATB profilático (cefazolina pré-incisão), orientação de higiene local. Sinais de infecção: dor intensa em FO, febre, eritema, secreção purulenta, deiscência. Tratamento: superficial = abertura + higiene; profunda = drenagem + ATB IV + desbridamento se necrose." },
+      { "id": "c", "text": "Profilaxia antibiótica não tem benefício em cesárea", "isCorrect": false, "explanation": "Errado: a profilaxia (cefazolina pré-incisão) é uma das medidas que mais reduzem infecção pós-cesárea." },
+      { "id": "d", "text": "A obesidade não é fator de risco para infecção de FO", "isCorrect": false, "explanation": "Errado: obesidade é um dos principais fatores de risco identificáveis." }
+    ],
+    "reference": "Infecção Puerperal — Infecção de FO em obesa"
   }
 ]
