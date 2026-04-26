@@ -124,5 +124,75 @@
       { "id": "d", "text": "Hipertensão crônica controlada com PA 130×80 mmHg em paciente assintomática", "isCorrect": true, "explanation": "Correto: HAS crônica controlada e assintomática NÃO exige interrupção imediata. As indicações ABSOLUTAS de interrupção independente da IG são: corioamnionite (líquido purulento, febre, taquicardia, leucocitose, útero doloroso), sofrimento fetal agudo, DPP e prolapso de cordão (emergência obstétrica). A via de parto depende das condições obstétricas." }
     ],
     "reference": "TPP e RPM — Indicações de interrupção"
+  },
+  {
+    "id": "q-obs-tpprpm-010",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "PARTO PREMATURO é definido como nascimento com idade gestacional:",
+    "options": [
+      { "id": "a", "text": "Menor que 42 semanas", "isCorrect": false, "explanation": "Errado: 42 semanas é o limite de pós-termo." },
+      { "id": "b", "text": "Menor que 37 semanas", "isCorrect": true, "explanation": "Correto: parto prematuro = nascimento com IG < 37 semanas (independente de ser espontâneo ou eletivo). NÃO confundir com TRABALHO DE PARTO PREMATURO (TPP), que é o conjunto de contrações + alteração cervical antes de 37 semanas — pode haver TPP sem parto prematuro (se inibido por tocólise). Antes de 20-22 semanas é considerado ABORTO, não parto prematuro." },
+      { "id": "c", "text": "Menor que 28 semanas apenas", "isCorrect": false, "explanation": "Errado: 28 semanas marca o limite de prematuridade EXTREMA, não a definição geral." },
+      { "id": "d", "text": "Igual ou maior que 42 semanas", "isCorrect": false, "explanation": "Errado: ≥ 42 semanas é PÓS-TERMO." }
+    ],
+    "reference": "TPP e RPM — Definições"
+  },
+  {
+    "id": "q-obs-tpprpm-011",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o RASTREAMENTO de risco para trabalho de parto prematuro:",
+    "options": [
+      { "id": "a", "text": "USG ABDOMINAL no 3º trimestre é o padrão para medir o colo uterino", "isCorrect": false, "explanation": "Errado: o colo se mede por USG TRANSVAGINAL (não abdominal), e o momento ideal é o 2º trimestre (18-24 semanas), não 3º." },
+      { "id": "b", "text": "USG TRANSVAGINAL com medida do colo entre 18-24 semanas: COLO < 25 mm = FATOR DE RISCO importante para TPP. Padrão-ouro de rastreio. Indica vigilância maior, eventual progesterona vaginal ou cerclagem em casos selecionados", "isCorrect": true, "explanation": "Correto: a medida do COMPRIMENTO DO COLO uterino por USG TRANSVAGINAL (CCUTV) entre 18-24 semanas é o padrão-ouro de rastreio para risco de TPP. Colo < 25 mm = risco aumentado. Conduta: vigilância (USG seriadas), considerar progesterona vaginal (200 mg/dia) ou cerclagem cervical em casos selecionados (especialmente com história de TPP/abortamento de 2º trimestre prévio). Outros métodos (fibronectina fetal) têm valor preditivo mas são pouco usados na prática brasileira." },
+      { "id": "c", "text": "Apenas a história clínica é necessária; nenhum exame de rastreio acrescenta", "isCorrect": false, "explanation": "Errado: USG transvaginal do colo é objetivo e validado, e identifica pacientes que se beneficiam de progesterona/cerclagem antes que o quadro clínico se manifeste." },
+      { "id": "d", "text": "Colo > 30 mm na USG transvaginal é critério diagnóstico para TPP iminente", "isCorrect": false, "explanation": "Errado: colo > 30 mm é PROTETOR (torna pouco provável parto nas próximas 2 semanas). O alarme é colo CURTO (< 25 mm)." }
+    ],
+    "reference": "TPP e RPM — Rastreio"
+  },
+  {
+    "id": "q-obs-tpprpm-012",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Em RPPM (ruptura prematura de membranas pré-termo) com IG < 34 semanas e conduta expectante, qual o ESQUEMA de antibioticoprofilaxia recomendado e qual seu objetivo principal?",
+    "options": [
+      { "id": "a", "text": "Cefalexina VO 500 mg 6/6h por 5 dias — para tratar ITU concomitante", "isCorrect": false, "explanation": "Errado: cefalexina não é o esquema de profilaxia para RPPM (e não tem como objetivo apenas ITU)." },
+      { "id": "b", "text": "AZITROMICINA VO dose única + AMPICILINA EV por 48 h → AMOXICILINA VO por 5 dias. Objetivos: AUMENTAR o PERÍODO DE LATÊNCIA (tempo entre ruptura e parto) e REDUZIR risco de CORIOAMNIONITE — não é tratamento de infecção comprovada, mas profilaxia em paciente com membranas rotas e barreira protetora perdida", "isCorrect": true, "explanation": "Correto: o esquema clássico (recomendado por ACOG) para RPPM < 34 semanas é: AZITROMICINA 1g VO dose única + AMPICILINA 2g EV 6/6h por 48h → AMOXICILINA 500mg VO 8/8h por 5 dias (total de 7 dias). Objetivos: (1) aumentar período de latência (ganhar tempo para corticoterapia agir e maturar pulmões fetais); (2) reduzir corioamnionite e endometrite pós-parto; (3) reduzir morbidade neonatal (sepse, hemorragia intracraniana). NÃO é para tratar infecção já estabelecida — se houver corioamnionite, a conduta é INTERROMPER a gestação imediatamente com ATB amplo espectro." },
+      { "id": "c", "text": "Penicilina G EV apenas (cobertura para Streptococcus do grupo B isolada)", "isCorrect": false, "explanation": "Errado: penicilina sozinha não é o esquema de profilaxia em RPPM (embora seja a base para profilaxia GBS no parto). O esquema RPPM cobre amplo espectro." },
+      { "id": "d", "text": "Não há indicação de antibiótico em RPPM enquanto não houver febre", "isCorrect": false, "explanation": "Errado: a antibioticoprofilaxia é RECOMENDADA imediatamente no diagnóstico de RPPM < 34 semanas (mesmo sem febre), justamente para PREVENIR a infecção." }
+    ],
+    "reference": "TPP e RPM — Antibioticoprofilaxia em RPPM"
+  },
+  {
+    "id": "q-obs-tpprpm-013",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Como diferenciar clinicamente CONTRAÇÕES DE BRAXTON-HICKS de TRABALHO DE PARTO PREMATURO (TPP)?",
+    "options": [
+      { "id": "a", "text": "Braxton-Hicks são mais dolorosas e regulares que TPP", "isCorrect": false, "explanation": "Errado: invertido. Braxton-Hicks é INDOLOR ou pouco doloroso e IRREGULAR; TPP é doloroso e regular." },
+      { "id": "b", "text": "Braxton-Hicks: contrações INDOLORES, IRREGULARES, SEM alteração cervical, geralmente desaparecem com repouso/hidratação. TPP: contrações REGULARES (1-2/10 min), DOLOROSAS, COM alteração cervical confirmada (apagamento > 80% ou dilatação ≥ 2 cm). Em caso de DÚVIDA: reavaliar o colo com TOQUE em 1-2 horas — se mudou, é TPP; se não, é Braxton-Hicks", "isCorrect": true, "explanation": "Correto: a chave do diagnóstico diferencial é a ALTERAÇÃO CERVICAL. Braxton-Hicks (também chamadas 'contrações de treinamento') são frequentes na gestação avançada, geralmente indolores ou pouco dolorosas, irregulares, e cessam com hidratação/repouso/decúbito lateral esquerdo. TPP exige contrações REGULARES (1-2 em 10 min) + DOLOROSAS + ALTERAÇÃO CERVICAL DEMONSTRÁVEL (toque seriado). Em caso de dúvida: hidratar, repousar, reavaliar colo em 1-2 h — se não houve mudança cervical, era falso TP. Atenção: toque repetido em bolsa rota aumenta risco de infecção, então é mais conservador em RPM." },
+      { "id": "c", "text": "Apenas o ultrassom diferencia os dois quadros", "isCorrect": false, "explanation": "Errado: USG transvaginal ajuda no rastreio de risco (colo curto), mas o diagnóstico de TPP é CLÍNICO (contração + alteração cervical)." },
+      { "id": "d", "text": "Braxton-Hicks têm BCF alterado; TPP não", "isCorrect": false, "explanation": "Errado: BCF normal em ambos (Braxton-Hicks não causa sofrimento; TPP per se também não — a menos que haja complicação)." }
+    ],
+    "reference": "TPP e RPM — Diferencial TPP × Braxton-Hicks"
+  },
+  {
+    "id": "q-obs-tpprpm-014",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "bonus",
+    "prompt": "Caso clínico (BÔNUS — internato): Gestante 26 anos, G2P1 (1 parto a termo prévio), 30 semanas + 2 dias, chega ao PS com contrações regulares 2 em 10 min, dor lombar e abdominal há 6h. Toque: colo 3 cm dilatado, 80% apagado, bolsa íntegra. BCF 145 bpm reativo, líquido amniótico ausente ao especular. Status GBS desconhecido. Sem febre, sem outros sinais de infecção. Hospital com UTI neonatal disponível. Qual o MANEJO COMPLETO?",
+    "options": [
+      { "id": "a", "text": "Apenas observação por 2 horas e alta se as contrações cessarem", "isCorrect": false, "explanation": "Errado: já há contrações regulares + alteração cervical (3cm, 80%) — o diagnóstico de TPP está fechado. Não pode ter alta." },
+      { "id": "b", "text": "(1) INTERNAÇÃO em centro com UTI neonatal; (2) TOCÓLISE com NIFEDIPINA 30 mg ataque + 20 mg 6/6h (ou ATOSIBAN), por até 48 h; (3) CORTICOTERAPIA: BETAMETASONA 12 mg IM, 2 doses com 24 h de intervalo (melhor efeito em 48 h); (4) NEUROPROTEÇÃO com SO4Mg 4 g em bolus + 1 g/h IV (porque IG < 32 semanas com risco iminente de parto); (5) INVESTIGAR INFECÇÃO subjacente (urocultura, swab vaginal, hemograma, PCR — TPP é infeccioso em até 40% dos casos); (6) PROFILAXIA EMPÍRICA para GBS (penicilina G EV) já que status é desconhecido e há trabalho de parto pré-termo; (7) MONITORIZAÇÃO contínua materno-fetal", "isCorrect": true, "explanation": "Correto: este é o manejo MULTIFACETADO clássico do TPP < 34 semanas: TOCÓLISE para ganhar 48h (nifedipina 1ª linha — bloqueador de canal de cálcio — ou atosiban — antagonista de ocitocina); CORTICOIDE antenatal (betametasona) para maturação pulmonar fetal e redução de hemorragia intracraniana e enterocolite necrosante; NEUROPROTEÇÃO com SO4Mg apenas em < 32 semanas com risco iminente (reduz paralisia cerebral); INVESTIGAÇÃO de infecção (TPP tem etiologia infecciosa em até 40%) — ATB direcionado se foco identificado; PROFILAXIA GBS empírica em todo TPP com status desconhecido; transferência hospitalar caso sem UTI neonatal local." },
+      { "id": "c", "text": "Cesárea de urgência imediatamente, sem outras medidas", "isCorrect": false, "explanation": "Errado: cesárea precipitada não traz benefício e priva o feto dos benefícios do corticoide (maturação pulmonar) e SO4Mg (neuroproteção). Cesárea só se tocólise contraindicada/falhar e houver indicação obstétrica." },
+      { "id": "d", "text": "Apenas tocólise; corticoterapia só se a paciente piorar", "isCorrect": false, "explanation": "Errado: corticoterapia é PRIORITÁRIA em qualquer TPP entre 24-34 semanas (mesmo se a tocólise tiver sucesso) — o objetivo da tocólise é JUSTAMENTE ganhar tempo para o corticoide agir." }
+    ],
+    "reference": "TPP e RPM — Manejo completo do TPP < 34 semanas"
   }
 ]

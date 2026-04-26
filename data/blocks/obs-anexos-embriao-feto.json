@@ -110,5 +110,47 @@
       { "id": "d", "text": "É composta exclusivamente por endotélio capilar fetal", "isCorrect": false, "explanation": "Errado: é formada por sincício e citotrofoblasto, membrana basal trofoblástica, tecido conjuntivo vilositário, membrana basal endotelial e endotélio capilar fetal." }
     ],
     "reference": "Anexos do Embrião e do Feto — Barreira placentária"
+  },
+  {
+    "id": "q-obs-anexos-009",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "São funções da placenta, EXCETO:",
+    "options": [
+      { "id": "a", "text": "Nutrição e transporte (glicose, aminoácidos, lipídios)", "isCorrect": false, "explanation": "É função da placenta — transfere nutrientes essenciais ao feto." },
+      { "id": "b", "text": "Excreção de metabólitos (ureia, creatinina) e trocas gasosas (O2/CO2)", "isCorrect": false, "explanation": "É função da placenta — atua como 'rim' e 'pulmão' fetais." },
+      { "id": "c", "text": "Função endócrina (hCG, progesterona, hPL) e modulação imunológica (tolerância materno-fetal)", "isCorrect": false, "explanation": "É função da placenta — produz hormônios essenciais à manutenção da gestação e impede rejeição imunológica do feto." },
+      { "id": "d", "text": "Hematopoiese fetal definitiva durante toda a gestação", "isCorrect": true, "explanation": "Correto (não é função da placenta): a hematopoiese PRIMITIVA ocorre no SACO VITELÍNICO (a partir da 3ª semana); depois passa para fígado, baço e finalmente medula óssea. A placenta NÃO faz hematopoiese definitiva. As funções placentárias são: (1) nutrição/transporte, (2) excreção, (3) endócrina, (4) trocas gasosas, (5) imunidade/proteção, (6) modulação imunológica." }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Funções da placenta"
+  },
+  {
+    "id": "q-obs-anexos-010",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em gestante com diabetes mellitus mal controlado, qual o mecanismo fisiopatológico que explica a MACROSSOMIA fetal?",
+    "options": [
+      { "id": "a", "text": "A insulina materna atravessa a placenta e estimula crescimento fetal", "isCorrect": false, "explanation": "Errado: a INSULINA materna NÃO atravessa a placenta (peso molecular elevado). Quem atravessa é a glicose." },
+      { "id": "b", "text": "Hiperglicemia materna → glicose atravessa a placenta por difusão facilitada (GLUT1/3) → hiperinsulinismo fetal compensatório (insulina é hormônio ANABÓLICO) → crescimento excessivo (macrossomia)", "isCorrect": true, "explanation": "Correto: o pâncreas FETAL responde à glicose materna excessiva produzindo mais insulina. Como a insulina é anabólica, isso estimula crescimento exagerado de tecidos sensíveis (gordura subcutânea, fígado, músculo) — gerando macrossomia. Após o nascimento, ao ser cortada a glicose materna, o RN mantém o hiperinsulinismo por algumas horas → HIPOGLICEMIA NEONATAL (importante monitorar)." },
+      { "id": "c", "text": "Aumento direto do hPL (lactogênio placentário) leva ao crescimento fetal", "isCorrect": false, "explanation": "Errado: o hPL aumenta a resistência insulínica MATERNA (para preservar glicose ao feto), mas o fator central da macrossomia diabética é o hiperinsulinismo FETAL, não o hPL." },
+      { "id": "d", "text": "A glicose materna não atravessa a placenta — a macrossomia ocorre por estímulo hormonal materno", "isCorrect": false, "explanation": "Errado: glicose ATRAVESSA a placenta livremente (GLUT1/GLUT3, sem necessidade de insulina) — esse é justamente o gatilho do problema." }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Transporte materno-fetal"
+  },
+  {
+    "id": "q-obs-anexos-011",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre as 4 condições clínicas em que a placenta está intimamente envolvida na fisiopatologia, é INCORRETO afirmar:",
+    "options": [
+      { "id": "a", "text": "Pré-eclâmpsia: causada por falha na invasão trofoblástica e remodelamento das artérias espiraladas → vasos permanecem de alta resistência → hipoperfusão placentária → liberação de fatores anti-angiogênicos sistêmicos → vasoconstrição materna e HAS", "isCorrect": false, "explanation": "Está CORRETO: o mecanismo da pré-eclâmpsia é exatamente esse. A aspirina age preventivamente sobre a invasão trofoblástica em pacientes de alto risco." },
+      { "id": "b", "text": "Restrição do crescimento intrauterino (RCIU): consequência da mesma má perfusão placentária — feto recebe menos nutrientes/O2 → peso < percentil 10", "isCorrect": false, "explanation": "Está CORRETO: a placenta insuficiente não consegue suprir as demandas fetais, levando a peso fetal abaixo do percentil 10 para a idade gestacional." },
+      { "id": "c", "text": "Descolamento prematuro de placenta (DPP): separação precoce da placenta → hipertensão, trauma e coagulopatias estão entre os fatores precipitantes; pode causar coagulopatia consumptiva (CIVD)", "isCorrect": false, "explanation": "Está CORRETO: hipertensão (o principal), trauma abdominal, sobredistensão uterina, cocaína e tabagismo são precipitantes clássicos. CIVD ocorre por consumo de fatores e fibrinólise local." },
+      { "id": "d", "text": "Diabetes mellitus gestacional: a placenta não tem nenhum papel na fisiopatologia — é apenas uma alteração metabólica materna isolada", "isCorrect": true, "explanation": "Correto (essa é a INCORRETA): a placenta TEM papel central no DMG. Ela produz hPL, progesterona e cortisol que aumentam a resistência insulínica materna no 2º-3º trimestres (mecanismo evolutivo para preservar glicose ao feto). Em mulheres predispostas, esse aumento de resistência precipita o diabetes gestacional. As 4 condições placentárias são: pré-eclâmpsia, RCIU, DPP e DM." }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Condições placentárias"
   }
 ]

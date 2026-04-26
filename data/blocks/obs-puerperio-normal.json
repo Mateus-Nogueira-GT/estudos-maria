@@ -124,5 +124,75 @@
       { "id": "d", "text": "Sempre é sintomática (dor e edema unilateral)", "isCorrect": false, "explanation": "Errado: a maioria é ASSINTOMÁTICA." }
     ],
     "reference": "Puerpério Normal — Trombose venosa profunda"
+  },
+  {
+    "id": "q-obs-puerp-010",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A involução uterina no puerpério se dá em qual velocidade aproximada?",
+    "options": [
+      { "id": "a", "text": "~5 cm por dia — em 2 dias o útero retorna ao tamanho pré-gestacional", "isCorrect": false, "explanation": "Errado: muito rápido; a involução é progressiva ao longo de semanas." },
+      { "id": "b", "text": "~1 cm por dia em altura uterina; ao 10º dia já não é mais palpável acima da sínfise púbica; retorno ao tamanho pré-gestacional ocorre em ~5-6 semanas", "isCorrect": true, "explanation": "Correto: o útero, que pesa ~1 kg e atinge a cicatriz umbilical logo após o parto, regride aproximadamente 1 cm/dia em altura uterina. No 10º dia volta a ser órgão pélvico (não palpável acima da sínfise). Retorno completo ao tamanho/peso pré-gestacional (~300 g) leva 5-6 semanas. SUBINVOLUÇÃO uterina (útero grande/amolecido após 10º dia) sugere endometrite ou retenção placentária." },
+      { "id": "c", "text": "Não involui — permanece com tamanho gravídico permanentemente", "isCorrect": false, "explanation": "Errado: involui sim, embora não retorne EXATAMENTE ao formato pré-gestacional (colo de multípara fica em 'fenda', por exemplo)." },
+      { "id": "d", "text": "Apenas após 6 meses do parto", "isCorrect": false, "explanation": "Errado: involução completa em 5-6 semanas." }
+    ],
+    "reference": "Puerpério Normal — Involução uterina"
+  },
+  {
+    "id": "q-obs-puerp-011",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a INVERSÃO UTERINA no puerpério imediato:",
+    "options": [
+      { "id": "a", "text": "É um achado fisiológico normal das primeiras 24 horas", "isCorrect": false, "explanation": "Errado: é uma EMERGÊNCIA OBSTÉTRICA com risco de choque." },
+      { "id": "b", "text": "Manifesta-se com DOR INTENSA + HEMORRAGIA PROFUSA + AUSÊNCIA do fundo uterino na pelve (com possível protusão para a vagina). Pode levar a CHOQUE NEUROGÊNICO (pela dor súbita) e hipovolêmico. Conduta: MANOBRA DE JOHNSON — reposicionamento manual imediato do útero (empurra o fundo invertido de volta pela vagina)", "isCorrect": true, "explanation": "Correto: a tríade clínica é dor + sangramento abundante + 'útero não palpável' na pelve abdominal (porque está dentro da vagina). Pode haver CHOQUE NEUROGÊNICO precoce (pela dor súbita estimulando vagal) somado ao hipovolêmico (pelo sangramento). Tratamento: chamar ajuda IMEDIATA, manobra de JOHNSON sob analgesia (reposiciona o útero manualmente pela vagina, empurrando o fundo invertido), uterotônicos APÓS reposição. Causas: excesso de aderência placentária + excesso de relaxamento uterino + tração indevida do cordão." },
+      { "id": "c", "text": "É tratada apenas com observação, pois reverte espontaneamente", "isCorrect": false, "explanation": "Errado: a reversão precisa ser ATIVA (manobra de Johnson) e imediata; espera leva a choque." },
+      { "id": "d", "text": "Indica histerectomia imediata", "isCorrect": false, "explanation": "Errado: histerectomia só se a manobra de Johnson falhar e houver complicações irreversíveis. A primeira tentativa é sempre conservadora." }
+    ],
+    "reference": "Puerpério Normal — Inversão uterina"
+  },
+  {
+    "id": "q-obs-puerp-012",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Lactante 3 semanas após o parto com mama direita dolorosa, hiperemiada, quente, febril (38,5 ºC), com fissura no mamilo. Qual a conduta CORRETA?",
+    "options": [
+      { "id": "a", "text": "Suspender imediatamente a amamentação na mama afetada e desmamar", "isCorrect": false, "explanation": "Errado: o esvaziamento da mama é PARTE DO TRATAMENTO. Suspender amamentação piora ingurgitamento e favorece formação de abscesso." },
+      { "id": "b", "text": "Diagnóstico: MASTITE PUERPERAL (S. aureus é o agente mais comum). Conduta: antibiótico (CEFALOSPORINA — ex.: cefalexina), analgésico/antitérmico, MANTER amamentação na mama afetada (esvaziamento por sucção e/ou ordenha), corrigir pega para evitar nova fissura. Se evoluir para abscesso (flutuação) → drenagem cirúrgica", "isCorrect": true, "explanation": "Correto: mastite puerperal acomete ~33% das lactantes (geralmente 2-3 semanas pós-parto), tipicamente por S. aureus (também S. epidermidis), entrando por fissura mamilar. Evolução: parenquimatosa (hiperemia) → intersticial → congestiva → abcedada (flutuação). Tratamento: ATB (cefalosporina como cefalexina), analgesia, MANTER amamentação (esvaziar a mama por sucção do bebê ou ordenha — leite acumulado piora o quadro). Drenagem cirúrgica APENAS se abscesso formado. Importante: examinar a mama em TODAS as consultas puerperais." },
+      { "id": "c", "text": "Compressas frias prolongadas e aguardar sem antibiótico", "isCorrect": false, "explanation": "Errado: mastite com febre exige ATB. Compressas mornas são usadas para amolecer e facilitar o esvaziamento, não frias." },
+      { "id": "d", "text": "Drenagem cirúrgica imediata sem antibiótico prévio", "isCorrect": false, "explanation": "Errado: drenagem só se houver abscesso (flutuação); na fase celulítica, ATB resolve." }
+    ],
+    "reference": "Puerpério Normal — Mastite"
+  },
+  {
+    "id": "q-obs-puerp-013",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre os volumes de SANGRAMENTO obstétrico e a definição de hemorragia pós-parto (HPP), é CORRETO afirmar:",
+    "options": [
+      { "id": "a", "text": "Sangramento normal: parto vaginal ~400-500 mL; cesárea ~800-1000 mL. HPP: perda CUMULATIVA acima do normal pós-parto OU qualquer perda capaz de causar instabilidade hemodinâmica (independentemente do volume)", "isCorrect": true, "explanation": "Correto: a definição CLÍNICA atual de HPP enfatiza tanto VOLUME (acima do normal — > 500 mL vaginal ou > 1000 mL cesárea) QUANTO REPERCUSSÃO HEMODINÂMICA (queda de PA, taquicardia, palidez, oligúria) — porque a estimativa visual é notoriamente imprecisa. Cesárea sangra MAIS em volume absoluto, mas o parto vaginal é responsável por mais HPP em números absolutos (mais frequente). Reposição de ferro durante a gestação é proteção." },
+      { "id": "b", "text": "Sangramento normal: vaginal 1500 mL; cesárea 200 mL", "isCorrect": false, "explanation": "Errado: invertido e com volumes errados." },
+      { "id": "c", "text": "Apenas perdas > 2000 mL configuram HPP", "isCorrect": false, "explanation": "Errado: o limiar é muito menor (500 mL vaginal, 1000 mL cesárea), e a repercussão hemodinâmica conta MESMO em volumes menores." },
+      { "id": "d", "text": "HPP só é diagnóstico em pacientes que evoluem para óbito", "isCorrect": false, "explanation": "Errado: HPP é a PRINCIPAL causa de mortalidade materna direta, mas o conceito inclui near-miss (paciente que quase morreu mas foi salva)." }
+    ],
+    "reference": "Puerpério Normal — Hemorragia pós-parto"
+  },
+  {
+    "id": "q-obs-puerp-014",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "bonus",
+    "prompt": "Caso clínico (BÔNUS — internato): Pós-parto vaginal de RN 4100g, há 30 min. Paciente apresenta sangramento vaginal abundante (~600 mL), útero amolecido (não-pétrio), PA 95×60, FC 110, palidez. Já feita massagem uterina + ocitocina IV (10 UI bolus + infusão contínua). Sangramento persiste. Qual a SEQUÊNCIA correta de manejo?",
+    "options": [
+      { "id": "a", "text": "Indicar histerectomia imediata", "isCorrect": false, "explanation": "Errado: histerectomia é último recurso. Há várias etapas conservadoras antes." },
+      { "id": "b", "text": "MANOBRA DE HAMILTON (compressão bimanual) → segundo uterotônico (METILERGOMETRINA 0,2 mg IM, contraindicada em HAS/pré-eclâmpsia) → terceiro uterotônico (MISOPROSTOL 800-1000 µg retal) → TAMPONAMENTO INTRAUTERINO com balão (ex.: Bakri) → ligadura de a. uterinas / hipogástricas → HISTERECTOMIA se refratário. Em PARALELO: protocolo de hemorragia (acesso calibroso × 2, tipagem, prova cruzada, hemoderivados [CH, plasma, plaquetas em razão 1:1:1], reposição volêmica, monitorização)", "isCorrect": true, "explanation": "Correto: o ESCALONAMENTO de uterotônicos é a base do manejo da atonia refratária. Sequência: (1) MASSAGEM + OCITOCINA já feitos; (2) MANOBRA DE HAMILTON — compressão bimanual (uma mão em punho na vagina + outra externa no fundo); (3) METILERGOMETRINA 0,2 mg IM (ATENÇÃO: contraindicada em HAS, pré-eclâmpsia, doença coronariana, Raynaud); (4) MISOPROSTOL 800-1000 µg retal (PGE1 análogo); (5) TAMPONAMENTO com BALÃO INTRAUTERINO (Bakri ou improvisado com sonda Foley); (6) intervenção CIRÚRGICA — ligadura de a. uterinas (técnica de O'Leary), B-Lynch (suturas compressivas), ligadura de a. ilíacas internas/hipogástricas; (7) HISTERECTOMIA se refratária. Paralelamente: acesso calibroso x 2, tipagem, hemoderivados em razão 1:1:1 (concentrado de hemácias : plasma fresco : plaquetas), monitorização hemodinâmica, considerar UTI." },
+      { "id": "c", "text": "Aguardar 30 minutos para ver se cessa espontaneamente", "isCorrect": false, "explanation": "Errado: HPP é EMERGÊNCIA — cada minuto importa. Aguardar leva a choque hipovolêmico irreversível." },
+      { "id": "d", "text": "Apenas reposição volêmica com cristalóide, sem novos uterotônicos", "isCorrect": false, "explanation": "Errado: reposição volêmica é necessária mas NÃO trata a causa (atonia). Sem controle do foco hemorrágico (uterotônicos + procedimentos), o sangramento continua e evolui para coagulopatia dilucional." }
+    ],
+    "reference": "Puerpério Normal — Manejo escalonado da HPP"
   }
 ]

@@ -124,5 +124,61 @@
       { "id": "d", "text": "A episiotomia é feita justamente sobre o esfíncter anal para facilitar a saída", "isCorrect": false, "explanation": "Errado: a tesoura é DESVIADA do esfíncter anal exatamente para protegê-lo." }
     ],
     "reference": "Anatomia Pélvica e Estática Fetal — Musculatura pélvica"
+  },
+  {
+    "id": "q-obs-anatpelv-010",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A pelve óssea é composta por:",
+    "options": [
+      { "id": "a", "text": "Apenas pelos ossos ilíacos (direito e esquerdo)", "isCorrect": false, "explanation": "Incompleto — faltam sacro e cóccix." },
+      { "id": "b", "text": "Ilíacos (cada um formado por ÍLIO + ÍSQUIO + PÚBIS), SACRO e CÓCCIX", "isCorrect": true, "explanation": "Correto: a pelve óssea é formada pelos dois ossos ilíacos (cada qual fusão de ílio + ísquio + púbis na adolescência), pelo sacro (5 vértebras fundidas) e pelo cóccix. A linha arqueada divide a pelve VERDADEIRA (menor, abaixo, por onde o feto passa) da pelve FALSA (maior, acima, parte da cavidade abdominal)." },
+      { "id": "c", "text": "Sacro e cóccix apenas", "isCorrect": false, "explanation": "Incompleto — faltam os ilíacos." },
+      { "id": "d", "text": "Fêmur, ilíaco e sacro", "isCorrect": false, "explanation": "Errado: o fêmur faz parte do membro inferior, não da pelve óssea." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Pelve óssea"
+  },
+  {
+    "id": "q-obs-anatpelv-011",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a 1ª e 2ª manobras de Leopold, é CORRETO afirmar:",
+    "options": [
+      { "id": "a", "text": "1ª manobra palpa o dorso fetal pela lateral; 2ª manobra identifica o fundo uterino", "isCorrect": false, "explanation": "Errado: ordem invertida. 1ª = fundo uterino; 2ª = dorso fetal." },
+      { "id": "b", "text": "1ª manobra: palpação BIMANUAL do FUNDO UTERINO para identificar qual polo está alojado lá (cabeça vs nádegas) → permite avaliar SITUAÇÃO. 2ª manobra: desce-se pelas LATERAIS do abdome procurando o lado liso e resistente (DORSO FETAL) e o lado com pequenas partes (membros) → define POSIÇÃO (D ou E)", "isCorrect": true, "explanation": "Correto: 1ª manobra = identificação do fundo uterino para definir SITUAÇÃO (longitudinal vs transversal); 2ª manobra = localização do DORSO FETAL pela lateral, definindo a POSIÇÃO (1ª = dorso à esquerda materna; 2ª = dorso à direita). A ausculta do BCF é feita justamente sobre o dorso fetal (porque o coração 'olha' para esse lado). 3ª manobra avalia apresentação (cabeça/nádegas no estreito superior); 4ª avalia insinuação." },
+      { "id": "c", "text": "Ambas as manobras são feitas com a paciente em pé", "isCorrect": false, "explanation": "Errado: as manobras de Leopold são realizadas com a gestante em decúbito dorsal (depois lateralizada se causar hipotensão supina)." },
+      { "id": "d", "text": "Servem para medir a dilatação cervical", "isCorrect": false, "explanation": "Errado: dilatação se mede pelo TOQUE VAGINAL, não por palpação abdominal." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Manobras de Leopold"
+  },
+  {
+    "id": "q-obs-anatpelv-012",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quanto à variedade de posição fetal em apresentação cefálica fletida, qual conjunto representa as MAIS FAVORÁVEIS para parto vaginal?",
+    "options": [
+      { "id": "a", "text": "OIDP e OP (occípito-direita posterior e occípito-posterior)", "isCorrect": false, "explanation": "Errado: as POSTERIORES (OIDP, OIEP, OP) são DESFAVORÁVEIS — o occípício está voltado para o sacro materno, o que prolonga o trabalho de parto e exige rotação de 135-180º para chegar a OP/OA." },
+      { "id": "b", "text": "OEA / OIEA / OA (occípito-esquerda anterior, occípito-ilíaca esquerda anterior, occípito-anterior)", "isCorrect": true, "explanation": "Correto: as variedades ANTERIORES (especialmente OEA/OIEA, mais comum em pelves ginecóides) são as MAIS FAVORÁVEIS — o occípício está voltado para a sínfise púbica, e a cabeça precisa fazer pouca rotação interna para chegar a OP (occípito-púbica), variedade ideal para o desprendimento." },
+      { "id": "c", "text": "OEA e OIDP (uma anterior e uma posterior)", "isCorrect": false, "explanation": "Mistura uma favorável com uma desfavorável; não é o conjunto correto." },
+      { "id": "d", "text": "OET e OIDT (transversas)", "isCorrect": false, "explanation": "As transversas (OIET, OIDT) são intermediárias e geralmente rotacionam para anteriores ou posteriores durante o TP — não são as 'mais favoráveis'." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Variedades de posição"
+  },
+  {
+    "id": "q-obs-anatpelv-013",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre as variantes da apresentação PÉLVICA, é CORRETO afirmar:",
+    "options": [
+      { "id": "a", "text": "Pélvica COMPLETA: feto com pernas e bumbum para baixo (posição 'cócoras' ou 'meditação') — quadril e joelhos fletidos", "isCorrect": true, "explanation": "Correto: na pélvica completa o feto está fletido no quadril e nos joelhos (sentado de cócoras dentro do útero). Pélvica INCOMPLETA modo pés (footling) = um ou ambos os pés se apresentam primeiro (joelhos estendidos) — pior prognóstico, alto risco de prolapso de cordão. Pélvica FRANK = quadris fletidos mas joelhos ESTENDIDOS (pernas para cima junto à face) — é a apresentação pélvica mais comum e a 'menos pior' para parto vaginal selecionado." },
+      { "id": "b", "text": "A pélvica modo pés (incompleta) é a melhor para parto vaginal porque os pés guiam a saída", "isCorrect": false, "explanation": "Errado: a modo pés é JUSTAMENTE A PIOR — alto risco de prolapso de cordão umbilical (emergência obstétrica). Cesárea é a regra." },
+      { "id": "c", "text": "Toda apresentação pélvica é indicação absoluta de cesárea, sem exceção", "isCorrect": false, "explanation": "Errado: em centros experientes, pélvica FRANK selecionada (a termo, peso fetal estimado adequado, pelve ginecóide, sem extensão de cabeça fetal) pode ter parto vaginal — embora a maioria dos serviços hoje opte por cesárea pela morbimortalidade observada no estudo Term Breech Trial." },
+      { "id": "d", "text": "A apresentação pélvica não tem subdivisões — é sempre o mesmo tipo", "isCorrect": false, "explanation": "Errado: existem 3 tipos com prognósticos diferentes (frank, completa, incompleta/modo pés)." }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Apresentação pélvica"
   }
 ]

@@ -5540,6 +5540,142 @@
     "reference": "Anatomia Pélvica e Estática Fetal — Musculatura pélvica"
   },
   {
+    "id": "q-obs-anatpelv-010",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A pelve óssea é composta por:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Apenas pelos ossos ilíacos (direito e esquerdo)",
+        "isCorrect": false,
+        "explanation": "Incompleto — faltam sacro e cóccix."
+      },
+      {
+        "id": "b",
+        "text": "Ilíacos (cada um formado por ÍLIO + ÍSQUIO + PÚBIS), SACRO e CÓCCIX",
+        "isCorrect": true,
+        "explanation": "Correto: a pelve óssea é formada pelos dois ossos ilíacos (cada qual fusão de ílio + ísquio + púbis na adolescência), pelo sacro (5 vértebras fundidas) e pelo cóccix. A linha arqueada divide a pelve VERDADEIRA (menor, abaixo, por onde o feto passa) da pelve FALSA (maior, acima, parte da cavidade abdominal)."
+      },
+      {
+        "id": "c",
+        "text": "Sacro e cóccix apenas",
+        "isCorrect": false,
+        "explanation": "Incompleto — faltam os ilíacos."
+      },
+      {
+        "id": "d",
+        "text": "Fêmur, ilíaco e sacro",
+        "isCorrect": false,
+        "explanation": "Errado: o fêmur faz parte do membro inferior, não da pelve óssea."
+      }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Pelve óssea"
+  },
+  {
+    "id": "q-obs-anatpelv-011",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a 1ª e 2ª manobras de Leopold, é CORRETO afirmar:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1ª manobra palpa o dorso fetal pela lateral; 2ª manobra identifica o fundo uterino",
+        "isCorrect": false,
+        "explanation": "Errado: ordem invertida. 1ª = fundo uterino; 2ª = dorso fetal."
+      },
+      {
+        "id": "b",
+        "text": "1ª manobra: palpação BIMANUAL do FUNDO UTERINO para identificar qual polo está alojado lá (cabeça vs nádegas) → permite avaliar SITUAÇÃO. 2ª manobra: desce-se pelas LATERAIS do abdome procurando o lado liso e resistente (DORSO FETAL) e o lado com pequenas partes (membros) → define POSIÇÃO (D ou E)",
+        "isCorrect": true,
+        "explanation": "Correto: 1ª manobra = identificação do fundo uterino para definir SITUAÇÃO (longitudinal vs transversal); 2ª manobra = localização do DORSO FETAL pela lateral, definindo a POSIÇÃO (1ª = dorso à esquerda materna; 2ª = dorso à direita). A ausculta do BCF é feita justamente sobre o dorso fetal (porque o coração 'olha' para esse lado). 3ª manobra avalia apresentação (cabeça/nádegas no estreito superior); 4ª avalia insinuação."
+      },
+      {
+        "id": "c",
+        "text": "Ambas as manobras são feitas com a paciente em pé",
+        "isCorrect": false,
+        "explanation": "Errado: as manobras de Leopold são realizadas com a gestante em decúbito dorsal (depois lateralizada se causar hipotensão supina)."
+      },
+      {
+        "id": "d",
+        "text": "Servem para medir a dilatação cervical",
+        "isCorrect": false,
+        "explanation": "Errado: dilatação se mede pelo TOQUE VAGINAL, não por palpação abdominal."
+      }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Manobras de Leopold"
+  },
+  {
+    "id": "q-obs-anatpelv-012",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Quanto à variedade de posição fetal em apresentação cefálica fletida, qual conjunto representa as MAIS FAVORÁVEIS para parto vaginal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "OIDP e OP (occípito-direita posterior e occípito-posterior)",
+        "isCorrect": false,
+        "explanation": "Errado: as POSTERIORES (OIDP, OIEP, OP) são DESFAVORÁVEIS — o occípício está voltado para o sacro materno, o que prolonga o trabalho de parto e exige rotação de 135-180º para chegar a OP/OA."
+      },
+      {
+        "id": "b",
+        "text": "OEA / OIEA / OA (occípito-esquerda anterior, occípito-ilíaca esquerda anterior, occípito-anterior)",
+        "isCorrect": true,
+        "explanation": "Correto: as variedades ANTERIORES (especialmente OEA/OIEA, mais comum em pelves ginecóides) são as MAIS FAVORÁVEIS — o occípício está voltado para a sínfise púbica, e a cabeça precisa fazer pouca rotação interna para chegar a OP (occípito-púbica), variedade ideal para o desprendimento."
+      },
+      {
+        "id": "c",
+        "text": "OEA e OIDP (uma anterior e uma posterior)",
+        "isCorrect": false,
+        "explanation": "Mistura uma favorável com uma desfavorável; não é o conjunto correto."
+      },
+      {
+        "id": "d",
+        "text": "OET e OIDT (transversas)",
+        "isCorrect": false,
+        "explanation": "As transversas (OIET, OIDT) são intermediárias e geralmente rotacionam para anteriores ou posteriores durante o TP — não são as 'mais favoráveis'."
+      }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Variedades de posição"
+  },
+  {
+    "id": "q-obs-anatpelv-013",
+    "topicId": "obs-anatomia-pelvica-fetal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre as variantes da apresentação PÉLVICA, é CORRETO afirmar:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pélvica COMPLETA: feto com pernas e bumbum para baixo (posição 'cócoras' ou 'meditação') — quadril e joelhos fletidos",
+        "isCorrect": true,
+        "explanation": "Correto: na pélvica completa o feto está fletido no quadril e nos joelhos (sentado de cócoras dentro do útero). Pélvica INCOMPLETA modo pés (footling) = um ou ambos os pés se apresentam primeiro (joelhos estendidos) — pior prognóstico, alto risco de prolapso de cordão. Pélvica FRANK = quadris fletidos mas joelhos ESTENDIDOS (pernas para cima junto à face) — é a apresentação pélvica mais comum e a 'menos pior' para parto vaginal selecionado."
+      },
+      {
+        "id": "b",
+        "text": "A pélvica modo pés (incompleta) é a melhor para parto vaginal porque os pés guiam a saída",
+        "isCorrect": false,
+        "explanation": "Errado: a modo pés é JUSTAMENTE A PIOR — alto risco de prolapso de cordão umbilical (emergência obstétrica). Cesárea é a regra."
+      },
+      {
+        "id": "c",
+        "text": "Toda apresentação pélvica é indicação absoluta de cesárea, sem exceção",
+        "isCorrect": false,
+        "explanation": "Errado: em centros experientes, pélvica FRANK selecionada (a termo, peso fetal estimado adequado, pelve ginecóide, sem extensão de cabeça fetal) pode ter parto vaginal — embora a maioria dos serviços hoje opte por cesárea pela morbimortalidade observada no estudo Term Breech Trial."
+      },
+      {
+        "id": "d",
+        "text": "A apresentação pélvica não tem subdivisões — é sempre o mesmo tipo",
+        "isCorrect": false,
+        "explanation": "Errado: existem 3 tipos com prognósticos diferentes (frank, completa, incompleta/modo pés)."
+      }
+    ],
+    "reference": "Anatomia Pélvica e Estática Fetal — Apresentação pélvica"
+  },
+  {
     "id": "q-obs-anexos-001",
     "topicId": "obs-anexos-embriao-feto",
     "type": "objective",
@@ -5810,6 +5946,108 @@
       }
     ],
     "reference": "Anexos do Embrião e do Feto — Barreira placentária"
+  },
+  {
+    "id": "q-obs-anexos-009",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "São funções da placenta, EXCETO:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nutrição e transporte (glicose, aminoácidos, lipídios)",
+        "isCorrect": false,
+        "explanation": "É função da placenta — transfere nutrientes essenciais ao feto."
+      },
+      {
+        "id": "b",
+        "text": "Excreção de metabólitos (ureia, creatinina) e trocas gasosas (O2/CO2)",
+        "isCorrect": false,
+        "explanation": "É função da placenta — atua como 'rim' e 'pulmão' fetais."
+      },
+      {
+        "id": "c",
+        "text": "Função endócrina (hCG, progesterona, hPL) e modulação imunológica (tolerância materno-fetal)",
+        "isCorrect": false,
+        "explanation": "É função da placenta — produz hormônios essenciais à manutenção da gestação e impede rejeição imunológica do feto."
+      },
+      {
+        "id": "d",
+        "text": "Hematopoiese fetal definitiva durante toda a gestação",
+        "isCorrect": true,
+        "explanation": "Correto (não é função da placenta): a hematopoiese PRIMITIVA ocorre no SACO VITELÍNICO (a partir da 3ª semana); depois passa para fígado, baço e finalmente medula óssea. A placenta NÃO faz hematopoiese definitiva. As funções placentárias são: (1) nutrição/transporte, (2) excreção, (3) endócrina, (4) trocas gasosas, (5) imunidade/proteção, (6) modulação imunológica."
+      }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Funções da placenta"
+  },
+  {
+    "id": "q-obs-anexos-010",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Em gestante com diabetes mellitus mal controlado, qual o mecanismo fisiopatológico que explica a MACROSSOMIA fetal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A insulina materna atravessa a placenta e estimula crescimento fetal",
+        "isCorrect": false,
+        "explanation": "Errado: a INSULINA materna NÃO atravessa a placenta (peso molecular elevado). Quem atravessa é a glicose."
+      },
+      {
+        "id": "b",
+        "text": "Hiperglicemia materna → glicose atravessa a placenta por difusão facilitada (GLUT1/3) → hiperinsulinismo fetal compensatório (insulina é hormônio ANABÓLICO) → crescimento excessivo (macrossomia)",
+        "isCorrect": true,
+        "explanation": "Correto: o pâncreas FETAL responde à glicose materna excessiva produzindo mais insulina. Como a insulina é anabólica, isso estimula crescimento exagerado de tecidos sensíveis (gordura subcutânea, fígado, músculo) — gerando macrossomia. Após o nascimento, ao ser cortada a glicose materna, o RN mantém o hiperinsulinismo por algumas horas → HIPOGLICEMIA NEONATAL (importante monitorar)."
+      },
+      {
+        "id": "c",
+        "text": "Aumento direto do hPL (lactogênio placentário) leva ao crescimento fetal",
+        "isCorrect": false,
+        "explanation": "Errado: o hPL aumenta a resistência insulínica MATERNA (para preservar glicose ao feto), mas o fator central da macrossomia diabética é o hiperinsulinismo FETAL, não o hPL."
+      },
+      {
+        "id": "d",
+        "text": "A glicose materna não atravessa a placenta — a macrossomia ocorre por estímulo hormonal materno",
+        "isCorrect": false,
+        "explanation": "Errado: glicose ATRAVESSA a placenta livremente (GLUT1/GLUT3, sem necessidade de insulina) — esse é justamente o gatilho do problema."
+      }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Transporte materno-fetal"
+  },
+  {
+    "id": "q-obs-anexos-011",
+    "topicId": "obs-anexos-embriao-feto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre as 4 condições clínicas em que a placenta está intimamente envolvida na fisiopatologia, é INCORRETO afirmar:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pré-eclâmpsia: causada por falha na invasão trofoblástica e remodelamento das artérias espiraladas → vasos permanecem de alta resistência → hipoperfusão placentária → liberação de fatores anti-angiogênicos sistêmicos → vasoconstrição materna e HAS",
+        "isCorrect": false,
+        "explanation": "Está CORRETO: o mecanismo da pré-eclâmpsia é exatamente esse. A aspirina age preventivamente sobre a invasão trofoblástica em pacientes de alto risco."
+      },
+      {
+        "id": "b",
+        "text": "Restrição do crescimento intrauterino (RCIU): consequência da mesma má perfusão placentária — feto recebe menos nutrientes/O2 → peso < percentil 10",
+        "isCorrect": false,
+        "explanation": "Está CORRETO: a placenta insuficiente não consegue suprir as demandas fetais, levando a peso fetal abaixo do percentil 10 para a idade gestacional."
+      },
+      {
+        "id": "c",
+        "text": "Descolamento prematuro de placenta (DPP): separação precoce da placenta → hipertensão, trauma e coagulopatias estão entre os fatores precipitantes; pode causar coagulopatia consumptiva (CIVD)",
+        "isCorrect": false,
+        "explanation": "Está CORRETO: hipertensão (o principal), trauma abdominal, sobredistensão uterina, cocaína e tabagismo são precipitantes clássicos. CIVD ocorre por consumo de fatores e fibrinólise local."
+      },
+      {
+        "id": "d",
+        "text": "Diabetes mellitus gestacional: a placenta não tem nenhum papel na fisiopatologia — é apenas uma alteração metabólica materna isolada",
+        "isCorrect": true,
+        "explanation": "Correto (essa é a INCORRETA): a placenta TEM papel central no DMG. Ela produz hPL, progesterona e cortisol que aumentam a resistência insulínica materna no 2º-3º trimestres (mecanismo evolutivo para preservar glicose ao feto). Em mulheres predispostas, esse aumento de resistência precipita o diabetes gestacional. As 4 condições placentárias são: pré-eclâmpsia, RCIU, DPP e DM."
+      }
+    ],
+    "reference": "Anexos do Embrião e do Feto — Condições placentárias"
   },
   {
     "id": "q-obs-asstp-001",
@@ -6118,6 +6356,176 @@
     "reference": "Assistência — Características do líquido amniótico"
   },
   {
+    "id": "q-obs-asstp-010",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Em qual momento a parturiente deve ser orientada a iniciar os PUXOS (esforços expulsivos voluntários)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Assim que sente as primeiras contrações dolorosas (em qualquer dilatação)",
+        "isCorrect": false,
+        "explanation": "Errado: puxar antes da dilatação completa não acelera o parto, edema o colo, exaure a mãe e prejudica oxigenação fetal."
+      },
+      {
+        "id": "b",
+        "text": "Apenas após DILATAÇÃO COMPLETA (10 cm) — o puxo deve coincidir com a contração, idealmente quando há sensação espontânea de evacuação",
+        "isCorrect": true,
+        "explanation": "Correto: o puxo só deve começar com dilatação COMPLETA (10 cm). Antes disso, é ineficaz (a apresentação ainda não atravessa o colo) e prejudicial (edema cervical, exaustão materna, hipóxia fetal por contração + Valsalva). Idealmente, o puxo é DIRIGIDO ('puxe quando sentir vontade de evacuar') ou ESPONTÂNEO durante a contração."
+      },
+      {
+        "id": "c",
+        "text": "Quando a paciente atinge 5 cm de dilatação",
+        "isCorrect": false,
+        "explanation": "Errado: 5 cm é início de fase ativa, ainda há muita dilatação pela frente."
+      },
+      {
+        "id": "d",
+        "text": "Apenas após o nascimento completo da cabeça",
+        "isCorrect": false,
+        "explanation": "Errado: nesse momento o trabalho expulsivo da cabeça já terminou; faltam apenas os ombros."
+      }
+    ],
+    "reference": "Assistência — Início do puxo"
+  },
+  {
+    "id": "q-obs-asstp-011",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Durante a fase ATIVA do trabalho de parto, qual a frequência adequada de monitorização materno-fetal em paciente de baixo risco?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sinais vitais a cada 4 h; BCF a cada 30 min; dinâmica uterina a cada 1 h; toque vaginal a cada 1-2 h",
+        "isCorrect": true,
+        "explanation": "Correto: o padrão de cuidado em fase ativa de baixo risco é: SV maternos 4/4h; BCF a cada 30 min (período latente) ou a cada 15 min (período expulsivo); dinâmica uterina (contar contrações em 10 min) a cada hora; toque vaginal a cada 1-2 horas para avaliar dilatação, apagamento, descida e eventualmente integridade das membranas. Toque excessivo aumenta risco de infecção."
+      },
+      {
+        "id": "b",
+        "text": "Sinais vitais a cada 30 min; BCF a cada 4 h; toque a cada 5 minutos",
+        "isCorrect": false,
+        "explanation": "Errado: BCF a cada 4 h é insuficiente (não detecta sofrimento agudo); toque a cada 5 min aumenta MUITO o risco de infecção."
+      },
+      {
+        "id": "c",
+        "text": "Apenas no início e no final do TP — não há necessidade de avaliações intermediárias",
+        "isCorrect": false,
+        "explanation": "Errado: parto exige vigilância contínua para detectar precocemente distocias, sofrimento fetal e complicações maternas."
+      },
+      {
+        "id": "d",
+        "text": "Cardiotocografia contínua obrigatória em TODA paciente, independentemente de risco",
+        "isCorrect": false,
+        "explanation": "Errado: em pacientes de BAIXO risco, ausculta intermitente é tão segura quanto cardiotocografia contínua, evitando intervenções desnecessárias. CTG contínua é indicada para alto risco (mecônio, indução, pré-eclâmpsia, RCIU, etc.)."
+      }
+    ],
+    "reference": "Assistência — Monitorização materno-fetal"
+  },
+  {
+    "id": "q-obs-asstp-012",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre os MÉTODOS de avaliação da contração uterina:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Palpação manual (mão sobre o útero) é o único método válido — qualquer aparelho substitui a sensibilidade do examinador",
+        "isCorrect": false,
+        "explanation": "Errado: palpação é importante mas tem limitações; aparelhos (tocodinamômetro, cateter intrauterino) complementam."
+      },
+      {
+        "id": "b",
+        "text": "Palpação manual permite avaliar FREQUÊNCIA e DURAÇÃO subjetivamente; tocodinamômetro EXTERNO (parte da cardiotoco) é não-invasivo e mostra padrão gráfico das contrações; cateter de pressão INTRAUTERINA é o único que mede INTENSIDADE precisa em mmHg (mas é invasivo, raramente usado no Brasil)",
+        "isCorrect": true,
+        "explanation": "Correto: (1) PALPAÇÃO MANUAL — não-invasiva, semi-quantitativa, depende do examinador (geralmente avalia 'útero endurece por X segundos, X vezes em 10 min'). (2) TOCODINAMÔMETRO EXTERNO — sensor abdominal acoplado à cardiotoco; mostra frequência, duração, padrão gráfico; NÃO mede intensidade absoluta. (3) CATETER DE PRESSÃO INTRAUTERINA — invasivo (passa pelo colo até a cavidade amniótica); mede intensidade em mmHg de forma precisa; usado em situações especiais (induções complicadas, suspeita de hipotonia)."
+      },
+      {
+        "id": "c",
+        "text": "Apenas o cateter de pressão intrauterina é confiável; os demais devem ser abandonados",
+        "isCorrect": false,
+        "explanation": "Errado: o cateter é invasivo e raramente necessário no Brasil. Os métodos não-invasivos resolvem a maioria das situações."
+      },
+      {
+        "id": "d",
+        "text": "A frequência cardíaca materna substitui a avaliação direta da contração",
+        "isCorrect": false,
+        "explanation": "Errado: FC materna não traduz contratilidade uterina."
+      }
+    ],
+    "reference": "Assistência — Avaliação da atividade uterina"
+  },
+  {
+    "id": "q-obs-asstp-013",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "A MANOBRA DE RITGEN, executada no segundo período do trabalho de parto, consiste em:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pressão suprapúbica para acelerar a descida fetal",
+        "isCorrect": false,
+        "explanation": "Errado: pressão suprapúbica (manobra de Kristeller) é controversa e contraindicada — está associada a ruptura uterina, lesões fetais e maternas."
+      },
+      {
+        "id": "b",
+        "text": "Aplicação de pressão controlada no MENTO FETAL através do PERÍNEO (com a mão dominante por trás) ao mesmo tempo em que a outra mão controla a coroação da cabeça — visa CONTROLAR o desprendimento da cabeça e PROTEGER o períneo de lacerações",
+        "isCorrect": true,
+        "explanation": "Correto: a manobra de Ritgen é uma técnica de proteção perineal no DESPRENDIMENTO da cabeça fetal. O obstetra usa uma mão para controlar a velocidade de desprendimento (apoiada no occipício para evitar saída brusca) e a outra (geralmente coberta com compressa) faz pressão sobre o mento fetal através do períneo posterior — favorecendo o mecanismo de DEFLEXÃO controlada da cabeça e reduzindo lacerações de 3º/4º grau. Após a saída da cabeça, ocorre a rotação externa (restituição) e o desprendimento dos ombros."
+      },
+      {
+        "id": "c",
+        "text": "Manobra de extração de placenta retida",
+        "isCorrect": false,
+        "explanation": "Errado: a manobra para extração placentária é Jakob-Dublin (tração + rotação)."
+      },
+      {
+        "id": "d",
+        "text": "Procedimento para reposicionar útero invertido",
+        "isCorrect": false,
+        "explanation": "Errado: para inversão uterina utiliza-se a manobra de Johnson."
+      }
+    ],
+    "reference": "Assistência — Manobras obstétricas / 2º período"
+  },
+  {
+    "id": "q-obs-asstp-014",
+    "topicId": "obs-assistencia-trabalho-parto",
+    "type": "objective",
+    "difficulty": "bonus",
+    "prompt": "Caso clínico (BÔNUS — internato): Multípara G3P2, 39 semanas, em fase ATIVA do TP. Evolução: 14h00 = 6 cm, BCF 140 bpm, contrações 3/10min de 40s, bolsa íntegra. 17h00 = 8 cm, mesmas contrações, BCF 145 bpm reativo, líquido claro após amniotomia espontânea. 20h00 = 8 cm, mesmas contrações, BCF reativo, sem novas alterações. Qual o diagnóstico e a CONDUTA SEQUENCIAL mais apropriada?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cesárea imediata por sofrimento fetal",
+        "isCorrect": false,
+        "explanation": "Errado: BCF está reativo (140-145 bpm), líquido claro — não há sofrimento fetal. Cesárea sem tentativa de correção é precipitada."
+      },
+      {
+        "id": "b",
+        "text": "Diagnóstico: PARADA SECUNDÁRIA DA DILATAÇÃO (sem progressão da dilatação por ≥ 2-3 h em fase ativa apesar de contratilidade aparentemente adequada). Conduta sequencial: (1) reavaliar EFETIVIDADE da contração (palpação + tocodinamômetro — pode ser HIPOSSISTOLIA mascarada); (2) confirmar bolsa rota (já ocorreu — amniotomia espontânea ✓); (3) iniciar OCITOCINA EV em bomba de infusão, dose inicial baixa (1-2 mU/min), incrementando a cada 20-30 min até atingir 3-5 contrações em 10 min; (4) reavaliar em 2 h — se progressão, manter; se persiste parada e descartada hipoSSITOLIA → suspeita de DESPROPORÇÃO CEFALOPÉLVICA (DCP) → CESÁREA. Manter monitorização contínua de BCF.",
+        "isCorrect": true,
+        "explanation": "Correto: parada secundária da dilatação é definida como ausência de progressão da dilatação por ≥ 2 h (alguns autores usam ≥ 4 h) em paciente em fase ATIVA com contratilidade adequada. Conduta racional: PRIMEIRO otimizar contratilidade (ocitocina), garantindo bolsa rota; reavaliar em 2 h; se persiste apesar de contratilidade efetiva, presume-se DCP → cesárea. Sempre monitorizar BCF na infusão de ocitocina (risco de taquissistolia → sofrimento fetal). NUNCA usar ocitocina sem monitorização contínua."
+      },
+      {
+        "id": "c",
+        "text": "Aguardar mais 6 horas antes de qualquer intervenção, pois multíparas podem ter progressão imprevisível",
+        "isCorrect": false,
+        "explanation": "Errado: 3 horas sem progressão em fase ativa de multípara já caracteriza parada — manejo conservador prolongado aumenta risco de exaustão e infecção."
+      },
+      {
+        "id": "d",
+        "text": "Repetir amniotomia, pois a primeira pode não ter sido efetiva",
+        "isCorrect": false,
+        "explanation": "Errado: bolsa já está rota; repetir amniotomia não faz sentido. O passo é otimizar contratilidade."
+      }
+    ],
+    "reference": "Assistência — Parada secundária da dilatação / manejo ativo"
+  },
+  {
     "id": "q-obs-infpuerp-001",
     "topicId": "obs-infeccao-puerperal",
     "type": "objective",
@@ -6388,6 +6796,142 @@
       }
     ],
     "reference": "Infecção Puerperal — Sepse"
+  },
+  {
+    "id": "q-obs-infpuerp-009",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Qual o quadro clínico clássico da FEBRE PUERPERAL (sugestiva de infecção)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "T < 37,5 ºC nas primeiras 6 h após o parto, sem outros sintomas",
+        "isCorrect": false,
+        "explanation": "Errado: febre baixa (~37,5 ºC) nas primeiras 24h é frequentemente apenas pela 'febre do leite' (apojadura), não infecção."
+      },
+      {
+        "id": "b",
+        "text": "T > 38 ºC PERSISTENTE por ≥ 2 dias, OU início após o 2º dia pós-parto, OU T ≥ 38,7 ºC nas primeiras 24 h — geralmente acompanhada de DOR uterina, lóquios FÉTIDOS/PURULENTOS, subinvolução uterina e colo aberto/pérvio",
+        "isCorrect": true,
+        "explanation": "Correto: critérios clássicos da febre puerperal — temperatura ≥ 38 ºC mantida por ao menos 2 dias, ou que se inicia após o 2º dia pós-parto, ou ≥ 38,7 ºC nas 1ªs 24 h. Aparece tipicamente entre o 3º e 7º dia (quando muitas pacientes já estão em casa). Sinais associados: dor uterina, lóquios fétidos/purulentos, subinvolução, colo pérvio, REG, falta de apetite. Casos graves (10-20%) cursam com bacteremia."
+      },
+      {
+        "id": "c",
+        "text": "Febre alta de início súbito sempre acompanhada de convulsão",
+        "isCorrect": false,
+        "explanation": "Errado: convulsão sugere eclâmpsia, não infecção puerperal."
+      },
+      {
+        "id": "d",
+        "text": "Hipotermia persistente nas primeiras 24h",
+        "isCorrect": false,
+        "explanation": "Errado: febre puerperal é HIPER-térmica; hipotermia pode ocorrer em sepse grave (Gram negativos), mas não é o quadro clássico."
+      }
+    ],
+    "reference": "Infecção Puerperal — Febre puerperal"
+  },
+  {
+    "id": "q-obs-infpuerp-010",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "A SÍNDROME DE ASHERMAN é uma complicação que pode ocorrer após:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parto vaginal sem episiotomia",
+        "isCorrect": false,
+        "explanation": "Errado: parto vaginal não é causa."
+      },
+      {
+        "id": "b",
+        "text": "CURETAGENS REPETIDAS (especialmente após aborto e endometrite) — caracteriza-se por SINÉQUIAS INTRAUTERINAS (aderências entre as paredes do útero), levando a amenorreia/hipomenorreia, infertilidade e dor pélvica. Prevenção: curetagem criteriosa (não excessiva), tratamento adequado da endometrite",
+        "isCorrect": true,
+        "explanation": "Correto: a síndrome de Asherman é a formação de aderências/sinéquias na cavidade uterina secundária à lesão da camada basal do endométrio — geralmente após CURETAGENS REPETIDAS (mais comum após aborto e endometrite). Apresenta-se com amenorreia ou hipomenorreia (porque o endométrio funcional é destruído), infertilidade, abortos de repetição. Diagnóstico: histeroscopia. Prevenção: evitar curetagens repetidas/agressivas; tratar endometrite com ATB antes de qualquer instrumentação."
+      },
+      {
+        "id": "c",
+        "text": "Uso de DIU de cobre",
+        "isCorrect": false,
+        "explanation": "Errado: DIU não causa Asherman."
+      },
+      {
+        "id": "d",
+        "text": "Cesárea segmentar transversa",
+        "isCorrect": false,
+        "explanation": "Errado: cesárea segmentar não está associada a Asherman; a complicação cirúrgica clássica seria deiscência ou aderências peritoneais externas."
+      }
+    ],
+    "reference": "Infecção Puerperal — Tratamento e complicações"
+  },
+  {
+    "id": "q-obs-infpuerp-011",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre a PELVIPERITONITE como complicação da infecção puerperal:",
+    "options": [
+      {
+        "id": "a",
+        "text": "É uma forma branda de endometrite, tratada apenas com antibiótico oral",
+        "isCorrect": false,
+        "explanation": "Errado: pelviperitonite é uma forma GRAVE — disseminação linfática da infecção uterina ao peritônio pélvico. Exige tratamento agressivo."
+      },
+      {
+        "id": "b",
+        "text": "Resulta de DISSEMINAÇÃO LINFÁTICA da infecção a partir do útero. Sinais sistêmicos GRAVES: febre alta, taquicardia, hipotensão, distensão abdominal, ÍLEO PARALÍTICO, DOR INTENSA com defesa muscular no baixo ventre, ABAULAMENTO do fundo de saco posterior ao toque (presença de coleção). Conduta: ATB amplo espectro + LAPAROTOMIA / HISTERECTOMIA se indicado + COLPOTOMIA para drenagem de abscesso de fundo de saco de Douglas",
+        "isCorrect": true,
+        "explanation": "Correto: pelviperitonite acontece quando a endometrite/endomiometrite NÃO é controlada e se dissemina pelo peritônio pélvico. Quadro clínico GRAVE: SIRS franca + sinais peritoneais + abaulamento do fundo de saco posterior (coleção purulenta). Conduta: ATB amplo espectro + intervenção cirúrgica (laparotomia para drenagem/histerectomia se útero infectado refratário) + colpotomia para drenar abscesso de Douglas. Diferenciar de PERITONITE GENERALIZADA (estende-se por toda a cavidade abdominal — ainda mais grave)."
+      },
+      {
+        "id": "c",
+        "text": "Não exige cirurgia em nenhuma situação",
+        "isCorrect": false,
+        "explanation": "Errado: drenagem cirúrgica de abscessos é frequentemente necessária. ATB sozinho não acessa coleções."
+      },
+      {
+        "id": "d",
+        "text": "É equivalente à infecção da ferida operatória",
+        "isCorrect": false,
+        "explanation": "Errado: infecção de FO é superficial (acomete a parede); pelviperitonite acomete o peritônio pélvico — quadros completamente diferentes em gravidade e manejo."
+      }
+    ],
+    "reference": "Infecção Puerperal — Pelviperitonite"
+  },
+  {
+    "id": "q-obs-infpuerp-012",
+    "topicId": "obs-infeccao-puerperal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre a INFECÇÃO DE FERIDA OPERATÓRIA (FO) em puérpera OBESA pós-cesariana:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A sutura intradérmica é a preferida em pacientes obesas, por ser mais rápida e estética",
+        "isCorrect": false,
+        "explanation": "Errado: em obesas, a sutura intradérmica é DESACONSELHADA — quando infecciona é difícil de abrir para drenagem. Pontos separados são preferidos."
+      },
+      {
+        "id": "b",
+        "text": "A FO é o local mais COMUM de infecção pós-cesárea (~4-12%), sendo S. aureus o agente principal. Em pacientes OBESAS recomenda-se: SUTURA POR PONTOS SEPARADOS (NÃO intradérmica — facilita abertura para drenagem se infectar); cuidado com 'abdome em avental' (área úmida favorece bactérias); orientação de higiene rigorosa; observação para sinais de deiscência",
+        "isCorrect": true,
+        "explanation": "Correto: a FO é o sítio mais comum de infecção pós-cesariana (4-12%), tipicamente por S. aureus. Em OBESAS, fatores predisponentes: tecido adiposo aumentado (menor perfusão tecidual), abdome em avental (microclima úmido/macerado), retração mecânica difícil. Recomendações: sutura por pontos separados (não intradérmica), boa hemostasia, ATB profilático (cefazolina pré-incisão), orientação de higiene local. Sinais de infecção: dor intensa em FO, febre, eritema, secreção purulenta, deiscência. Tratamento: superficial = abertura + higiene; profunda = drenagem + ATB IV + desbridamento se necrose."
+      },
+      {
+        "id": "c",
+        "text": "Profilaxia antibiótica não tem benefício em cesárea",
+        "isCorrect": false,
+        "explanation": "Errado: a profilaxia (cefazolina pré-incisão) é uma das medidas que mais reduzem infecção pós-cesárea."
+      },
+      {
+        "id": "d",
+        "text": "A obesidade não é fator de risco para infecção de FO",
+        "isCorrect": false,
+        "explanation": "Errado: obesidade é um dos principais fatores de risco identificáveis."
+      }
+    ],
+    "reference": "Infecção Puerperal — Infecção de FO em obesa"
   },
   {
     "id": "q-obs-puerp-001",
@@ -6696,6 +7240,176 @@
     "reference": "Puerpério Normal — Trombose venosa profunda"
   },
   {
+    "id": "q-obs-puerp-010",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "A involução uterina no puerpério se dá em qual velocidade aproximada?",
+    "options": [
+      {
+        "id": "a",
+        "text": "~5 cm por dia — em 2 dias o útero retorna ao tamanho pré-gestacional",
+        "isCorrect": false,
+        "explanation": "Errado: muito rápido; a involução é progressiva ao longo de semanas."
+      },
+      {
+        "id": "b",
+        "text": "~1 cm por dia em altura uterina; ao 10º dia já não é mais palpável acima da sínfise púbica; retorno ao tamanho pré-gestacional ocorre em ~5-6 semanas",
+        "isCorrect": true,
+        "explanation": "Correto: o útero, que pesa ~1 kg e atinge a cicatriz umbilical logo após o parto, regride aproximadamente 1 cm/dia em altura uterina. No 10º dia volta a ser órgão pélvico (não palpável acima da sínfise). Retorno completo ao tamanho/peso pré-gestacional (~300 g) leva 5-6 semanas. SUBINVOLUÇÃO uterina (útero grande/amolecido após 10º dia) sugere endometrite ou retenção placentária."
+      },
+      {
+        "id": "c",
+        "text": "Não involui — permanece com tamanho gravídico permanentemente",
+        "isCorrect": false,
+        "explanation": "Errado: involui sim, embora não retorne EXATAMENTE ao formato pré-gestacional (colo de multípara fica em 'fenda', por exemplo)."
+      },
+      {
+        "id": "d",
+        "text": "Apenas após 6 meses do parto",
+        "isCorrect": false,
+        "explanation": "Errado: involução completa em 5-6 semanas."
+      }
+    ],
+    "reference": "Puerpério Normal — Involução uterina"
+  },
+  {
+    "id": "q-obs-puerp-011",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre a INVERSÃO UTERINA no puerpério imediato:",
+    "options": [
+      {
+        "id": "a",
+        "text": "É um achado fisiológico normal das primeiras 24 horas",
+        "isCorrect": false,
+        "explanation": "Errado: é uma EMERGÊNCIA OBSTÉTRICA com risco de choque."
+      },
+      {
+        "id": "b",
+        "text": "Manifesta-se com DOR INTENSA + HEMORRAGIA PROFUSA + AUSÊNCIA do fundo uterino na pelve (com possível protusão para a vagina). Pode levar a CHOQUE NEUROGÊNICO (pela dor súbita) e hipovolêmico. Conduta: MANOBRA DE JOHNSON — reposicionamento manual imediato do útero (empurra o fundo invertido de volta pela vagina)",
+        "isCorrect": true,
+        "explanation": "Correto: a tríade clínica é dor + sangramento abundante + 'útero não palpável' na pelve abdominal (porque está dentro da vagina). Pode haver CHOQUE NEUROGÊNICO precoce (pela dor súbita estimulando vagal) somado ao hipovolêmico (pelo sangramento). Tratamento: chamar ajuda IMEDIATA, manobra de JOHNSON sob analgesia (reposiciona o útero manualmente pela vagina, empurrando o fundo invertido), uterotônicos APÓS reposição. Causas: excesso de aderência placentária + excesso de relaxamento uterino + tração indevida do cordão."
+      },
+      {
+        "id": "c",
+        "text": "É tratada apenas com observação, pois reverte espontaneamente",
+        "isCorrect": false,
+        "explanation": "Errado: a reversão precisa ser ATIVA (manobra de Johnson) e imediata; espera leva a choque."
+      },
+      {
+        "id": "d",
+        "text": "Indica histerectomia imediata",
+        "isCorrect": false,
+        "explanation": "Errado: histerectomia só se a manobra de Johnson falhar e houver complicações irreversíveis. A primeira tentativa é sempre conservadora."
+      }
+    ],
+    "reference": "Puerpério Normal — Inversão uterina"
+  },
+  {
+    "id": "q-obs-puerp-012",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Lactante 3 semanas após o parto com mama direita dolorosa, hiperemiada, quente, febril (38,5 ºC), com fissura no mamilo. Qual a conduta CORRETA?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Suspender imediatamente a amamentação na mama afetada e desmamar",
+        "isCorrect": false,
+        "explanation": "Errado: o esvaziamento da mama é PARTE DO TRATAMENTO. Suspender amamentação piora ingurgitamento e favorece formação de abscesso."
+      },
+      {
+        "id": "b",
+        "text": "Diagnóstico: MASTITE PUERPERAL (S. aureus é o agente mais comum). Conduta: antibiótico (CEFALOSPORINA — ex.: cefalexina), analgésico/antitérmico, MANTER amamentação na mama afetada (esvaziamento por sucção e/ou ordenha), corrigir pega para evitar nova fissura. Se evoluir para abscesso (flutuação) → drenagem cirúrgica",
+        "isCorrect": true,
+        "explanation": "Correto: mastite puerperal acomete ~33% das lactantes (geralmente 2-3 semanas pós-parto), tipicamente por S. aureus (também S. epidermidis), entrando por fissura mamilar. Evolução: parenquimatosa (hiperemia) → intersticial → congestiva → abcedada (flutuação). Tratamento: ATB (cefalosporina como cefalexina), analgesia, MANTER amamentação (esvaziar a mama por sucção do bebê ou ordenha — leite acumulado piora o quadro). Drenagem cirúrgica APENAS se abscesso formado. Importante: examinar a mama em TODAS as consultas puerperais."
+      },
+      {
+        "id": "c",
+        "text": "Compressas frias prolongadas e aguardar sem antibiótico",
+        "isCorrect": false,
+        "explanation": "Errado: mastite com febre exige ATB. Compressas mornas são usadas para amolecer e facilitar o esvaziamento, não frias."
+      },
+      {
+        "id": "d",
+        "text": "Drenagem cirúrgica imediata sem antibiótico prévio",
+        "isCorrect": false,
+        "explanation": "Errado: drenagem só se houver abscesso (flutuação); na fase celulítica, ATB resolve."
+      }
+    ],
+    "reference": "Puerpério Normal — Mastite"
+  },
+  {
+    "id": "q-obs-puerp-013",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre os volumes de SANGRAMENTO obstétrico e a definição de hemorragia pós-parto (HPP), é CORRETO afirmar:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sangramento normal: parto vaginal ~400-500 mL; cesárea ~800-1000 mL. HPP: perda CUMULATIVA acima do normal pós-parto OU qualquer perda capaz de causar instabilidade hemodinâmica (independentemente do volume)",
+        "isCorrect": true,
+        "explanation": "Correto: a definição CLÍNICA atual de HPP enfatiza tanto VOLUME (acima do normal — > 500 mL vaginal ou > 1000 mL cesárea) QUANTO REPERCUSSÃO HEMODINÂMICA (queda de PA, taquicardia, palidez, oligúria) — porque a estimativa visual é notoriamente imprecisa. Cesárea sangra MAIS em volume absoluto, mas o parto vaginal é responsável por mais HPP em números absolutos (mais frequente). Reposição de ferro durante a gestação é proteção."
+      },
+      {
+        "id": "b",
+        "text": "Sangramento normal: vaginal 1500 mL; cesárea 200 mL",
+        "isCorrect": false,
+        "explanation": "Errado: invertido e com volumes errados."
+      },
+      {
+        "id": "c",
+        "text": "Apenas perdas > 2000 mL configuram HPP",
+        "isCorrect": false,
+        "explanation": "Errado: o limiar é muito menor (500 mL vaginal, 1000 mL cesárea), e a repercussão hemodinâmica conta MESMO em volumes menores."
+      },
+      {
+        "id": "d",
+        "text": "HPP só é diagnóstico em pacientes que evoluem para óbito",
+        "isCorrect": false,
+        "explanation": "Errado: HPP é a PRINCIPAL causa de mortalidade materna direta, mas o conceito inclui near-miss (paciente que quase morreu mas foi salva)."
+      }
+    ],
+    "reference": "Puerpério Normal — Hemorragia pós-parto"
+  },
+  {
+    "id": "q-obs-puerp-014",
+    "topicId": "obs-puerperio-normal",
+    "type": "objective",
+    "difficulty": "bonus",
+    "prompt": "Caso clínico (BÔNUS — internato): Pós-parto vaginal de RN 4100g, há 30 min. Paciente apresenta sangramento vaginal abundante (~600 mL), útero amolecido (não-pétrio), PA 95×60, FC 110, palidez. Já feita massagem uterina + ocitocina IV (10 UI bolus + infusão contínua). Sangramento persiste. Qual a SEQUÊNCIA correta de manejo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Indicar histerectomia imediata",
+        "isCorrect": false,
+        "explanation": "Errado: histerectomia é último recurso. Há várias etapas conservadoras antes."
+      },
+      {
+        "id": "b",
+        "text": "MANOBRA DE HAMILTON (compressão bimanual) → segundo uterotônico (METILERGOMETRINA 0,2 mg IM, contraindicada em HAS/pré-eclâmpsia) → terceiro uterotônico (MISOPROSTOL 800-1000 µg retal) → TAMPONAMENTO INTRAUTERINO com balão (ex.: Bakri) → ligadura de a. uterinas / hipogástricas → HISTERECTOMIA se refratário. Em PARALELO: protocolo de hemorragia (acesso calibroso × 2, tipagem, prova cruzada, hemoderivados [CH, plasma, plaquetas em razão 1:1:1], reposição volêmica, monitorização)",
+        "isCorrect": true,
+        "explanation": "Correto: o ESCALONAMENTO de uterotônicos é a base do manejo da atonia refratária. Sequência: (1) MASSAGEM + OCITOCINA já feitos; (2) MANOBRA DE HAMILTON — compressão bimanual (uma mão em punho na vagina + outra externa no fundo); (3) METILERGOMETRINA 0,2 mg IM (ATENÇÃO: contraindicada em HAS, pré-eclâmpsia, doença coronariana, Raynaud); (4) MISOPROSTOL 800-1000 µg retal (PGE1 análogo); (5) TAMPONAMENTO com BALÃO INTRAUTERINO (Bakri ou improvisado com sonda Foley); (6) intervenção CIRÚRGICA — ligadura de a. uterinas (técnica de O'Leary), B-Lynch (suturas compressivas), ligadura de a. ilíacas internas/hipogástricas; (7) HISTERECTOMIA se refratária. Paralelamente: acesso calibroso x 2, tipagem, hemoderivados em razão 1:1:1 (concentrado de hemácias : plasma fresco : plaquetas), monitorização hemodinâmica, considerar UTI."
+      },
+      {
+        "id": "c",
+        "text": "Aguardar 30 minutos para ver se cessa espontaneamente",
+        "isCorrect": false,
+        "explanation": "Errado: HPP é EMERGÊNCIA — cada minuto importa. Aguardar leva a choque hipovolêmico irreversível."
+      },
+      {
+        "id": "d",
+        "text": "Apenas reposição volêmica com cristalóide, sem novos uterotônicos",
+        "isCorrect": false,
+        "explanation": "Errado: reposição volêmica é necessária mas NÃO trata a causa (atonia). Sem controle do foco hemorrágico (uterotônicos + procedimentos), o sangramento continua e evolui para coagulopatia dilucional."
+      }
+    ],
+    "reference": "Puerpério Normal — Manejo escalonado da HPP"
+  },
+  {
     "id": "q-obs-tpprpm-001",
     "topicId": "obs-tpp-rpm",
     "type": "objective",
@@ -7002,6 +7716,176 @@
     "reference": "TPP e RPM — Indicações de interrupção"
   },
   {
+    "id": "q-obs-tpprpm-010",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "PARTO PREMATURO é definido como nascimento com idade gestacional:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Menor que 42 semanas",
+        "isCorrect": false,
+        "explanation": "Errado: 42 semanas é o limite de pós-termo."
+      },
+      {
+        "id": "b",
+        "text": "Menor que 37 semanas",
+        "isCorrect": true,
+        "explanation": "Correto: parto prematuro = nascimento com IG < 37 semanas (independente de ser espontâneo ou eletivo). NÃO confundir com TRABALHO DE PARTO PREMATURO (TPP), que é o conjunto de contrações + alteração cervical antes de 37 semanas — pode haver TPP sem parto prematuro (se inibido por tocólise). Antes de 20-22 semanas é considerado ABORTO, não parto prematuro."
+      },
+      {
+        "id": "c",
+        "text": "Menor que 28 semanas apenas",
+        "isCorrect": false,
+        "explanation": "Errado: 28 semanas marca o limite de prematuridade EXTREMA, não a definição geral."
+      },
+      {
+        "id": "d",
+        "text": "Igual ou maior que 42 semanas",
+        "isCorrect": false,
+        "explanation": "Errado: ≥ 42 semanas é PÓS-TERMO."
+      }
+    ],
+    "reference": "TPP e RPM — Definições"
+  },
+  {
+    "id": "q-obs-tpprpm-011",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o RASTREAMENTO de risco para trabalho de parto prematuro:",
+    "options": [
+      {
+        "id": "a",
+        "text": "USG ABDOMINAL no 3º trimestre é o padrão para medir o colo uterino",
+        "isCorrect": false,
+        "explanation": "Errado: o colo se mede por USG TRANSVAGINAL (não abdominal), e o momento ideal é o 2º trimestre (18-24 semanas), não 3º."
+      },
+      {
+        "id": "b",
+        "text": "USG TRANSVAGINAL com medida do colo entre 18-24 semanas: COLO < 25 mm = FATOR DE RISCO importante para TPP. Padrão-ouro de rastreio. Indica vigilância maior, eventual progesterona vaginal ou cerclagem em casos selecionados",
+        "isCorrect": true,
+        "explanation": "Correto: a medida do COMPRIMENTO DO COLO uterino por USG TRANSVAGINAL (CCUTV) entre 18-24 semanas é o padrão-ouro de rastreio para risco de TPP. Colo < 25 mm = risco aumentado. Conduta: vigilância (USG seriadas), considerar progesterona vaginal (200 mg/dia) ou cerclagem cervical em casos selecionados (especialmente com história de TPP/abortamento de 2º trimestre prévio). Outros métodos (fibronectina fetal) têm valor preditivo mas são pouco usados na prática brasileira."
+      },
+      {
+        "id": "c",
+        "text": "Apenas a história clínica é necessária; nenhum exame de rastreio acrescenta",
+        "isCorrect": false,
+        "explanation": "Errado: USG transvaginal do colo é objetivo e validado, e identifica pacientes que se beneficiam de progesterona/cerclagem antes que o quadro clínico se manifeste."
+      },
+      {
+        "id": "d",
+        "text": "Colo > 30 mm na USG transvaginal é critério diagnóstico para TPP iminente",
+        "isCorrect": false,
+        "explanation": "Errado: colo > 30 mm é PROTETOR (torna pouco provável parto nas próximas 2 semanas). O alarme é colo CURTO (< 25 mm)."
+      }
+    ],
+    "reference": "TPP e RPM — Rastreio"
+  },
+  {
+    "id": "q-obs-tpprpm-012",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Em RPPM (ruptura prematura de membranas pré-termo) com IG < 34 semanas e conduta expectante, qual o ESQUEMA de antibioticoprofilaxia recomendado e qual seu objetivo principal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cefalexina VO 500 mg 6/6h por 5 dias — para tratar ITU concomitante",
+        "isCorrect": false,
+        "explanation": "Errado: cefalexina não é o esquema de profilaxia para RPPM (e não tem como objetivo apenas ITU)."
+      },
+      {
+        "id": "b",
+        "text": "AZITROMICINA VO dose única + AMPICILINA EV por 48 h → AMOXICILINA VO por 5 dias. Objetivos: AUMENTAR o PERÍODO DE LATÊNCIA (tempo entre ruptura e parto) e REDUZIR risco de CORIOAMNIONITE — não é tratamento de infecção comprovada, mas profilaxia em paciente com membranas rotas e barreira protetora perdida",
+        "isCorrect": true,
+        "explanation": "Correto: o esquema clássico (recomendado por ACOG) para RPPM < 34 semanas é: AZITROMICINA 1g VO dose única + AMPICILINA 2g EV 6/6h por 48h → AMOXICILINA 500mg VO 8/8h por 5 dias (total de 7 dias). Objetivos: (1) aumentar período de latência (ganhar tempo para corticoterapia agir e maturar pulmões fetais); (2) reduzir corioamnionite e endometrite pós-parto; (3) reduzir morbidade neonatal (sepse, hemorragia intracraniana). NÃO é para tratar infecção já estabelecida — se houver corioamnionite, a conduta é INTERROMPER a gestação imediatamente com ATB amplo espectro."
+      },
+      {
+        "id": "c",
+        "text": "Penicilina G EV apenas (cobertura para Streptococcus do grupo B isolada)",
+        "isCorrect": false,
+        "explanation": "Errado: penicilina sozinha não é o esquema de profilaxia em RPPM (embora seja a base para profilaxia GBS no parto). O esquema RPPM cobre amplo espectro."
+      },
+      {
+        "id": "d",
+        "text": "Não há indicação de antibiótico em RPPM enquanto não houver febre",
+        "isCorrect": false,
+        "explanation": "Errado: a antibioticoprofilaxia é RECOMENDADA imediatamente no diagnóstico de RPPM < 34 semanas (mesmo sem febre), justamente para PREVENIR a infecção."
+      }
+    ],
+    "reference": "TPP e RPM — Antibioticoprofilaxia em RPPM"
+  },
+  {
+    "id": "q-obs-tpprpm-013",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Como diferenciar clinicamente CONTRAÇÕES DE BRAXTON-HICKS de TRABALHO DE PARTO PREMATURO (TPP)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Braxton-Hicks são mais dolorosas e regulares que TPP",
+        "isCorrect": false,
+        "explanation": "Errado: invertido. Braxton-Hicks é INDOLOR ou pouco doloroso e IRREGULAR; TPP é doloroso e regular."
+      },
+      {
+        "id": "b",
+        "text": "Braxton-Hicks: contrações INDOLORES, IRREGULARES, SEM alteração cervical, geralmente desaparecem com repouso/hidratação. TPP: contrações REGULARES (1-2/10 min), DOLOROSAS, COM alteração cervical confirmada (apagamento > 80% ou dilatação ≥ 2 cm). Em caso de DÚVIDA: reavaliar o colo com TOQUE em 1-2 horas — se mudou, é TPP; se não, é Braxton-Hicks",
+        "isCorrect": true,
+        "explanation": "Correto: a chave do diagnóstico diferencial é a ALTERAÇÃO CERVICAL. Braxton-Hicks (também chamadas 'contrações de treinamento') são frequentes na gestação avançada, geralmente indolores ou pouco dolorosas, irregulares, e cessam com hidratação/repouso/decúbito lateral esquerdo. TPP exige contrações REGULARES (1-2 em 10 min) + DOLOROSAS + ALTERAÇÃO CERVICAL DEMONSTRÁVEL (toque seriado). Em caso de dúvida: hidratar, repousar, reavaliar colo em 1-2 h — se não houve mudança cervical, era falso TP. Atenção: toque repetido em bolsa rota aumenta risco de infecção, então é mais conservador em RPM."
+      },
+      {
+        "id": "c",
+        "text": "Apenas o ultrassom diferencia os dois quadros",
+        "isCorrect": false,
+        "explanation": "Errado: USG transvaginal ajuda no rastreio de risco (colo curto), mas o diagnóstico de TPP é CLÍNICO (contração + alteração cervical)."
+      },
+      {
+        "id": "d",
+        "text": "Braxton-Hicks têm BCF alterado; TPP não",
+        "isCorrect": false,
+        "explanation": "Errado: BCF normal em ambos (Braxton-Hicks não causa sofrimento; TPP per se também não — a menos que haja complicação)."
+      }
+    ],
+    "reference": "TPP e RPM — Diferencial TPP × Braxton-Hicks"
+  },
+  {
+    "id": "q-obs-tpprpm-014",
+    "topicId": "obs-tpp-rpm",
+    "type": "objective",
+    "difficulty": "bonus",
+    "prompt": "Caso clínico (BÔNUS — internato): Gestante 26 anos, G2P1 (1 parto a termo prévio), 30 semanas + 2 dias, chega ao PS com contrações regulares 2 em 10 min, dor lombar e abdominal há 6h. Toque: colo 3 cm dilatado, 80% apagado, bolsa íntegra. BCF 145 bpm reativo, líquido amniótico ausente ao especular. Status GBS desconhecido. Sem febre, sem outros sinais de infecção. Hospital com UTI neonatal disponível. Qual o MANEJO COMPLETO?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Apenas observação por 2 horas e alta se as contrações cessarem",
+        "isCorrect": false,
+        "explanation": "Errado: já há contrações regulares + alteração cervical (3cm, 80%) — o diagnóstico de TPP está fechado. Não pode ter alta."
+      },
+      {
+        "id": "b",
+        "text": "(1) INTERNAÇÃO em centro com UTI neonatal; (2) TOCÓLISE com NIFEDIPINA 30 mg ataque + 20 mg 6/6h (ou ATOSIBAN), por até 48 h; (3) CORTICOTERAPIA: BETAMETASONA 12 mg IM, 2 doses com 24 h de intervalo (melhor efeito em 48 h); (4) NEUROPROTEÇÃO com SO4Mg 4 g em bolus + 1 g/h IV (porque IG < 32 semanas com risco iminente de parto); (5) INVESTIGAR INFECÇÃO subjacente (urocultura, swab vaginal, hemograma, PCR — TPP é infeccioso em até 40% dos casos); (6) PROFILAXIA EMPÍRICA para GBS (penicilina G EV) já que status é desconhecido e há trabalho de parto pré-termo; (7) MONITORIZAÇÃO contínua materno-fetal",
+        "isCorrect": true,
+        "explanation": "Correto: este é o manejo MULTIFACETADO clássico do TPP < 34 semanas: TOCÓLISE para ganhar 48h (nifedipina 1ª linha — bloqueador de canal de cálcio — ou atosiban — antagonista de ocitocina); CORTICOIDE antenatal (betametasona) para maturação pulmonar fetal e redução de hemorragia intracraniana e enterocolite necrosante; NEUROPROTEÇÃO com SO4Mg apenas em < 32 semanas com risco iminente (reduz paralisia cerebral); INVESTIGAÇÃO de infecção (TPP tem etiologia infecciosa em até 40%) — ATB direcionado se foco identificado; PROFILAXIA GBS empírica em todo TPP com status desconhecido; transferência hospitalar caso sem UTI neonatal local."
+      },
+      {
+        "id": "c",
+        "text": "Cesárea de urgência imediatamente, sem outras medidas",
+        "isCorrect": false,
+        "explanation": "Errado: cesárea precipitada não traz benefício e priva o feto dos benefícios do corticoide (maturação pulmonar) e SO4Mg (neuroproteção). Cesárea só se tocólise contraindicada/falhar e houver indicação obstétrica."
+      },
+      {
+        "id": "d",
+        "text": "Apenas tocólise; corticoterapia só se a paciente piorar",
+        "isCorrect": false,
+        "explanation": "Errado: corticoterapia é PRIORITÁRIA em qualquer TPP entre 24-34 semanas (mesmo se a tocólise tiver sucesso) — o objetivo da tocólise é JUSTAMENTE ganhar tempo para o corticoide agir."
+      }
+    ],
+    "reference": "TPP e RPM — Manejo completo do TPP < 34 semanas"
+  },
+  {
     "id": "q-obs-tp-001",
     "topicId": "obs-trabalho-parto",
     "type": "objective",
@@ -7272,6 +8156,142 @@
       }
     ],
     "reference": "Trabalho de Parto — Acompanhamento"
+  },
+  {
+    "id": "q-obs-tp-009",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "easy",
+    "prompt": "Ao realizar o toque vaginal, o examinador palpa a sutura sagital e a fontanela posterior (pequena, triangular). Qual a finalidade clínica desse achado?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Confirmar a dilatação cervical em centímetros",
+        "isCorrect": false,
+        "explanation": "Errado: dilatação se mede pela abertura do colo, não pela palpação da fontanela."
+      },
+      {
+        "id": "b",
+        "text": "Identificar o OCCIPÍCIO (ponto de reparo na cefálica fletida) e, a partir dele, definir a VARIEDADE DE POSIÇÃO da apresentação em relação à pelve materna",
+        "isCorrect": true,
+        "explanation": "Correto: a fontanela POSTERIOR (pequena, triangular, formada pelo encontro das suturas lambdóide e sagital) marca o OCCIPÍCIO — o ponto de reparo da apresentação cefálica fletida (de vértice). A direção da sutura sagital + posição da fontanela posterior permite descrever a variedade (OEA, OIDP, OP, etc.). Ver a fontanela posterior bem palpável também CONFIRMA flexão adequada da cabeça."
+      },
+      {
+        "id": "c",
+        "text": "Calcular a idade gestacional do feto",
+        "isCorrect": false,
+        "explanation": "Errado: IG é determinada pela DUM ou USG precoce, não pelo toque."
+      },
+      {
+        "id": "d",
+        "text": "Avaliar a vitalidade fetal",
+        "isCorrect": false,
+        "explanation": "Errado: vitalidade fetal é avaliada pelo BCF, mobilograma ou cardiotocografia."
+      }
+    ],
+    "reference": "Trabalho de Parto — Pontos de reparo"
+  },
+  {
+    "id": "q-obs-tp-010",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "medium",
+    "prompt": "Sobre o APAGAMENTO cervical (esvaecimento) durante o trabalho de parto:",
+    "options": [
+      {
+        "id": "a",
+        "text": "É a abertura do orifício externo do colo, medida em centímetros (0 a 10 cm)",
+        "isCorrect": false,
+        "explanation": "Errado: isso é DILATAÇÃO. Apagamento é diferente."
+      },
+      {
+        "id": "b",
+        "text": "É a redução PROGRESSIVA do COMPRIMENTO/ESPESSURA do colo, expressa em PORCENTAGEM (0% = colo longo e grosso; 100% = colo totalmente apagado, fino como uma folha de papel)",
+        "isCorrect": true,
+        "explanation": "Correto: apagamento (esvaecimento) é o encurtamento e afinamento do colo uterino — antes do TP o colo tem 2-3 cm de comprimento; com as contrações, ele 'sobe' progressivamente, ficando mais fino. 100% = colo totalmente apagado. Em PRIMÍPARAS o apagamento geralmente PRECEDE a dilatação (apaga primeiro, depois dilata); em MULTÍPARAS o apagamento e a dilatação tendem a ocorrer simultaneamente."
+      },
+      {
+        "id": "c",
+        "text": "É o descolamento das membranas pelo orifício interno",
+        "isCorrect": false,
+        "explanation": "Errado: isso é manobra de Hamilton (descolamento de membranas para induzir TP), não apagamento."
+      },
+      {
+        "id": "d",
+        "text": "É o tempo total do trabalho de parto",
+        "isCorrect": false,
+        "explanation": "Errado: apagamento é uma característica anatômica do colo, não duração do TP."
+      }
+    ],
+    "reference": "Trabalho de Parto — Apagamento cervical"
+  },
+  {
+    "id": "q-obs-tp-011",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Caso clínico: paciente PRIMIGESTA, 38 semanas, em fase ativa do TP. Avaliações sucessivas: 14h00 = 4 cm; 15h00 = 4 cm; 16h00 = 5 cm. Outra paciente, MULTÍPARA (G3P2), mesma IG: 14h00 = 4 cm; 15h00 = 5,5 cm; 16h00 = 7 cm. Como avaliar a progressão segundo as curvas atuais (Zhang)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ambas estão em distocia — qualquer dilatação < 1 cm/h em fase ativa indica intervenção imediata (curva de Friedman)",
+        "isCorrect": false,
+        "explanation": "Errado: aplicar Friedman estritamente leva a diagnósticos FALSO-POSITIVOS de distocia e cesarianas desnecessárias. As curvas modernas (Zhang) são MAIS PERMISSIVAS, especialmente nas fases iniciais (4-6 cm) e em primigestas."
+      },
+      {
+        "id": "b",
+        "text": "Pela curva de Zhang, a primigesta pode demorar mais de 6 h para sair de 4-5 cm sem caracterizar distocia; a multípara progride normalmente. Conduta: REAVALIAR ambas com paciência, garantir contratilidade efetiva e bem-estar fetal antes de intervir",
+        "isCorrect": true,
+        "explanation": "Correto: Zhang demonstrou que a fase ativa começa de fato em ~6 cm e que a progressão até lá pode ser muito mais lenta que o 1 cm/h de Friedman, especialmente em primigestas. A primigesta do caso (4 → 4 → 5 cm em 2h) ainda está em latência tardia / início de fase ativa — não é distocia. A multípara (4 → 5,5 → 7) progride como esperado. Conduta: paciência + monitorização + descartar contração ineficaz antes de cesárea."
+      },
+      {
+        "id": "c",
+        "text": "A primigesta deve ir para cesárea imediatamente; a multípara deve receber ocitocina",
+        "isCorrect": false,
+        "explanation": "Errado: nenhuma das duas tem indicação de intervenção nesse momento — esse manejo agressivo eleva taxa de cesárea sem benefício materno-fetal."
+      },
+      {
+        "id": "d",
+        "text": "A diferença entre primigestas e multíparas não tem relevância clínica para avaliar progressão",
+        "isCorrect": false,
+        "explanation": "Errado: PARIDADE é fator determinante — multíparas têm fase ativa mais rápida; primigestas demoram naturalmente mais."
+      }
+    ],
+    "reference": "Trabalho de Parto — Curvas de Friedman/Zhang"
+  },
+  {
+    "id": "q-obs-tp-012",
+    "topicId": "obs-trabalho-parto",
+    "type": "objective",
+    "difficulty": "hard",
+    "prompt": "Sobre as características do LÍQUIDO AMNIÓTICO no parto e seu significado clínico, é INCORRETO afirmar:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Líquido CLARO: aspecto normal, sem implicação adversa",
+        "isCorrect": false,
+        "explanation": "Está correto: líquido claro é o esperado em gestação a termo bem oxigenada."
+      },
+      {
+        "id": "b",
+        "text": "Líquido ESVERDEADO/MARROM (mecônio): eliminação fetal de fezes intra-útero — possível sinal de SOFRIMENTO FETAL/hipóxia; aumenta risco de síndrome de aspiração meconial; exige preparo neonatal",
+        "isCorrect": false,
+        "explanation": "Está correto: mecônio espesso ('em ervilha') é especialmente preocupante. Em pós-termo pode ocorrer sem sofrimento por amadurecimento intestinal, mas sempre exige vigilância e preparo da equipe neonatal."
+      },
+      {
+        "id": "c",
+        "text": "Líquido VERMELHO/SANGUINOLENTO: sugere HEMORRAGIA INTRAUTERINA (descolamento prematuro de placenta, ruptura de seio marginal) — emergência obstétrica",
+        "isCorrect": false,
+        "explanation": "Está correto: líquido sanguinolento durante o TP é alarme — pode indicar DPP, ruptura de seio marginal, ruptura uterina, prolapso de cordão com lesão. Conduta de emergência."
+      },
+      {
+        "id": "d",
+        "text": "Líquido BRANCO com descamação: indica corioamnionite e exige interrupção imediata da gestação",
+        "isCorrect": true,
+        "explanation": "Correto (essa é a INCORRETA): líquido BRANCO com descamação (vernix caseoso) é tipicamente de gestação PÓS-TERMO — quando o feto perdeu o vernix da pele e ele se acumula no líquido. NÃO é sinal de corioamnionite. Corioamnionite cursa com líquido PURULENTO/FÉTIDO + febre materna + taquicardia + dor uterina + leucocitose — esses sim indicam interrupção imediata."
+      }
+    ],
+    "reference": "Trabalho de Parto — Características do líquido amniótico"
   },
   {
     "id": "q-perinat-001",
