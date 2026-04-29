@@ -222,5 +222,54 @@
     "name": "Trabalho de Parto Prematuro e Ruptura Prematura de Membranas",
     "source": "6 Trabalho De Parto Prematuro E Ruptura Prematura De Membranas.pdf",
     "description": "Definições (TPP, RPM, RPPM), fatores de risco, tocólise (nifedipina/atosiban), corticoterapia (betametasona), neuroproteção (SO4Mg), diagnóstico de RPM, manejo conforme IG, indicações de interrupção imediata."
+  },
+  {
+    "id": "to-dierese",
+    "subjectId": "tecnica-operatoria",
+    "name": "Diérese — Bisturi e Tesouras",
+    "source": "Instrumentação - fotos/_indice.html",
+    "description": "Instrumentos para corte e divisão de tecidos: cabo de bisturi, tesouras Mayo (reta e curva), Metzenbaum, Iris e Potts-Smith."
+  },
+  {
+    "id": "to-hemostasia",
+    "subjectId": "tecnica-operatoria",
+    "name": "Hemostasia — Pinças e Cautério",
+    "source": "Instrumentação - fotos/_indice.html",
+    "description": "Pinças hemostáticas e dispositivos para controle de sangramento: Halsted, Kelly, Crile, Kocher, Mixter, clampe vascular, eletrocautério e clipes/hemoclip."
+  },
+  {
+    "id": "to-preensao",
+    "subjectId": "tecnica-operatoria",
+    "name": "Preensão — Pinças de Dissecção",
+    "source": "Instrumentação - fotos/_indice.html",
+    "description": "Pinças anatômicas para apreensão delicada de tecidos: anatômica, dente de rato, Adson e Cushing."
+  },
+  {
+    "id": "to-porta-agulhas",
+    "subjectId": "tecnica-operatoria",
+    "name": "Síntese — Porta-agulhas",
+    "source": "Instrumentação - fotos/_indice.html",
+    "description": "Instrumentos para fixar a agulha durante suturas: Mayo-Hegar, Hegar e Mathieu (cremalheira lateral)."
+  },
+  {
+    "id": "to-pincas-especiais",
+    "subjectId": "tecnica-operatoria",
+    "name": "Pinças Especiais",
+    "source": "Instrumentação - fotos/_indice.html",
+    "description": "Pinças com função específica: Allis, Babcock, Duval, Foerster, Cheron, Backhaus e clamp intestinal."
+  },
+  {
+    "id": "to-afastadores-dinamicos",
+    "subjectId": "tecnica-operatoria",
+    "name": "Afastadores Dinâmicos (Manuais)",
+    "source": "Instrumentação - fotos/_indice.html",
+    "description": "Afastadores que exigem auxiliar segurando: Farabeuf, Doyen, Volkmann e lâmina maleável."
+  },
+  {
+    "id": "to-afastadores-estaticos",
+    "subjectId": "tecnica-operatoria",
+    "name": "Afastadores Estáticos (Autoestáticos)",
+    "source": "Instrumentação - fotos/_indice.html",
+    "description": "Afastadores que se mantêm sozinhos por cremalheira: Balfour, Gosset, Finochietto e Adson-Beckman/Mayo-Adams."
   }
 ]

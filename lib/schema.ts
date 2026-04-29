@@ -62,6 +62,7 @@ export const BasicFlashcardSchema = z.object({
   type: z.literal("basic").optional(),
   front: z.string().min(1),
   back: z.string().min(1),
+  frontImages: z.array(z.string().min(1)).min(1).max(4).optional(),
   tags: z.array(z.string()).optional(),
 });
 

@@ -52,10 +52,14 @@ function BasicCard({
   flipped: boolean;
   onToggle: () => void;
 }) {
+  const hasImages = !!card.frontImages && card.frontImages.length > 0;
   return (
     <button
       onClick={onToggle}
-      className="relative h-72 w-full [perspective:1200px]"
+      className={cn(
+        "relative w-full [perspective:1200px]",
+        hasImages ? "h-96" : "h-72"
+      )}
     >
       <div
         className={cn(
@@ -63,10 +67,33 @@ function BasicCard({
           flipped && "[transform:rotateY(180deg)]"
         )}
       >
-        <div className="glass glass-edge absolute inset-0 flex items-center justify-center rounded-3xl p-8 text-center [backface-visibility:hidden]">
-          <p className="font-display text-xl font-medium leading-snug text-ink-100">
-            {card.front}
-          </p>
+        <div
+          className={cn(
+            "glass glass-edge absolute inset-0 rounded-3xl [backface-visibility:hidden]",
+            hasImages
+              ? "flex items-stretch justify-center gap-3 p-4"
+              : "flex items-center justify-center p-8 text-center"
+          )}
+        >
+          {hasImages ? (
+            card.frontImages!.map((src, i) => (
+              <div
+                key={i}
+                className="flex flex-1 items-center justify-center overflow-hidden rounded-2xl bg-white/5 p-2"
+              >
+                <img
+                  src={src}
+                  alt={card.front}
+                  className="max-h-full max-w-full object-contain"
+                  loading="lazy"
+                />
+              </div>
+            ))
+          ) : (
+            <p className="font-display text-xl font-medium leading-snug text-ink-100">
+              {card.front}
+            </p>
+          )}
         </div>
         <div className="glass-strong glass-edge absolute inset-0 flex items-center justify-center overflow-auto rounded-3xl p-8 text-left [backface-visibility:hidden] [transform:rotateY(180deg)] shadow-[0_0_70px_-12px_rgba(196,181,253,0.45)]">
           <p className="text-sm leading-relaxed text-ink-100 whitespace-pre-line">

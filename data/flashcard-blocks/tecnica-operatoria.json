@@ -1,0 +1,290 @@
+[
+  {
+    "id": "fc-to-dier-01",
+    "topicId": "to-dierese",
+    "type": "basic",
+    "front": "Cabo de bisturi",
+    "frontImages": ["/instrumentos/cabo_bisturi_1.webp", "/instrumentos/cabo_bisturi_2.webp"],
+    "back": "Cabo de bisturi\nCategoria: Diérese\nFunção: cabo metálico que recebe lâmina descartável para incisão da pele e tecidos.\nDetalhe-chave: cabo nº 3 recebe lâminas pequenas (10, 11, 15) — incisões finas/delicadas; cabo nº 4 recebe lâminas grandes (20, 22) — incisões amplas. Empunhadura mais comum: tipo 'arco de violino'."
+  },
+  {
+    "id": "fc-to-dier-02",
+    "topicId": "to-dierese",
+    "type": "basic",
+    "front": "Tesoura Mayo reta",
+    "frontImages": ["/instrumentos/tesoura_mayo_reta_1.webp", "/instrumentos/tesoura_mayo_reta_2.webp"],
+    "back": "Tesoura Mayo reta\nCategoria: Diérese\nFunção: corta fios de sutura e tecido firme/superficial.\nDetalhe-chave: lâminas curtas, robustas e RETAS — proporção lâmina:haste ≈ 1:2 (lâminas curtas em relação à haste). É a tesoura 'do instrumentador' — corta fio."
+  },
+  {
+    "id": "fc-to-dier-03",
+    "topicId": "to-dierese",
+    "type": "basic",
+    "front": "Tesoura Mayo curva",
+    "frontImages": ["/instrumentos/tesoura_mayo_curva_1.webp", "/instrumentos/tesoura_mayo_curva_2.webp"],
+    "back": "Tesoura Mayo curva\nCategoria: Diérese\nFunção: corta tecidos espessos e firmes (fáscia, aponeurose).\nDetalhe-chave: igual à Mayo reta, mas com lâminas CURVAS — robusta. Não é para dissecção delicada (essa é a Metzenbaum)."
+  },
+  {
+    "id": "fc-to-dier-04",
+    "topicId": "to-dierese",
+    "type": "basic",
+    "front": "Tesoura Metzenbaum",
+    "frontImages": ["/instrumentos/tesoura_metzenbaum_1.webp", "/instrumentos/tesoura_metzenbaum_2.webp"],
+    "back": "Tesoura Metzenbaum\nCategoria: Diérese\nFunção: dissecção delicada de tecidos profundos.\nDetalhe-chave: lâminas LONGAS e FINAS em relação à haste — proporção lâmina:haste ≈ 1:3 (oposto da Mayo, que é 1:2). 'Metz é fina e longa, Mayo é curta e robusta'. Nunca cortar fio com Metzenbaum (perde o fio)."
+  },
+  {
+    "id": "fc-to-dier-05",
+    "topicId": "to-dierese",
+    "type": "basic",
+    "front": "Tesoura Iris",
+    "frontImages": ["/instrumentos/tesoura_iris_1.webp", "/instrumentos/tesoura_iris_2.webp"],
+    "back": "Tesoura Iris\nCategoria: Diérese\nFunção: microcirurgia, oftalmologia e procedimentos delicados em pele.\nDetalhe-chave: muito pequena, lâminas finas e pontiagudas. Pode ser reta ou curva. Originalmente desenhada para a íris ocular."
+  },
+  {
+    "id": "fc-to-dier-06",
+    "topicId": "to-dierese",
+    "type": "basic",
+    "front": "Tesoura Potts-Smith",
+    "frontImages": ["/instrumentos/tesoura_potts_smith_1.webp", "/instrumentos/tesoura_potts_smith_2.webp"],
+    "back": "Tesoura Potts-Smith\nCategoria: Diérese (vascular)\nFunção: arteriotomia/abertura de vasos em cirurgia vascular e cardíaca.\nDetalhe-chave: lâminas ANGULADAS em relação à haste (45°, 60° ou 90°) — angulação permite cortar a parede do vaso sem prensar a parede oposta."
+  },
+  {
+    "id": "fc-to-hemo-01",
+    "topicId": "to-hemostasia",
+    "type": "basic",
+    "front": "Pinça Halsted (Mosquito)",
+    "frontImages": ["/instrumentos/pinca_halsted_mosquito_1.webp", "/instrumentos/pinca_halsted_mosquito_2.webp"],
+    "back": "Pinça Halsted (\"Mosquito\")\nCategoria: Hemostasia\nFunção: pinçamento de vasos finos e estruturas pequenas.\nDetalhe-chave: a MENOR das hemostáticas. Serrilha em TODA a haste, ponta fina. Pode ser reta ou curva. Lembrete: 'mosquito é pequeno' — usar para vasos pequenos."
+  },
+  {
+    "id": "fc-to-hemo-02",
+    "topicId": "to-hemostasia",
+    "type": "basic",
+    "front": "Pinça Kelly",
+    "frontImages": ["/instrumentos/pinca_kelly_1.webp", "/instrumentos/pinca_kelly_2.webp"],
+    "back": "Pinça Kelly\nCategoria: Hemostasia\nFunção: pinçamento de vasos de médio calibre antes da ligadura.\nDetalhe-chave: serrilha APENAS na METADE DISTAL das hastes (ponta serrilhada, base lisa). Diferencia da Crile (serrilha em toda a haste) e da Halsted (menor, mais fina). Geralmente curva."
+  },
+  {
+    "id": "fc-to-hemo-03",
+    "topicId": "to-hemostasia",
+    "type": "basic",
+    "front": "Pinça Crile",
+    "frontImages": ["/instrumentos/pinca_crile_1.webp", "/instrumentos/pinca_crile_2.webp"],
+    "back": "Pinça Crile\nCategoria: Hemostasia\nFunção: pinçamento de vasos de médio calibre, similar à Kelly.\nDetalhe-chave: serrilha em TODA a extensão das hastes (oposto da Kelly). Mesmo tamanho da Kelly. 'Crile = serrilha completa; Kelly = serrilha só na ponta'. Cai em prova!"
+  },
+  {
+    "id": "fc-to-hemo-04",
+    "topicId": "to-hemostasia",
+    "type": "basic",
+    "front": "Pinça Kocher",
+    "frontImages": ["/instrumentos/pinca_kocher_1.webp", "/instrumentos/pinca_kocher_2.webp"],
+    "back": "Pinça Kocher\nCategoria: Hemostasia (TRAUMÁTICA)\nFunção: apreensão firme de tecidos resistentes (aponeurose, peças cirúrgicas) e hemostasia em situações que toleram trauma.\nDetalhe-chave: tem DENTE DE RATO na ponta (1×2 dentes entrelaçados) — é traumática. Não usar em vísceras delicadas. 'Kocher tem dente'."
+  },
+  {
+    "id": "fc-to-hemo-05",
+    "topicId": "to-hemostasia",
+    "type": "basic",
+    "front": "Pinça Mixter (Right-angle)",
+    "frontImages": ["/instrumentos/pinca_mixter_1.webp", "/instrumentos/pinca_mixter_2.webp"],
+    "back": "Pinça Mixter (Right-angle)\nCategoria: Hemostasia / Dissecção\nFunção: dissecção e passagem de fio por trás de estruturas vasculares (laçamento de vasos).\nDetalhe-chave: ponta angulada em 90° — permite contornar estruturas. Usada para 'passar reparo' em vasos antes de ligadura."
+  },
+  {
+    "id": "fc-to-hemo-06",
+    "topicId": "to-hemostasia",
+    "type": "basic",
+    "front": "Clampe vascular",
+    "frontImages": ["/instrumentos/clampe_vascular_1.webp", "/instrumentos/clampe_vascular_2.webp"],
+    "back": "Clampe vascular (Satinsky / DeBakey)\nCategoria: Hemostasia (vascular)\nFunção: oclusão temporária de vasos sem lesar a íntima.\nDetalhe-chave: serrilha ATRAUMÁTICA (microdentes paralelos tipo DeBakey) — não esmaga a parede do vaso. Satinsky tem curva em 'C' para clampear lateralmente sem ocluir totalmente o lúmen."
+  },
+  {
+    "id": "fc-to-hemo-07",
+    "topicId": "to-hemostasia",
+    "type": "basic",
+    "front": "Eletrocautério (caneta)",
+    "frontImages": ["/instrumentos/eletrocauterio_1.webp", "/instrumentos/eletrocauterio_2.webp"],
+    "back": "Eletrocautério\nCategoria: Hemostasia (definitiva)\nFunção: corte e/ou coagulação por corrente elétrica de alta frequência.\nDetalhe-chave: 2 modos — CORTE (corrente contínua, vaporiza) e COAGULAÇÃO (corrente intermitente, cauteriza). Pode ser monopolar (placa de retorno no paciente) ou bipolar (corrente entre as duas pontas, mais seguro)."
+  },
+  {
+    "id": "fc-to-hemo-08",
+    "topicId": "to-hemostasia",
+    "type": "basic",
+    "front": "Clipe / Hemoclip",
+    "frontImages": ["/instrumentos/clipe_ligadura_1.webp", "/instrumentos/clipe_ligadura_2.webp"],
+    "back": "Clipes de ligadura (Hemoclip)\nCategoria: Hemostasia\nFunção: clipamento metálico ou plástico de vasos como alternativa à ligadura com fio.\nDetalhe-chave: aplicador específico fecha o clipe em 'U' sobre o vaso. Muito usado em videolaparoscopia. Material: titânio (não interfere em RM) ou polímero absorvível."
+  },
+  {
+    "id": "fc-to-pre-01",
+    "topicId": "to-preensao",
+    "type": "basic",
+    "front": "Pinça anatômica",
+    "frontImages": ["/instrumentos/pinca_anatomica_1.webp", "/instrumentos/pinca_anatomica_2.webp"],
+    "back": "Pinça anatômica\nCategoria: Preensão (atraumática)\nFunção: apreensão delicada de tecidos finos (vasos, nervos, mucosas, intestino).\nDetalhe-chave: SEM DENTES — apenas estriações lisas na ponta. É a 'pinça de dissecção lisa'. Não cremalheira (precisa ser segurada)."
+  },
+  {
+    "id": "fc-to-pre-02",
+    "topicId": "to-preensao",
+    "type": "basic",
+    "front": "Pinça dente de rato",
+    "frontImages": ["/instrumentos/pinca_dente_de_rato_1.webp", "/instrumentos/pinca_dente_de_rato_2.webp"],
+    "back": "Pinça dente de rato\nCategoria: Preensão (TRAUMÁTICA)\nFunção: apreensão firme de tecidos resistentes — pele, aponeurose, fáscia.\nDetalhe-chave: ponta com dentes 1×2 ou 2×3 que se entrelaçam. NUNCA usar em víscera, vaso ou nervo (lesa)."
+  },
+  {
+    "id": "fc-to-pre-03",
+    "topicId": "to-preensao",
+    "type": "basic",
+    "front": "Pinça Adson",
+    "frontImages": ["/instrumentos/pinca_adson_1.webp", "/instrumentos/pinca_adson_2.webp"],
+    "back": "Pinça Adson\nCategoria: Preensão\nFunção: pinça delicada de dissecção em cirurgia plástica, dermatológica e procedimentos superficiais.\nDetalhe-chave: pequena (~12 cm), com base larga e ponta fina. Pode ser SEM dente (Adson lisa) ou COM dente (Adson-Brown / dente de rato fino). Excelente em pele."
+  },
+  {
+    "id": "fc-to-pre-04",
+    "topicId": "to-preensao",
+    "type": "basic",
+    "front": "Pinça Cushing",
+    "frontImages": ["/instrumentos/pinca_cushing_1.webp", "/instrumentos/pinca_cushing_2.webp"],
+    "back": "Pinça Cushing\nCategoria: Preensão (neurocirurgia)\nFunção: dissecção em campos profundos e estreitos — neurocirurgia, ORL.\nDetalhe-chave: LONGA e FINA, com cabo robusto e ponta delicada. Permite trabalhar em profundidade (cérebro, coluna) sem obstruir a visão."
+  },
+  {
+    "id": "fc-to-pa-01",
+    "topicId": "to-porta-agulhas",
+    "type": "basic",
+    "front": "Porta-agulhas Mayo-Hegar",
+    "frontImages": ["/instrumentos/porta_agulha_mayo_hegar_1.webp", "/instrumentos/porta_agulha_mayo_hegar_2.webp"],
+    "back": "Porta-agulhas Mayo-Hegar\nCategoria: Síntese\nFunção: fixar a agulha durante a sutura. É o porta-agulhas PADRÃO da maioria das cirurgias.\nDetalhe-chave: argolas (anéis) com cremalheira, ponta CURTA e ROBUSTA com estriações cruzadas (segura a agulha sem deixar girar). Estriações cruzadas diferenciam de pinça hemostática."
+  },
+  {
+    "id": "fc-to-pa-02",
+    "topicId": "to-porta-agulhas",
+    "type": "basic",
+    "front": "Porta-agulhas Hegar",
+    "frontImages": ["/instrumentos/porta_agulha_hegar_1.webp", "/instrumentos/porta_agulha_hegar_2.webp"],
+    "back": "Porta-agulhas Hegar\nCategoria: Síntese\nFunção: variante do Mayo-Hegar para suturas em geral.\nDetalhe-chave: igual ao Mayo-Hegar mas SEM lâmina cortante na boca (Mayo-Hegar 'puro' não corta fio; algumas versões 'Mayo' têm corte). Argolas e cremalheira."
+  },
+  {
+    "id": "fc-to-pa-03",
+    "topicId": "to-porta-agulhas",
+    "type": "basic",
+    "front": "Porta-agulhas Mathieu",
+    "frontImages": ["/instrumentos/porta_agulha_mathieu_1.webp", "/instrumentos/porta_agulha_mathieu_2.webp"],
+    "back": "Porta-agulhas Mathieu\nCategoria: Síntese\nFunção: suturas em planos profundos e tensos (cavidade, ginecologia, urologia).\nDetalhe-chave: SEM argolas — empunhadura tipo 'pegada de mão fechada' com cremalheira LATERAL automática. Ao apertar mais, abre. Permite sutura rápida e segurar com força."
+  },
+  {
+    "id": "fc-to-pe-01",
+    "topicId": "to-pincas-especiais",
+    "type": "basic",
+    "front": "Pinça Allis",
+    "frontImages": ["/instrumentos/pinca_allis_1.webp", "/instrumentos/pinca_allis_2.webp"],
+    "back": "Pinça Allis\nCategoria: Pinças especiais (preensão)\nFunção: apreensão de bordas de víscera oca (estômago, intestino) e tecidos a serem ressecados.\nDetalhe-chave: ponta com pequenos DENTES FINOS entrelaçados (~5×6 dentes em série) — semi-traumática. Curvada ao final em forma de 'colher'. Não usar em estruturas que vão permanecer."
+  },
+  {
+    "id": "fc-to-pe-02",
+    "topicId": "to-pincas-especiais",
+    "type": "basic",
+    "front": "Pinça Babcock",
+    "frontImages": ["/instrumentos/pinca_babcock_1.webp", "/instrumentos/pinca_babcock_2.webp"],
+    "back": "Pinça Babcock\nCategoria: Pinças especiais (preensão atraumática)\nFunção: apreensão delicada de alça intestinal, apêndice, tubas, ureteres.\nDetalhe-chave: pontas em forma de 'colher' ARREDONDADA e LISA (sem dentes) — atraumática. Diferencia da Allis (dentes finos)."
+  },
+  {
+    "id": "fc-to-pe-03",
+    "topicId": "to-pincas-especiais",
+    "type": "basic",
+    "front": "Pinça Duval",
+    "frontImages": ["/instrumentos/pinca_duval_1.webp", "/instrumentos/pinca_duval_2.webp"],
+    "back": "Pinça Duval\nCategoria: Pinças especiais\nFunção: apreensão de pulmão e víscera lobular durante ressecção.\nDetalhe-chave: ponta em forma TRIANGULAR ('rabo de andorinha' ou peixe) com estriações finas. Distribui a pressão em uma área maior — ideal para parênquima pulmonar."
+  },
+  {
+    "id": "fc-to-pe-04",
+    "topicId": "to-pincas-especiais",
+    "type": "basic",
+    "front": "Pinça Foerster (de aro)",
+    "frontImages": ["/instrumentos/pinca_foerster_1.webp", "/instrumentos/pinca_foerster_2.webp"],
+    "back": "Pinça Foerster (\"de aro\")\nCategoria: Pinças especiais\nFunção: segurar gaze para antissepsia da pele, tamponamento, apreensão de tecidos.\nDetalhe-chave: pontas em forma de DOIS AROS/ANÉIS abertos. Pode ser reta ou curva. 'Pinça de aro = Foerster, pra passar PVPI antes da incisão'."
+  },
+  {
+    "id": "fc-to-pe-05",
+    "topicId": "to-pincas-especiais",
+    "type": "basic",
+    "front": "Pinça Cheron",
+    "frontImages": ["/instrumentos/pinca_cheron_1.webp", "/instrumentos/pinca_cheron_2.webp"],
+    "back": "Pinça Cheron\nCategoria: Pinças especiais (ginecologia)\nFunção: antissepsia vaginal/cervical e tracionamento do colo uterino.\nDetalhe-chave: similar à Foerster (com aros), mas LONGA e CURVA — desenhada para alcançar fundo de saco vaginal. Essencial em ginecologia/obstetrícia."
+  },
+  {
+    "id": "fc-to-pe-06",
+    "topicId": "to-pincas-especiais",
+    "type": "basic",
+    "front": "Pinça Backhaus",
+    "frontImages": ["/instrumentos/pinca_backhaus_1.webp", "/instrumentos/pinca_backhaus_2.webp"],
+    "back": "Pinça Backhaus\nCategoria: Pinças especiais\nFunção: fixar campos cirúrgicos (panos) à pele do paciente.\nDetalhe-chave: ponta em formato de DUAS GARRAS PONTIAGUDAS curvadas que se cruzam — perfuram o campo e a pele. 'Pinça de campo'. Não tem outra função."
+  },
+  {
+    "id": "fc-to-pe-07",
+    "topicId": "to-pincas-especiais",
+    "type": "basic",
+    "front": "Clamp intestinal / coprostase",
+    "frontImages": ["/instrumentos/clamp_intestinal_1.webp", "/instrumentos/clamp_intestinal_2.webp"],
+    "back": "Clamp intestinal (de coprostase)\nCategoria: Pinças especiais\nFunção: ocluir alça intestinal temporariamente durante anastomose, evitando extravasamento de conteúdo.\nDetalhe-chave: hastes LONGAS, finas e flexíveis com serrilha ATRAUMÁTICA longitudinal. Pode ser reto (Doyen intestinal) ou curvo. Não esmaga a parede."
+  },
+  {
+    "id": "fc-to-afd-01",
+    "topicId": "to-afastadores-dinamicos",
+    "type": "basic",
+    "front": "Afastador Farabeuf",
+    "frontImages": ["/instrumentos/afastador_farabeuf_1.webp", "/instrumentos/afastador_farabeuf_2.webp"],
+    "back": "Afastador Farabeuf\nCategoria: Afastador dinâmico (manual)\nFunção: afastar pele e subcutâneo em incisões superficiais.\nDetalhe-chave: usado SEMPRE em PAR (dois afastadores opostos). Lâmina em 'L', sem dentes — atraumático. O mais clássico afastador superficial."
+  },
+  {
+    "id": "fc-to-afd-02",
+    "topicId": "to-afastadores-dinamicos",
+    "type": "basic",
+    "front": "Afastador Doyen",
+    "frontImages": ["/instrumentos/afastador_doyen_1.webp", "/instrumentos/afastador_doyen_2.webp"],
+    "back": "Afastador Doyen (valva suprapúbica)\nCategoria: Afastador dinâmico (manual)\nFunção: afastar bexiga e parede abdominal em cirurgias pélvicas e cesarianas.\nDetalhe-chave: valva LARGA, RETA e curva no final em formato de 'pá'/'concha'. Em cesariana, é a valva que afasta a bexiga para expor o segmento uterino."
+  },
+  {
+    "id": "fc-to-afd-03",
+    "topicId": "to-afastadores-dinamicos",
+    "type": "basic",
+    "front": "Afastador Volkmann",
+    "frontImages": ["/instrumentos/afastador_volkmann_1.webp", "/instrumentos/afastador_volkmann_2.webp"],
+    "back": "Afastador Volkmann\nCategoria: Afastador dinâmico (manual)\nFunção: afastar tecido subcutâneo e estruturas profundas em ortopedia e cirurgia geral.\nDetalhe-chave: ponta com 3, 4 ou 6 DENTES (rombos ou pontiagudos) em formato de 'garfo'. Pode ser usado em par."
+  },
+  {
+    "id": "fc-to-afd-04",
+    "topicId": "to-afastadores-dinamicos",
+    "type": "basic",
+    "front": "Lâmina maleável",
+    "frontImages": ["/instrumentos/afastador_lamina_maleavel_1.webp", "/instrumentos/afastador_lamina_maleavel_2.webp"],
+    "back": "Lâmina maleável (afastador maleável)\nCategoria: Afastador dinâmico (manual)\nFunção: afastar vísceras em cirurgia abdominal, podendo ser moldada conforme a necessidade.\nDetalhe-chave: lâmina metálica MALEÁVEL (dobra-se com a mão) — adapta-se ao formato da cavidade. Sem cabo articulado."
+  },
+  {
+    "id": "fc-to-afe-01",
+    "topicId": "to-afastadores-estaticos",
+    "type": "basic",
+    "front": "Afastador Balfour",
+    "frontImages": ["/instrumentos/afastador_balfour_1.webp", "/instrumentos/afastador_balfour_2.webp"],
+    "back": "Afastador Balfour\nCategoria: Afastador estático (autoestático)\nFunção: afastar parede abdominal em laparotomia (mediana e transversa).\nDetalhe-chave: 3 VALVAS — duas laterais e UMA central inferior (afasta também caudalmente, p. ex. bexiga). Cremalheira mantém aberto sem auxiliar. Diferencia do Gosset (só 2 valvas)."
+  },
+  {
+    "id": "fc-to-afe-02",
+    "topicId": "to-afastadores-estaticos",
+    "type": "basic",
+    "front": "Afastador Gosset",
+    "frontImages": ["/instrumentos/afastador_gosset_1.webp", "/instrumentos/afastador_gosset_2.webp"],
+    "back": "Afastador Gosset\nCategoria: Afastador estático (autoestático)\nFunção: afastar parede abdominal em laparotomia.\nDetalhe-chave: apenas 2 VALVAS LATERAIS (sem valva central). Diferencia do Balfour (3 valvas). 'Gosset = 2; Balfour = 3'."
+  },
+  {
+    "id": "fc-to-afe-03",
+    "topicId": "to-afastadores-estaticos",
+    "type": "basic",
+    "front": "Afastador Finochietto",
+    "frontImages": ["/instrumentos/afastador_finochietto_1.webp", "/instrumentos/afastador_finochietto_2.webp"],
+    "back": "Afastador Finochietto\nCategoria: Afastador estático (autoestático)\nFunção: afastar costelas em TORACOTOMIA — abre o tórax.\nDetalhe-chave: estrutura ROBUSTA com manivela (cremalheira tipo catraca). Único afastador especificamente desenhado para o tórax. 'Finochietto = tórax'."
+  },
+  {
+    "id": "fc-to-afe-04",
+    "topicId": "to-afastadores-estaticos",
+    "type": "basic",
+    "front": "Afastador Adson-Beckman / Mayo-Adams",
+    "frontImages": ["/instrumentos/afastador_adson_beckman_1.webp", "/instrumentos/afastador_adson_beckman_2.webp"],
+    "back": "Afastador Adson-Beckman (Mayo-Adams)\nCategoria: Afastador estático (autoestático)\nFunção: afastar tecidos em cirurgias pequenas/superficiais — neurocirurgia, ortopedia da mão, ORL.\nDetalhe-chave: tem ARGOLAS (como tesoura) com cremalheira e pontas com DENTES (rombos ou agudos). Pequeno, autoestático, ideal para campos rasos e estreitos."
+  }
+]

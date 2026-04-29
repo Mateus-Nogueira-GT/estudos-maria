@@ -53,6 +53,17 @@ const OBSTETRICIA: SubjectAccent = {
   gradient: "from-pastel-rose/40 via-pastel-lilac/20 to-transparent",
 };
 
+const TECNICA_OPERATORIA: SubjectAccent = {
+  hex: "#a7f3d0",
+  rgb: "167, 243, 208",
+  text: "text-pastel-mint",
+  bg: "bg-pastel-mint/10",
+  border: "border-pastel-mint/40",
+  glow: "shadow-[0_0_70px_-12px_rgba(167,243,208,0.55)]",
+  hoverGlow: "hover:shadow-[0_0_70px_-12px_rgba(167,243,208,0.55)]",
+  gradient: "from-pastel-mint/40 via-pastel-sky/20 to-transparent",
+};
+
 const FALLBACK: SubjectAccent = {
   hex: "#7c9cff",
   rgb: "124, 156, 255",
@@ -69,6 +80,7 @@ const BY_SUBJECT: Record<string, SubjectAccent> = {
   radiologia: RADIOLOGIA,
   gastroenterologia: GASTRO,
   obstetricia: OBSTETRICIA,
+  "tecnica-operatoria": TECNICA_OPERATORIA,
 };
 
 export function getSubjectAccent(subjectId: string | undefined | null): SubjectAccent {

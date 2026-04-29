@@ -26,5 +26,12 @@
     "shortName": "Obstetrícia",
     "description": "Anexos embrionários, anatomia pélvica e estática fetal, trabalho de parto, puerpério normal, infecção puerperal, TPP e RPM.",
     "icon": "baby"
+  },
+  {
+    "id": "tecnica-operatoria",
+    "name": "Técnica Operatória",
+    "shortName": "TO",
+    "description": "Instrumentação cirúrgica — diérese, hemostasia, preensão, síntese, pinças especiais e afastadores. Reconhecimento visual.",
+    "icon": "scissors"
   }
 ]

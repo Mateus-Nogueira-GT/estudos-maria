@@ -1,5 +1,5 @@
 "use client";
-import { Stethoscope, Scan, Pill, Baby, type LucideIcon, BookOpen } from "lucide-react";
+import { Stethoscope, Scan, Pill, Baby, Scissors, type LucideIcon, BookOpen } from "lucide-react";
 import { cn } from "@/lib/cn";
 import { getSubjectAccent } from "@/lib/subject-accent";
 import type { Subject } from "@/lib/schema";
@@ -9,6 +9,7 @@ const ICONS: Record<string, LucideIcon> = {
   scan: Scan,
   pill: Pill,
   baby: Baby,
+  scissors: Scissors,
 };
 
 type Props = {
